@@ -1,0 +1,1860 @@
+<!DOCTYPE html>
+<html lang="en">
+    <!-- RubyOnRails - formstatic / kaminari -->
+    <head>
+        
+        <meta content="authenticity_token" name="csrf-param" />
+        <meta content="4sWPhTlJAds1IcfNq1FCybbssAVhHqjiDCKRXOgOQock=" name="csrf-token" />
+        <!-- Global site tag (gtag.js) - Google Analytics -->
+        <script async src="https://www.googletagmanager.com/gtag/js?id=UA-119892649-1"></script>
+        <script>
+            window.dataLayer = window.dataLayer || [];
+            function gtag() {
+                dataLayer.push(arguments);
+            }
+            gtag('js', new Date());
+
+            gtag('config', 'UA-119892649-1');
+			gtag('config', 'AW-634926850');
+			gtag('config', 'G-2Y1TJKMJTN');
+        </script>
+<!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-NPZ5XJCD');</script>
+<!-- End Google Tag Manager -->
+        <meta name="google-site-verification" content="F930_I7rZrRYlNHqblq5P9QvwAEKasart2HpzlnYsSQ" />
+		<meta name="facebook-domain-verification" content="h1xurj1a9tb4tm6plgrg4it4yrlpr6" />
+
+        <!-- meta tag -->
+        <meta charset="utf-8">
+        <title>Exam AWS Certified Developer Associate topic 1 question 34 discussion - ExamTopics</title>
+        <meta name="description" content="Amazon Discussion, Exam AWS Certified Developer Associate topic 1 question 34 discussion.">
+        <!-- responsive tag -->
+        <meta http-equiv="x-ua-compatible" content="ie=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <!-- favicon -->
+        <link rel="apple-touch-icon" sizes="57x57" href="/assets/images/et/favicon/apple-icon-57x57.png">
+        <link rel="apple-touch-icon" sizes="60x60" href="/assets/images/et/favicon/apple-icon-60x60.png">
+        <link rel="apple-touch-icon" sizes="72x72" href="/assets/images/et/favicon/apple-icon-72x72.png">
+        <link rel="apple-touch-icon" sizes="76x76" href="/assets/images/et/favicon/apple-icon-76x76.png">
+        <link rel="apple-touch-icon" sizes="114x114" href="/assets/images/et/favicon/apple-icon-114x114.png">
+        <link rel="apple-touch-icon" sizes="120x120" href="/assets/images/et/favicon/apple-icon-120x120.png">
+        <link rel="apple-touch-icon" sizes="144x144" href="/assets/images/et/favicon/apple-icon-144x144.png">
+        <link rel="apple-touch-icon" sizes="152x152" href="/assets/images/et/favicon/apple-icon-152x152.png">
+        <link rel="apple-touch-icon" sizes="180x180" href="/assets/images/et/favicon/apple-icon-180x180.png">
+        <link rel="icon" type="image/png" sizes="192x192"  href="/assets/images/et/favicon/android-icon-192x192.png">
+        <link rel="icon" type="image/png" sizes="32x32" href="/assets/images/et/favicon/favicon-32x32.png">
+        <link rel="icon" type="image/png" sizes="96x96" href="/assets/images/et/favicon/favicon-96x96.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="/assets/images/et/favicon/favicon-16x16.png">
+        <link rel="manifest" href="/assets/images/et/favicon/manifest.json">
+        <meta name="msapplication-TileColor" content="#007bff">
+        <meta name="msapplication-TileImage" content="/assets/images/et/favicon/ms-icon-144x144.png">
+        <meta name="theme-color" content="#ffffff">
+
+            <!-- deflink == defered link (loaded later by jquery) -->
+            <!-- bootstrap v4 css -->
+            <link rel="stylesheet" type="text/css" href="/assets/css/bootstrap.min.css" />
+            <!-- font-awesome css -->
+            <link rel="stylesheet" type="text/css" defhref="/assets/css/font-awesome.min.css" />
+            <!-- animate css -->
+            <link rel="stylesheet" type="text/css" defhref="/assets/css/animate.css" />
+            <!-- owl.carousel css -->
+            <link rel="stylesheet" type="text/css" defhref="/assets/css/owl.carousel.css" />
+            <!-- slick css -->
+            <link rel="stylesheet" type="text/css" defhref="/assets/css/slick.css" />
+            <!-- rsmenu CSS -->
+            <link rel="stylesheet" type="text/css" href="/assets/css/rsmenu-main.css" />
+            <!-- rsmenu transitions CSS -->
+            <link rel="stylesheet" type="text/css" defhref="/assets/css/rsmenu-transitions.css" />
+            <!-- magnific popup css -->
+            <link rel="stylesheet" type="text/css" defhref="/assets/css/magnific-popup.css" />
+
+            <!-- flaticon css  -->
+            <link rel="stylesheet" type="text/css" defhref="/assets/fonts/flaticon.css" />
+            <!-- flaticon2 css  -->
+            <link rel="stylesheet" type="text/css" defhref="/assets/fonts/fonts2/flaticon.css" />
+
+            <link rel="stylesheet" type="text/css" href="/assets/css/style.css?ver=1" />
+            <!-- Switch style CSS
+            <link rel="stylesheet" href="/assets/css/color-style.css">-->
+            <link rel="stylesheet" type="text/css" href="/assets/css/color/default.css" />
+            <!-- style css -->
+            <!-- switch color presets css
+            <link id="switch_style" href="#" rel="stylesheet" type="text/css"> -->
+            <!-- responsive css -->
+            <link rel="stylesheet" type="text/css" href="/assets/css/responsive.css" />
+
+        <!--[if lt IE 9]>
+            <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+            <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+        <![endif]-->
+        
+    <META NAME="ROBOTS" CONTENT="NOARCHIVE">
+    <link rel="stylesheet" type="text/css" href="/assets/css/forum.css">
+    <style>
+
+    </style>
+<script type="text/javascript">
+document.addEventListener("keydown",function(e){e.ctrlKey&&65===e.keyCode&&e.preventDefault()}),document.addEventListener("contextmenu",function(e){e.preventDefault()});
+</script>
+
+<!-- Meta Pixel Code -->
+<script>
+!function(f,b,e,v,n,t,s)
+{if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+n.queue=[];t=b.createElement(e);t.async=!0;
+t.src=v;s=b.getElementsByTagName(e)[0];
+s.parentNode.insertBefore(t,s)}(window, document,'script',
+'https://connect.facebook.net/en_US/fbevents.js');
+fbq('init', '1915380481930084');
+fbq('track', 'PageView');
+</script>
+<noscript><img height="1" width="1" style="display:none"
+src="https://www.facebook.com/tr?id=1915380481930084&ev=PageView&noscript=1"
+/></noscript>
+<!-- End Meta Pixel Code -->
+
+<script type="text/javascript">
+    (function(c,l,a,r,i,t,y){
+        c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};
+        t=l.createElement(r);t.async=1;t.src="https://www.clarity.ms/tag/"+i;
+        y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);
+    })(window, document, "clarity", "script", "j5qqkpglmm");
+</script>
+
+<!-- Start VWO Async SmartCode -->
+<link rel="preconnect" href="https://dev.visualwebsiteoptimizer.com" />
+<script type='text/javascript' id='vwoCode'>
+window._vwo_code=window._vwo_code || (function() {
+var account_id=782917,
+version = 1.5,
+settings_tolerance=2000,
+library_tolerance=2500,
+use_existing_jquery=false,
+is_spa=1,
+hide_element='body',
+hide_element_style = 'opacity:0 !important;filter:alpha(opacity=0) !important;background:none !important',
+/* DO NOT EDIT BELOW THIS LINE */
+f=false,w=window,d=document,vwoCodeEl=d.querySelector('#vwoCode'),code={use_existing_jquery:function(){return use_existing_jquery},library_tolerance:function(){return library_tolerance},hide_element_style:function(){return'{'+hide_element_style+'}'},finish:function(){if(!f){f=true;var e=d.getElementById('_vis_opt_path_hides');if(e)e.parentNode.removeChild(e)}},finished:function(){return f},load:function(e){var t=d.createElement('script');t.fetchPriority='high';t.src=e;t.type='text/javascript';t.onerror=function(){_vwo_code.finish()};d.getElementsByTagName('head')[0].appendChild(t)},getVersion:function(){return version},getMatchedCookies:function(e){var t=[];if(document.cookie){t=document.cookie.match(e)||[]}return t},getCombinationCookie:function(){var e=code.getMatchedCookies(/(?:^|;)\s?(_vis_opt_exp_\d+_combi=[^;$]*)/gi);e=e.map(function(e){try{var t=decodeURIComponent(e);if(!/_vis_opt_exp_\d+_combi=(?:\d+,?)+\s*$/.test(t)){return''}return t}catch(e){return''}});var i=[];e.forEach(function(e){var t=e.match(/([\d,]+)/g);t&&i.push(t.join('-'))});return i.join('|')},init:function(){if(d.URL.indexOf('__vwo_disable__')>-1)return;w.settings_timer=setTimeout(function(){_vwo_code.finish()},settings_tolerance);var e=d.currentScript,t=d.createElement('style'),i=e&&!e.async?hide_element?hide_element+'{'+hide_element_style+'}':'':code.lA=1,n=d.getElementsByTagName('head')[0];t.setAttribute('id','_vis_opt_path_hides');vwoCodeEl&&t.setAttribute('nonce',vwoCodeEl.nonce);t.setAttribute('type','text/css');if(t.styleSheet)t.styleSheet.cssText=i;else t.appendChild(d.createTextNode(i));n.appendChild(t);var o=this.getCombinationCookie();this.load('https://dev.visualwebsiteoptimizer.com/j.php?a='+account_id+'&u='+encodeURIComponent(d.URL)+'&f='+ +is_spa+'&vn='+version+(o?'&c='+o:''));return settings_timer}};w._vwo_settings_timer = code.init();return code;}());
+</script>
+<!-- End VWO Async SmartCode -->
+
+
+    </head>
+    <body class="home2">
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-NPZ5XJCD"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
+        
+<!--Full width header Start-->
+<div class="full-width-header">
+<!-- Toolbar Start -->
+<div class="rs-toolbar">
+	<div class="container">
+		<div class="row d-print-none">
+			<div class="col-md-6">
+				<!-- <div class="rs-toolbar-left">
+					<div class="welcome-message">
+					<i class="fa fa-bank"></i><span>Welcome to ExamTopics</span>
+					</div>
+				</div> -->
+			</div>
+			<div class="col-md-6">
+				<div class="rs-toolbar-right">
+					<div class="account-menu">
+					<ul>
+						
+							<li><a href="/login/" data-toggle="modal"
+								   data-target="#login-modal" class="mr-2">Login</a> |</li>
+							<li><a href="/signup/">Sign up</a></li>
+						
+						<li class="spacer"></li>
+					</ul>
+					</div>
+					<!-- <div class="toolbar-share-icon">
+					<ul>
+					
+						<li><a href="https://www.facebook.com/ExamTopicsOnline/"><i class="fa fa-facebook"></i></a></li>
+					
+						<li><a href="https://twitter.com/TopicsExam"><i class="fa fa-twitter"></i></a></li>
+					
+						<li><a href="https://www.youtube.com/channel/UC4CThW97vf8rHFYcvK2disg"><i class="fa fa-youtube"></i></a></li>
+					
+						<li><a href="https://www.reddit.com/r/ExamTopics/"><i class="fa fa-reddit"></i></a></li>
+					
+						<li><a href="https://www.pinterest.com/examtopics/"><i class="fa fa-pinterest"></i></a></li>
+					
+					</ul>
+					</div> -->
+					<!--<a href="#" class="apply-btn">Apply Now</a>-->
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+<!-- Toolbar End -->
+
+<!--Header Start-->
+<header id="rs-header" class="rs-header">
+<!-- Header Top Start -->
+<div class="rs-header-top">
+	<div class="container">
+		<div class="row">
+			<div class="col-lg-5 col-md-12 rs-vertical-middle">
+				<div class="logo-area">
+					<img src="/assets/images/et/ExamTopics-Logo-Smaller.png" alt="ExamTopics Logo">
+					<br class="hidden-desktop"/>
+					<!-- <span class="moto hypen-separator hidden-mobile">-</span> -->
+					<!-- <span class="moto">Expert Verified, Online, <strong>Free</strong>.</span> -->
+				</div>
+			</div>
+			<div class="col-lg-7 col-md-12 d-print-none">
+				<div class="row">
+					<div class="col-sm-4">
+						<!-- Placeholder -->
+					</div>
+					<div class="col-sm-4">
+						<div class="header-contact">
+							<div id="info-details" class="widget-text">
+								<i class="glyph-icon flaticon-email"></i>
+								<div class="info-text">
+								<a href="/cdn-cgi/l/email-protection#9ce8f9fdf1dcf9e4fdf1e8f3ecf5ffefb2fff3f1"><span>Mail Us</span><span class="__cf_email__" data-cfemail="d9adbcb8b499bca1b8b4adb6a9b0baaaf7bab6b4">[email&#160;protected]</span></a>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="col-sm-4">
+						<div class="header-contact">
+							<div id="address-details" class="widget-text">
+
+
+
+
+
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+<!-- Header Top End -->
+
+	<!-- Menu Start -->
+	<div class="menu-area menu-sticky d-print-none">
+		<div class="container">
+			<div class="main-menu">
+				<div class="row">
+					<div class="col-sm-12">
+						<!-- <div id="logo-sticky" class="text-center">
+							<a href="index.html"><img src="/assets/images/logo.png" alt="logo"></a>
+						</div> -->
+						<a class="rs-menu-toggle"><i class="fa fa-bars"></i>Menu</a>
+						<nav class="rs-menu rs-menu-close">
+							<ul class="nav-menu">
+								<!-- Home -->
+								<li class="current-menu-item current_page_item"><a href="/" class="home">Home</a></li>
+								<!-- End Home -->
+								<!-- <li><a href="https://unlimited.examtopics.com/">EXAMTOPICS PRO</a></li> -->
+								<!-- Drop Down Pages Start -->
+								<li class="rs-mega-menu mega-rs"><a href="#">Popular Exams</a>
+									<ul class="mega-menu">
+										<li class="mega-menu-container">
+											<div class="mega-menu-innner">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="single-magemenu">
+	<ul class="sub-menu">
+	
+		
+		<li><a href="/exams/amazon/">Amazon</a></li>
+	
+		
+		<li><a href="/exams/comptia/">CompTIA</a></li>
+	
+		
+		<li><a href="/exams/salesforce/">Salesforce</a></li>
+	
+		
+		<li><a href="/exams/fortinet/">Fortinet</a></li>
+	
+		
+		<li><a href="/exams/juniper/">Juniper</a></li>
+	
+	</ul>
+</div>
+
+
+
+<div class="single-magemenu">
+	<ul class="sub-menu">
+	
+		
+		<li><a href="/exams/cisco/">Cisco</a></li>
+	
+		
+		<li><a href="/exams/isaca/">Isaca</a></li>
+	
+		
+		<li><a href="/exams/vmware/">VMware</a></li>
+	
+		
+		<li><a href="/exams/isc/">ISC</a></li>
+	
+		
+		<li><a href="/exams/servicenow/">ServiceNow</a></li>
+	
+	</ul>
+</div>
+
+
+
+<div class="single-magemenu">
+	<ul class="sub-menu">
+	
+		
+		<li><a href="/exams/microsoft/">Microsoft</a></li>
+	
+		
+		<li><a href="/exams/google/">Google</a></li>
+	
+		
+		<li><a href="/exams/eccouncil/">ECCouncil</a></li>
+	
+		
+		<li><a href="/exams/oracle/">Oracle</a></li>
+	
+		
+		<li><a href="/exams/palo-alto-networks/">Palo Alto Networks</a></li>
+	
+	</ul>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+											</div>
+										</li>
+									</ul>
+								</li>
+								<!--Drop Down Pages End -->
+<style>
+.nav__new {
+  font-size: 14px;
+  line-height: 18px;
+  background: #0095eb;
+  border-radius: 4px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 50px;
+  height: 25px;
+  color: #fff;
+  position: absolute;
+  top: 0;
+  right: 50%;
+  cursor: default;
+  pointer-events: none;
+  transform: translate(10%, -50%);
+}
+@media(max-width: 992px){
+.rs-menu li{
+width: fit-content
+}
+}
+</style>
+					<li><a href="/exams/">View All Exams</a></li>
+					<!-- <li><a href="https://courses.examtopics.com/" onClick="return coursesClick();">Training Courses</a><span class="nav__new">NEW</span></li> -->
+					<!-- <li><a href="/news/">News</a></li> -->
+					<!-- <li><a href="/discussions/">Forum</a></li> -->
+					<li><a href="/cdn-cgi/l/email-protection#acd8c9cdc1ecc9d4cdc1d8c3dcc5cfdf82cfc3c1">Contact</a></li>
+					<!-- <li><a href="/#about-us">About</a></li> -->
+
+					
+						<li class="d-md-none"><a href="/login/" data-toggle="modal" data-target="#login-modal">Login</a></li>
+						<li class="d-md-none"><a href="/signup/">Sign up</a></li>
+					
+					</ul>
+					</nav>
+					<a class="hidden-xs rs-search" data-target=".search-modal" data-toggle="modal" href="#"><i class="fa fa-search"></i></a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- Menu End -->
+</header>
+<script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script type="text/javascript">
+function coursesClick()
+{
+	dataLayer.push({ ecommerce: null });  // Clear the previous ecommerce object.
+	dataLayer.push({
+	  event: "nav_click_courses"
+	});
+	return true;
+}
+</script>
+<!--Header End-->
+
+</div>
+<!--Full width header End-->
+
+
+
+
+
+
+
+<!-- notlogged -->
+	
+<!-- endof notlogged -->
+
+    
+<!-- discussion-page.html -->
+
+<!-- rrr [/discussions/amazon/view/79665-exam-aws-certified-developer-associate-topic-1-question-34/] -->
+
+<div class="sec-spacer pt-50">
+<div class="container">
+<!-- 
+	<div class="row">
+		<div class="col-12">
+			<div class="discussion-list-header" style="background-color:#fda00a;">
+				<h1 class="text-white">Unlimited Access</h1>
+			</div>
+		</div>
+	</div>
+	<div class="row" id="unlimNo">
+		<div class="col-12">
+			<div class="p-3 border" style="border-color: #fda00a!important;">
+Get Unlimited Contributor Access to the all ExamTopics Exams!<br>
+Take advantage of PDF Files for 1000+ Exams along with community discussions and pass IT Certification Exams Easily.
+<div style="float:right;"><a href="https://unlimited.examtopics.com/" target="_blank" class="btn btn-info mb-3" style="background-color:#fda00a;border-color:#fda00a!important;">Get Unlimited Access</a></div>
+			</div>
+		</div>
+	</div>
+ -->
+	<div class="action-row-container mb-4">
+		<div class="action-row clearfix d-flex">
+			<a href="/discussions/amazon/" class="new-discussion-button">
+				<i class="fa fa-arrow-circle-left mr-2"></i>Amazon Discussions
+			</a>
+		</div>
+	</div>
+
+
+		<div class="contrib__ulimited contrib__block">
+		  <div class="contrib__ulimited-wrapper">
+			<div class="contrib__ulimited-info">
+			  <img width="40" height="54" src="https://www.examtopics.com/assets/images/box.webp" alt="exam questions"/>
+
+			  <div class="contrib__ulimited-content">
+				<h4>Exam AWS Certified Developer Associate  All Questions</h4>
+				<h5>View all questions & answers for the AWS Certified Developer Associate exam</h5>
+			  </div>
+			</div>
+			<div class="contrib__ulimited-get">
+			  <a href="/exams/amazon/aws-certified-developer-associate/">Go to Exam</a>
+			</div>
+
+		  </div>
+		</div>
+		<style>
+		 .contrib__ulimited {width: 100%;position: relative;background: #fff;margin: 0 auto;margin-top: 20px;margin-bottom: 20px;}.contrib__ulimited {border: 2px solid #007bff;padding: 20px;}.contrib__ulimited-wrapper {display: flex;justify-content: space-between;align-items: center;width: 100%;column-gap: 15px;}.contrib__ulimited-get {display: flex;align-items: center;row-gap: 5px;flex-direction: column;max-width: 290px !important;}.contrib__ulimited-get form {width: 100%;}.contrib__ulimited-get .users-group-info {display: flex;align-items: center;column-gap: 4px;justify-content: center;& span {font-size: 14px;font-weight: 400;line-height: 20px;max-width: fit-content;color: #505050;}}.contrib__ulimited-get a {color: #fff;background: #007bff;transition: 0.3s all;display: flex;padding: 10px 30px;justify-content: center;align-items: center;font-size: 18px;font-weight: 700;border-radius: 2px;height: 41px;width: 100%;max-width: 152px;text-decoration: none;}.contrib__ulimited-get a:hover {background-color: #0069d9;}.contrib__ulimited-info {display: flex;align-items: center;column-gap: 15px;}.contrib__ulimited-content {display: flex;flex-direction: column;row-gap: 4px;}.contrib__ulimited-content h4 {color: #212121;font-size: 24px;font-weight: 700;margin-bottom: 0;}.contrib__ulimited-content h5 {font-size: 14px;line-height: 16px;color: #505050;}@media (max-width: 991px) {.contrib__ulimited-get a {font-size: 16px;}}@media (max-width: 768px) {.contrib__ulimited-wrapper {flex-direction: column;row-gap: 15px;}.contrib__ulimited-get, .contrib__ulimited-get a {max-width: none;}.contrib__ulimited {margin-top: 20px;}}@media (max-width: 576px) {.contrib__ulimited-content h4 {font-size: 20px;line-height: 24px;}.contrib__ulimited-content h5 {line-height: 18px;}}@media (max-width: 420px) {.contrib__ulimited-info {align-items: flex-start;column-gap: 10px;}.contrib__ulimited-get {max-width: none !important;width: 100%;}}
+		</style>
+
+
+	<!-- BEGIN Discussions header / title -->
+	<div class="row">
+		<div class="col-12">
+			<div class="discussion-list-header">
+				<h1><i class="fa fa-file-text-o mr-3"></i>Exam AWS Certified Developer Associate topic 1 question 34 discussion</h1>
+			</div>
+		</div>
+	</div>
+	<!-- END Discussions header / title -->
+
+	<!-- BEGIN Discussion Content -->
+	<div class="row">
+		<div class="col-12">
+			<div class="discussion-header-container">
+				
+					
+					
+					<!-- Question -->
+					<div class="question-discussion-header">
+						
+							Exam question from
+						
+						Amazon's
+						<a href="/exams/amazon/aws-certified-developer-associate/" class="discussion-link">AWS Certified Developer Associate</a>
+						<div>
+							Question #: 34<br/>
+							Topic #: 1
+						</div>
+						<a href="/exams/amazon/aws-certified-developer-associate/" class="all-questions-link">[All AWS Certified Developer Associate Questions]</a>
+					</div>
+					<div class="question-body mt-3 pt-3 border-top" data-id="807534">
+						<p class="card-text">
+							
+								The developer is creating a web application that collects highly regulated and confidential user data through a POST request. The web application is served through Amazon CloudFront. User names and phone numbers must be encrypted at the edge and must remain encrypted throughout the entire application stack.<br>What is the MOST secure way to meet these requirements?<br>
+							
+						</p>
+						
+							
+								<div class="voted-answers-tally d-none">
+									
+										<script id="807534" type="application/json">[{"voted_answers": "D", "vote_count": 14, "is_most_voted": true}]</script>
+									
+								</div>
+							
+							<div class="question-choices-container">
+								<ul>
+									
+										<li class="multi-choice-item">
+											
+												<span class="multi-choice-letter" data-choice-letter="A">
+													A.
+												</span>
+											
+											Enforce Match Viewer with HTTPS Only on CloudFront.
+										</li>
+									
+										<li class="multi-choice-item">
+											
+												<span class="multi-choice-letter" data-choice-letter="B">
+													B.
+												</span>
+											
+											Use only the newest TLS security policy on CloudFront.
+										</li>
+									
+										<li class="multi-choice-item">
+											
+												<span class="multi-choice-letter" data-choice-letter="C">
+													C.
+												</span>
+											
+											Enforce a signed URL on CloudFront on the front end.
+										</li>
+									
+										<li class="multi-choice-item correct-hidden">
+											
+												<span class="multi-choice-letter" data-choice-letter="D">
+													D.
+												</span>
+											
+											Use field-level encryption on CloudFront.
+										</li>
+									
+								</ul>
+							</div>
+						
+
+						<a href="#" class="btn btn-primary reveal-solution">Show Suggested Answer</a>
+						<a href="#" class="btn btn-primary hide-solution d-none">Hide Answer</a>
+
+						<div class="card-text question-answer bg-light white-text">
+							<span class="correct-answer-box"><strong>Suggested Answer:</strong>
+								<span class="correct-answer">D</span>
+								
+								<a href="#" class="vote-answer-button ml-1 d-print-none" data-toggle="tooltip" title="Vote an answer">🗳️</a>
+								
+								<br/>
+							</span>
+							<span class="answer-description">
+								
+							</span>
+						</div>
+					</div>
+					<!-- / Question  -->
+					
+
+				
+
+					<div class="discussion-meta-data mt-3 pt-1 border-top">
+							by
+							
+							<a href="/user/LEHUY/" style="" class="title-username"><i class="fa fa-user-o"></i>
+								LEHUY
+							</a>
+							
+							at <i>
+							Sept. 3, 2022, 5:19 a.m.</i>
+
+							
+								<div class="disclaimer-box mt-2">
+									<span><u>Disclaimers:</u></span>
+									<ul class="disclaimer-list mt-1">
+										<li>- ExamTopics website is <strong>not</strong> related to, affiliated with, endorsed or authorized by Amazon.</li>
+										<li>- Trademarks, certification & product names are used for reference only and belong to Amazon.</li>
+									</ul>
+								</div>
+							
+					</div>
+			</div>
+			<div class="discussion-page-comments-section" data-discussion-question-id="807534">
+				<div class="mt-4 ml-2 font-"><h4 id="comment-section-title" class="mb-0">Comments</h4></div>
+				
+				<!-- discussion.html -->
+
+<!-- Discussion start -->
+<div class="container outer-discussion-container">
+<div class="row">
+	<div class="comments-container p-2 w-100">
+		<!-- New comment start -->
+		<div class="create-comment-base d-print-none">
+			<div class="new-comment-box mt-2"
+				data-discussion-id="79665"
+				data-linked-to="question"
+				data-linked-id=""
+				data-title="Exam AWS Certified Developer Associate topic 1 question 34 discussion">
+				<form>
+				
+				<div class="choice-vote-box">
+					<span class="chosen-answer-title">Chosen Answer:</span>
+					<span class="vote-checkboxes custom-checkbox">
+					</span>
+					<br/>
+					<span class="voting-comment-help">
+						This is a voting comment (<a href="javascript:void(0)" class="voting-comment-questionmark">?</a>). <!-- , you can switch to a <a href="javascript:void(0)" class="switch-to-simple-comment-btn">simple comment</a>. --><!-- test1 -->It is better to Upvote an existing comment if you don't have anything to add.
+					</span>
+				</div>
+				<div class="non-voting-comment-box">
+					<span class="voting-comment-help">
+						Switch to a <a href="javascript:void(0)" class="switch-to-voting-comment-btn" id="votinglink" onClick="console.log('votinglink');">voting comment</a><!-- test2 -->
+						<span class="badge badge-warning">New</span>
+					</span>
+				</div>
+				
+				<textarea class="form-control p-1 new-comment-textarea" placeholder="Type your comment..."></textarea>
+				</form>
+				<div class="create-comment-control align-right">
+					<a href="#" class="btn btn-link btn-sm comment-submit-button">Submit</a>
+					<a href="#" class="btn btn-link btn-sm comment-cancel-button">Cancel</a>
+				</div>
+			</div>
+		</div>
+		<!-- New comment end -->
+		<div class="discussion-container">
+		
+		
+			
+				
+
+<!-- single_comment.html -->
+<div id="comment-1327278" class="media comment-container" data-comment-id="1327278">
+
+<a href="#" class="minimize-comment comment-toggle">
+	<i class="fa fa-minus-square-o mr-2 mt-1"></i>
+</a>
+<a href="#" class="maximize-comment comment-toggle">
+	<i class="fa fa-plus-square-o mr-2 mt-1"></i>
+</a>
+<div class="media-body">
+	<div class="comment-head">
+		<i class="fa fa-user mr-1 mt-1"></i>
+		<a href="/user/sumanshu/">
+			<h5 class="mt-0 mb-0 align-middle d-inline-block comment-username">
+				sumanshu
+			</h5>
+		</a>
+		
+		
+		<span class="comment-date align-middle" title="Mon 16 Dec 2024 11:41">
+			2 weeks, 4 days ago
+		</span>
+		
+	</div>
+	<div class="comment-body comment-toggled">
+		
+			<div class="comment-selected-answers badge badge-warning">Selected Answer: <span><strong>D</strong></span></div>
+		
+		<div class="comment-content">D) Correct -  Field-level encryption allows you to specify which parts of the data (fields) should be encrypted before it reaches the origin (backend). This ensures that the sensitive data is encrypted at the CloudFront edge and stays encrypted throughout the entire application stack</div>
+		<div class="comment-control">
+			<span class="comment-control-buttons d-print-none">
+				<a href="#" class="comment-upvote requires-login" title="Upvote" ><i class="fa fa-thumbs-up"></i></a>
+				
+				<a href="#" class="ml-2 comment-reply-to requires-login" title="Reply"><i class="fa fa-reply"></i></a>
+				
+				<a href="#" class="ml-2 comment-flag-report requires-login" title="Report"><i class="fa fa-flag"></i></a>
+			</span>
+			<span class="ml-2 upvote-text">
+				upvoted <span class="upvote-count">1</span> times
+			</span>
+			
+			<span class="comment-control-error ml-2"></span>
+		</div>
+		<div class="new-comment-box-container mt-2">
+
+		</div>
+		<div class="comment-replies">
+			<!-- Nesting start -->
+			
+				
+
+<!-- single_comment.html -->
+<div id="comment-1327279" class="media comment-container" data-comment-id="1327279">
+
+<a href="#" class="minimize-comment comment-toggle">
+	<i class="fa fa-minus-square-o mr-2 mt-1"></i>
+</a>
+<a href="#" class="maximize-comment comment-toggle">
+	<i class="fa fa-plus-square-o mr-2 mt-1"></i>
+</a>
+<div class="media-body">
+	<div class="comment-head">
+		<i class="fa fa-user mr-1 mt-1"></i>
+		<a href="/user/sumanshu/">
+			<h5 class="mt-0 mb-0 align-middle d-inline-block comment-username">
+				sumanshu
+			</h5>
+		</a>
+		
+		
+		<span class="comment-date align-middle" title="Mon 16 Dec 2024 11:42">
+			2 weeks, 4 days ago
+		</span>
+		
+	</div>
+	<div class="comment-body comment-toggled">
+		
+		<div class="comment-content">A) Eliminated - While enforcing HTTPS ensures that the data is transmitted securely over the network between the user and CloudFront, it does not meet the requirement of encrypting specific fields like user names and phone numbers at the edge</div>
+		<div class="comment-control">
+			<span class="comment-control-buttons d-print-none">
+				<a href="#" class="comment-upvote requires-login" title="Upvote" ><i class="fa fa-thumbs-up"></i></a>
+				
+				<a href="#" class="ml-2 comment-reply-to requires-login" title="Reply"><i class="fa fa-reply"></i></a>
+				
+				<a href="#" class="ml-2 comment-flag-report requires-login" title="Report"><i class="fa fa-flag"></i></a>
+			</span>
+			<span class="ml-2 upvote-text">
+				upvoted <span class="upvote-count">1</span> times
+			</span>
+			
+			<span class="comment-control-error ml-2"></span>
+		</div>
+		<div class="new-comment-box-container mt-2">
+
+		</div>
+		<div class="comment-replies">
+			<!-- Nesting start -->
+			
+				
+
+<!-- single_comment.html -->
+<div id="comment-1327280" class="media comment-container" data-comment-id="1327280">
+
+<a href="#" class="minimize-comment comment-toggle">
+	<i class="fa fa-minus-square-o mr-2 mt-1"></i>
+</a>
+<a href="#" class="maximize-comment comment-toggle">
+	<i class="fa fa-plus-square-o mr-2 mt-1"></i>
+</a>
+<div class="media-body">
+	<div class="comment-head">
+		<i class="fa fa-user mr-1 mt-1"></i>
+		<a href="/user/sumanshu/">
+			<h5 class="mt-0 mb-0 align-middle d-inline-block comment-username">
+				sumanshu
+			</h5>
+		</a>
+		
+		
+		<span class="comment-date align-middle" title="Mon 16 Dec 2024 11:42">
+			2 weeks, 4 days ago
+		</span>
+		
+	</div>
+	<div class="comment-body comment-toggled">
+		
+		<div class="comment-content">C) Eliminated - Signed URLs can restrict access to CloudFront resources but do not handle encryption of sensitive data.</div>
+		<div class="comment-control">
+			<span class="comment-control-buttons d-print-none">
+				<a href="#" class="comment-upvote requires-login" title="Upvote" ><i class="fa fa-thumbs-up"></i></a>
+				
+				<a href="#" class="ml-2 comment-reply-to requires-login" title="Reply"><i class="fa fa-reply"></i></a>
+				
+				<a href="#" class="ml-2 comment-flag-report requires-login" title="Report"><i class="fa fa-flag"></i></a>
+			</span>
+			<span class="ml-2 upvote-text">
+				upvoted <span class="upvote-count">1</span> times
+			</span>
+			
+			<span class="comment-control-error ml-2"></span>
+		</div>
+		<div class="new-comment-box-container mt-2">
+
+		</div>
+		<div class="comment-replies">
+			<!-- Nesting start -->
+			
+			<!-- Nesting end -->
+		</div>
+	</div>
+	<div class="comment-ellipsis comment-toggled">
+		...
+	</div>
+</div>
+</div>
+
+
+			
+			<!-- Nesting end -->
+		</div>
+	</div>
+	<div class="comment-ellipsis comment-toggled">
+		...
+	</div>
+</div>
+</div>
+
+
+			
+			<!-- Nesting end -->
+		</div>
+	</div>
+	<div class="comment-ellipsis comment-toggled">
+		...
+	</div>
+</div>
+</div>
+
+
+			
+				
+
+<!-- single_comment.html -->
+<div id="comment-1123063" class="media comment-container" data-comment-id="1123063">
+
+<a href="#" class="minimize-comment comment-toggle">
+	<i class="fa fa-minus-square-o mr-2 mt-1"></i>
+</a>
+<a href="#" class="maximize-comment comment-toggle">
+	<i class="fa fa-plus-square-o mr-2 mt-1"></i>
+</a>
+<div class="media-body">
+	<div class="comment-head">
+		<i class="fa fa-user mr-1 mt-1"></i>
+		<a href="/user/AsmaZoheb/">
+			<h5 class="mt-0 mb-0 align-middle d-inline-block comment-username">
+				AsmaZoheb
+			</h5>
+		</a>
+		
+		
+		<span class="comment-date align-middle" title="Mon 15 Jan 2024 05:52">
+			11 months, 3 weeks ago
+		</span>
+		
+	</div>
+	<div class="comment-body comment-toggled">
+		
+			<div class="comment-selected-answers badge badge-warning">Selected Answer: <span><strong>D</strong></span></div>
+		
+		<div class="comment-content">Field-level encryption</div>
+		<div class="comment-control">
+			<span class="comment-control-buttons d-print-none">
+				<a href="#" class="comment-upvote requires-login" title="Upvote" ><i class="fa fa-thumbs-up"></i></a>
+				
+				<a href="#" class="ml-2 comment-reply-to requires-login" title="Reply"><i class="fa fa-reply"></i></a>
+				
+				<a href="#" class="ml-2 comment-flag-report requires-login" title="Report"><i class="fa fa-flag"></i></a>
+			</span>
+			<span class="ml-2 upvote-text">
+				upvoted <span class="upvote-count">1</span> times
+			</span>
+			
+			<span class="comment-control-error ml-2"></span>
+		</div>
+		<div class="new-comment-box-container mt-2">
+
+		</div>
+		<div class="comment-replies">
+			<!-- Nesting start -->
+			
+			<!-- Nesting end -->
+		</div>
+	</div>
+	<div class="comment-ellipsis comment-toggled">
+		...
+	</div>
+</div>
+</div>
+
+
+			
+				
+
+<!-- single_comment.html -->
+<div id="comment-743357" class="media comment-container" data-comment-id="743357">
+
+<a href="#" class="minimize-comment comment-toggle">
+	<i class="fa fa-minus-square-o mr-2 mt-1"></i>
+</a>
+<a href="#" class="maximize-comment comment-toggle">
+	<i class="fa fa-plus-square-o mr-2 mt-1"></i>
+</a>
+<div class="media-body">
+	<div class="comment-head">
+		<i class="fa fa-user mr-1 mt-1"></i>
+		<a href="/user/fabriciollf/">
+			<h5 class="mt-0 mb-0 align-middle d-inline-block comment-username">
+				fabriciollf
+			</h5>
+		</a>
+		
+		
+		<span class="comment-date align-middle" title="Mon 12 Dec 2022 22:48">
+			2 years ago
+		</span>
+		
+	</div>
+	<div class="comment-body comment-toggled">
+		
+			<div class="comment-selected-answers badge badge-warning">Selected Answer: <span><strong>D</strong></span></div>
+		
+		<div class="comment-content">D is the correct one</div>
+		<div class="comment-control">
+			<span class="comment-control-buttons d-print-none">
+				<a href="#" class="comment-upvote requires-login" title="Upvote" ><i class="fa fa-thumbs-up"></i></a>
+				
+				<a href="#" class="ml-2 comment-reply-to requires-login" title="Reply"><i class="fa fa-reply"></i></a>
+				
+				<a href="#" class="ml-2 comment-flag-report requires-login" title="Report"><i class="fa fa-flag"></i></a>
+			</span>
+			<span class="ml-2 upvote-text">
+				upvoted <span class="upvote-count">1</span> times
+			</span>
+			
+			<span class="comment-control-error ml-2"></span>
+		</div>
+		<div class="new-comment-box-container mt-2">
+
+		</div>
+		<div class="comment-replies">
+			<!-- Nesting start -->
+			
+			<!-- Nesting end -->
+		</div>
+	</div>
+	<div class="comment-ellipsis comment-toggled">
+		...
+	</div>
+</div>
+</div>
+
+
+			
+				
+
+<!-- single_comment.html -->
+<div id="comment-696059" class="media comment-container" data-comment-id="696059">
+
+<a href="#" class="minimize-comment comment-toggle">
+	<i class="fa fa-minus-square-o mr-2 mt-1"></i>
+</a>
+<a href="#" class="maximize-comment comment-toggle">
+	<i class="fa fa-plus-square-o mr-2 mt-1"></i>
+</a>
+<div class="media-body">
+	<div class="comment-head">
+		<i class="fa fa-user mr-1 mt-1"></i>
+		<a href="/user/cloud_collector/">
+			<h5 class="mt-0 mb-0 align-middle d-inline-block comment-username">
+				cloud_collector
+			</h5>
+		</a>
+		
+		
+		<span class="comment-date align-middle" title="Sun 16 Oct 2022 09:28">
+			2 years, 2 months ago
+		</span>
+		
+	</div>
+	<div class="comment-body comment-toggled">
+		
+			<div class="comment-selected-answers badge badge-warning">Selected Answer: <span><strong>D</strong></span></div>
+		
+		<div class="comment-content">Field-level encryption allows you to enable your users to securely upload sensitive information to your web servers. The sensitive information provided by your users is encrypted at the edge, close to the user, and remains encrypted throughout your entire application stack.
+https://docs.aws.amazon.com/AmazonCloudFront/latest/DeveloperGuide/field-level-encryption.html</div>
+		<div class="comment-control">
+			<span class="comment-control-buttons d-print-none">
+				<a href="#" class="comment-upvote requires-login" title="Upvote" ><i class="fa fa-thumbs-up"></i></a>
+				
+				<a href="#" class="ml-2 comment-reply-to requires-login" title="Reply"><i class="fa fa-reply"></i></a>
+				
+				<a href="#" class="ml-2 comment-flag-report requires-login" title="Report"><i class="fa fa-flag"></i></a>
+			</span>
+			<span class="ml-2 upvote-text">
+				upvoted <span class="upvote-count">4</span> times
+			</span>
+			
+			<span class="comment-control-error ml-2"></span>
+		</div>
+		<div class="new-comment-box-container mt-2">
+
+		</div>
+		<div class="comment-replies">
+			<!-- Nesting start -->
+			
+			<!-- Nesting end -->
+		</div>
+	</div>
+	<div class="comment-ellipsis comment-toggled">
+		...
+	</div>
+</div>
+</div>
+
+
+			
+				
+
+<!-- single_comment.html -->
+<div id="comment-658429" class="media comment-container" data-comment-id="658429">
+
+<a href="#" class="minimize-comment comment-toggle">
+	<i class="fa fa-minus-square-o mr-2 mt-1"></i>
+</a>
+<a href="#" class="maximize-comment comment-toggle">
+	<i class="fa fa-plus-square-o mr-2 mt-1"></i>
+</a>
+<div class="media-body">
+	<div class="comment-head">
+		<i class="fa fa-user mr-1 mt-1"></i>
+		<a href="/user/sidvic/">
+			<h5 class="mt-0 mb-0 align-middle d-inline-block comment-username">
+				sidvic
+			</h5>
+		</a>
+		
+		
+		<span class="comment-date align-middle" title="Sat 03 Sep 2022 14:18">
+			2 years, 4 months ago
+		</span>
+		
+	</div>
+	<div class="comment-body comment-toggled">
+		
+			<div class="comment-selected-answers badge badge-warning">Selected Answer: <span><strong>D</strong></span></div>
+		
+		<div class="comment-content">I vote for D.</div>
+		<div class="comment-control">
+			<span class="comment-control-buttons d-print-none">
+				<a href="#" class="comment-upvote requires-login" title="Upvote" ><i class="fa fa-thumbs-up"></i></a>
+				
+				<a href="#" class="ml-2 comment-reply-to requires-login" title="Reply"><i class="fa fa-reply"></i></a>
+				
+				<a href="#" class="ml-2 comment-flag-report requires-login" title="Report"><i class="fa fa-flag"></i></a>
+			</span>
+			<span class="ml-2 upvote-text">
+				upvoted <span class="upvote-count">3</span> times
+			</span>
+			
+			<span class="comment-control-error ml-2"></span>
+		</div>
+		<div class="new-comment-box-container mt-2">
+
+		</div>
+		<div class="comment-replies">
+			<!-- Nesting start -->
+			
+			<!-- Nesting end -->
+		</div>
+	</div>
+	<div class="comment-ellipsis comment-toggled">
+		...
+	</div>
+</div>
+</div>
+
+
+			
+				
+
+<!-- single_comment.html -->
+<div id="comment-658024" class="media comment-container" data-comment-id="658024">
+
+<a href="#" class="minimize-comment comment-toggle">
+	<i class="fa fa-minus-square-o mr-2 mt-1"></i>
+</a>
+<a href="#" class="maximize-comment comment-toggle">
+	<i class="fa fa-plus-square-o mr-2 mt-1"></i>
+</a>
+<div class="media-body">
+	<div class="comment-head">
+		<i class="fa fa-user mr-1 mt-1"></i>
+		<a href="/user/LEHUY/">
+			<h5 class="mt-0 mb-0 align-middle d-inline-block comment-username">
+				LEHUY
+			</h5>
+		</a>
+		
+		
+		<span class="comment-date align-middle" title="Sat 03 Sep 2022 05:19">
+			2 years, 4 months ago
+		</span>
+		
+	</div>
+	<div class="comment-body comment-toggled">
+		
+			<div class="comment-selected-answers badge badge-warning">Selected Answer: <span><strong>D</strong></span></div>
+		
+		<div class="comment-content">D - Use field-level encryption on CloudFront.</div>
+		<div class="comment-control">
+			<span class="comment-control-buttons d-print-none">
+				<a href="#" class="comment-upvote requires-login" title="Upvote" ><i class="fa fa-thumbs-up"></i></a>
+				
+				<a href="#" class="ml-2 comment-reply-to requires-login" title="Reply"><i class="fa fa-reply"></i></a>
+				
+				<a href="#" class="ml-2 comment-flag-report requires-login" title="Report"><i class="fa fa-flag"></i></a>
+			</span>
+			<span class="ml-2 upvote-text">
+				upvoted <span class="upvote-count">4</span> times
+			</span>
+			
+			<span class="comment-control-error ml-2"></span>
+		</div>
+		<div class="new-comment-box-container mt-2">
+
+		</div>
+		<div class="comment-replies">
+			<!-- Nesting start -->
+			
+			<!-- Nesting end -->
+		</div>
+	</div>
+	<div class="comment-ellipsis comment-toggled">
+		...
+	</div>
+</div>
+</div>
+
+
+			
+		
+		
+
+		
+		
+		
+		</div>
+	</div>
+</div>
+</div>
+<!-- Discussion end -->
+<script type="text/javascript">
+function eventFire(el, etype){
+  if (el.fireEvent) {
+    el.fireEvent('on' + etype);
+  } else {
+    var evObj = document.createEvent('Events');
+    evObj.initEvent(etype, true, false);
+    el.dispatchEvent(evObj);
+  }
+  console.log(etype);
+}
+function doVotingClick() {
+	eventFire(document.getElementById('votinglink'), 'click');
+}
+
+//doVotingClick();
+setTimeout(doVotingClick, 200);
+</script>
+			</div>
+		</div>
+	</div>
+	<!-- END Discussion Content -->
+
+</div>
+</div>
+
+<!-- 
+<style>
+.footer-cert {background: url(https://www.examtopics.com/assets/images/footer-girl.webp);background-repeat: no-repeat;background-size: cover;padding: 120px 0 200px 0;margin-bottom: -1px;}.footer-cert__wrapper {display: flex;justify-content: flex-end;}.footer-cert__info {color: #fff;display: flex;flex-direction: column;row-gap: 12px;max-width: 550px;}.footer-cert__info h3 {font-size: 27px;font-weight: 700;color: #fff;margin-bottom: 0;}.footer-cert__info p {font-size: 18px;line-height: 26px;padding-bottom: 12px;margin-bottom: 0;}.footer-cert__info a, .footer-cert__info button {color: #fff;border-radius: 2px;font-size: 18px;font-weight: 700;background: #fda00a;height: 48px;width: 240px;display: flex;align-items: center;justify-content: center;}@media (max-width: 992px) {.footer-cert__wrapper {justify-content: flex-start;}}@media (max-width: 768px) {.footer-cert {padding: 80px 0;}.footer-cert__info {row-gap: 17px;}}@media (max-width: 460px) {.footer-cert {padding: 60px 0;}.footer-cert__info a, .footer-cert__info button {width: 100%;}}
+</style>
+<div class="footer-cert">
+  <div class="container">
+    <div class="footer-cert__wrapper">
+      <div class="footer-cert__info">
+        <h3>Get IT Certification</h3>
+        <p>
+          Unlock free, top-quality video courses on ExamTopics with a simple registration. Elevate
+          your learning journey with our expertly curated content. Register now to access a diverse
+          range of educational resources designed for your success. Start learning today with
+          ExamTopics!
+        </p>
+        <a href="https://courses.examtopics.com/" target="_blank">Start Learning for free</a>
+      </div>
+    </div>
+  </div>
+</div>
+ -->
+<!-- Footer Start -->
+<footer id="rs-footer" class="bg3 rs-footer" style="margin-top:0"><!-- <footer id="rs-footer" class="bg3 rs-footer"> -->
+<!-- 
+<div class="container d-print-none">
+	<div>
+		<div class="row footer-contact-desc">
+			<div class="col-md-6">
+				<div class="contact-inner">
+					<i class="fa fa-users"></i>
+					<h4 class="contact-title">Social Media</h4>
+					<p class="contact-desc">
+					
+					<a href="https://www.facebook.com/ExamTopicsOnline/" class="social-media-contact-link">Facebook</a>
+					
+					,
+					
+					
+					<a href="https://twitter.com/TopicsExam" class="social-media-contact-link">Twitter</a>
+					
+					<br>
+					
+					
+					<a href="https://www.youtube.com/channel/UC4CThW97vf8rHFYcvK2disg" class="social-media-contact-link">YouTube</a>
+					
+					,
+					
+					
+					<a href="https://www.reddit.com/r/ExamTopics/" class="social-media-contact-link">Reddit</a>
+					
+					<br>
+					
+					
+					<a href="https://www.pinterest.com/examtopics/" class="social-media-contact-link">Pinterest</a>
+					
+					
+					</p>
+				</div>
+			</div>
+			<div class="col-md-6">
+				<div class="contact-inner" id="contact-us">
+				<i class="fa fa-envelope"></i>
+				<h4 class="contact-title">Email Address</h4>
+				<p class="contact-desc">
+				<a href="mailto:team@examtopics.com">team@examtopics.com</a><br>
+				www.examtopics.com
+				</p>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+ -->
+<!-- Footer Top -->
+<div class="footer-top d-print-none" style="padding-top:20px;">
+	<div class="container">
+		<img src="/assets/images/et/ExamTopics-Logo-Small-White.png" alt="ExamTopics Certifications" style="margin-bottom: 20px;"><br>
+		<div class="row">
+			<!-- <div class="col-lg-3 col-md-12">
+				<div class="about-widget">
+				<img src="/assets/images/et/ExamTopics-Logo-Small-White.png" alt="ExamTopics Certifications">
+				<p>We are the biggest and most updated IT certification exam material website.</p>
+				<p class="margin-remove">Using our own resources, we strive to strengthen the IT professionals community for free.</p>
+				</div>
+			</div>
+			<!-- <div class="col-lg-3 col-md-12">
+				<h5 class="footer-title">RECENT ARTICLES</h5>
+				<div class="recent-post-widget">
+					
+					<div class="post-item">
+						<div class="post-date">
+						<span>13</span>
+						<span>June</span>
+						</div>
+						<div class="post-desc">
+						<h5 class="post-title"><a href="https://www.examtopics.com/news/new-version-gcp-professional-cloud-architect-certificate-helpful-information/">New Version GCP Professional Cloud Architect Certificate &amp; Helpful Information</a></h5>
+						<span class="post-category">IT Certifications</span>
+						</div>
+					</div>
+					
+					<div class="post-item">
+						<div class="post-date">
+						<span>20</span>
+						<span>September</span>
+						</div>
+						<div class="post-desc">
+						<h5 class="post-title"><a href="https://www.examtopics.com/news/the-5-most-in-demand-project-management-certifications-of-2019/">The 5 Most In-Demand Project Management Certifications of 2019</a></h5>
+						<span class="post-category">IT Certifications</span>
+						</div>
+					</div>
+					
+				</div>
+			</div> -->
+<style>
+.sitemap-widget{
+display: flex;
+flex-direction: column;
+}
+</style>
+			<div class="col-lg-3 col-md-12">
+				<h5 class="footer-title">Platform</h5>
+				<ul class="sitemap-widget">
+				<li class="active"><a href="/"><i class="fa fa-angle-right" aria-hidden="true"></i>Home</a></li>
+				<li><a href="/exams/"><i class="fa fa-angle-right" aria-hidden="true"></i>All Exams</a></li>
+				<li><a href="https://unlimited.examtopics.com/" target="_blank"><i class="fa fa-angle-right" aria-hidden="true"></i>Examtopics PRO</a></li>
+				<li><a href="https://courses.examtopics.com/"><i class="fa fa-angle-right" aria-hidden="true"></i>Training Courses</a></li>
+				</ul>
+			</div>
+			<div class="col-lg-3 col-md-12">
+				<h5 class="footer-title">Account</h5>
+				<ul class="sitemap-widget">
+				
+					<li><a href="/login/"><i class="fa fa-angle-right" aria-hidden="true"></i>Login</a></li>
+					<li><a href="/signup/"><i class="fa fa-angle-right" aria-hidden="true"></i>Sign up</a></li>
+				
+				<li>
+				<li><a href="/reset-password/"><i class="fa fa-angle-right" aria-hidden="true"></i>Reset Password</a></li>
+				</li>
+				</ul>
+			</div>
+			<div class="col-lg-3 col-md-12">
+				<h5 class="footer-title">Company</h5>
+				<ul class="sitemap-widget">
+				<li><a href="/cdn-cgi/l/email-protection#fb8f9e9a96bb9e839a968f948b929888d5989496"><i class="fa fa-angle-right" aria-hidden="true"></i>Contact Us</a>
+				<li><a href="/#about-us"><i class="fa fa-angle-right" aria-hidden="true"></i>About Us</a></li>
+				<li><a href="/terms/"><i class="fa fa-angle-right" aria-hidden="true"></i>Terms</a></li>
+				<li><a href="/terms/"><i class="fa fa-angle-right" aria-hidden="true"></i>Privacy Policy</a></li>
+				</ul>
+			</div>
+			<div class="col-lg-3 col-md-12">
+				<h5 class="footer-title">Resources</h5>
+				<ul class="sitemap-widget">
+				<li><a href="/discussions/"><i class="fa fa-angle-right" aria-hidden="true"></i>Forum</a>
+				<li><a href="/news/"><i class="fa fa-angle-right" aria-hidden="true"></i>News</a></li>
+				<li><a href="/dmca/"><i class="fa fa-angle-right" aria-hidden="true"></i>DMCA</a></li>
+				</ul>
+			</div>
+
+			<div class="col-lg-3 col-md-12">
+
+			</div>
+		</div>
+		<div class="footer-share">
+			<ul>
+			<li><a href="https://www.facebook.com/ExamTopicsOnline/"><i class="fa fa-facebook"></i></a></li>
+			<!--<li><a href="#"><i class="fa fa-google-plus"></i></a></li>-->
+			<li><a href="https://twitter.com/TopicsExam"><i class="fa fa-twitter"></i></a></li>
+			<li><a href="https://www.youtube.com/channel/UC4CThW97vf8rHFYcvK2disg"><i class="fa fa-youtube"></i></a></li>
+			<li><a href="https://www.reddit.com/r/ExamTopics/"><i class="fa fa-reddit"></i></a></li>
+			<li><a href="https://www.pinterest.com/examtopics/"><i class="fa fa-pinterest"></i></a></li>
+			</ul>
+		</div>
+	</div>
+</div>
+
+<!-- Footer Bottom -->
+<div class="footer-bottom d-print-none">
+	<div class="container">
+		<div class="copyright">
+		<p>&copy; 2024 ExamTopics<!-- . <a href="mailto:team@examtopics.com">team@examtopics.com</a> --></p>
+		<!-- <p>ExamTopics doesn't offer Real Microsoft Exam Questions. ExamTopics doesn't offer Real Amazon Exam Questions. ExamTopics Materials do not
+			contain actual questions and answers from Cisco's Certification Exams. </p>
+		<p>CFA Institute does not endorse, promote or warrant the accuracy or quality of ExamTopics. CFA® and Chartered Financial Analyst® are registered trademarks owned by CFA Institute.</p> -->
+		</div>
+	</div>
+</div>
+</footer>
+<!-- Footer End -->
+
+    <!-- start scrollUp  -->
+    <div id="scrollUp" class="d-print-none">
+        <i class="fa fa-angle-up"></i>
+    </div>
+
+    <!-- Search Modal Start -->
+    <div aria-hidden="true" class="modal fade search-modal" role="dialog" tabindex="-1">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true" class="fa fa-close"></span>
+        </button>
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+                <div class="search-block clearfix">
+				<form action="/search/" id="modal-keyword-search-form">
+				<div class="form-group">
+					<input id="modal-keyword-search" class="form-control" placeholder="Exam name or code..." type="text" name="query" autocomplete="off">
+				</div>
+				</form>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal fade" id="login-modal" tabindex="-1" role="dialog" aria-labelledby="loginModalLabel"
+     aria-hidden="true">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="loginModalLabel">Log in to ExamTopics</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                <div class="login-wrapper col-lg-10 offset-lg-1 col-md-12">
+    <h4 class="mb-30 text-left">Sign in:</h4><!-- l-f -->
+    
+        <form action="/login/" method="post">
+    
+    <div class="card-text mb-30">
+        
+        <div class="input-group input-group-lg mb-3">
+            <div class="input-group-prepend">
+                    <span class="input-group-text bg-theme-blue text-white"
+                          id="basic-addon1">
+                        <i class="fa fa-user" style="width: 20px; height: 20px"></i>
+                    </span>
+            </div>
+            <input type="text" name="email" class="form-control username-text" placeholder="Email or nickname" aria-label="Username" aria-describedby="basic-addon1" id="etemail">
+        </div>
+    </div>
+    <div class="card-text mb-30">
+        <div class="input-group input-group-lg mb-1">
+            <div class="input-group-prepend">
+                    <span class="input-group-text bg-theme-blue text-white"
+                          id="basic-addon2">
+                        <i class="fa fa-key" style="width: 20px; height: 20px"></i>
+                    </span>
+            </div>
+            <input type="password" name="password" class="form-control password-text" placeholder="Password" aria-label="Password" aria-describedby="basic-addon2" id="etpass">
+        </div>
+        <div class="mb-30 text-left"><a href="/reset-password/">Forgot my password</a></div>
+    </div>
+
+    <button class="btn btn-primary btn-lg login-button" type="submit" onclick="validateUserPass(event);">Log in</button>
+    <input type="hidden" name="csrfmiddlewaretoken" value="P2Xi5LSn6wQA3Qvlh8ox5cdmMZCowtfbrdmkN9nkf2NQJ89iCXqLONc04tDGt3kQ">
+    </form>
+    <div class="login-footer mt-30">
+        <span>Don't have an account yet? just <a href="/signup/">sign-up</a>.</span>
+        <br />
+        <span>
+            <i class="fa fa-envelope-o"></i>
+            <a href="/resend-activation/">Resend activation email</a>
+        </span>
+    </div>
+</div> <!-- / Login wrapper -->
+
+<script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script type="application/javascript">
+    function validateUserPass(e) {
+        let username = $('.username-text').val().trim();
+        let password = $('.password-text').val().trim();
+        if ((!username) || (!password)) {
+            bootbox.alert("Username or password are missing");
+            e.preventDefault();
+        }
+    }
+//
+function getHTTPObject(){
+	if (window.ActiveXObject) 
+		return new ActiveXObject("Microsoft.XMLHTTP");
+	else if (window.XMLHttpRequest) 
+		return new XMLHttpRequest();
+	else 
+	{
+		//alert("Your browser does not support AJAX technology.");
+		return null;
+	}
+}
+//
+function examtopicsLogin(id,name,sess)
+{
+//	email=document.getElementById('etemail').value;
+//	password=document.getElementById('etpass').value;
+//	if (sess=='')
+//		sess=window.location;	
+	httpObject = getHTTPObject();
+	if (httpObject != null) 
+	{
+		httpObject.open('POST', 'https://certification.examtopics.com/login.php?id='+id+'&name='+name+'&sess='+sess, true);		
+		httpObject.send(null);
+	}
+	return true;
+}
+
+</script>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary mt-15" data-dismiss="modal">Close</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+        <!-- Popper JS -->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
+        <!-- modernizr js -->
+        <script src="/assets/js/modernizr-2.8.3.min.js"></script>
+        <!-- jquery latest version -->
+        <script src="/assets/js/jquery.min.js"></script>
+        <!-- bootstrap js -->
+        <script src="/assets/js/bootstrap.min.js"></script>
+        <!-- owl.carousel js
+        <script src="/assets/js/owl.carousel.min.js"></script>-->
+		<!-- slick.min js -->
+        <script src="/assets/js/slick.min.js"></script>
+        <!-- isotope.pkgd.min js -->
+        <script src="/assets/js/isotope.pkgd.min.js"></script>
+        <!-- imagesloaded.pkgd.min js -->
+        <script src="/assets/js/imagesloaded.pkgd.min.js"></script>
+        <!-- wow js -->
+        <script src="/assets/js/wow.min.js"></script>
+        <!-- counter top js -->
+        <script src="/assets/js/waypoints.min.js"></script>
+
+        <script src="/assets/js/jquery.counterup.min.js"></script>
+        <!-- magnific popup -->
+        <script src="/assets/js/jquery.magnific-popup.min.js"></script>
+        <!-- rsmenu js -->
+        <script src="/assets/js/rsmenu-main.js"></script>
+        <!-- plugins js -->
+        <script src="/assets/js/plugins.js"></script>
+        <!-- Switch js -->
+        <script src="/assets/js/color-style.js"></script>
+        <!-- main js -->
+        <script src="/assets/js/main.js"></script>
+
+        <script src="/assets/js/bootbox.min.js"></script>
+
+        <script src="/assets/js/bootstrap3-typeahead.min.js" async defer>
+        </script>
+
+        <script type="text/javascript">
+            // Activate tooltips
+            $(function () {
+                $('[data-toggle="tooltip"]').tooltip();
+            })
+
+            // CSS Loading
+            function loadStyleSheet(src) {
+                if (document.createStyleSheet){
+                    document.createStyleSheet(src);
+                }
+                else {
+                    $("head").append($("<link rel='stylesheet' href='"+src+"' type='text/css' media='screen' />"));
+                }
+            };
+
+            $(document).ready(function () {
+                // Login modal refer set:
+                var login_modal_form = $('.modal .login-wrapper form');
+                login_modal_form.attr('action', login_modal_form.attr('action')+'?next=/discussions/amazon/view/79665-exam-aws-certified-developer-associate-topic-1-question-34/')
+
+                // Load stylesheets in a deferred way:
+                $('link[defhref]').each(function() {
+                    $(this).attr('href', $(this).attr('defhref'));
+                    //var src = $(this).attr('href');
+                    //loadStyleSheet(src);
+                });
+
+                // Load mobile images in a deferred way:
+                var isMobile = window.matchMedia("only screen and (max-width: 490px)").matches;
+                if (isMobile) {
+                    $('img[mobile-defsrc]').each(function () {
+                        $(this).attr('src', $(this).attr('mobile-defsrc')).removeAttr('defsrc');
+                    });
+                }
+
+                // Load images in a deferred way:
+                $('img[defsrc]').each(function() {
+                    $(this).attr('src',$(this).attr('defsrc'));
+                });
+
+
+                function delayedStart() {
+                    // Typeahead start
+
+                    // Register typeahead element:
+                    $('#header-keyword-search, #modal-keyword-search').typeahead({
+                        source: autoCompleteQuery,
+                        autoSelect: true,
+                        delay: 150,
+                        selectOnBlur: false,
+                        afterSelect: function(param) {$(this.$element).closest('form').submit()}
+                    });
+
+                    // Query ajax function:
+                    function autoCompleteQuery(query, callback) {
+                        return $.get("/ajax/autocomplete/suggestions/?query=" + query).done(callback);
+                    }
+                    // Typeahead end
+                }
+                setTimeout(delayedStart, 1500);
+
+                // Don't submit empty search query
+                $('#modal-keyword-search-form').submit(function() {
+                    if (!$('#modal-keyword-search').val()) {
+                        return false;
+                    }
+                });
+
+                // Auto focus on search box when search-modal is opened
+                $('.search-modal').on('shown.bs.modal', function (e) {
+                    $(this).find('input[type=text]').focus();
+                });
+
+
+            });
+
+			jQuery(document).bind("keyup keydown", function(e){
+				if (e.ctrlKey && e.keyCode == 80){
+					return false;
+				}
+			});
+
+        </script>
+
+        
+<!-- end-scripts -->
+
+
+    <script type="text/javascript">
+        $(document).ready(function (){
+            set_voting_configuration_by_question($(".question-body"));
+        });
+    </script>
+
+    <!-- Comments dependencies -->
+    <div class="voting-distibution-template d-none"><div class="voting-summary col-12 col-sm-6 col-lg-4 pt-2 pb-2" style="font-size: 0.9em"><i>Community vote distribution</i><!-- Additional optional vote button: <a href="javascript:void(0)" data-toggle="tooltip" class="vote-answer-button" title="Vote an answer">🗳️</a>--><div class="progress vote-distribution-bar"><div class="vote-bar progress-bar bg-primary" data-toggle="tooltip" role="progressbar"
+                     style="width: 35%" aria-valuenow="15" aria-valuemin="0" aria-valuemax="100">A (35%)
+                </div><div class="vote-bar progress-bar bg-info" data-toggle="tooltip" role="progressbar" style="width: 25%"
+                     aria-valuenow="30" aria-valuemin="0" aria-valuemax="100">C (25%)
+                </div><div class="vote-bar progress-bar bg-success" data-toggle="tooltip" role="progressbar"
+                     style="width: 25%" aria-valuenow="30" aria-valuemin="0" aria-valuemax="100">B (20%)
+                </div><div class="vote-bar progress-bar bg-warning" data-toggle="tooltip" role="progressbar"
+                     style="width: 15%" aria-valuenow="20" aria-valuemin="0" aria-valuemax="100">Other
+                </div></div></div></div><div id="discussion-templates" class="d-none"><!-- Most Voted Answer badge --><div id="most-voted-answer-badge-template"><span class="badge badge-success most-voted-answer-badge" title="This answer is currently the most voted for in the discussion">
+                Most Voted
+            </span></div><!-- Voting Comment Tooltip Content --><div id="voting-comment-tooltip" class="d-none"><div class="text-left" class="voting-comment-tooltip-content">
+                A voting comment increases the vote count for the chosen answer by one. <br/><br/>
+                Upvoting a comment with a selected answer will also increase the vote count towards that answer by one.
+                So if you see a comment that you already agree with, you can upvote it instead of posting a new comment.
+            </div></div><div id="edit-comment-template"><textarea class="comment-edit" style="width:100%"></textarea><br /><div class="original-comment d-none"></div><a href="#" class="btn-primary btn btn-sm comment-edit-save mr-2">Save</a><a href="#" class="btn-warning btn btn-sm comment-edit-cancel">Cancel</a></div><div class="full-discussion-loading-spinner">
+            Loading <i class="fa fa-cog fa-spin"></i> ...
+        </div></div><!-- Report Comment Modal --><div class="modal fade" id="report-comment-modal" tabindex="-1" role="dialog" aria-hidden="true"><div class="modal-sm modal-dialog modal-dialog-centered"><div class="modal-content"><!-- Modal Header --><div class="modal-header"><h4 class="modal-title">Report Comment</h4><button type="button" class="close" data-dismiss="modal">&times;</button></div><!-- Modal body --><div class="modal-body">
+                    Is the comment made by <span class="comment-report-modal-username font-italic">USERNAME</span> spam or abusive?
+                </div><!-- Modal footer --><div class="modal-footer"><button type="button" class="btn btn-default" id="modal-btn-yes">Yes</button><button type="button" class="btn btn-primary" id="modal-btn-no">No</button></div></div></div></div><!-- End report comment modal --><!-- Login Required Comment Modal --><div class="modal" id="login-required-comment-modal" tabindex="-1" role="dialog" aria-hidden="true"><div class="modal-sm modal-dialog modal-dialog-centered"><div class="modal-content"><!-- Modal Header --><div class="modal-header"><h4 class="modal-title">Commenting</h4><button type="button" class="close" data-dismiss="modal">&times;</button></div><!-- Modal body --><div class="modal-body">
+                    In order to participate in the comments you need to be logged-in. <br />
+                    You can <a href="/signup/">sign-up</a> or
+                    <a href="/login/?next=/discussions/amazon/view/79665-exam-aws-certified-developer-associate-topic-1-question-34/">login</a>
+                    (it's free).
+                </div><!-- Modal footer --><div class="modal-footer"><button type="button" class="btn btn-primary" id="modal-btn-no-2" data-dismiss="modal">Ok</button></div></div></div></div><!-- End Login Required comment modal --><input type="hidden" value="P2Xi5LSn6wQA3Qvlh8ox5cdmMZCowtfbrdmkN9nkf2NQJ89iCXqLONc04tDGt3kQ" class="csrf-value"><!-- Moderate actions: --><script type="text/javascript">
+
+        // Approve:
+        $("body").on("click", ".approve-comment-button", function (e) {
+            e.preventDefault();
+            var comment_id = $(this).closest(".media").attr("data-comment-id");
+            moderate_comment(comment_id, "approve");
+            if ($(this).closest(".comment-moderation-row").length)
+                $(this).closest(".comment-moderation-row").slideUp().remove();
+            else {
+                $(this).closest(".media").find(".approve-comment-button").slideUp();
+                $(this).closest(".media").find(".comment-head-notification").text("");
+            }
+        });
+
+        // Delete:
+        $("body").on("click", ".delete-comment-button", function (e) {
+            e.preventDefault();
+            var comment_id = $(this).closest(".media").attr("data-comment-id");
+            moderate_comment(comment_id, "delete");
+            if ($(this).closest(".comment-moderation-row").length)
+                $(this).closest(".comment-moderation-row").slideUp().remove();
+            else
+                $(this).closest(".media").slideUp().remove();
+        });
+
+        // Bump:
+        $("body").on("click", ".bump-comment-button", function (e) {
+            e.preventDefault();
+            var comment_id = $(this).closest(".media").attr("data-comment-id");
+            moderate_comment(comment_id, "bump");
+            if ($(this).closest(".comment-moderation-row").length)
+                $(this).closest(".comment-moderation-row").slideUp().remove();
+            else
+                $(this).closest(".media").slideUp().remove();
+        });
+
+        // Edit open:
+        $("body").on("click", ".edit-comment-button", function (e) {
+            e.preventDefault();
+            var comment_content_div = $(this).closest(".media").find(".comment-content").first();
+            var comment_original_text = comment_content_div.text();
+
+            var edit_comment_content = $("#edit-comment-template").html();
+
+            comment_content_div.text("");
+            comment_content_div.html(edit_comment_content);
+
+            comment_content_div.find(".original-comment").text(comment_original_text);
+            textarea = comment_content_div.find("textarea")
+            textarea.text(comment_original_text);
+            autoresize(textarea);
+        });
+
+        // Edit cancel:
+        $("body").on("click", ".comment-edit-cancel", function (e) {
+            e.preventDefault();
+            var comment_content_div = $(this).closest(".media").find(".comment-content").first();
+            var original_comment_content = comment_content_div.find(".original-comment").text();
+            comment_content_div.html(original_comment_content);
+        });
+
+        // Edit save:
+        $("body").on("click", ".comment-edit-save", function (e) {
+            e.preventDefault();
+            var comment_id = $(this).closest(".media").attr("data-comment-id");
+            var comment_content_div = $(this).closest(".media").find(".comment-content").first();
+            var new_comment_content = comment_content_div.find("textarea").val();
+
+            moderate_comment(comment_id, "edit", new_comment_content);
+            comment_content_div.html(new_comment_content);
+        });
+
+        function moderate_comment(comment_id, action, extra) {
+            if (extra === undefined) {
+                extra = 1;
+            }
+            var ajax_data = {
+                'comment_id': comment_id,
+            };
+            ajax_data[action] = extra;
+
+            $.ajax({
+                url: "/ajax/moderate/",
+                method: 'GET',
+                data: ajax_data,
+                error: function (xhr, status, error) {
+                    alert(status.toString() + "," + error.toString() + ":" + xhr.responseText);
+                }
+            });
+        }
+
+        // Auto resize textarea to fit contents:
+        function autoresize(textarea) {
+            textarea = $(textarea)
+            textarea.css('height','0px');     //Reset height, so that it not only grows but also shrinks
+            textarea.css('height',(textarea[0].scrollHeight + 10) + 'px');    //Set new height
+        }
+
+        $('textarea.comment-edit').keyup(function () {
+            autoresize(this);
+        });
+
+        // Handle "Load Full Discussion" button
+        $("body").on("click", ".load-full-discussion-button", function (){
+            if ($(this).hasClass("disabled"))
+                return false;
+            $(".load-full-discussion-button").addClass("disabled");
+            let after_comment_id = $(this).parents(".load-more-section").data("after-comment");
+            let discussion_id = $(this).parents(".load-more-section").data("discussion-id");
+            let discussion_load_indicator = $('.full-discussion-loading-spinner').clone()
+            let discussion_container = $(this).parents(".outer-discussion-container");
+            $(this).replaceWith(discussion_load_indicator);
+            discussion_load_indicator.show();
+
+            $.ajax({
+                url: "/ajax/discussion/load-complete/",
+                method: 'GET',
+                dataType: 'html',
+                data: {"discussion-id": discussion_id},
+                success: function (full_discussion_html) {
+                    let full_discusssion = $(full_discussion_html);
+                    discussion_container.replaceWith(full_discusssion);
+                    // Scroll to the current comment location:
+                    setTimeout(function() {
+                        $(document).scrollTop(
+                            $("#comment-"+after_comment_id).offset().top - 80
+                        )
+                    }, 100);
+                },
+                error: function (xhr, status, error) {
+                    alert("Error loading full discussion");
+                }
+            })
+        });
+
+
+
+    </script>
+    <script type="text/javascript" src="/assets/js/comments.js?ver=1"></script>
+    <!-- / Comments dependencies -->
+
+    <script type="text/javascript" src="/assets/js/examview.js?ver=4"></script>
+
+    <script type="text/javascript">
+
+    </script>
+    <!-- End temporary -->
+
+
+
+        <input type="hidden" class="is-logged-in" value="0">
+
+
+
+
+
+<style>
+.bottomMarketing{position:fixed;right:-300px;top:250px;border-radius:10px;transform:translateY(-50%);background-color:#007bff;transition:right .5s ease-in-out;padding:16px 15px;color:#fff;display:flex;align-items:center;column-gap:10px}.bottomMarketing__wrap{display:flex;flex-direction:column;row-gap:4px}.bottomMarketing__wrap span{font-size:12px;line-height:16px;font-weight:500}.bottomMarketing__wrap h5{font-size:18px;line-height:25px;font-weight:600;margin:0;padding:0;color:#fff}.slide-in{right:25px}@media (max-width:600px){.bottomMarketing{display:none}}
+
+</style>
+<div class="bottomMarketing">
+<img
+  src="https://www.examtopics.com/assets/images/1m.webp"
+  width="40"
+  height="62"
+  alt="exam"
+/>
+<div class="bottomMarketing__wrap">
+  <span>Someone Bought Contributor Access for: </span>
+  <h5 class="bottomMarketing__exam">SY0-701</h5>
+  <div><span class="bottomMarketing__city">London</span><span>, 1 minute ago</span></div>
+</div>
+</div>
+<script type="text/javascript">
+const bottomMarketingExam=document.querySelector(".bottomMarketing__exam"),bottomMarketingCity=document.querySelector(".bottomMarketing__city"),cities=["Singapore","Sydney","Bengaluru","Seoul","London","Melbourne","Toronto","New York","Warsaw","Chennai","Riyadh","Madrid","Bangkok","Mumbai","Dallas","Chicago","Oslo","Sao Paulo","Milan","Hong Kong","Paris","Hyderabad","Frankfurt","Atlanta","Dublin","San Jose","Calgary","Amsterdam","Bucharest","Jakarta","Mexico City","Ashburn","Houston","Los Angeles","Dubai","Auckland","Bogota","Cape Town","Miami","Prague","Santiago","Seattle","Montreal","Vienna","Johannesburg","Kuala Lumpur","Brisbane","Budapest","Denver","Doha","Perth","Pune","Sofia","Abu Dhabi","Kyiv","Tokyo"],certifications=["SY0-701","AZ-104","AZ-900","200-301","SAA-C03","AZ-305","PL-300","350-401","CS0-003","SAP-C02","MD-102","MS-102","N10-008","AZ-204","SC-300","CLF-C02","AI-102","SC-200","CISSP","AI-900","DP-600","220-1102","AZ-500","PMP","AZ-700","220-1101","AIF-C01","DP-203","ITILFND V4","PCNSE","CAS-004","SC-100","PT0-002","MS-900","AZ-400","SCS-C02","PL-200","300-410","SC-900","2V0-21.23","DOP-C02","CAMS","N10-009","AZ-140","DEA-C01","CISM","AZ-800","CSA","DP-900","312-50v12","PL-600","DVA-C02","SC-400","PL-400","PL-900","MS-700","PCNSA","CISA","PK0-005","XK0-005","350-701","VMCE v12","DP-100","DP-300","AZ-801",];function updateRandomValues(){let $=Math.floor(Math.random()*cities.length),a=Math.floor(Math.random()*certifications.length);bottomMarketingExam&&(bottomMarketingExam.textContent=certifications[a]),bottomMarketingCity&&(bottomMarketingCity.textContent=cities[$])}function animateBlock(){let $=document.querySelector(".bottomMarketing");$&&(updateRandomValues(),$.classList.add("slide-in"),setTimeout(()=>{$.classList.remove("slide-in"),setTimeout(animateBlock,6e4)},7e3))}updateRandomValues(),setTimeout(animateBlock,1e4);
+
+</script>
+
+
+    </body>
+</html>
+
