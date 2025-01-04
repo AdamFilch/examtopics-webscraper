@@ -2,7 +2,7 @@ import urllib.request
 
 
 def Scraper(): 
-    url = "https://www.examtopics.com/discussions/amazon/view/79665-exam-aws-certified-developer-associate-topic-1-question-34/"
+    url = "https://www.examtopics.com/discussions/amazon/view/103521-exam-aws-certified-developer-associate-dva-c02-topic-1/"
 
     # Set a custom User-Agent to mimic a browser
     headers = {
@@ -24,3 +24,6 @@ def Scraper():
         print(f"HTTP Error: {e.code}")
     except urllib.error.URLError as e:
         print(f"URL Error: {e.reason}")
+        
+        
+Scraper()
