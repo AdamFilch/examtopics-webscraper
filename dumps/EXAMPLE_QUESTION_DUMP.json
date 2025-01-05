@@ -1,16 +1,65 @@
 [
     {
-        "questionNo": "34",
+        "questionNo": "36",
         "topic": "1",
-        "question": "The developer is creating a web application that collects highly regulated and confidential user data through a POST request. The web application is served through Amazon CloudFront. User names and phone numbers must be encrypted at the edge and must remain encrypted throughout the entire application stack.What is the MOST secure way to meet these requirements?",
+        "question": "A development team maintains a web application by using a single AWS CloudFormation template. The template defines web servers and an Amazon RDS database. The team uses the Cloud Formation template to deploy the Cloud Formation stack to different environments.During a recent application deployment, a developer caused the primary development database to be dropped and recreated. The result of this incident was a loss of data. The team needs to avoid accidental database deletion in the future.Which solutions will meet these requirements? (Choose two.)",
         "choices": [
-            "Enforce Match Viewer with HTTPS Only on CloudFront.",
-            "Use only the newest TLS security policy on CloudFront.",
-            "Enforce a signed URL on CloudFront on the front end.",
-            "Use field-level encryption on CloudFront."
+            "Add a CloudFormation Deletion Policy attribute with the Retain value to the database resource.",
+            "Update the CloudFormation stack policy to prevent updates to the database.",
+            "Modify the database to use a Multi-AZ deployment.",
+            "Create a CloudFormation stack set for the web application and database deployments.",
+            "Add a Cloud Formation DeletionPolicy attribute with the Retain value to the stack."
         ],
         "answer": [
-            "D"
+            "AB"
+        ],
+        "comments": []
+    },
+    {
+        "questionNo": "36",
+        "topic": "1",
+        "question": "A development team maintains a web application by using a single AWS CloudFormation template. The template defines web servers and an Amazon RDS database. The team uses the Cloud Formation template to deploy the Cloud Formation stack to different environments.During a recent application deployment, a developer caused the primary development database to be dropped and recreated. The result of this incident was a loss of data. The team needs to avoid accidental database deletion in the future.Which solutions will meet these requirements? (Choose two.)",
+        "choices": [
+            "Add a CloudFormation Deletion Policy attribute with the Retain value to the database resource.",
+            "Update the CloudFormation stack policy to prevent updates to the database.",
+            "Modify the database to use a Multi-AZ deployment.",
+            "Create a CloudFormation stack set for the web application and database deployments.",
+            "Add a Cloud Formation DeletionPolicy attribute with the Retain value to the stack."
+        ],
+        "answer": [
+            "AB"
+        ],
+        "comments": []
+    },
+    {
+        "questionNo": "36",
+        "topic": "1",
+        "question": "A development team maintains a web application by using a single AWS CloudFormation template. The template defines web servers and an Amazon RDS database. The team uses the Cloud Formation template to deploy the Cloud Formation stack to different environments.During a recent application deployment, a developer caused the primary development database to be dropped and recreated. The result of this incident was a loss of data. The team needs to avoid accidental database deletion in the future.Which solutions will meet these requirements? (Choose two.)",
+        "choices": [
+            "Add a CloudFormation Deletion Policy attribute with the Retain value to the database resource.",
+            "Update the CloudFormation stack policy to prevent updates to the database.",
+            "Modify the database to use a Multi-AZ deployment.",
+            "Create a CloudFormation stack set for the web application and database deployments.",
+            "Add a Cloud Formation DeletionPolicy attribute with the Retain value to the stack."
+        ],
+        "answer": [
+            "AB"
+        ],
+        "comments": []
+    },
+    {
+        "questionNo": "36",
+        "topic": "1",
+        "question": "A development team maintains a web application by using a single AWS CloudFormation template. The template defines web servers and an Amazon RDS database. The team uses the Cloud Formation template to deploy the Cloud Formation stack to different environments.During a recent application deployment, a developer caused the primary development database to be dropped and recreated. The result of this incident was a loss of data. The team needs to avoid accidental database deletion in the future.Which solutions will meet these requirements? (Choose two.)",
+        "choices": [
+            "Add a CloudFormation Deletion Policy attribute with the Retain value to the database resource.",
+            "Update the CloudFormation stack policy to prevent updates to the database.",
+            "Modify the database to use a Multi-AZ deployment.",
+            "Create a CloudFormation stack set for the web application and database deployments.",
+            "Add a Cloud Formation DeletionPolicy attribute with the Retain value to the stack."
+        ],
+        "answer": [
+            "AB"
         ],
         "comments": []
     }

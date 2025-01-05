@@ -5,10 +5,8 @@ import json
 WRITE_INTO_FILE = "EXAMPLE_QUESTION_DUMP.json"
 
 
-def ExtractDataFromHTML():
-    # html = open('TEST_HTML.txt')
-    with open('TEST_HTML2.txt', 'r', encoding="cp850") as file:
-        html = file.read()
+def ExtractDataFromHTML(html):
+    
     soup = BeautifulSoup(html, "html.parser")
     
     # get the respective question, option and answers
@@ -42,27 +40,18 @@ def ExtractDataFromHTML():
     
     # Append question and answers to json file
     #Create Python Object (Dictionary) to turn into JSON
-    question_object = [{
+    question_object = {
         "questionNo": questionNumber_and_answer[3],
         "topic": questionNumber_and_answer[6],
         "question": question[0],
         "choices": multi_choice,
         "answer": correct_answer[0].split(),
         "comments": []
-    }]
+    }
     
-    try: 
-        # Save the HTML content to a text file
-        with open("./dumps/" + WRITE_INTO_FILE, 'w',  encoding='utf-8') as f:  # Use 'w' to overwrite the file, and specify encoding
-             json.dump(question_object, f, ensure_ascii=False, indent=4)
-
-        print("HTML content SUCCESSFULLY written to " + WRITE_INTO_FILE)
-    except Exception as e: 
-        print(e)
+    return question_object
     
     # print(question_and_topic)
     
     
     
-
-ExtractDataFromHTML()

@@ -20,10 +20,11 @@ def Scraper():
             f.write(html_content)
 
         print("HTML content successfully written to TEST_HTML.txt")
+        
+        # return html_content
     except urllib.error.HTTPError as e:
         print(f"HTTP Error: {e.code}")
     except urllib.error.URLError as e:
         print(f"URL Error: {e.reason}")
         
         
-Scraper()

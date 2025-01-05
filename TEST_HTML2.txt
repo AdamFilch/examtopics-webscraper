@@ -225,7 +225,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 							<div id="info-details" class="widget-text">
 								<i class="glyph-icon flaticon-email"></i>
 								<div class="info-text">
-								<a href="/cdn-cgi/l/email-protection#9eeafbfff3defbe6fff3eaf1eef7fdedb0fdf1f3"><span>Mail Us</span><span class="__cf_email__" data-cfemail="b8ccddd9d5f8ddc0d9d5ccd7c8d1dbcb96dbd7d5">[email&#160;protected]</span></a>
+								<a href="/cdn-cgi/l/email-protection#fc88999d91bc99849d9188938c959f8fd29f9391"><span>Mail Us</span><span class="__cf_email__" data-cfemail="314554505c715449505c455e415852421f525e5c">[email&#160;protected]</span></a>
 								</div>
 							</div>
 						</div>
@@ -401,7 +401,7 @@ width: fit-content
 					<!-- <li><a href="https://courses.examtopics.com/" onClick="return coursesClick();">Training Courses</a><span class="nav__new">NEW</span></li> -->
 					<!-- <li><a href="/news/">News</a></li> -->
 					<!-- <li><a href="/discussions/">Forum</a></li> -->
-					<li><a href="/cdn-cgi/l/email-protection#dfabbabeb29fbaa7beb2abb0afb6bcacf1bcb0b2">Contact</a></li>
+					<li><a href="/cdn-cgi/l/email-protection#681c0d0905280d1009051c0718010b1b460b0705">Contact</a></li>
 					<!-- <li><a href="/#about-us">About</a></li> -->
 
 					
@@ -1347,7 +1347,7 @@ flex-direction: column;
 			<div class="col-lg-3 col-md-12">
 				<h5 class="footer-title">Company</h5>
 				<ul class="sitemap-widget">
-				<li><a href="/cdn-cgi/l/email-protection#a3d7c6c2cee3c6dbc2ced7ccd3cac0d08dc0ccce"><i class="fa fa-angle-right" aria-hidden="true"></i>Contact Us</a>
+				<li><a href="/cdn-cgi/l/email-protection#641001050924011c0509100b140d07174a070b09"><i class="fa fa-angle-right" aria-hidden="true"></i>Contact Us</a>
 				<li><a href="/#about-us"><i class="fa fa-angle-right" aria-hidden="true"></i>About Us</a></li>
 				<li><a href="/terms/"><i class="fa fa-angle-right" aria-hidden="true"></i>Terms</a></li>
 				<li><a href="/terms/"><i class="fa fa-angle-right" aria-hidden="true"></i>Privacy Policy</a></li>
@@ -1458,7 +1458,7 @@ flex-direction: column;
     </div>
 
     <button class="btn btn-primary btn-lg login-button" type="submit" onclick="validateUserPass(event);">Log in</button>
-    <input type="hidden" name="csrfmiddlewaretoken" value="SEL92yvK3LpXt1s2Xlp2kAhDcmB3GptLZeffsNawPKsT6g0eHUWrNeFq9z7RUfGS">
+    <input type="hidden" name="csrfmiddlewaretoken" value="cRotOVqCeBRonKWh3hM7aIEwgM3bXHnJiIPu0qjNFDrkJuzMfKJB4LFdbogsR358">
     </form>
     <div class="login-footer mt-30">
         <span>Don't have an account yet? just <a href="/signup/">sign-up</a>.</span>
@@ -1675,7 +1675,7 @@ function examtopicsLogin(id,name,sess)
                     You can <a href="/signup/">sign-up</a> or
                     <a href="/login/?next=/discussions/amazon/view/79665-exam-aws-certified-developer-associate-topic-1-question-34/">login</a>
                     (it's free).
-                </div><!-- Modal footer --><div class="modal-footer"><button type="button" class="btn btn-primary" id="modal-btn-no-2" data-dismiss="modal">Ok</button></div></div></div></div><!-- End Login Required comment modal --><input type="hidden" value="SEL92yvK3LpXt1s2Xlp2kAhDcmB3GptLZeffsNawPKsT6g0eHUWrNeFq9z7RUfGS" class="csrf-value"><!-- Moderate actions: --><script type="text/javascript">
+                </div><!-- Modal footer --><div class="modal-footer"><button type="button" class="btn btn-primary" id="modal-btn-no-2" data-dismiss="modal">Ok</button></div></div></div></div><!-- End Login Required comment modal --><input type="hidden" value="cRotOVqCeBRonKWh3hM7aIEwgM3bXHnJiIPu0qjNFDrkJuzMfKJB4LFdbogsR358" class="csrf-value"><!-- Moderate actions: --><script type="text/javascript">
 
         // Approve:
         $("body").on("click", ".approve-comment-button", function (e) {
