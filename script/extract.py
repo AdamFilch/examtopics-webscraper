@@ -7,7 +7,7 @@ WRITE_INTO_FILE = "EXAMPLE_QUESTION_DUMP.json"
 
 def ExtractDataFromHTML():
     # html = open('TEST_HTML.txt')
-    with open('TEST_html.txt', 'r', encoding="cp850") as file:
+    with open('TEST_HTML2.txt', 'r', encoding="cp850") as file:
         html = file.read()
     soup = BeautifulSoup(html, "html.parser")
     
@@ -20,6 +20,8 @@ def ExtractDataFromHTML():
     for div in question_no:
         short = div.find_all('div')
     question_and_topic = [t.text.replace("\n", " ").replace("\t", " ") for t in short]
+    questionNumber_and_answer = short[0].text.replace("\n", " ").replace("\t", "").split(' ')
+    
     
     # Extract multiple choice items
     multi_choice_items = soup.find_all("li", class_="multi-choice-item")
@@ -36,11 +38,13 @@ def ExtractDataFromHTML():
     # got comments in form of array
     comments = soup.find_all('div', class_='comment-container')
     
+    
+    
     # Append question and answers to json file
     #Create Python Object (Dictionary) to turn into JSON
     question_object = [{
-        "questionNo": "",
-        "topic": "",
+        "questionNo": questionNumber_and_answer[3],
+        "topic": questionNumber_and_answer[6],
         "question": question[0],
         "choices": multi_choice,
         "answer": correct_answer[0].split(),
@@ -56,7 +60,6 @@ def ExtractDataFromHTML():
     except Exception as e: 
         print(e)
     
-    print(short[0].text.replace("\n", " ").replace("\t", "").split('#:'))
     # print(question_and_topic)
     
     
