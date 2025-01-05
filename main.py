@@ -19,7 +19,7 @@ def main():
     
     while proceed:
         # scraped_html = Scraper() # Do not run yet dont get banned dumbass
-        with open('TEST_HTML.txt', 'r', encoding="cp850") as file:
+        with open('TEST_HTML2.txt', 'r', encoding="cp850") as file:
             scraped_html = file.read()
         question_object = ExtractDataFromHTML(html=scraped_html)
         
