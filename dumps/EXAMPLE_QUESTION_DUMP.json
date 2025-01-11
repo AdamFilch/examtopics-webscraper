@@ -45,7 +45,7 @@
         "comments": []
     },
     {
-        "questionNo": "34",
+        "questionNo": "34asdflas",
         "topic": "1",
         "question": "The developer is creating a web application that collects highly regulated and confidential user data through a POST request. The web application is served through Amazon CloudFront. User names and phone numbers must be encrypted at the edge and must remain encrypted throughout the entire application stack.What is the MOST secure way to meet these requirements?",
         "choices": [

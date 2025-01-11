@@ -4,7 +4,7 @@
 Example Exams
 - /exams/amazon/aws-certified-developer-associate-dva-c02
 
-
+safasd
 Questions will be written in format below
 ```
 [
@@ -58,3 +58,4 @@ in the form of
     }
 }
 ```
+Test command BRuh
