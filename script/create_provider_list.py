@@ -2,18 +2,20 @@ import urllib.request
 from bs4 import BeautifulSoup
 import json
 
+
+WRITE_INTO_FILE = 'PROVIDER_LIST.json'
+
 def ExamList(): 
     
-    # HTML = ExamPageScrape() # Scrape examtopics.com/exams/ page
+    HTML = ExamPageScrape() # Scrape examtopics.com/exams/ page
+
+    res = ProviderExtract(html=HTML) # Get List of Cert Providers
     
-    
-    with open('EXAMTOPICS_EXAMS.txt', 'r', encoding="cp850") as file:
-            scraped_html = file.read()
-            
-            
-    ProviderExtract(html=scraped_html) # Get List of Cert Providers
-    
-    
+    # Save the HTML content to a text file
+    with open("dumps/" + WRITE_INTO_FILE, 'w',  encoding='utf-8') as f: 
+        json.dump(res, f, ensure_ascii=False, indent=4)
+             
+             
     print("PROVIDERS Have been Saved")
     
     
@@ -45,6 +47,15 @@ def ExamPageScrape():
         print(f"HTTP Error: {e.code}")
     except urllib.error.URLError as e:
         print(f"URL Error: {e.reason}")
+        
+def provider_list_strip(exam): 
+    splitted = exam.split(' ')
+    
+    res = {
+        "provider": splitted[0],
+        "exam": '0'
+    }
+    return res
 
 def ProviderExtract(html):
     soup = BeautifulSoup(html, "html.parser")
@@ -52,37 +63,27 @@ def ProviderExtract(html):
     
     
     # Get List of Cert Providers
+    provider_link = [div.text.strip() for div in soup.find_all('div', class_='provider-list-link')]
     
+    provider_list = []
+    for provider in provider_link: 
+        splitted = provider.split(' ')
+        
+        num = ''
+        for split in splitted:
+            if '(' in split:
+                num = split
     
-    providers_list = [{
-        "provider",
-        "num_exams",
-    }]
+        justNum = num.replace('(', '').replace('\t', '')
+        res = {
+            "provider": splitted[0],
+            "no_exams": justNum
+        }
+        provider_list.append(res)
     
+    return provider_list
+
+
     
 ExamList()
-    
-    
-#     {
-#         Provider: "Amazon",
-#         Number_of_Exams: 23,
-#         Exams: [
-#            {
-#             code: 'DVA-C02',
-#             name: 'Certified Developer Associate',
-#             popular: true
-#         },
-#         {
-#             code: 'CLF-C02',
-#             name: 'Certified Cloud Practitioner',
-#             popular: true
-#         },
-#         {
-#             code: 'DEA-C01',
-#             name: 'Certified Data Engineer',
-#             popular: true
-#         },
-#         ...
-#         ]
-# }
     
