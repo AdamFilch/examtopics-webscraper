@@ -1,4 +1,5 @@
 import { Box, Button, Card, CardActionArea, CardContent, CardMedia, Container, Stack, Typography } from "@mui/material";
+import Link from "next/link";
 import React from "react";
 
 export default function LandingPage() {
@@ -17,12 +18,15 @@ export default function LandingPage() {
                 <Card elevation={3} sx={{
                     justifyItems: 'center',
                 }}>
-                    <CardActionArea>
+                    <CardActionArea 
+                        LinkComponent={Link}
+                        href="/scrape"
+                    >
                         <CardMedia
                             component='img'
                             height={'300px'}
                             image="landing\scraped_html.png"
-                            alt="A random Python Script?"
+                            alt="Ready to start scraping?"
                             sx={{
                                 objectPosition: 'left top'
                             }}
