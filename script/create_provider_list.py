@@ -67,14 +67,11 @@ def ProviderExtract(html):
     
     provider_list = []
     for provider in provider_link: 
-        splitted = provider.split(' ')
+        splitted = provider.split(' (')
         
-        num = ''
-        for split in splitted:
-            if '(' in split:
-                num = split
+
     
-        justNum = num.replace('(', '').replace('\t', '')
+        justNum = splitted[1].replace(' exams)', '')
         res = {
             "provider": splitted[0],
             "no_exams": justNum

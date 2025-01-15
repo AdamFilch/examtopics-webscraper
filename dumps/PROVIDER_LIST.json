@@ -1,10 +1,10 @@
 [
     {
-        "provider": "A10",
+        "provider": "A10 Networks",
         "no_exams": "1"
     },
     {
-        "provider": "AAFM",
+        "provider": "AAFM India",
         "no_exams": "2"
     },
     {
@@ -112,7 +112,7 @@
         "no_exams": "48"
     },
     {
-        "provider": "Axis",
+        "provider": "Axis Communications",
         "no_exams": "2"
     },
     {
@@ -132,15 +132,15 @@
         "no_exams": "4"
     },
     {
-        "provider": "Blue",
+        "provider": "Blue Coat",
         "no_exams": "2"
     },
     {
-        "provider": "Blue",
+        "provider": "Blue Prism",
         "no_exams": "6"
     },
     {
-        "provider": "CA",
+        "provider": "CA Technologies",
         "no_exams": "1"
     },
     {
@@ -160,7 +160,7 @@
         "no_exams": "17"
     },
     {
-        "provider": "C++",
+        "provider": "C++ Institute",
         "no_exams": "2"
     },
     {
@@ -224,7 +224,7 @@
         "no_exams": "24"
     },
     {
-        "provider": "English",
+        "provider": "English Test Preparation",
         "no_exams": "4"
     },
     {
@@ -272,7 +272,7 @@
         "no_exams": "23"
     },
     {
-        "provider": "Guidance",
+        "provider": "Guidance Software",
         "no_exams": "2"
     },
     {
@@ -284,7 +284,7 @@
         "no_exams": "2"
     },
     {
-        "provider": "HCL",
+        "provider": "HCL Software Academy",
         "no_exams": "1"
     },
     {
@@ -360,7 +360,7 @@
         "no_exams": "55"
     },
     {
-        "provider": "Linux",
+        "provider": "Linux Foundation",
         "no_exams": "4"
     },
     {
@@ -452,7 +452,7 @@
         "no_exams": "163"
     },
     {
-        "provider": "Palo",
+        "provider": "Palo Alto Networks",
         "no_exams": "13"
     },
     {
@@ -476,7 +476,7 @@
         "no_exams": "6"
     },
     {
-        "provider": "Python",
+        "provider": "Python Institute",
         "no_exams": "4"
     },
     {
@@ -492,7 +492,7 @@
         "no_exams": "6"
     },
     {
-        "provider": "RUCKUS",
+        "provider": "RUCKUS Networks",
         "no_exams": "1"
     },
     {
@@ -508,11 +508,11 @@
         "no_exams": "38"
     },
     {
-        "provider": "SAS",
+        "provider": "SAS Institute",
         "no_exams": "5"
     },
     {
-        "provider": "Scaled",
+        "provider": "Scaled Agile",
         "no_exams": "4"
     },
     {
@@ -520,7 +520,7 @@
         "no_exams": "3"
     },
     {
-        "provider": "Scrum",
+        "provider": "Scrum Alliance",
         "no_exams": "1"
     },
     {
@@ -536,7 +536,7 @@
         "no_exams": "1"
     },
     {
-        "provider": "Six",
+        "provider": "Six Sigma",
         "no_exams": "8"
     },
     {
@@ -572,11 +572,11 @@
         "no_exams": "2"
     },
     {
-        "provider": "Test",
+        "provider": "Test Prep",
         "no_exams": "59"
     },
     {
-        "provider": "The",
+        "provider": "The Open Group",
         "no_exams": "10"
     },
     {
@@ -600,7 +600,7 @@
         "no_exams": "13"
     },
     {
-        "provider": "Versa",
+        "provider": "Versa Networks",
         "no_exams": "1"
     },
     {
