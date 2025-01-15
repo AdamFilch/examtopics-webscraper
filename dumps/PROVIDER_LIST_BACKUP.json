@@ -1,626 +1,782 @@
 [
     {
-        "provider": "A10",
-        "no_exams": "1"
+        "provider": "A10 Networks",
+        "no_exams": "1",
+        "index": 1
     },
     {
-        "provider": "AAFM",
-        "no_exams": "2"
+        "provider": "AAFM India",
+        "no_exams": "2",
+        "index": 2
     },
     {
         "provider": "AAPC",
-        "no_exams": "2"
+        "no_exams": "2",
+        "index": 3
     },
     {
         "provider": "ABA",
-        "no_exams": "2"
+        "no_exams": "2",
+        "index": 4
     },
     {
         "provider": "ACAMS",
-        "no_exams": "1"
+        "no_exams": "1",
+        "index": 5
     },
     {
         "provider": "ACFE",
-        "no_exams": "5"
+        "no_exams": "5",
+        "index": 6
     },
     {
         "provider": "ACSM",
-        "no_exams": "2"
+        "no_exams": "2",
+        "index": 7
     },
     {
         "provider": "Adobe",
-        "no_exams": "24"
+        "no_exams": "24",
+        "index": 8
     },
     {
         "provider": "AHIMA",
-        "no_exams": "2"
+        "no_exams": "2",
+        "index": 9
     },
     {
         "provider": "AHIP",
-        "no_exams": "4"
+        "no_exams": "4",
+        "index": 10
     },
     {
         "provider": "AHLEI",
-        "no_exams": "1"
+        "no_exams": "1",
+        "index": 11
     },
     {
         "provider": "AICPA",
-        "no_exams": "1"
+        "no_exams": "1",
+        "index": 12
     },
     {
         "provider": "AIWMI",
-        "no_exams": "1"
+        "no_exams": "1",
+        "index": 13
     },
     {
         "provider": "Alcatel-Lucent",
-        "no_exams": "8"
+        "no_exams": "8",
+        "index": 14
     },
     {
         "provider": "Alibaba",
-        "no_exams": "1"
+        "no_exams": "1",
+        "index": 15
     },
     {
         "provider": "Amazon",
-        "no_exams": "25"
+        "no_exams": "25",
+        "index": 16
     },
     {
         "provider": "AndroidATC",
-        "no_exams": "3"
+        "no_exams": "3",
+        "index": 17
     },
     {
         "provider": "API",
-        "no_exams": "2"
+        "no_exams": "2",
+        "index": 18
     },
     {
         "provider": "APICS",
-        "no_exams": "4"
+        "no_exams": "4",
+        "index": 19
     },
     {
         "provider": "Appian",
-        "no_exams": "3"
+        "no_exams": "3",
+        "index": 20
     },
     {
         "provider": "Apple",
-        "no_exams": "5"
+        "no_exams": "5",
+        "index": 21
     },
     {
         "provider": "APSE",
-        "no_exams": "1"
+        "no_exams": "1",
+        "index": 22
     },
     {
         "provider": "Arista",
-        "no_exams": "1"
+        "no_exams": "1",
+        "index": 23
     },
     {
         "provider": "Aruba",
-        "no_exams": "2"
+        "no_exams": "2",
+        "index": 24
     },
     {
         "provider": "ASQ",
-        "no_exams": "7"
+        "no_exams": "7",
+        "index": 25
     },
     {
         "provider": "Atlassian",
-        "no_exams": "2"
+        "no_exams": "2",
+        "index": 26
     },
     {
         "provider": "Autodesk",
-        "no_exams": "1"
+        "no_exams": "1",
+        "index": 27
     },
     {
         "provider": "Avaya",
-        "no_exams": "48"
+        "no_exams": "48",
+        "index": 28
     },
     {
-        "provider": "Axis",
-        "no_exams": "2"
+        "provider": "Axis Communications",
+        "no_exams": "2",
+        "index": 29
     },
     {
         "provider": "BACB",
-        "no_exams": "2"
+        "no_exams": "2",
+        "index": 30
     },
     {
         "provider": "BCS",
-        "no_exams": "6"
+        "no_exams": "6",
+        "index": 31
     },
     {
         "provider": "BICSI",
-        "no_exams": "2"
+        "no_exams": "2",
+        "index": 32
     },
     {
         "provider": "Blockchain",
-        "no_exams": "4"
+        "no_exams": "4",
+        "index": 33
     },
     {
-        "provider": "Blue",
-        "no_exams": "2"
+        "provider": "Blue Coat",
+        "no_exams": "2",
+        "index": 34
     },
     {
-        "provider": "Blue",
-        "no_exams": "6"
+        "provider": "Blue Prism",
+        "no_exams": "6",
+        "index": 35
     },
     {
-        "provider": "CA",
-        "no_exams": "1"
+        "provider": "CA Technologies",
+        "no_exams": "1",
+        "index": 36
     },
     {
         "provider": "CDMP",
-        "no_exams": "1"
+        "no_exams": "1",
+        "index": 37
     },
     {
         "provider": "Certinia",
-        "no_exams": "1"
+        "no_exams": "1",
+        "index": 38
     },
     {
         "provider": "CertNexus",
-        "no_exams": "2"
+        "no_exams": "2",
+        "index": 39
     },
     {
         "provider": "Checkpoint",
-        "no_exams": "17"
+        "no_exams": "17",
+        "index": 40
     },
     {
-        "provider": "C++",
-        "no_exams": "2"
+        "provider": "C++ Institute",
+        "no_exams": "2",
+        "index": 41
     },
     {
         "provider": "Cisco",
-        "no_exams": "194"
+        "no_exams": "194",
+        "index": 42
     },
     {
         "provider": "Citrix",
-        "no_exams": "16"
+        "no_exams": "16",
+        "index": 43
     },
     {
         "provider": "CIW",
-        "no_exams": "6"
+        "no_exams": "6",
+        "index": 44
     },
     {
         "provider": "Cloudera",
-        "no_exams": "1"
+        "no_exams": "1",
+        "index": 45
     },
     {
         "provider": "CNCF",
-        "no_exams": "1"
+        "no_exams": "1",
+        "index": 46
     },
     {
         "provider": "CompTIA",
-        "no_exams": "44"
+        "no_exams": "44",
+        "index": 47
     },
     {
         "provider": "CrowdStrike",
-        "no_exams": "3"
+        "no_exams": "3",
+        "index": 48
     },
     {
         "provider": "CSA",
-        "no_exams": "1"
+        "no_exams": "1",
+        "index": 49
     },
     {
         "provider": "CWNP",
-        "no_exams": "9"
+        "no_exams": "9",
+        "index": 50
     },
     {
         "provider": "CyberArk",
-        "no_exams": "10"
+        "no_exams": "10",
+        "index": 51
     },
     {
         "provider": "Databricks",
-        "no_exams": "7"
+        "no_exams": "7",
+        "index": 52
     },
     {
         "provider": "Dell",
-        "no_exams": "73"
+        "no_exams": "73",
+        "index": 53
     },
     {
         "provider": "DMI",
-        "no_exams": "1"
+        "no_exams": "1",
+        "index": 54
     },
     {
         "provider": "DSCI",
-        "no_exams": "2"
+        "no_exams": "2",
+        "index": 55
     },
     {
         "provider": "ECCouncil",
-        "no_exams": "24"
+        "no_exams": "24",
+        "index": 56
     },
     {
-        "provider": "English",
-        "no_exams": "4"
+        "provider": "English Test Preparation",
+        "no_exams": "4",
+        "index": 57
     },
     {
         "provider": "Exin",
-        "no_exams": "15"
+        "no_exams": "15",
+        "index": 58
     },
     {
         "provider": "F5",
-        "no_exams": "3"
+        "no_exams": "3",
+        "index": 59
     },
     {
         "provider": "FileMaker",
-        "no_exams": "1"
+        "no_exams": "1",
+        "index": 60
     },
     {
         "provider": "FINRA",
-        "no_exams": "3"
+        "no_exams": "3",
+        "index": 61
     },
     {
         "provider": "Fortinet",
-        "no_exams": "62"
+        "no_exams": "62",
+        "index": 62
     },
     {
         "provider": "GAQM",
-        "no_exams": "8"
+        "no_exams": "8",
+        "index": 63
     },
     {
         "provider": "GARP",
-        "no_exams": "1"
+        "no_exams": "1",
+        "index": 64
     },
     {
         "provider": "Genesys",
-        "no_exams": "10"
+        "no_exams": "10",
+        "index": 65
     },
     {
         "provider": "GIAC",
-        "no_exams": "16"
+        "no_exams": "16",
+        "index": 66
     },
     {
         "provider": "GMAC",
-        "no_exams": "1"
+        "no_exams": "1",
+        "index": 67
     },
     {
         "provider": "Google",
-        "no_exams": "23"
+        "no_exams": "23",
+        "index": 68
     },
     {
-        "provider": "Guidance",
-        "no_exams": "2"
+        "provider": "Guidance Software",
+        "no_exams": "2",
+        "index": 69
     },
     {
         "provider": "HAAD",
-        "no_exams": "1"
+        "no_exams": "1",
+        "index": 70
     },
     {
         "provider": "HashiCorp",
-        "no_exams": "2"
+        "no_exams": "2",
+        "index": 71
     },
     {
-        "provider": "HCL",
-        "no_exams": "1"
+        "provider": "HCL Software Academy",
+        "no_exams": "1",
+        "index": 72
     },
     {
         "provider": "Hitachi",
-        "no_exams": "3"
+        "no_exams": "3",
+        "index": 73
     },
     {
         "provider": "HP",
-        "no_exams": "58"
+        "no_exams": "58",
+        "index": 74
     },
     {
         "provider": "HRCI",
-        "no_exams": "3"
+        "no_exams": "3",
+        "index": 75
     },
     {
         "provider": "Huawei",
-        "no_exams": "19"
+        "no_exams": "19",
+        "index": 76
     },
     {
         "provider": "IAAP",
-        "no_exams": "1"
+        "no_exams": "1",
+        "index": 77
     },
     {
         "provider": "IAPP",
-        "no_exams": "6"
+        "no_exams": "6",
+        "index": 78
     },
     {
         "provider": "IBM",
-        "no_exams": "104"
+        "no_exams": "104",
+        "index": 79
     },
     {
         "provider": "IIA",
-        "no_exams": "5"
+        "no_exams": "5",
+        "index": 80
     },
     {
         "provider": "IIBA",
-        "no_exams": "5"
+        "no_exams": "5",
+        "index": 81
     },
     {
         "provider": "Infor",
-        "no_exams": "2"
+        "no_exams": "2",
+        "index": 82
     },
     {
         "provider": "ISA",
-        "no_exams": "1"
+        "no_exams": "1",
+        "index": 83
     },
     {
         "provider": "Isaca",
-        "no_exams": "9"
+        "no_exams": "9",
+        "index": 84
     },
     {
         "provider": "iSAQB",
-        "no_exams": "1"
+        "no_exams": "1",
+        "index": 85
     },
     {
         "provider": "ISC",
-        "no_exams": "8"
+        "no_exams": "8",
+        "index": 86
     },
     {
         "provider": "iSQI",
-        "no_exams": "3"
+        "no_exams": "3",
+        "index": 87
     },
     {
         "provider": "ISTQB",
-        "no_exams": "11"
+        "no_exams": "11",
+        "index": 88
     },
     {
         "provider": "ITIL",
-        "no_exams": "6"
+        "no_exams": "6",
+        "index": 89
     },
     {
         "provider": "Juniper",
-        "no_exams": "55"
+        "no_exams": "55",
+        "index": 90
     },
     {
-        "provider": "Linux",
-        "no_exams": "4"
+        "provider": "Linux Foundation",
+        "no_exams": "4",
+        "index": 91
     },
     {
         "provider": "LPI",
-        "no_exams": "15"
+        "no_exams": "15",
+        "index": 92
     },
     {
         "provider": "Magento",
-        "no_exams": "5"
+        "no_exams": "5",
+        "index": 93
     },
     {
         "provider": "McAfee",
-        "no_exams": "3"
+        "no_exams": "3",
+        "index": 94
     },
     {
         "provider": "Microsoft",
-        "no_exams": "210"
+        "no_exams": "210",
+        "index": 95
     },
     {
         "provider": "Mirantis",
-        "no_exams": "1"
+        "no_exams": "1",
+        "index": 96
     },
     {
         "provider": "Mulesoft",
-        "no_exams": "5"
+        "no_exams": "5",
+        "index": 97
     },
     {
         "provider": "NACVA",
-        "no_exams": "1"
+        "no_exams": "1",
+        "index": 98
     },
     {
         "provider": "NADCA",
-        "no_exams": "1"
+        "no_exams": "1",
+        "index": 99
     },
     {
         "provider": "nCino",
-        "no_exams": "1"
+        "no_exams": "1",
+        "index": 100
     },
     {
         "provider": "NCMA",
-        "no_exams": "1"
+        "no_exams": "1",
+        "index": 101
     },
     {
         "provider": "Netapp",
-        "no_exams": "27"
+        "no_exams": "27",
+        "index": 102
     },
     {
         "provider": "Netskope",
-        "no_exams": "3"
+        "no_exams": "3",
+        "index": 103
     },
     {
         "provider": "NetSuite",
-        "no_exams": "4"
+        "no_exams": "4",
+        "index": 104
     },
     {
         "provider": "NFPA",
-        "no_exams": "1"
+        "no_exams": "1",
+        "index": 105
     },
     {
         "provider": "NI",
-        "no_exams": "1"
+        "no_exams": "1",
+        "index": 106
     },
     {
         "provider": "NMIMS",
-        "no_exams": "1"
+        "no_exams": "1",
+        "index": 107
     },
     {
         "provider": "NMLS",
-        "no_exams": "1"
+        "no_exams": "1",
+        "index": 108
     },
     {
         "provider": "Nokia",
-        "no_exams": "9"
+        "no_exams": "9",
+        "index": 109
     },
     {
         "provider": "Novell",
-        "no_exams": "2"
+        "no_exams": "2",
+        "index": 110
     },
     {
         "provider": "Nutanix",
-        "no_exams": "6"
+        "no_exams": "6",
+        "index": 111
     },
     {
         "provider": "OMSB",
-        "no_exams": "1"
+        "no_exams": "1",
+        "index": 112
     },
     {
         "provider": "Oracle",
-        "no_exams": "163"
+        "no_exams": "163",
+        "index": 113
     },
     {
-        "provider": "Palo",
-        "no_exams": "13"
+        "provider": "Palo Alto Networks",
+        "no_exams": "13",
+        "index": 114
     },
     {
         "provider": "PECB",
-        "no_exams": "3"
+        "no_exams": "3",
+        "index": 115
     },
     {
         "provider": "Pegasystems",
-        "no_exams": "17"
+        "no_exams": "17",
+        "index": 116
     },
     {
         "provider": "PEOPLECERT",
-        "no_exams": "2"
+        "no_exams": "2",
+        "index": 117
     },
     {
         "provider": "PMI",
-        "no_exams": "9"
+        "no_exams": "9",
+        "index": 118
     },
     {
         "provider": "PRINCE2",
-        "no_exams": "6"
+        "no_exams": "6",
+        "index": 119
     },
     {
-        "provider": "Python",
-        "no_exams": "4"
+        "provider": "Python Institute",
+        "no_exams": "4",
+        "index": 120
     },
     {
         "provider": "QlikView",
-        "no_exams": "6"
+        "no_exams": "6",
+        "index": 121
     },
     {
         "provider": "RedHat",
-        "no_exams": "3"
+        "no_exams": "3",
+        "index": 122
     },
     {
         "provider": "Riverbed",
-        "no_exams": "6"
+        "no_exams": "6",
+        "index": 123
     },
     {
-        "provider": "RUCKUS",
-        "no_exams": "1"
+        "provider": "RUCKUS Networks",
+        "no_exams": "1",
+        "index": 124
     },
     {
         "provider": "Salesforce",
-        "no_exams": "44"
+        "no_exams": "44",
+        "index": 125
     },
     {
         "provider": "SANS",
-        "no_exams": "1"
+        "no_exams": "1",
+        "index": 126
     },
     {
         "provider": "SAP",
-        "no_exams": "38"
+        "no_exams": "38",
+        "index": 127
     },
     {
-        "provider": "SAS",
-        "no_exams": "5"
+        "provider": "SAS Institute",
+        "no_exams": "5",
+        "index": 128
     },
     {
-        "provider": "Scaled",
-        "no_exams": "4"
+        "provider": "Scaled Agile",
+        "no_exams": "4",
+        "index": 129
     },
     {
         "provider": "Scrum",
-        "no_exams": "3"
+        "no_exams": "3",
+        "index": 130
     },
     {
-        "provider": "Scrum",
-        "no_exams": "1"
+        "provider": "Scrum Alliance",
+        "no_exams": "1",
+        "index": 131
     },
     {
         "provider": "ServiceNow",
-        "no_exams": "20"
+        "no_exams": "20",
+        "index": 132
     },
     {
         "provider": "SHRM",
-        "no_exams": "1"
+        "no_exams": "1",
+        "index": 133
     },
     {
         "provider": "Sitecore",
-        "no_exams": "1"
+        "no_exams": "1",
+        "index": 134
     },
     {
-        "provider": "Six",
-        "no_exams": "8"
+        "provider": "Six Sigma",
+        "no_exams": "8",
+        "index": 135
     },
     {
         "provider": "SNIA",
-        "no_exams": "2"
+        "no_exams": "2",
+        "index": 136
     },
     {
         "provider": "Snowflake",
-        "no_exams": "4"
+        "no_exams": "4",
+        "index": 137
     },
     {
         "provider": "SOA",
-        "no_exams": "5"
+        "no_exams": "5",
+        "index": 138
     },
     {
         "provider": "SolarWinds",
-        "no_exams": "3"
+        "no_exams": "3",
+        "index": 139
     },
     {
         "provider": "Splunk",
-        "no_exams": "13"
+        "no_exams": "13",
+        "index": 140
     },
     {
         "provider": "Symantec",
-        "no_exams": "6"
+        "no_exams": "6",
+        "index": 141
     },
     {
         "provider": "Tableau",
-        "no_exams": "3"
+        "no_exams": "3",
+        "index": 142
     },
     {
         "provider": "Teradata",
-        "no_exams": "2"
+        "no_exams": "2",
+        "index": 143
     },
     {
-        "provider": "Test",
-        "no_exams": "59"
+        "provider": "Test Prep",
+        "no_exams": "59",
+        "index": 144
     },
     {
-        "provider": "The",
-        "no_exams": "10"
+        "provider": "The Open Group",
+        "no_exams": "10",
+        "index": 145
     },
     {
         "provider": "Tibco",
-        "no_exams": "2"
+        "no_exams": "2",
+        "index": 146
     },
     {
-        "provider": "UiPath\t",
-        "no_exams": "6"
+        "provider": "UiPath",
+        "no_exams": "6",
+        "index": 147
     },
     {
         "provider": "USGBC",
-        "no_exams": "1"
+        "no_exams": "1",
+        "index": 148
     },
     {
         "provider": "Veeam",
-        "no_exams": "4"
+        "no_exams": "4",
+        "index": 149
     },
     {
         "provider": "Veritas",
-        "no_exams": "13"
+        "no_exams": "13",
+        "index": 150
     },
     {
-        "provider": "Versa",
-        "no_exams": "1"
+        "provider": "Versa Networks",
+        "no_exams": "1",
+        "index": 151
     },
     {
         "provider": "Vmedu",
-        "no_exams": "1"
+        "no_exams": "1",
+        "index": 152
     },
     {
         "provider": "VMware",
-        "no_exams": "80"
+        "no_exams": "80",
+        "index": 153
     },
     {
         "provider": "WatchGuard",
-        "no_exams": "1"
+        "no_exams": "1",
+        "index": 154
     },
     {
         "provider": "WorldatWork",
-        "no_exams": "2"
+        "no_exams": "2",
+        "index": 155
     },
     {
         "provider": "Zend",
-        "no_exams": "2"
+        "no_exams": "2",
+        "index": 156
     }
 ]

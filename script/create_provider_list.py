@@ -66,6 +66,7 @@ def ProviderExtract(html):
     provider_link = [div.text.strip() for div in soup.find_all('div', class_='provider-list-link')]
     
     provider_list = []
+    count = 1
     for provider in provider_link: 
         splitted = provider.split(' (')
         
@@ -73,9 +74,11 @@ def ProviderExtract(html):
     
         justNum = splitted[1].replace(' exams)', '')
         res = {
-            "provider": splitted[0],
-            "no_exams": justNum
+            "provider": splitted[0].replace('\t', ''),
+            "no_exams": justNum,
+            "index": count
         }
+        count += 1
         provider_list.append(res)
     
     return provider_list
