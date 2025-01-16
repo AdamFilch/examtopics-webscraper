@@ -66,7 +66,7 @@ def ProviderExtract(html):
     provider_link = [div.text.strip() for div in soup.find_all('div', class_='provider-list-link')]
     
     provider_list = []
-    count = 1
+    count = 0
     for provider in provider_link: 
         splitted = provider.split(' (')
         

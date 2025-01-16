@@ -30,8 +30,8 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 
         <!-- meta tag -->
         <meta charset="utf-8">
-        <title>AWS Free Amazon Certification Exam Questions | ExamTopics</title>
-        <meta name="description" content="Pass any exam offered by Amazon with completely free actual exam questions &amp; answers from ExamTopics. Work smarter not harder.">
+        <title>Zend Certification Info and Free Exams | ExamTopics</title>
+        <meta name="description" content="Pass any exam offered by Zend with completely free actual exam questions &amp; answers from ExamTopics. Work smarter not harder.">
         <!-- responsive tag -->
         <meta http-equiv="x-ua-compatible" content="ie=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -218,7 +218,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 							<div id="info-details" class="widget-text">
 								<i class="glyph-icon flaticon-email"></i>
 								<div class="info-text">
-								<a href="/cdn-cgi/l/email-protection#057160646845607d6468716a756c66762b666a68"><span>Mail Us</span><span class="__cf_email__" data-cfemail="c4b0a1a5a984a1bca5a9b0abb4ada7b7eaa7aba9">[email&#160;protected]</span></a>
+								<a href="/cdn-cgi/l/email-protection#106475717d507568717d647f607973633e737f7d"><span>Mail Us</span><span class="__cf_email__" data-cfemail="cfbbaaaea28faab7aea2bba0bfa6acbce1aca0a2">[email&#160;protected]</span></a>
 								</div>
 							</div>
 						</div>
@@ -394,7 +394,7 @@ width: fit-content
 					<!-- <li><a href="https://courses.examtopics.com/" onClick="return coursesClick();">Training Courses</a><span class="nav__new">NEW</span></li> -->
 					<!-- <li><a href="/news/">News</a></li> -->
 					<!-- <li><a href="/discussions/">Forum</a></li> -->
-					<li><a href="/cdn-cgi/l/email-protection#f581909498b5908d9498819a859c9686db969a98">Contact</a></li>
+					<li><a href="/cdn-cgi/l/email-protection#2e5a4b4f436e4b564f435a415e474d5d004d4143">Contact</a></li>
 					<!-- <li><a href="/#about-us">About</a></li> -->
 
 					
@@ -464,9 +464,9 @@ function coursesClick()
 		<!-- 
 		<div class="row mb-4">
 			<div class="col-12">
-				<a href="/discussions/amazon/" class="btn btn-primary">
+				<a href="/discussions/zend/" class="btn btn-primary">
 					<i class="fa fa-comments mr-2"></i>
-					Amazon Forum Discussions
+					Zend Forum Discussions
 				</a>
 			</div>
 		</div>
@@ -474,11 +474,9 @@ function coursesClick()
 
 		<div class="row">
 			<div class="col-8">
-				<h1>List of all Amazon exams</h1>
+				<h1>List of all Zend exams</h1>
 			</div>
 			<div class="col-4">
-			
-				<img src="/media/amazon.png" alt="Amazon Logo" class="list-provider-logo">
 			
 			</div>
 		</div>
@@ -490,7 +488,7 @@ function coursesClick()
 						
 						
 							<li>
-								<a href="/exams/amazon/ans-c00/" class="popular-exam-link"><span class="popular-exam-code">ANS-C00:</span> AWS Certified Advanced Networking - Specialty</a>
+								<a href="/exams/zend/200-550/" class="popular-exam-link"><span class="popular-exam-code">200-550:</span> 200-550</a>
 								
 							</li>
 						
@@ -500,263 +498,7 @@ function coursesClick()
 						
 						
 							<li>
-								<a href="/exams/amazon/aws-certified-advanced-networking-specialty-ans-c01/" class="popular-exam-link"><span class="popular-exam-code">AWS Certified Advanced Networking - Specialty ANS-C01:</span> AWS Certified Advanced Networking - Specialty ANS-C01</a>
-								
-									<span class="badge badge-primary popular-badge">Popular</span>
-								
-							</li>
-						
-					
-				
-					
-						
-						
-							<li>
-								<a href="/exams/amazon/aws-certified-ai-practitioner-aif-c01/" class="popular-exam-link"><span class="popular-exam-code">AWS Certified AI Practitioner AIF-C01:</span> AWS Certified AI Practitioner AIF-C01</a>
-								
-									<span class="badge badge-primary popular-badge">Popular</span>
-								
-							</li>
-						
-					
-				
-					
-						
-						
-							<li>
-								<a href="/exams/amazon/aws-certified-alexa-skill-builder-specialty/" class="popular-exam-link"><span class="popular-exam-code">AWS Certified Alexa Skill Builder - Specialty:</span> AWS Certified Alexa Skill Builder - Specialty</a>
-								
-							</li>
-						
-					
-				
-					
-						
-						
-							<li>
-								<a href="/exams/amazon/aws-certified-big-data-specialty/" class="popular-exam-link"><span class="popular-exam-code">AWS Certified Big Data - Specialty:</span> AWS Certified Big Data - Specialty (BDS-C00)</a>
-								
-							</li>
-						
-					
-				
-					
-						
-						
-							<li>
-								<a href="/exams/amazon/aws-certified-cloud-practitioner/" class="popular-exam-link"><span class="popular-exam-code">AWS Certified Cloud Practitioner:</span> AWS Certified Cloud Practitioner (CLF-C01)</a>
-								
-							</li>
-						
-					
-				
-					
-						
-						
-							<li>
-								<a href="/exams/amazon/aws-certified-cloud-practitioner-clf-c02/" class="popular-exam-link"><span class="popular-exam-code">AWS Certified Cloud Practitioner CLF-C02:</span> AWS Certified Cloud Practitioner CLF-C02</a>
-								
-									<span class="badge badge-primary popular-badge">Popular</span>
-								
-							</li>
-						
-					
-				
-					
-						
-						
-							<li>
-								<a href="/exams/amazon/aws-certified-data-analytics-specialty/" class="popular-exam-link"><span class="popular-exam-code">AWS Certified Data Analytics - Specialty:</span> AWS Certified Data Analytics - Specialty (DAS-C01)</a>
-								
-							</li>
-						
-					
-				
-					
-						
-						
-							<li>
-								<a href="/exams/amazon/aws-certified-database-specialty/" class="popular-exam-link"><span class="popular-exam-code">AWS Certified Database - Specialty:</span> AWS Certified Database - Specialty</a>
-								
-							</li>
-						
-					
-				
-					
-						
-						
-							<li>
-								<a href="/exams/amazon/aws-certified-data-engineer-associate-dea-c01/" class="popular-exam-link"><span class="popular-exam-code">AWS Certified Data Engineer - Associate DEA-C01:</span> AWS Certified Data Engineer - Associate DEA-C01</a>
-								
-									<span class="badge badge-primary popular-badge">Popular</span>
-								
-							</li>
-						
-					
-				
-					
-						
-						
-							<li>
-								<a href="/exams/amazon/aws-certified-developer-associate/" class="popular-exam-link"><span class="popular-exam-code">AWS Certified Developer Associate:</span> AWS Certified Developer Associate</a>
-								
-							</li>
-						
-					
-				
-					
-						
-						
-							<li>
-								<a href="/exams/amazon/aws-certified-developer-associate-dva-c02/" class="popular-exam-link"><span class="popular-exam-code">AWS Certified Developer - Associate DVA-C02:</span> AWS Certified Developer - Associate DVA-C02</a>
-								
-									<span class="badge badge-primary popular-badge">Popular</span>
-								
-							</li>
-						
-					
-				
-					
-						
-						
-							<li>
-								<a href="/exams/amazon/aws-certified-devops-engineer-professional-dop-c02/" class="popular-exam-link"><span class="popular-exam-code">AWS Certified DevOps Engineer - Professional DOP-C02:</span> AWS Certified DevOps Engineer - Professional DOP-C02</a>
-								
-									<span class="badge badge-primary popular-badge">Popular</span>
-								
-							</li>
-						
-					
-				
-					
-						
-						
-							<li>
-								<a href="/exams/amazon/aws-certified-machine-learning-engineer-associate-mla-c01/" class="popular-exam-link"><span class="popular-exam-code">AWS Certified Machine Learning Engineer - Associate MLA-C01:</span> AWS Certified Machine Learning Engineer - Associate MLA-C01</a>
-								
-									<span class="badge badge-primary popular-badge">Popular</span>
-								
-							</li>
-						
-					
-				
-					
-						
-						
-							<li>
-								<a href="/exams/amazon/aws-certified-machine-learning-specialty/" class="popular-exam-link"><span class="popular-exam-code">AWS Certified Machine Learning - Specialty:</span> AWS Certified Machine Learning - Specialty (MLS-C01)</a>
-								
-									<span class="badge badge-primary popular-badge">Popular</span>
-								
-							</li>
-						
-					
-				
-					
-						
-						
-							<li>
-								<a href="/exams/amazon/aws-certified-sap-on-aws-specialty-pas-c01/" class="popular-exam-link"><span class="popular-exam-code">AWS Certified SAP on AWS - Specialty PAS-C01:</span> AWS Certified SAP on AWS - Specialty PAS-C01</a>
-								
-							</li>
-						
-					
-				
-					
-						
-						
-							<li>
-								<a href="/exams/amazon/aws-certified-security-specialty/" class="popular-exam-link"><span class="popular-exam-code">AWS Certified Security - Specialty:</span> AWS Certified Security - Specialty</a>
-								
-							</li>
-						
-					
-				
-					
-						
-						
-							<li>
-								<a href="/exams/amazon/aws-certified-security-specialty-scs-c02/" class="popular-exam-link"><span class="popular-exam-code">AWS Certified Security - Specialty SCS-C02:</span> AWS Certified Security - Specialty SCS-C02</a>
-								
-									<span class="badge badge-primary popular-badge">Popular</span>
-								
-							</li>
-						
-					
-				
-					
-				
-					
-						
-						
-							<li>
-								<a href="/exams/amazon/aws-certified-solutions-architect-associate-saa-c02/" class="popular-exam-link"><span class="popular-exam-code">AWS Certified Solutions Architect - Associate SAA-C02:</span> AWS Certified Solutions Architect - Associate SAA-C02</a>
-								
-							</li>
-						
-					
-				
-					
-						
-						
-							<li>
-								<a href="/exams/amazon/aws-certified-solutions-architect-associate-saa-c03/" class="popular-exam-link"><span class="popular-exam-code">AWS Certified Solutions Architect - Associate SAA-C03:</span> AWS Certified Solutions Architect - Associate SAA-C03</a>
-								
-									<span class="badge badge-primary popular-badge">Popular</span>
-								
-							</li>
-						
-					
-				
-					
-						
-						
-							<li>
-								<a href="/exams/amazon/aws-certified-solutions-architect-professional/" class="popular-exam-link"><span class="popular-exam-code">AWS Certified Solutions Architect - Professional:</span> AWS Certified Solutions Architect - Professional</a>
-								
-							</li>
-						
-					
-				
-					
-						
-						
-							<li>
-								<a href="/exams/amazon/aws-certified-solutions-architect-professional-sap-c02/" class="popular-exam-link"><span class="popular-exam-code">AWS Certified Solutions Architect - Professional SAP-C02:</span> AWS Certified Solutions Architect - Professional SAP-C02</a>
-								
-									<span class="badge badge-primary popular-badge">Popular</span>
-								
-							</li>
-						
-					
-				
-					
-						
-						
-							<li>
-								<a href="/exams/amazon/aws-certified-sysops-administrator-associate/" class="popular-exam-link"><span class="popular-exam-code">AWS Certified SysOps Administrator - Associate:</span> AWS Certified SysOps Administrator - Associate (SOA-C02)</a>
-								
-									<span class="badge badge-primary popular-badge">Popular</span>
-								
-							</li>
-						
-					
-				
-					
-						
-						
-							<li>
-								<a href="/exams/amazon/aws-devops-engineer-professional/" class="popular-exam-link"><span class="popular-exam-code">AWS DevOps Engineer Professional:</span> AWS DevOps Engineer -  Professional (DOP-C01)</a>
-								
-							</li>
-						
-					
-				
-					
-						
-						
-							<li>
-								<a href="/exams/amazon/aws-sysops/" class="popular-exam-link"><span class="popular-exam-code">AWS-SysOps:</span> AWS Certified SysOps Administrator</a>
+								<a href="/exams/zend/200-710/" class="popular-exam-link"><span class="popular-exam-code">200-710:</span> Zend Certified Engineer</a>
 								
 							</li>
 						
@@ -807,22 +549,22 @@ document.addEventListener("DOMContentLoaded",function(){let e=document.querySele
 	"I'm good with computers."
 </p>
 <p>
-	Without an industry approved certification from a vendor such as Amazon,
+	Without an industry approved certification from a vendor such as Zend,
 	employers can't trust that you know what you know. Better yet, these certifications aren't just
 	a piece of paper. Becoming A+ certified is hard-work but it automatically tells employers that
 	you have a real world skillset, forged and tested. They teach amazing skills that will make your
 	job easier and more rewarding. Whether it's a Cyber Security certification like Security+ or an
 	MCSD certification, these complex certs take time, effort, and offer immense reward!
 </p>
-<h2>Why Amazon?</h2>
+<h2>Why Zend?</h2>
 <p>
 	Certification takes time and money, so you want to pick a certificate awarding institution that
-	has real world value. Amazon is known for offering quality exams that give a
+	has real world value. Zend is known for offering quality exams that give a
 	variety of amazing certifications. You'll get world class work by taking any certification path
 	they offer and hopefully learn some new incredible skills along the way! After all,
-	Amazon is industry renowned and produces employees that work all across the
+	Zend is industry renowned and produces employees that work all across the
 	world in different tech niches. Whether it's one exam or many, you'll find everything
-	Amazon offers on ExamTopics so you can begin your journey to a rewarding
+	Zend offers on ExamTopics so you can begin your journey to a rewarding
 	career.
 </p>
 
@@ -1027,7 +769,7 @@ flex-direction: column;
 			<div class="col-lg-3 col-md-12">
 				<h5 class="footer-title">Company</h5>
 				<ul class="sitemap-widget">
-				<li><a href="/cdn-cgi/l/email-protection#2c58494d416c49544d4158435c454f5f024f4341"><i class="fa fa-angle-right" aria-hidden="true"></i>Contact Us</a>
+				<li><a href="/cdn-cgi/l/email-protection#057160646845607d6468716a756c66762b666a68"><i class="fa fa-angle-right" aria-hidden="true"></i>Contact Us</a>
 				<li><a href="/#about-us"><i class="fa fa-angle-right" aria-hidden="true"></i>About Us</a></li>
 				<li><a href="/terms/"><i class="fa fa-angle-right" aria-hidden="true"></i>Terms</a></li>
 				<li><a href="/terms/"><i class="fa fa-angle-right" aria-hidden="true"></i>Privacy Policy</a></li>
@@ -1138,7 +880,7 @@ flex-direction: column;
     </div>
 
     <button class="btn btn-primary btn-lg login-button" type="submit" onclick="validateUserPass(event);">Log in</button>
-    <input type="hidden" name="csrfmiddlewaretoken" value="glr54kGbWZ6esxq5pr7R3uzO6UhiFPDXTsPBG1f1HN9C9ggew9Tta7a7heWcEVNC">
+    <input type="hidden" name="csrfmiddlewaretoken" value="aUyvUHf1eeMJUY0TpdVnaCarwAl1Dt2DBlbS9sWPbjs20bcdlBhG1v4p2Vlc8O3g">
     </form>
     <div class="login-footer mt-30">
         <span>Don't have an account yet? just <a href="/signup/">sign-up</a>.</span>
@@ -1255,7 +997,7 @@ function examtopicsLogin(id,name,sess)
             $(document).ready(function () {
                 // Login modal refer set:
                 var login_modal_form = $('.modal .login-wrapper form');
-                login_modal_form.attr('action', login_modal_form.attr('action')+'?next=/exams/amazon/')
+                login_modal_form.attr('action', login_modal_form.attr('action')+'?next=/exams/zend/')
 
                 // Load stylesheets in a deferred way:
                 $('link[defhref]').each(function() {
