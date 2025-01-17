@@ -4,7 +4,10 @@ import React from "react";
 
 export default function LandingPage() {
     return (
-        <Container>
+
+        <Container sx={{
+            display: 'grid'
+        }}>
             <Box>
                 <Typography>Examtopics</Typography>
                 <Typography>Webscraper</Typography>
@@ -84,5 +87,6 @@ export default function LandingPage() {
                 </Card>
             </Box>
         </Container>
+
     )
 }
