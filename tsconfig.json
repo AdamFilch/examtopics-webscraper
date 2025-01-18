@@ -21,7 +21,15 @@
       {
         "name": "next"
       }
-    ]
+    ],
+    "paths": {
+      "dumps/*": [
+        "./dumps/*"
+      ],
+      "public/*": [
+        "./public/*"
+      ]
+    }
   },
   "include": [
     "**/*.ts",
@@ -29,6 +37,7 @@
     "next-env.d.ts",
     ".next/types/**/*.ts"
   ],
+
   "exclude": [
     "node_modules"
   ]

@@ -31,7 +31,7 @@ def Main():
                 
         except Exception as e:
             print(f"Error processing provider {provider}: {e}")
-            provider['exams'] = None  # Mark as failed
+            provider['exams'] = []  # Mark as failed
             with open("dumps/PROVIDER_LIST.json", 'w', encoding='utf-8') as f:
                 json.dump(provider_list, f, ensure_ascii=False, indent=4)
             continue

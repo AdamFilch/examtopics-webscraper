@@ -924,7 +924,7 @@
                 "popular": false
             },
             {
-                "exam_name": "Avaya Aura├ö├Â┬úÔö£├é├ö├Â┬úÔö£├®├ö├Â┬╝Ôö£ÔòæÔö£├ÂÔö£├éÔö¼├║├ö├Â┬úÔö£┬«├ö├Â┬úÔö£├é├ö├Â┬úÔö£├®├ö├Â┬╝Ôö£ÔòæÔö£├ÂÔö£├éÔö¼├║├ö├Â┬úÔö¼┬½├ö├Â┬úÔö£├é├ö├Â┬úÔö£├®├ö├Â┬╝├ö├▓├ÿ├ö├Â┬úÔö£├é├ö├Â┬ú├ö├╗├┤├ö├Â┬úÔö£ÔöÉÔö£├ÂÔö£├éÔö¼├║├ö├Â┬úÔö£├®Ôö£├ÂÔö£├éÔö¼├║├ö├Â┬úÔö£┬«Ôö£├ÂÔö£├éÔö¼ÔòØÔö£├ÂÔö£ÔûôÔö£├┐├ö├Â┬úÔö£├é├ö├Â┬úÔö£├®├ö├Â┬╝├ö├▓├ÿÔö£├ÂÔö£├éÔö¼ÔòØ├ö├Â┬ú├ö├Â├® Call Center Elite Implementation Exam",
+                "exam_name": "Avaya Aura@ Call Center Elite Implementation Exam",
                 "exam_code": "7392X",
                 "popular": false
             },
@@ -1318,7 +1318,7 @@
         "provider": "C PLUS PLUS Insitute",
         "no_exams": "2",
         "index": 41,
-        "exams": null
+        "exams": []
     },
     {
         "provider": "Cisco",
