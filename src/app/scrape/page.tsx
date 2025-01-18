@@ -81,24 +81,28 @@ export default function ScrapePage() {
 
 
                 <Box display={'grid'} gridTemplateColumns={'1.2fr 2fr'} gap={3}>
-                    <Paper>
-                        <Box display={'flex'} flexWrap={"wrap"} gap={1} justifyContent={'space-around'} margin={2}>
-                            {PROVIDER_LIST.map((pro, i) => (
-                                <Chip key={i} label={pro.provider} color={selectedExam.provider == pro.provider ? 'primary' : 'default'} onClick={() => {
-                                    if (selectedExam.provider != pro.provider) {
-                                        setSelectedExam({ exam: '', provider: pro.provider, index: pro.index })
-                                    } else {
-                                        setSelectedExam({ exam: '', provider: '', index: null })
-                                    }
-                                }}
+                    <Box>
+                        <Paper sx={{
+                            padding: 2
+                        }}>
+                            <Box display={'flex'} flexWrap={"wrap"} gap={1} justifyContent={'space-around'}>
+                                {PROVIDER_LIST.map((pro, i) => (
+                                    <Chip key={i} label={pro.provider} color={selectedExam.provider == pro.provider ? 'primary' : 'default'} onClick={() => {
+                                        if (selectedExam.provider != pro.provider) {
+                                            setSelectedExam({ exam: '', provider: pro.provider, index: pro.index })
+                                        } else {
+                                            setSelectedExam({ exam: '', provider: '', index: null })
+                                        }
+                                    }}
 
-                                />
-                            ))}
+                                    />
+                                ))}
 
-                        </Box>
+                            </Box>
 
 
-                    </Paper>
+                        </Paper>
+                    </Box>
                     <Paper>
                         {selectedExam.index && (
                             <Box>
