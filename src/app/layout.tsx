@@ -7,15 +7,15 @@ import Footer from "../components/layout/footer";
 export default function MainLayout({
     children,
 }: {
-    children: ReactNode
+    children: any
 }) {
+
 
     return (
         <html>
             <body>
                 <Header />
                 <main>
-
                     {children}
                 </main>
                 <Footer />
