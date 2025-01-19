@@ -24,7 +24,6 @@ export default function ScrapePage() {
         const providers_fuzzy = fuzzysort.go(input, providers, { threshold: 0.5, limit: 15 }).map((fuzz) => fuzz.target)
 
         return [...providers_fuzzy, ...exam_fuzzy].sort()
-
     }
 
     return (

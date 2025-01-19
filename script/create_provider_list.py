@@ -37,10 +37,6 @@ def ExamPageScrape():
         res = urllib.request.urlopen(req).read()
         html_content = res.decode('utf-8')  # Decode the content to make it human-readable
         
-        # Save the HTML content to a text file
-        with open('EXAMTOPICS_EXAMS.txt', 'w', encoding='utf-8') as f:  # Use 'w' to overwrite the file, and specify encoding
-            f.write(html_content)
-        
         # return html_content
         return html_content
     except urllib.error.HTTPError as e:

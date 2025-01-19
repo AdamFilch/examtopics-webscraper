@@ -1,0 +1,4256 @@
+<!DOCTYPE html>
+<html lang="en">
+    <!-- RubyOnRails - formstatic / kaminari -->
+    <head>
+        
+        <meta content="authenticity_token" name="csrf-param" />
+        <meta content="4sWPhTlJAds1IcfNq1FCybbssAVhHqjiDCKRXOgOQock=" name="csrf-token" />
+        <!-- Global site tag (gtag.js) - Google Analytics -->
+        <script async src="https://www.googletagmanager.com/gtag/js?id=UA-119892649-1"></script>
+        <script>
+            window.dataLayer = window.dataLayer || [];
+            function gtag() {
+                dataLayer.push(arguments);
+            }
+            gtag('js', new Date());
+
+            gtag('config', 'UA-119892649-1');
+			gtag('config', 'AW-634926850');
+			gtag('config', 'G-2Y1TJKMJTN');
+        </script>
+<!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-NPZ5XJCD');</script>
+<!-- End Google Tag Manager -->
+        <meta name="google-site-verification" content="F930_I7rZrRYlNHqblq5P9QvwAEKasart2HpzlnYsSQ" />
+		<meta name="facebook-domain-verification" content="h1xurj1a9tb4tm6plgrg4it4yrlpr6" />
+
+        <!-- meta tag -->
+        <meta charset="utf-8">
+        <title>Amazon discussions - ExamTopics Forum</title>
+        <meta name="description" content="Read all Amazon certification related discussions, anything from general information to actual exam questions.">
+        <!-- responsive tag -->
+        <meta http-equiv="x-ua-compatible" content="ie=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <!-- favicon -->
+        <link rel="apple-touch-icon" sizes="57x57" href="/assets/images/et/favicon/apple-icon-57x57.png">
+        <link rel="apple-touch-icon" sizes="60x60" href="/assets/images/et/favicon/apple-icon-60x60.png">
+        <link rel="apple-touch-icon" sizes="72x72" href="/assets/images/et/favicon/apple-icon-72x72.png">
+        <link rel="apple-touch-icon" sizes="76x76" href="/assets/images/et/favicon/apple-icon-76x76.png">
+        <link rel="apple-touch-icon" sizes="114x114" href="/assets/images/et/favicon/apple-icon-114x114.png">
+        <link rel="apple-touch-icon" sizes="120x120" href="/assets/images/et/favicon/apple-icon-120x120.png">
+        <link rel="apple-touch-icon" sizes="144x144" href="/assets/images/et/favicon/apple-icon-144x144.png">
+        <link rel="apple-touch-icon" sizes="152x152" href="/assets/images/et/favicon/apple-icon-152x152.png">
+        <link rel="apple-touch-icon" sizes="180x180" href="/assets/images/et/favicon/apple-icon-180x180.png">
+        <link rel="icon" type="image/png" sizes="192x192"  href="/assets/images/et/favicon/android-icon-192x192.png">
+        <link rel="icon" type="image/png" sizes="32x32" href="/assets/images/et/favicon/favicon-32x32.png">
+        <link rel="icon" type="image/png" sizes="96x96" href="/assets/images/et/favicon/favicon-96x96.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="/assets/images/et/favicon/favicon-16x16.png">
+        <link rel="manifest" href="/assets/images/et/favicon/manifest.json">
+        <meta name="msapplication-TileColor" content="#007bff">
+        <meta name="msapplication-TileImage" content="/assets/images/et/favicon/ms-icon-144x144.png">
+        <meta name="theme-color" content="#ffffff">
+
+            <!-- deflink == defered link (loaded later by jquery) -->
+            <!-- bootstrap v4 css -->
+            <link rel="stylesheet" type="text/css" href="/assets/css/bootstrap.min.css" />
+            <!-- font-awesome css -->
+            <link rel="stylesheet" type="text/css" defhref="/assets/css/font-awesome.min.css" />
+            <!-- animate css -->
+            <link rel="stylesheet" type="text/css" defhref="/assets/css/animate.css" />
+            <!-- owl.carousel css -->
+            <link rel="stylesheet" type="text/css" defhref="/assets/css/owl.carousel.css" />
+            <!-- slick css -->
+            <link rel="stylesheet" type="text/css" defhref="/assets/css/slick.css" />
+            <!-- rsmenu CSS -->
+            <link rel="stylesheet" type="text/css" href="/assets/css/rsmenu-main.css" />
+            <!-- rsmenu transitions CSS -->
+            <link rel="stylesheet" type="text/css" defhref="/assets/css/rsmenu-transitions.css" />
+            <!-- magnific popup css -->
+            <link rel="stylesheet" type="text/css" defhref="/assets/css/magnific-popup.css" />
+
+            <!-- flaticon css  -->
+            <link rel="stylesheet" type="text/css" defhref="/assets/fonts/flaticon.css" />
+            <!-- flaticon2 css  -->
+            <link rel="stylesheet" type="text/css" defhref="/assets/fonts/fonts2/flaticon.css" />
+
+            <link rel="stylesheet" type="text/css" href="/assets/css/style.css?ver=1" />
+            <!-- Switch style CSS
+            <link rel="stylesheet" href="/assets/css/color-style.css">-->
+            <link rel="stylesheet" type="text/css" href="/assets/css/color/default.css" />
+            <!-- style css -->
+            <!-- switch color presets css
+            <link id="switch_style" href="#" rel="stylesheet" type="text/css"> -->
+            <!-- responsive css -->
+            <link rel="stylesheet" type="text/css" href="/assets/css/responsive.css" />
+
+        <!--[if lt IE 9]>
+            <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+            <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+        <![endif]-->
+        
+    <link rel="stylesheet" type="text/css" href="/assets/css/forum.css">
+
+<!-- Meta Pixel Code -->
+<script>
+!function(f,b,e,v,n,t,s)
+{if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+n.queue=[];t=b.createElement(e);t.async=!0;
+t.src=v;s=b.getElementsByTagName(e)[0];
+s.parentNode.insertBefore(t,s)}(window, document,'script',
+'https://connect.facebook.net/en_US/fbevents.js');
+fbq('init', '1915380481930084');
+fbq('track', 'PageView');
+</script>
+<noscript><img height="1" width="1" style="display:none"
+src="https://www.facebook.com/tr?id=1915380481930084&ev=PageView&noscript=1"
+/></noscript>
+<!-- End Meta Pixel Code -->
+
+<script type="text/javascript">
+    (function(c,l,a,r,i,t,y){
+        c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};
+        t=l.createElement(r);t.async=1;t.src="https://www.clarity.ms/tag/"+i;
+        y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);
+    })(window, document, "clarity", "script", "j5qqkpglmm");
+</script>
+
+<!-- Start VWO Async SmartCode -->
+<link rel="preconnect" href="https://dev.visualwebsiteoptimizer.com" />
+<script type='text/javascript' id='vwoCode'>
+window._vwo_code=window._vwo_code || (function() {
+var account_id=782917,
+version = 1.5,
+settings_tolerance=2000,
+library_tolerance=2500,
+use_existing_jquery=false,
+is_spa=1,
+hide_element='body',
+hide_element_style = 'opacity:0 !important;filter:alpha(opacity=0) !important;background:none !important',
+/* DO NOT EDIT BELOW THIS LINE */
+f=false,w=window,d=document,vwoCodeEl=d.querySelector('#vwoCode'),code={use_existing_jquery:function(){return use_existing_jquery},library_tolerance:function(){return library_tolerance},hide_element_style:function(){return'{'+hide_element_style+'}'},finish:function(){if(!f){f=true;var e=d.getElementById('_vis_opt_path_hides');if(e)e.parentNode.removeChild(e)}},finished:function(){return f},load:function(e){var t=d.createElement('script');t.fetchPriority='high';t.src=e;t.type='text/javascript';t.onerror=function(){_vwo_code.finish()};d.getElementsByTagName('head')[0].appendChild(t)},getVersion:function(){return version},getMatchedCookies:function(e){var t=[];if(document.cookie){t=document.cookie.match(e)||[]}return t},getCombinationCookie:function(){var e=code.getMatchedCookies(/(?:^|;)\s?(_vis_opt_exp_\d+_combi=[^;$]*)/gi);e=e.map(function(e){try{var t=decodeURIComponent(e);if(!/_vis_opt_exp_\d+_combi=(?:\d+,?)+\s*$/.test(t)){return''}return t}catch(e){return''}});var i=[];e.forEach(function(e){var t=e.match(/([\d,]+)/g);t&&i.push(t.join('-'))});return i.join('|')},init:function(){if(d.URL.indexOf('__vwo_disable__')>-1)return;w.settings_timer=setTimeout(function(){_vwo_code.finish()},settings_tolerance);var e=d.currentScript,t=d.createElement('style'),i=e&&!e.async?hide_element?hide_element+'{'+hide_element_style+'}':'':code.lA=1,n=d.getElementsByTagName('head')[0];t.setAttribute('id','_vis_opt_path_hides');vwoCodeEl&&t.setAttribute('nonce',vwoCodeEl.nonce);t.setAttribute('type','text/css');if(t.styleSheet)t.styleSheet.cssText=i;else t.appendChild(d.createTextNode(i));n.appendChild(t);var o=this.getCombinationCookie();this.load('https://dev.visualwebsiteoptimizer.com/j.php?a='+account_id+'&u='+encodeURIComponent(d.URL)+'&f='+ +is_spa+'&vn='+version+(o?'&c='+o:''));return settings_timer}};w._vwo_settings_timer = code.init();return code;}());
+</script>
+<!-- End VWO Async SmartCode -->
+
+
+    </head>
+    <body class="home2">
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-NPZ5XJCD"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
+        
+<!--Full width header Start-->
+<div class="full-width-header">
+<!-- Toolbar Start -->
+<div class="rs-toolbar">
+	<div class="container">
+		<div class="row d-print-none">
+			<div class="col-md-6">
+				<!-- <div class="rs-toolbar-left">
+					<div class="welcome-message">
+					<i class="fa fa-bank"></i><span>Welcome to ExamTopics</span>
+					</div>
+				</div> -->
+			</div>
+			<div class="col-md-6">
+				<div class="rs-toolbar-right">
+					<div class="account-menu">
+					<ul>
+						
+							<li><a href="/login/" data-toggle="modal"
+								   data-target="#login-modal" class="mr-2">Login</a> |</li>
+							<li><a href="/signup/">Sign up</a></li>
+						
+						<li class="spacer"></li>
+					</ul>
+					</div>
+					<!-- <div class="toolbar-share-icon">
+					<ul>
+					
+						<li><a href="https://www.facebook.com/ExamTopicsOnline/"><i class="fa fa-facebook"></i></a></li>
+					
+						<li><a href="https://twitter.com/TopicsExam"><i class="fa fa-twitter"></i></a></li>
+					
+						<li><a href="https://www.youtube.com/channel/UC4CThW97vf8rHFYcvK2disg"><i class="fa fa-youtube"></i></a></li>
+					
+						<li><a href="https://www.reddit.com/r/ExamTopics/"><i class="fa fa-reddit"></i></a></li>
+					
+						<li><a href="https://www.pinterest.com/examtopics/"><i class="fa fa-pinterest"></i></a></li>
+					
+					</ul>
+					</div> -->
+					<!--<a href="#" class="apply-btn">Apply Now</a>-->
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+<!-- Toolbar End -->
+
+<!--Header Start-->
+<header id="rs-header" class="rs-header">
+<!-- Header Top Start -->
+<div class="rs-header-top">
+	<div class="container">
+		<div class="row">
+			<div class="col-lg-5 col-md-12 rs-vertical-middle">
+				<div class="logo-area">
+					<img src="/assets/images/et/ExamTopics-Logo-Smaller.png" alt="ExamTopics Logo">
+					<br class="hidden-desktop"/>
+					<!-- <span class="moto hypen-separator hidden-mobile">-</span> -->
+					<!-- <span class="moto">Expert Verified, Online, <strong>Free</strong>.</span> -->
+				</div>
+			</div>
+			<div class="col-lg-7 col-md-12 d-print-none">
+				<div class="row">
+					<div class="col-sm-4">
+						<!-- Placeholder -->
+					</div>
+					<div class="col-sm-4">
+						<div class="header-contact">
+							<div id="info-details" class="widget-text">
+								<i class="glyph-icon flaticon-email"></i>
+								<div class="info-text">
+								<a href="/cdn-cgi/l/email-protection#6d19080c002d08150c0019021d040e1e430e0200"><span>Mail Us</span><span class="__cf_email__" data-cfemail="067263676b46637e676b7269766f65752865696b">[email&#160;protected]</span></a>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="col-sm-4">
+						<div class="header-contact">
+							<div id="address-details" class="widget-text">
+
+
+
+
+
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+<!-- Header Top End -->
+
+	<!-- Menu Start -->
+	<div class="menu-area menu-sticky d-print-none">
+		<div class="container">
+			<div class="main-menu">
+				<div class="row">
+					<div class="col-sm-12">
+						<!-- <div id="logo-sticky" class="text-center">
+							<a href="index.html"><img src="/assets/images/logo.png" alt="logo"></a>
+						</div> -->
+						<a class="rs-menu-toggle"><i class="fa fa-bars"></i>Menu</a>
+						<nav class="rs-menu rs-menu-close">
+							<ul class="nav-menu">
+								<!-- Home -->
+								<li class="current-menu-item current_page_item"><a href="/" class="home">Home</a></li>
+								<!-- End Home -->
+								<!-- <li><a href="https://unlimited.examtopics.com/">EXAMTOPICS PRO</a></li> -->
+								<!-- Drop Down Pages Start -->
+								<li class="rs-mega-menu mega-rs"><a href="#">Popular Exams</a>
+									<ul class="mega-menu">
+										<li class="mega-menu-container">
+											<div class="mega-menu-innner">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="single-magemenu">
+	<ul class="sub-menu">
+	
+		
+		<li><a href="/exams/amazon/">Amazon</a></li>
+	
+		
+		<li><a href="/exams/comptia/">CompTIA</a></li>
+	
+		
+		<li><a href="/exams/salesforce/">Salesforce</a></li>
+	
+		
+		<li><a href="/exams/fortinet/">Fortinet</a></li>
+	
+		
+		<li><a href="/exams/juniper/">Juniper</a></li>
+	
+	</ul>
+</div>
+
+
+
+<div class="single-magemenu">
+	<ul class="sub-menu">
+	
+		
+		<li><a href="/exams/cisco/">Cisco</a></li>
+	
+		
+		<li><a href="/exams/isaca/">Isaca</a></li>
+	
+		
+		<li><a href="/exams/vmware/">VMware</a></li>
+	
+		
+		<li><a href="/exams/isc/">ISC</a></li>
+	
+		
+		<li><a href="/exams/servicenow/">ServiceNow</a></li>
+	
+	</ul>
+</div>
+
+
+
+<div class="single-magemenu">
+	<ul class="sub-menu">
+	
+		
+		<li><a href="/exams/microsoft/">Microsoft</a></li>
+	
+		
+		<li><a href="/exams/google/">Google</a></li>
+	
+		
+		<li><a href="/exams/eccouncil/">ECCouncil</a></li>
+	
+		
+		<li><a href="/exams/oracle/">Oracle</a></li>
+	
+		
+		<li><a href="/exams/palo-alto-networks/">Palo Alto Networks</a></li>
+	
+	</ul>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+											</div>
+										</li>
+									</ul>
+								</li>
+								<!--Drop Down Pages End -->
+<style>
+.nav__new {
+  font-size: 14px;
+  line-height: 18px;
+  background: #0095eb;
+  border-radius: 4px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 50px;
+  height: 25px;
+  color: #fff;
+  position: absolute;
+  top: 0;
+  right: 50%;
+  cursor: default;
+  pointer-events: none;
+  transform: translate(10%, -50%);
+}
+@media(max-width: 992px){
+.rs-menu li{
+width: fit-content
+}
+}
+</style>
+					<li><a href="/exams/">View All Exams</a></li>
+					<!-- <li><a href="https://courses.examtopics.com/" onClick="return coursesClick();">Training Courses</a><span class="nav__new">NEW</span></li> -->
+					<!-- <li><a href="/news/">News</a></li> -->
+					<!-- <li><a href="/discussions/">Forum</a></li> -->
+					<li><a href="/cdn-cgi/l/email-protection#3e4a5b5f537e5b465f534a514e575d4d105d5153">Contact</a></li>
+					<!-- <li><a href="/#about-us">About</a></li> -->
+
+					
+						<li class="d-md-none"><a href="/login/" data-toggle="modal" data-target="#login-modal">Login</a></li>
+						<li class="d-md-none"><a href="/signup/">Sign up</a></li>
+					
+					</ul>
+					</nav>
+					<a class="hidden-xs rs-search" data-target=".search-modal" data-toggle="modal" href="#"><i class="fa fa-search"></i></a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- Menu End -->
+</header>
+<script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script type="text/javascript">
+function coursesClick()
+{
+	dataLayer.push({ ecommerce: null });  // Clear the previous ecommerce object.
+	dataLayer.push({
+	  event: "nav_click_courses"
+	});
+	return true;
+}
+</script>
+<!--Header End-->
+
+</div>
+<!--Full width header End-->
+
+
+
+
+
+
+
+<!-- notlogged -->
+	
+<!-- endof notlogged -->
+
+    
+<!-- discussion-list.html -->
+
+<!-- rrr [/discussions/amazon/1/] -->
+
+<div class="sec-spacer" style="padding-top:50px;">
+<div class="container">
+<!-- 
+	<div class="row">
+		<div class="col-12">
+			<div class="discussion-list-header" style="background-color:#fda00a;">
+				<h1 class="text-white">Unlimited Access</h1>
+			</div>
+		</div>
+	</div>
+	<div class="row" id="unlimNo">
+		<div class="col-12">
+			<div class="p-3 border" style="border-color: #fda00a!important;">
+Get Unlimited Contributor Access to the all ExamTopics Exams!<br>
+Take advantage of PDF Files for 1000+ Exams along with community discussions and pass IT Certification Exams Easily.
+<div style="float:right;"><a href="https://unlimited.examtopics.com/" target="_blank" class="btn btn-info mb-3" style="background-color:#fda00a;border-color:#fda00a!important;">Get Unlimited Access</a></div>
+			</div>
+		</div>
+	</div>
+ -->
+	<div class="action-row-container mb-4">
+		<div class="action-row clearfix d-flex">
+			<a href="/discussions/" class="all-discussions-button d-none d-md-inline-block mr-4">
+				<i class="fa fm fa-arrow-circle-left mr-2"></i>All Categories
+			</a>
+			<a href="#" class="new-discussion-button"><i class="fa fm fa-edit mr-2"></i>New Discussion</a>
+
+			<span class="pagination-container ml-auto">
+				<span class="discussion-list-page-indicator">
+					<span class="mr-4 d-none d-md-inline-block">
+						10947 Discussions
+					</span>
+					Page <strong>1</strong>
+					of <strong>548</strong>
+				</span>
+
+				
+					<span class="pagination-nav ml-4">
+					
+
+						<select class="discussion-list-page-select form-control form-control-sm">
+						
+							<option value="1"
+									selected>1</option>
+						
+							<option value="2">2</option>
+						
+							<option value="3">3</option>
+						
+							<option value="4">4</option>
+						
+							<option value="5">5</option>
+						
+							<option value="6">6</option>
+						
+							<option value="7">7</option>
+						
+							<option value="8">8</option>
+						
+							<option value="9">9</option>
+						
+							<option value="10">10</option>
+						
+							<option value="11">11</option>
+						
+							<option value="12">12</option>
+						
+							<option value="13">13</option>
+						
+							<option value="14">14</option>
+						
+							<option value="15">15</option>
+						
+							<option value="16">16</option>
+						
+							<option value="17">17</option>
+						
+							<option value="18">18</option>
+						
+							<option value="19">19</option>
+						
+							<option value="20">20</option>
+						
+							<option value="21">21</option>
+						
+							<option value="22">22</option>
+						
+							<option value="23">23</option>
+						
+							<option value="24">24</option>
+						
+							<option value="25">25</option>
+						
+							<option value="26">26</option>
+						
+							<option value="27">27</option>
+						
+							<option value="28">28</option>
+						
+							<option value="29">29</option>
+						
+							<option value="30">30</option>
+						
+							<option value="31">31</option>
+						
+							<option value="32">32</option>
+						
+							<option value="33">33</option>
+						
+							<option value="34">34</option>
+						
+							<option value="35">35</option>
+						
+							<option value="36">36</option>
+						
+							<option value="37">37</option>
+						
+							<option value="38">38</option>
+						
+							<option value="39">39</option>
+						
+							<option value="40">40</option>
+						
+							<option value="41">41</option>
+						
+							<option value="42">42</option>
+						
+							<option value="43">43</option>
+						
+							<option value="44">44</option>
+						
+							<option value="45">45</option>
+						
+							<option value="46">46</option>
+						
+							<option value="47">47</option>
+						
+							<option value="48">48</option>
+						
+							<option value="49">49</option>
+						
+							<option value="50">50</option>
+						
+							<option value="51">51</option>
+						
+							<option value="52">52</option>
+						
+							<option value="53">53</option>
+						
+							<option value="54">54</option>
+						
+							<option value="55">55</option>
+						
+							<option value="56">56</option>
+						
+							<option value="57">57</option>
+						
+							<option value="58">58</option>
+						
+							<option value="59">59</option>
+						
+							<option value="60">60</option>
+						
+							<option value="61">61</option>
+						
+							<option value="62">62</option>
+						
+							<option value="63">63</option>
+						
+							<option value="64">64</option>
+						
+							<option value="65">65</option>
+						
+							<option value="66">66</option>
+						
+							<option value="67">67</option>
+						
+							<option value="68">68</option>
+						
+							<option value="69">69</option>
+						
+							<option value="70">70</option>
+						
+							<option value="71">71</option>
+						
+							<option value="72">72</option>
+						
+							<option value="73">73</option>
+						
+							<option value="74">74</option>
+						
+							<option value="75">75</option>
+						
+							<option value="76">76</option>
+						
+							<option value="77">77</option>
+						
+							<option value="78">78</option>
+						
+							<option value="79">79</option>
+						
+							<option value="80">80</option>
+						
+							<option value="81">81</option>
+						
+							<option value="82">82</option>
+						
+							<option value="83">83</option>
+						
+							<option value="84">84</option>
+						
+							<option value="85">85</option>
+						
+							<option value="86">86</option>
+						
+							<option value="87">87</option>
+						
+							<option value="88">88</option>
+						
+							<option value="89">89</option>
+						
+							<option value="90">90</option>
+						
+							<option value="91">91</option>
+						
+							<option value="92">92</option>
+						
+							<option value="93">93</option>
+						
+							<option value="94">94</option>
+						
+							<option value="95">95</option>
+						
+							<option value="96">96</option>
+						
+							<option value="97">97</option>
+						
+							<option value="98">98</option>
+						
+							<option value="99">99</option>
+						
+							<option value="100">100</option>
+						
+							<option value="101">101</option>
+						
+							<option value="102">102</option>
+						
+							<option value="103">103</option>
+						
+							<option value="104">104</option>
+						
+							<option value="105">105</option>
+						
+							<option value="106">106</option>
+						
+							<option value="107">107</option>
+						
+							<option value="108">108</option>
+						
+							<option value="109">109</option>
+						
+							<option value="110">110</option>
+						
+							<option value="111">111</option>
+						
+							<option value="112">112</option>
+						
+							<option value="113">113</option>
+						
+							<option value="114">114</option>
+						
+							<option value="115">115</option>
+						
+							<option value="116">116</option>
+						
+							<option value="117">117</option>
+						
+							<option value="118">118</option>
+						
+							<option value="119">119</option>
+						
+							<option value="120">120</option>
+						
+							<option value="121">121</option>
+						
+							<option value="122">122</option>
+						
+							<option value="123">123</option>
+						
+							<option value="124">124</option>
+						
+							<option value="125">125</option>
+						
+							<option value="126">126</option>
+						
+							<option value="127">127</option>
+						
+							<option value="128">128</option>
+						
+							<option value="129">129</option>
+						
+							<option value="130">130</option>
+						
+							<option value="131">131</option>
+						
+							<option value="132">132</option>
+						
+							<option value="133">133</option>
+						
+							<option value="134">134</option>
+						
+							<option value="135">135</option>
+						
+							<option value="136">136</option>
+						
+							<option value="137">137</option>
+						
+							<option value="138">138</option>
+						
+							<option value="139">139</option>
+						
+							<option value="140">140</option>
+						
+							<option value="141">141</option>
+						
+							<option value="142">142</option>
+						
+							<option value="143">143</option>
+						
+							<option value="144">144</option>
+						
+							<option value="145">145</option>
+						
+							<option value="146">146</option>
+						
+							<option value="147">147</option>
+						
+							<option value="148">148</option>
+						
+							<option value="149">149</option>
+						
+							<option value="150">150</option>
+						
+							<option value="151">151</option>
+						
+							<option value="152">152</option>
+						
+							<option value="153">153</option>
+						
+							<option value="154">154</option>
+						
+							<option value="155">155</option>
+						
+							<option value="156">156</option>
+						
+							<option value="157">157</option>
+						
+							<option value="158">158</option>
+						
+							<option value="159">159</option>
+						
+							<option value="160">160</option>
+						
+							<option value="161">161</option>
+						
+							<option value="162">162</option>
+						
+							<option value="163">163</option>
+						
+							<option value="164">164</option>
+						
+							<option value="165">165</option>
+						
+							<option value="166">166</option>
+						
+							<option value="167">167</option>
+						
+							<option value="168">168</option>
+						
+							<option value="169">169</option>
+						
+							<option value="170">170</option>
+						
+							<option value="171">171</option>
+						
+							<option value="172">172</option>
+						
+							<option value="173">173</option>
+						
+							<option value="174">174</option>
+						
+							<option value="175">175</option>
+						
+							<option value="176">176</option>
+						
+							<option value="177">177</option>
+						
+							<option value="178">178</option>
+						
+							<option value="179">179</option>
+						
+							<option value="180">180</option>
+						
+							<option value="181">181</option>
+						
+							<option value="182">182</option>
+						
+							<option value="183">183</option>
+						
+							<option value="184">184</option>
+						
+							<option value="185">185</option>
+						
+							<option value="186">186</option>
+						
+							<option value="187">187</option>
+						
+							<option value="188">188</option>
+						
+							<option value="189">189</option>
+						
+							<option value="190">190</option>
+						
+							<option value="191">191</option>
+						
+							<option value="192">192</option>
+						
+							<option value="193">193</option>
+						
+							<option value="194">194</option>
+						
+							<option value="195">195</option>
+						
+							<option value="196">196</option>
+						
+							<option value="197">197</option>
+						
+							<option value="198">198</option>
+						
+							<option value="199">199</option>
+						
+							<option value="200">200</option>
+						
+							<option value="201">201</option>
+						
+							<option value="202">202</option>
+						
+							<option value="203">203</option>
+						
+							<option value="204">204</option>
+						
+							<option value="205">205</option>
+						
+							<option value="206">206</option>
+						
+							<option value="207">207</option>
+						
+							<option value="208">208</option>
+						
+							<option value="209">209</option>
+						
+							<option value="210">210</option>
+						
+							<option value="211">211</option>
+						
+							<option value="212">212</option>
+						
+							<option value="213">213</option>
+						
+							<option value="214">214</option>
+						
+							<option value="215">215</option>
+						
+							<option value="216">216</option>
+						
+							<option value="217">217</option>
+						
+							<option value="218">218</option>
+						
+							<option value="219">219</option>
+						
+							<option value="220">220</option>
+						
+							<option value="221">221</option>
+						
+							<option value="222">222</option>
+						
+							<option value="223">223</option>
+						
+							<option value="224">224</option>
+						
+							<option value="225">225</option>
+						
+							<option value="226">226</option>
+						
+							<option value="227">227</option>
+						
+							<option value="228">228</option>
+						
+							<option value="229">229</option>
+						
+							<option value="230">230</option>
+						
+							<option value="231">231</option>
+						
+							<option value="232">232</option>
+						
+							<option value="233">233</option>
+						
+							<option value="234">234</option>
+						
+							<option value="235">235</option>
+						
+							<option value="236">236</option>
+						
+							<option value="237">237</option>
+						
+							<option value="238">238</option>
+						
+							<option value="239">239</option>
+						
+							<option value="240">240</option>
+						
+							<option value="241">241</option>
+						
+							<option value="242">242</option>
+						
+							<option value="243">243</option>
+						
+							<option value="244">244</option>
+						
+							<option value="245">245</option>
+						
+							<option value="246">246</option>
+						
+							<option value="247">247</option>
+						
+							<option value="248">248</option>
+						
+							<option value="249">249</option>
+						
+							<option value="250">250</option>
+						
+							<option value="251">251</option>
+						
+							<option value="252">252</option>
+						
+							<option value="253">253</option>
+						
+							<option value="254">254</option>
+						
+							<option value="255">255</option>
+						
+							<option value="256">256</option>
+						
+							<option value="257">257</option>
+						
+							<option value="258">258</option>
+						
+							<option value="259">259</option>
+						
+							<option value="260">260</option>
+						
+							<option value="261">261</option>
+						
+							<option value="262">262</option>
+						
+							<option value="263">263</option>
+						
+							<option value="264">264</option>
+						
+							<option value="265">265</option>
+						
+							<option value="266">266</option>
+						
+							<option value="267">267</option>
+						
+							<option value="268">268</option>
+						
+							<option value="269">269</option>
+						
+							<option value="270">270</option>
+						
+							<option value="271">271</option>
+						
+							<option value="272">272</option>
+						
+							<option value="273">273</option>
+						
+							<option value="274">274</option>
+						
+							<option value="275">275</option>
+						
+							<option value="276">276</option>
+						
+							<option value="277">277</option>
+						
+							<option value="278">278</option>
+						
+							<option value="279">279</option>
+						
+							<option value="280">280</option>
+						
+							<option value="281">281</option>
+						
+							<option value="282">282</option>
+						
+							<option value="283">283</option>
+						
+							<option value="284">284</option>
+						
+							<option value="285">285</option>
+						
+							<option value="286">286</option>
+						
+							<option value="287">287</option>
+						
+							<option value="288">288</option>
+						
+							<option value="289">289</option>
+						
+							<option value="290">290</option>
+						
+							<option value="291">291</option>
+						
+							<option value="292">292</option>
+						
+							<option value="293">293</option>
+						
+							<option value="294">294</option>
+						
+							<option value="295">295</option>
+						
+							<option value="296">296</option>
+						
+							<option value="297">297</option>
+						
+							<option value="298">298</option>
+						
+							<option value="299">299</option>
+						
+							<option value="300">300</option>
+						
+							<option value="301">301</option>
+						
+							<option value="302">302</option>
+						
+							<option value="303">303</option>
+						
+							<option value="304">304</option>
+						
+							<option value="305">305</option>
+						
+							<option value="306">306</option>
+						
+							<option value="307">307</option>
+						
+							<option value="308">308</option>
+						
+							<option value="309">309</option>
+						
+							<option value="310">310</option>
+						
+							<option value="311">311</option>
+						
+							<option value="312">312</option>
+						
+							<option value="313">313</option>
+						
+							<option value="314">314</option>
+						
+							<option value="315">315</option>
+						
+							<option value="316">316</option>
+						
+							<option value="317">317</option>
+						
+							<option value="318">318</option>
+						
+							<option value="319">319</option>
+						
+							<option value="320">320</option>
+						
+							<option value="321">321</option>
+						
+							<option value="322">322</option>
+						
+							<option value="323">323</option>
+						
+							<option value="324">324</option>
+						
+							<option value="325">325</option>
+						
+							<option value="326">326</option>
+						
+							<option value="327">327</option>
+						
+							<option value="328">328</option>
+						
+							<option value="329">329</option>
+						
+							<option value="330">330</option>
+						
+							<option value="331">331</option>
+						
+							<option value="332">332</option>
+						
+							<option value="333">333</option>
+						
+							<option value="334">334</option>
+						
+							<option value="335">335</option>
+						
+							<option value="336">336</option>
+						
+							<option value="337">337</option>
+						
+							<option value="338">338</option>
+						
+							<option value="339">339</option>
+						
+							<option value="340">340</option>
+						
+							<option value="341">341</option>
+						
+							<option value="342">342</option>
+						
+							<option value="343">343</option>
+						
+							<option value="344">344</option>
+						
+							<option value="345">345</option>
+						
+							<option value="346">346</option>
+						
+							<option value="347">347</option>
+						
+							<option value="348">348</option>
+						
+							<option value="349">349</option>
+						
+							<option value="350">350</option>
+						
+							<option value="351">351</option>
+						
+							<option value="352">352</option>
+						
+							<option value="353">353</option>
+						
+							<option value="354">354</option>
+						
+							<option value="355">355</option>
+						
+							<option value="356">356</option>
+						
+							<option value="357">357</option>
+						
+							<option value="358">358</option>
+						
+							<option value="359">359</option>
+						
+							<option value="360">360</option>
+						
+							<option value="361">361</option>
+						
+							<option value="362">362</option>
+						
+							<option value="363">363</option>
+						
+							<option value="364">364</option>
+						
+							<option value="365">365</option>
+						
+							<option value="366">366</option>
+						
+							<option value="367">367</option>
+						
+							<option value="368">368</option>
+						
+							<option value="369">369</option>
+						
+							<option value="370">370</option>
+						
+							<option value="371">371</option>
+						
+							<option value="372">372</option>
+						
+							<option value="373">373</option>
+						
+							<option value="374">374</option>
+						
+							<option value="375">375</option>
+						
+							<option value="376">376</option>
+						
+							<option value="377">377</option>
+						
+							<option value="378">378</option>
+						
+							<option value="379">379</option>
+						
+							<option value="380">380</option>
+						
+							<option value="381">381</option>
+						
+							<option value="382">382</option>
+						
+							<option value="383">383</option>
+						
+							<option value="384">384</option>
+						
+							<option value="385">385</option>
+						
+							<option value="386">386</option>
+						
+							<option value="387">387</option>
+						
+							<option value="388">388</option>
+						
+							<option value="389">389</option>
+						
+							<option value="390">390</option>
+						
+							<option value="391">391</option>
+						
+							<option value="392">392</option>
+						
+							<option value="393">393</option>
+						
+							<option value="394">394</option>
+						
+							<option value="395">395</option>
+						
+							<option value="396">396</option>
+						
+							<option value="397">397</option>
+						
+							<option value="398">398</option>
+						
+							<option value="399">399</option>
+						
+							<option value="400">400</option>
+						
+							<option value="401">401</option>
+						
+							<option value="402">402</option>
+						
+							<option value="403">403</option>
+						
+							<option value="404">404</option>
+						
+							<option value="405">405</option>
+						
+							<option value="406">406</option>
+						
+							<option value="407">407</option>
+						
+							<option value="408">408</option>
+						
+							<option value="409">409</option>
+						
+							<option value="410">410</option>
+						
+							<option value="411">411</option>
+						
+							<option value="412">412</option>
+						
+							<option value="413">413</option>
+						
+							<option value="414">414</option>
+						
+							<option value="415">415</option>
+						
+							<option value="416">416</option>
+						
+							<option value="417">417</option>
+						
+							<option value="418">418</option>
+						
+							<option value="419">419</option>
+						
+							<option value="420">420</option>
+						
+							<option value="421">421</option>
+						
+							<option value="422">422</option>
+						
+							<option value="423">423</option>
+						
+							<option value="424">424</option>
+						
+							<option value="425">425</option>
+						
+							<option value="426">426</option>
+						
+							<option value="427">427</option>
+						
+							<option value="428">428</option>
+						
+							<option value="429">429</option>
+						
+							<option value="430">430</option>
+						
+							<option value="431">431</option>
+						
+							<option value="432">432</option>
+						
+							<option value="433">433</option>
+						
+							<option value="434">434</option>
+						
+							<option value="435">435</option>
+						
+							<option value="436">436</option>
+						
+							<option value="437">437</option>
+						
+							<option value="438">438</option>
+						
+							<option value="439">439</option>
+						
+							<option value="440">440</option>
+						
+							<option value="441">441</option>
+						
+							<option value="442">442</option>
+						
+							<option value="443">443</option>
+						
+							<option value="444">444</option>
+						
+							<option value="445">445</option>
+						
+							<option value="446">446</option>
+						
+							<option value="447">447</option>
+						
+							<option value="448">448</option>
+						
+							<option value="449">449</option>
+						
+							<option value="450">450</option>
+						
+							<option value="451">451</option>
+						
+							<option value="452">452</option>
+						
+							<option value="453">453</option>
+						
+							<option value="454">454</option>
+						
+							<option value="455">455</option>
+						
+							<option value="456">456</option>
+						
+							<option value="457">457</option>
+						
+							<option value="458">458</option>
+						
+							<option value="459">459</option>
+						
+							<option value="460">460</option>
+						
+							<option value="461">461</option>
+						
+							<option value="462">462</option>
+						
+							<option value="463">463</option>
+						
+							<option value="464">464</option>
+						
+							<option value="465">465</option>
+						
+							<option value="466">466</option>
+						
+							<option value="467">467</option>
+						
+							<option value="468">468</option>
+						
+							<option value="469">469</option>
+						
+							<option value="470">470</option>
+						
+							<option value="471">471</option>
+						
+							<option value="472">472</option>
+						
+							<option value="473">473</option>
+						
+							<option value="474">474</option>
+						
+							<option value="475">475</option>
+						
+							<option value="476">476</option>
+						
+							<option value="477">477</option>
+						
+							<option value="478">478</option>
+						
+							<option value="479">479</option>
+						
+							<option value="480">480</option>
+						
+							<option value="481">481</option>
+						
+							<option value="482">482</option>
+						
+							<option value="483">483</option>
+						
+							<option value="484">484</option>
+						
+							<option value="485">485</option>
+						
+							<option value="486">486</option>
+						
+							<option value="487">487</option>
+						
+							<option value="488">488</option>
+						
+							<option value="489">489</option>
+						
+							<option value="490">490</option>
+						
+							<option value="491">491</option>
+						
+							<option value="492">492</option>
+						
+							<option value="493">493</option>
+						
+							<option value="494">494</option>
+						
+							<option value="495">495</option>
+						
+							<option value="496">496</option>
+						
+							<option value="497">497</option>
+						
+							<option value="498">498</option>
+						
+							<option value="499">499</option>
+						
+							<option value="500">500</option>
+						
+							<option value="501">501</option>
+						
+							<option value="502">502</option>
+						
+							<option value="503">503</option>
+						
+							<option value="504">504</option>
+						
+							<option value="505">505</option>
+						
+							<option value="506">506</option>
+						
+							<option value="507">507</option>
+						
+							<option value="508">508</option>
+						
+							<option value="509">509</option>
+						
+							<option value="510">510</option>
+						
+							<option value="511">511</option>
+						
+							<option value="512">512</option>
+						
+							<option value="513">513</option>
+						
+							<option value="514">514</option>
+						
+							<option value="515">515</option>
+						
+							<option value="516">516</option>
+						
+							<option value="517">517</option>
+						
+							<option value="518">518</option>
+						
+							<option value="519">519</option>
+						
+							<option value="520">520</option>
+						
+							<option value="521">521</option>
+						
+							<option value="522">522</option>
+						
+							<option value="523">523</option>
+						
+							<option value="524">524</option>
+						
+							<option value="525">525</option>
+						
+							<option value="526">526</option>
+						
+							<option value="527">527</option>
+						
+							<option value="528">528</option>
+						
+							<option value="529">529</option>
+						
+							<option value="530">530</option>
+						
+							<option value="531">531</option>
+						
+							<option value="532">532</option>
+						
+							<option value="533">533</option>
+						
+							<option value="534">534</option>
+						
+							<option value="535">535</option>
+						
+							<option value="536">536</option>
+						
+							<option value="537">537</option>
+						
+							<option value="538">538</option>
+						
+							<option value="539">539</option>
+						
+							<option value="540">540</option>
+						
+							<option value="541">541</option>
+						
+							<option value="542">542</option>
+						
+							<option value="543">543</option>
+						
+							<option value="544">544</option>
+						
+							<option value="545">545</option>
+						
+							<option value="546">546</option>
+						
+							<option value="547">547</option>
+						
+							<option value="548">548</option>
+						
+					</select>
+					
+						<a href="/discussions/amazon/2/"
+						   class="btn btn-sm">Next</a>
+					
+				</span>
+				
+			</span>
+		</div>
+	</div>
+
+	<!-- BEGIN Discussions header / title -->
+	<div class="row">
+		<div class="col-12">
+			<div class="discussion-list-header">
+				<h1><i class="fa fa-list-ul mr-3"></i>Amazon discussions</h1>
+			</div>
+		</div>
+	</div>
+	<!-- END Discussions header / title -->
+
+	<!-- BEGIN Discussion lists -->
+	<div class="row">
+		<div class="col-12">
+			<div class="container-fluid discussion-list">
+				
+					<div class="row discussion-row">
+						<div class="col-1 col-md-1 discussion-column discussion-icon">
+							<i class="fa fa-comment-o"></i>
+						</div>
+						<div class="col-7 col-md-6 discussion-column discussion-title">
+							<div class="dicussion-title-container">
+								<h2>
+									<a href="/discussions/amazon/view/99813-exam-aws-certified-solutions-architect-associate-saa-c03/"
+									   class="discussion-link">
+										Exam AWS Certified Solutions Architect - Associate SAA-C03 topic 1 question 303 discussion
+									</a></h2>
+								<p class="creation-info">
+									by
+									<a href="/user/Neha999/" style=""
+									   class="title-username">
+										<i class="fa fa-user-o"></i>
+										Neha999
+									</a>
+									at <i>Feb. 18, 2023, 3:18 p.m.</i>
+								</p>
+							</div>
+						</div>
+						<div class="col-1 col-md-2 d-flex discussion-column discussion-stats">
+							<div class="discussion-stats-replies">
+								13
+								<br/>
+								Replies
+							</div>
+							<div class="discussion-stats-views d-none d-lg-inline-block">
+								10821
+								<br/>
+								Views
+							</div>
+						</div>
+						<div class="d-none col-3 d-md-flex discussion-column discussion-info">
+							
+								<span class="recent-post-time">Last post by
+							<a href="/user/vincent2023/" style=""
+							   class="title-username">
+								<i class="fa fa-user-o"></i>
+									vincent2023
+							</a>
+							<br/>
+							<span class="recent-post-time" title="Jan. 18, 2025, 10:25 a.m.">
+								Made <i>19 hours, 57 minutes ago</i>
+							</span>
+						</span>
+							
+						</div>
+					</div>
+				
+					<div class="row discussion-row">
+						<div class="col-1 col-md-1 discussion-column discussion-icon">
+							<i class="fa fa-comment-o"></i>
+						</div>
+						<div class="col-7 col-md-6 discussion-column discussion-title">
+							<div class="dicussion-title-container">
+								<h2>
+									<a href="/discussions/amazon/view/148505-exam-aws-certified-solutions-architect-associate-saa-c03/"
+									   class="discussion-link">
+										Exam AWS Certified Solutions Architect - Associate SAA-C03 topic 1 question 982 discussion
+									</a></h2>
+								<p class="creation-info">
+									by
+									<a href="/user/viejito/" style=""
+									   class="title-username">
+										<i class="fa fa-user-o"></i>
+										viejito
+									</a>
+									at <i>Oct. 1, 2024, 1:19 p.m.</i>
+								</p>
+							</div>
+						</div>
+						<div class="col-1 col-md-2 d-flex discussion-column discussion-stats">
+							<div class="discussion-stats-replies">
+								4
+								<br/>
+								Replies
+							</div>
+							<div class="discussion-stats-views d-none d-lg-inline-block">
+								1574
+								<br/>
+								Views
+							</div>
+						</div>
+						<div class="d-none col-3 d-md-flex discussion-column discussion-info">
+							
+								<span class="recent-post-time">Last post by
+							<a href="/user/FlyingHawk/" style=""
+							   class="title-username">
+								<i class="fa fa-user-o"></i>
+									FlyingHawk
+							</a>
+							<br/>
+							<span class="recent-post-time" title="Jan. 18, 2025, 10:17 a.m.">
+								Made <i>20 hours, 6 minutes ago</i>
+							</span>
+						</span>
+							
+						</div>
+					</div>
+				
+					<div class="row discussion-row">
+						<div class="col-1 col-md-1 discussion-column discussion-icon">
+							<i class="fa fa-comment-o"></i>
+						</div>
+						<div class="col-7 col-md-6 discussion-column discussion-title">
+							<div class="dicussion-title-container">
+								<h2>
+									<a href="/discussions/amazon/view/99693-exam-aws-certified-solutions-architect-associate-saa-c03/"
+									   class="discussion-link">
+										Exam AWS Certified Solutions Architect - Associate SAA-C03 topic 1 question 302 discussion
+									</a></h2>
+								<p class="creation-info">
+									by
+									<a href="/user/Bhawesh/" style=""
+									   class="title-username">
+										<i class="fa fa-user-o"></i>
+										Bhawesh
+									</a>
+									at <i>Feb. 17, 2023, 7:36 p.m.</i>
+								</p>
+							</div>
+						</div>
+						<div class="col-1 col-md-2 d-flex discussion-column discussion-stats">
+							<div class="discussion-stats-replies">
+								25
+								<br/>
+								Replies
+							</div>
+							<div class="discussion-stats-views d-none d-lg-inline-block">
+								13520
+								<br/>
+								Views
+							</div>
+						</div>
+						<div class="d-none col-3 d-md-flex discussion-column discussion-info">
+							
+								<span class="recent-post-time">Last post by
+							<a href="/user/vincent2023/" style=""
+							   class="title-username">
+								<i class="fa fa-user-o"></i>
+									vincent2023
+							</a>
+							<br/>
+							<span class="recent-post-time" title="Jan. 18, 2025, 10:15 a.m.">
+								Made <i>20 hours, 8 minutes ago</i>
+							</span>
+						</span>
+							
+						</div>
+					</div>
+				
+					<div class="row discussion-row">
+						<div class="col-1 col-md-1 discussion-column discussion-icon">
+							<i class="fa fa-comment-o"></i>
+						</div>
+						<div class="col-7 col-md-6 discussion-column discussion-title">
+							<div class="dicussion-title-container">
+								<h2>
+									<a href="/discussions/amazon/view/124832-exam-aws-certified-security-specialty-scs-c02-topic-1/"
+									   class="discussion-link">
+										Exam AWS Certified Security - Specialty SCS-C02 topic 1 question 46 discussion
+									</a></h2>
+								<p class="creation-info">
+									by
+									<a href="/user/M2ao/" style=""
+									   class="title-username">
+										<i class="fa fa-user-o"></i>
+										M2ao
+									</a>
+									at <i>Oct. 28, 2023, 3 p.m.</i>
+								</p>
+							</div>
+						</div>
+						<div class="col-1 col-md-2 d-flex discussion-column discussion-stats">
+							<div class="discussion-stats-replies">
+								32
+								<br/>
+								Replies
+							</div>
+							<div class="discussion-stats-views d-none d-lg-inline-block">
+								4666
+								<br/>
+								Views
+							</div>
+						</div>
+						<div class="d-none col-3 d-md-flex discussion-column discussion-info">
+							
+								<span class="recent-post-time">Last post by
+							<a href="/user/TareDHakim/" style=""
+							   class="title-username">
+								<i class="fa fa-user-o"></i>
+									TareDHakim
+							</a>
+							<br/>
+							<span class="recent-post-time" title="Jan. 18, 2025, 10 a.m.">
+								Made <i>20 hours, 22 minutes ago</i>
+							</span>
+						</span>
+							
+						</div>
+					</div>
+				
+					<div class="row discussion-row">
+						<div class="col-1 col-md-1 discussion-column discussion-icon">
+							<i class="fa fa-comment-o"></i>
+						</div>
+						<div class="col-7 col-md-6 discussion-column discussion-title">
+							<div class="dicussion-title-container">
+								<h2>
+									<a href="/discussions/amazon/view/146028-exam-aws-certified-solutions-architect-associate-saa-c03/"
+									   class="discussion-link">
+										Exam AWS Certified Solutions Architect - Associate SAA-C03 topic 1 question 966 discussion
+									</a></h2>
+								<p class="creation-info">
+									by
+									<a  style=""
+									   class="title-username">
+										<i class="fa fa-user-o"></i>
+										[Removed]
+									</a>
+									at <i>Aug. 19, 2024, 4:49 p.m.</i>
+								</p>
+							</div>
+						</div>
+						<div class="col-1 col-md-2 d-flex discussion-column discussion-stats">
+							<div class="discussion-stats-replies">
+								5
+								<br/>
+								Replies
+							</div>
+							<div class="discussion-stats-views d-none d-lg-inline-block">
+								2984
+								<br/>
+								Views
+							</div>
+						</div>
+						<div class="d-none col-3 d-md-flex discussion-column discussion-info">
+							
+								<span class="recent-post-time">Last post by
+							<a href="/user/FlyingHawk/" style=""
+							   class="title-username">
+								<i class="fa fa-user-o"></i>
+									FlyingHawk
+							</a>
+							<br/>
+							<span class="recent-post-time" title="Jan. 18, 2025, 12:45 a.m.">
+								Made <i>1 day, 5 hours ago</i>
+							</span>
+						</span>
+							
+						</div>
+					</div>
+				
+					<div class="row discussion-row">
+						<div class="col-1 col-md-1 discussion-column discussion-icon">
+							<i class="fa fa-comment-o"></i>
+						</div>
+						<div class="col-7 col-md-6 discussion-column discussion-title">
+							<div class="dicussion-title-container">
+								<h2>
+									<a href="/discussions/amazon/view/89387-exam-aws-certified-solutions-architect-professional-topic-1/"
+									   class="discussion-link">
+										Exam AWS Certified Solutions Architect - Professional topic 1 question 965 discussion
+									</a></h2>
+								<p class="creation-info">
+									by
+									<a href="/user/masetromain/" style=""
+									   class="title-username">
+										<i class="fa fa-user-o"></i>
+										masetromain
+									</a>
+									at <i>Nov. 30, 2022, 1:59 p.m.</i>
+								</p>
+							</div>
+						</div>
+						<div class="col-1 col-md-2 d-flex discussion-column discussion-stats">
+							<div class="discussion-stats-replies">
+								14
+								<br/>
+								Replies
+							</div>
+							<div class="discussion-stats-views d-none d-lg-inline-block">
+								2095
+								<br/>
+								Views
+							</div>
+						</div>
+						<div class="d-none col-3 d-md-flex discussion-column discussion-info">
+							
+								<span class="recent-post-time">Last post by
+							<a href="/user/FlyingHawk/" style=""
+							   class="title-username">
+								<i class="fa fa-user-o"></i>
+									FlyingHawk
+							</a>
+							<br/>
+							<span class="recent-post-time" title="Jan. 18, 2025, 12:30 a.m.">
+								Made <i>1 day, 5 hours ago</i>
+							</span>
+						</span>
+							
+						</div>
+					</div>
+				
+					<div class="row discussion-row">
+						<div class="col-1 col-md-1 discussion-column discussion-icon">
+							<i class="fa fa-comment-o"></i>
+						</div>
+						<div class="col-7 col-md-6 discussion-column discussion-title">
+							<div class="dicussion-title-container">
+								<h2>
+									<a href="/discussions/amazon/view/95008-exam-aws-certified-solutions-architect-associate-saa-c03/"
+									   class="discussion-link">
+										Exam AWS Certified Solutions Architect - Associate SAA-C03 topic 1 question 253 discussion
+									</a></h2>
+								<p class="creation-info">
+									by
+									<a href="/user/Morinator/" style=""
+									   class="title-username">
+										<i class="fa fa-user-o"></i>
+										Morinator
+									</a>
+									at <i>Jan. 13, 2023, 11:33 a.m.</i>
+								</p>
+							</div>
+						</div>
+						<div class="col-1 col-md-2 d-flex discussion-column discussion-stats">
+							<div class="discussion-stats-replies">
+								10
+								<br/>
+								Replies
+							</div>
+							<div class="discussion-stats-views d-none d-lg-inline-block">
+								11587
+								<br/>
+								Views
+							</div>
+						</div>
+						<div class="d-none col-3 d-md-flex discussion-column discussion-info">
+							
+								<span class="recent-post-time">Last post by
+							<a href="/user/vincent2023/" style=""
+							   class="title-username">
+								<i class="fa fa-user-o"></i>
+									vincent2023
+							</a>
+							<br/>
+							<span class="recent-post-time" title="Jan. 18, 2025, 12:01 a.m.">
+								Made <i>1 day, 6 hours ago</i>
+							</span>
+						</span>
+							
+						</div>
+					</div>
+				
+					<div class="row discussion-row">
+						<div class="col-1 col-md-1 discussion-column discussion-icon">
+							<i class="fa fa-comment-o"></i>
+						</div>
+						<div class="col-7 col-md-6 discussion-column discussion-title">
+							<div class="dicussion-title-container">
+								<h2>
+									<a href="/discussions/amazon/view/145438-exam-aws-certified-solutions-architect-associate-saa-c03/"
+									   class="discussion-link">
+										Exam AWS Certified Solutions Architect - Associate SAA-C03 topic 1 question 959 discussion
+									</a></h2>
+								<p class="creation-info">
+									by
+									<a href="/user/nebajp/" style=""
+									   class="title-username">
+										<i class="fa fa-user-o"></i>
+										nebajp
+									</a>
+									at <i>Aug. 11, 2024, 4:23 a.m.</i>
+								</p>
+							</div>
+						</div>
+						<div class="col-1 col-md-2 d-flex discussion-column discussion-stats">
+							<div class="discussion-stats-replies">
+								16
+								<br/>
+								Replies
+							</div>
+							<div class="discussion-stats-views d-none d-lg-inline-block">
+								2964
+								<br/>
+								Views
+							</div>
+						</div>
+						<div class="d-none col-3 d-md-flex discussion-column discussion-info">
+							
+								<span class="recent-post-time">Last post by
+							<a href="/user/FlyingHawk/" style=""
+							   class="title-username">
+								<i class="fa fa-user-o"></i>
+									FlyingHawk
+							</a>
+							<br/>
+							<span class="recent-post-time" title="Jan. 17, 2025, 11:24 p.m.">
+								Made <i>1 day, 6 hours ago</i>
+							</span>
+						</span>
+							
+						</div>
+					</div>
+				
+					<div class="row discussion-row">
+						<div class="col-1 col-md-1 discussion-column discussion-icon">
+							<i class="fa fa-comment-o"></i>
+						</div>
+						<div class="col-7 col-md-6 discussion-column discussion-title">
+							<div class="dicussion-title-container">
+								<h2>
+									<a href="/discussions/amazon/view/145012-exam-aws-certified-solutions-architect-associate-saa-c03/"
+									   class="discussion-link">
+										Exam AWS Certified Solutions Architect - Associate SAA-C03 topic 1 question 956 discussion
+									</a></h2>
+								<p class="creation-info">
+									by
+									<a href="/user/SR0312/" style=""
+									   class="title-username">
+										<i class="fa fa-user-o"></i>
+										SR0312
+									</a>
+									at <i>Aug. 5, 2024, 2:30 a.m.</i>
+								</p>
+							</div>
+						</div>
+						<div class="col-1 col-md-2 d-flex discussion-column discussion-stats">
+							<div class="discussion-stats-replies">
+								13
+								<br/>
+								Replies
+							</div>
+							<div class="discussion-stats-views d-none d-lg-inline-block">
+								2386
+								<br/>
+								Views
+							</div>
+						</div>
+						<div class="d-none col-3 d-md-flex discussion-column discussion-info">
+							
+								<span class="recent-post-time">Last post by
+							<a href="/user/FlyingHawk/" style=""
+							   class="title-username">
+								<i class="fa fa-user-o"></i>
+									FlyingHawk
+							</a>
+							<br/>
+							<span class="recent-post-time" title="Jan. 17, 2025, 10:51 p.m.">
+								Made <i>1 day, 7 hours ago</i>
+							</span>
+						</span>
+							
+						</div>
+					</div>
+				
+					<div class="row discussion-row">
+						<div class="col-1 col-md-1 discussion-column discussion-icon">
+							<i class="fa fa-comment-o"></i>
+						</div>
+						<div class="col-7 col-md-6 discussion-column discussion-title">
+							<div class="dicussion-title-container">
+								<h2>
+									<a href="/discussions/amazon/view/111920-exam-aws-certified-advanced-networking-specialty-ans-c01/"
+									   class="discussion-link">
+										Exam AWS Certified Advanced Networking - Specialty ANS-C01 topic 1 question 133 discussion
+									</a></h2>
+								<p class="creation-info">
+									by
+									<a href="/user/Balasmaniam/" style=""
+									   class="title-username">
+										<i class="fa fa-user-o"></i>
+										Balasmaniam
+									</a>
+									at <i>June 11, 2023, 5:19 p.m.</i>
+								</p>
+							</div>
+						</div>
+						<div class="col-1 col-md-2 d-flex discussion-column discussion-stats">
+							<div class="discussion-stats-replies">
+								19
+								<br/>
+								Replies
+							</div>
+							<div class="discussion-stats-views d-none d-lg-inline-block">
+								3178
+								<br/>
+								Views
+							</div>
+						</div>
+						<div class="d-none col-3 d-md-flex discussion-column discussion-info">
+							
+								<span class="recent-post-time">Last post by
+							<a href="/user/chang4li/" style=""
+							   class="title-username">
+								<i class="fa fa-user-o"></i>
+									chang4li
+							</a>
+							<br/>
+							<span class="recent-post-time" title="Jan. 17, 2025, 10:30 p.m.">
+								Made <i>1 day, 7 hours ago</i>
+							</span>
+						</span>
+							
+						</div>
+					</div>
+				
+					<div class="row discussion-row">
+						<div class="col-1 col-md-1 discussion-column discussion-icon">
+							<i class="fa fa-comment-o"></i>
+						</div>
+						<div class="col-7 col-md-6 discussion-column discussion-title">
+							<div class="dicussion-title-container">
+								<h2>
+									<a href="/discussions/amazon/view/151080-exam-aws-certified-ai-practitioner-aif-c01-topic-1-question/"
+									   class="discussion-link">
+										Exam AWS Certified AI Practitioner AIF-C01 topic 1 question 54 discussion
+									</a></h2>
+								<p class="creation-info">
+									by
+									<a href="/user/PHD_CHENG/" style=""
+									   class="title-username">
+										<i class="fa fa-user-o"></i>
+										PHD_CHENG
+									</a>
+									at <i>Nov. 10, 2024, 4:52 p.m.</i>
+								</p>
+							</div>
+						</div>
+						<div class="col-1 col-md-2 d-flex discussion-column discussion-stats">
+							<div class="discussion-stats-replies">
+								4
+								<br/>
+								Replies
+							</div>
+							<div class="discussion-stats-views d-none d-lg-inline-block">
+								1962
+								<br/>
+								Views
+							</div>
+						</div>
+						<div class="d-none col-3 d-md-flex discussion-column discussion-info">
+							
+								<span class="recent-post-time">Last post by
+							<a href="/user/Taam_diaaz/" style=""
+							   class="title-username">
+								<i class="fa fa-user-o"></i>
+									Taam_diaaz
+							</a>
+							<br/>
+							<span class="recent-post-time" title="Jan. 17, 2025, 9:23 p.m.">
+								Made <i>1 day, 8 hours ago</i>
+							</span>
+						</span>
+							
+						</div>
+					</div>
+				
+					<div class="row discussion-row">
+						<div class="col-1 col-md-1 discussion-column discussion-icon">
+							<i class="fa fa-comment-o"></i>
+						</div>
+						<div class="col-7 col-md-6 discussion-column discussion-title">
+							<div class="dicussion-title-container">
+								<h2>
+									<a href="/discussions/amazon/view/129781-exam-aws-certified-cloud-practitioner-clf-c02-topic-1/"
+									   class="discussion-link">
+										Exam AWS Certified Cloud Practitioner CLF-C02 topic 1 question 342 discussion
+									</a></h2>
+								<p class="creation-info">
+									by
+									<a href="/user/Mike1987/" style=""
+									   class="title-username">
+										<i class="fa fa-user-o"></i>
+										Mike1987
+									</a>
+									at <i>Dec. 29, 2023, 11:12 p.m.</i>
+								</p>
+							</div>
+						</div>
+						<div class="col-1 col-md-2 d-flex discussion-column discussion-stats">
+							<div class="discussion-stats-replies">
+								20
+								<br/>
+								Replies
+							</div>
+							<div class="discussion-stats-views d-none d-lg-inline-block">
+								5679
+								<br/>
+								Views
+							</div>
+						</div>
+						<div class="d-none col-3 d-md-flex discussion-column discussion-info">
+							
+								<span class="recent-post-time">Last post by
+							<a href="/user/its_tima/" style=""
+							   class="title-username">
+								<i class="fa fa-user-o"></i>
+									its_tima
+							</a>
+							<br/>
+							<span class="recent-post-time" title="Jan. 17, 2025, 7:41 p.m.">
+								Made <i>1 day, 10 hours ago</i>
+							</span>
+						</span>
+							
+						</div>
+					</div>
+				
+					<div class="row discussion-row">
+						<div class="col-1 col-md-1 discussion-column discussion-icon">
+							<i class="fa fa-comment-o"></i>
+						</div>
+						<div class="col-7 col-md-6 discussion-column discussion-title">
+							<div class="dicussion-title-container">
+								<h2>
+									<a href="/discussions/amazon/view/95004-exam-aws-certified-solutions-architect-associate-saa-c03/"
+									   class="discussion-link">
+										Exam AWS Certified Solutions Architect - Associate SAA-C03 topic 1 question 247 discussion
+									</a></h2>
+								<p class="creation-info">
+									by
+									<a href="/user/Morinator/" style=""
+									   class="title-username">
+										<i class="fa fa-user-o"></i>
+										Morinator
+									</a>
+									at <i>Jan. 13, 2023, 11:17 a.m.</i>
+								</p>
+							</div>
+						</div>
+						<div class="col-1 col-md-2 d-flex discussion-column discussion-stats">
+							<div class="discussion-stats-replies">
+								40
+								<br/>
+								Replies
+							</div>
+							<div class="discussion-stats-views d-none d-lg-inline-block">
+								15510
+								<br/>
+								Views
+							</div>
+						</div>
+						<div class="d-none col-3 d-md-flex discussion-column discussion-info">
+							
+								<span class="recent-post-time">Last post by
+							<a href="/user/Rcosmos/" style=""
+							   class="title-username">
+								<i class="fa fa-user-o"></i>
+									Rcosmos
+							</a>
+							<br/>
+							<span class="recent-post-time" title="Jan. 17, 2025, 7:38 p.m.">
+								Made <i>1 day, 10 hours ago</i>
+							</span>
+						</span>
+							
+						</div>
+					</div>
+				
+					<div class="row discussion-row">
+						<div class="col-1 col-md-1 discussion-column discussion-icon">
+							<i class="fa fa-comment-o"></i>
+						</div>
+						<div class="col-7 col-md-6 discussion-column discussion-title">
+							<div class="dicussion-title-container">
+								<h2>
+									<a href="/discussions/amazon/view/105492-exam-aws-certified-devops-engineer-professional-dop-c02/"
+									   class="discussion-link">
+										Exam AWS Certified DevOps Engineer - Professional DOP-C02 topic 1 question 54 discussion
+									</a></h2>
+								<p class="creation-info">
+									by
+									<a href="/user/Dimidrol/" style=""
+									   class="title-username">
+										<i class="fa fa-user-o"></i>
+										Dimidrol
+									</a>
+									at <i>April 7, 2023, 11:26 a.m.</i>
+								</p>
+							</div>
+						</div>
+						<div class="col-1 col-md-2 d-flex discussion-column discussion-stats">
+							<div class="discussion-stats-replies">
+								32
+								<br/>
+								Replies
+							</div>
+							<div class="discussion-stats-views d-none d-lg-inline-block">
+								6493
+								<br/>
+								Views
+							</div>
+						</div>
+						<div class="d-none col-3 d-md-flex discussion-column discussion-info">
+							
+								<span class="recent-post-time">Last post by
+							<a href="/user/lgallard/" style=""
+							   class="title-username">
+								<i class="fa fa-user-o"></i>
+									lgallard
+							</a>
+							<br/>
+							<span class="recent-post-time" title="Jan. 17, 2025, 7:18 p.m.">
+								Made <i>1 day, 11 hours ago</i>
+							</span>
+						</span>
+							
+						</div>
+					</div>
+				
+					<div class="row discussion-row">
+						<div class="col-1 col-md-1 discussion-column discussion-icon">
+							<i class="fa fa-comment-o"></i>
+						</div>
+						<div class="col-7 col-md-6 discussion-column discussion-title">
+							<div class="dicussion-title-container">
+								<h2>
+									<a href="/discussions/amazon/view/89325-exam-aws-certified-cloud-practitioner-topic-1-question-225/"
+									   class="discussion-link">
+										Exam AWS Certified Cloud Practitioner topic 1 question 225 discussion
+									</a></h2>
+								<p class="creation-info">
+									by
+									<a href="/user/dark_cherrymon/" style=""
+									   class="title-username">
+										<i class="fa fa-user-o"></i>
+										dark_cherrymon
+									</a>
+									at <i>Nov. 30, 2022, 4:36 a.m.</i>
+								</p>
+							</div>
+						</div>
+						<div class="col-1 col-md-2 d-flex discussion-column discussion-stats">
+							<div class="discussion-stats-replies">
+								58
+								<br/>
+								Replies
+							</div>
+							<div class="discussion-stats-views d-none d-lg-inline-block">
+								17162
+								<br/>
+								Views
+							</div>
+						</div>
+						<div class="d-none col-3 d-md-flex discussion-column discussion-info">
+							
+								<span class="recent-post-time">Last post by
+							<a href="/user/Kaal97/" style=""
+							   class="title-username">
+								<i class="fa fa-user-o"></i>
+									Kaal97
+							</a>
+							<br/>
+							<span class="recent-post-time" title="Jan. 17, 2025, 4:58 p.m.">
+								Made <i>1 day, 13 hours ago</i>
+							</span>
+						</span>
+							
+						</div>
+					</div>
+				
+					<div class="row discussion-row">
+						<div class="col-1 col-md-1 discussion-column discussion-icon">
+							<i class="fa fa-comment-o"></i>
+						</div>
+						<div class="col-7 col-md-6 discussion-column discussion-title">
+							<div class="dicussion-title-container">
+								<h2>
+									<a href="/discussions/amazon/view/78858-exam-aws-certified-cloud-practitioner-topic-1-question-223/"
+									   class="discussion-link">
+										Exam AWS Certified Cloud Practitioner topic 1 question 223 discussion
+									</a></h2>
+								<p class="creation-info">
+									by
+									<a href="/user/learner2023/" style=""
+									   class="title-username">
+										<i class="fa fa-user-o"></i>
+										learner2023
+									</a>
+									at <i>Sept. 1, 2022, 3:30 a.m.</i>
+								</p>
+							</div>
+						</div>
+						<div class="col-1 col-md-2 d-flex discussion-column discussion-stats">
+							<div class="discussion-stats-replies">
+								38
+								<br/>
+								Replies
+							</div>
+							<div class="discussion-stats-views d-none d-lg-inline-block">
+								15085
+								<br/>
+								Views
+							</div>
+						</div>
+						<div class="d-none col-3 d-md-flex discussion-column discussion-info">
+							
+								<span class="recent-post-time">Last post by
+							<a href="/user/Kaal97/" style=""
+							   class="title-username">
+								<i class="fa fa-user-o"></i>
+									Kaal97
+							</a>
+							<br/>
+							<span class="recent-post-time" title="Jan. 17, 2025, 4:56 p.m.">
+								Made <i>1 day, 13 hours ago</i>
+							</span>
+						</span>
+							
+						</div>
+					</div>
+				
+					<div class="row discussion-row">
+						<div class="col-1 col-md-1 discussion-column discussion-icon">
+							<i class="fa fa-comment-o"></i>
+						</div>
+						<div class="col-7 col-md-6 discussion-column discussion-title">
+							<div class="dicussion-title-container">
+								<h2>
+									<a href="/discussions/amazon/view/79504-exam-aws-certified-cloud-practitioner-topic-1-question-193/"
+									   class="discussion-link">
+										Exam AWS Certified Cloud Practitioner topic 1 question 193 discussion
+									</a></h2>
+								<p class="creation-info">
+									by
+									<a href="/user/fross/" style=""
+									   class="title-username">
+										<i class="fa fa-user-o"></i>
+										fross
+									</a>
+									at <i>Sept. 2, 2022, 7:19 p.m.</i>
+								</p>
+							</div>
+						</div>
+						<div class="col-1 col-md-2 d-flex discussion-column discussion-stats">
+							<div class="discussion-stats-replies">
+								65
+								<br/>
+								Replies
+							</div>
+							<div class="discussion-stats-views d-none d-lg-inline-block">
+								23520
+								<br/>
+								Views
+							</div>
+						</div>
+						<div class="d-none col-3 d-md-flex discussion-column discussion-info">
+							
+								<span class="recent-post-time">Last post by
+							<a href="/user/Kaal97/" style=""
+							   class="title-username">
+								<i class="fa fa-user-o"></i>
+									Kaal97
+							</a>
+							<br/>
+							<span class="recent-post-time" title="Jan. 17, 2025, 4:29 p.m.">
+								Made <i>1 day, 13 hours ago</i>
+							</span>
+						</span>
+							
+						</div>
+					</div>
+				
+					<div class="row discussion-row">
+						<div class="col-1 col-md-1 discussion-column discussion-icon">
+							<i class="fa fa-comment-o"></i>
+						</div>
+						<div class="col-7 col-md-6 discussion-column discussion-title">
+							<div class="dicussion-title-container">
+								<h2>
+									<a href="/discussions/amazon/view/138049-exam-aws-certified-cloud-practitioner-clf-c02-topic-1/"
+									   class="discussion-link">
+										Exam AWS Certified Cloud Practitioner CLF-C02 topic 1 question 400 discussion
+									</a></h2>
+								<p class="creation-info">
+									by
+									<a href="/user/bda92b3/" style=""
+									   class="title-username">
+										<i class="fa fa-user-o"></i>
+										bda92b3
+									</a>
+									at <i>April 6, 2024, 8:49 p.m.</i>
+								</p>
+							</div>
+						</div>
+						<div class="col-1 col-md-2 d-flex discussion-column discussion-stats">
+							<div class="discussion-stats-replies">
+								4
+								<br/>
+								Replies
+							</div>
+							<div class="discussion-stats-views d-none d-lg-inline-block">
+								2709
+								<br/>
+								Views
+							</div>
+						</div>
+						<div class="d-none col-3 d-md-flex discussion-column discussion-info">
+							
+								<span class="recent-post-time">Last post by
+							<a href="/user/Nikmah/" style=""
+							   class="title-username">
+								<i class="fa fa-user-o"></i>
+									Nikmah
+							</a>
+							<br/>
+							<span class="recent-post-time" title="Jan. 17, 2025, 4:02 p.m.">
+								Made <i>1 day, 14 hours ago</i>
+							</span>
+						</span>
+							
+						</div>
+					</div>
+				
+					<div class="row discussion-row">
+						<div class="col-1 col-md-1 discussion-column discussion-icon">
+							<i class="fa fa-comment-o"></i>
+						</div>
+						<div class="col-7 col-md-6 discussion-column discussion-title">
+							<div class="dicussion-title-container">
+								<h2>
+									<a href="/discussions/amazon/view/138777-exam-aws-certified-cloud-practitioner-clf-c02-topic-1/"
+									   class="discussion-link">
+										Exam AWS Certified Cloud Practitioner CLF-C02 topic 1 question 399 discussion
+									</a></h2>
+								<p class="creation-info">
+									by
+									<a href="/user/Webcatman/" style=""
+									   class="title-username">
+										<i class="fa fa-user-o"></i>
+										Webcatman
+									</a>
+									at <i>April 16, 2024, 1:20 a.m.</i>
+								</p>
+							</div>
+						</div>
+						<div class="col-1 col-md-2 d-flex discussion-column discussion-stats">
+							<div class="discussion-stats-replies">
+								5
+								<br/>
+								Replies
+							</div>
+							<div class="discussion-stats-views d-none d-lg-inline-block">
+								1978
+								<br/>
+								Views
+							</div>
+						</div>
+						<div class="d-none col-3 d-md-flex discussion-column discussion-info">
+							
+								<span class="recent-post-time">Last post by
+							<a href="/user/Nikmah/" style=""
+							   class="title-username">
+								<i class="fa fa-user-o"></i>
+									Nikmah
+							</a>
+							<br/>
+							<span class="recent-post-time" title="Jan. 17, 2025, 4 p.m.">
+								Made <i>1 day, 14 hours ago</i>
+							</span>
+						</span>
+							
+						</div>
+					</div>
+				
+					<div class="row discussion-row">
+						<div class="col-1 col-md-1 discussion-column discussion-icon">
+							<i class="fa fa-comment-o"></i>
+						</div>
+						<div class="col-7 col-md-6 discussion-column discussion-title">
+							<div class="dicussion-title-container">
+								<h2>
+									<a href="/discussions/amazon/view/137985-exam-aws-certified-cloud-practitioner-clf-c02-topic-1/"
+									   class="discussion-link">
+										Exam AWS Certified Cloud Practitioner CLF-C02 topic 1 question 393 discussion
+									</a></h2>
+								<p class="creation-info">
+									by
+									<a href="/user/Asylgul/" style=""
+									   class="title-username">
+										<i class="fa fa-user-o"></i>
+										Asylgul
+									</a>
+									at <i>April 5, 2024, 5:48 p.m.</i>
+								</p>
+							</div>
+						</div>
+						<div class="col-1 col-md-2 d-flex discussion-column discussion-stats">
+							<div class="discussion-stats-replies">
+								10
+								<br/>
+								Replies
+							</div>
+							<div class="discussion-stats-views d-none d-lg-inline-block">
+								2666
+								<br/>
+								Views
+							</div>
+						</div>
+						<div class="d-none col-3 d-md-flex discussion-column discussion-info">
+							
+								<span class="recent-post-time">Last post by
+							<a href="/user/Nikmah/" style=""
+							   class="title-username">
+								<i class="fa fa-user-o"></i>
+									Nikmah
+							</a>
+							<br/>
+							<span class="recent-post-time" title="Jan. 17, 2025, 3:50 p.m.">
+								Made <i>1 day, 14 hours ago</i>
+							</span>
+						</span>
+							
+						</div>
+					</div>
+				
+			</div>
+		</div>
+
+	</div>
+	<!-- END Discussion lists -->
+	<div class="action-row-container mt-4">
+		<div class="action-row clearfix d-flex">
+
+			<a href="/discussions/" class="all-discussions-button d-none d-md-inline-block mr-4"><i class="fa fm fa-arrow-circle-left mr-2"></i>All Categories</a>
+			<a href="#" class="new-discussion-button"><i class="fa fm fa-edit mr-2"></i>New Discussion</a>
+
+			<span class="pagination-container ml-auto">
+				<span class="discussion-list-page-indicator">
+					<span class="mr-4 d-none d-md-inline-block">
+						10947 Discussions
+					</span>
+					Page <strong>1</strong>
+					of <strong>548</strong>
+				</span>
+
+				
+					<span class="pagination-nav ml-4">
+					
+
+					<select class="discussion-list-page-select form-control form-control-sm">
+					
+						<option value="1"
+								selected>1</option>
+					
+						<option value="2">2</option>
+					
+						<option value="3">3</option>
+					
+						<option value="4">4</option>
+					
+						<option value="5">5</option>
+					
+						<option value="6">6</option>
+					
+						<option value="7">7</option>
+					
+						<option value="8">8</option>
+					
+						<option value="9">9</option>
+					
+						<option value="10">10</option>
+					
+						<option value="11">11</option>
+					
+						<option value="12">12</option>
+					
+						<option value="13">13</option>
+					
+						<option value="14">14</option>
+					
+						<option value="15">15</option>
+					
+						<option value="16">16</option>
+					
+						<option value="17">17</option>
+					
+						<option value="18">18</option>
+					
+						<option value="19">19</option>
+					
+						<option value="20">20</option>
+					
+						<option value="21">21</option>
+					
+						<option value="22">22</option>
+					
+						<option value="23">23</option>
+					
+						<option value="24">24</option>
+					
+						<option value="25">25</option>
+					
+						<option value="26">26</option>
+					
+						<option value="27">27</option>
+					
+						<option value="28">28</option>
+					
+						<option value="29">29</option>
+					
+						<option value="30">30</option>
+					
+						<option value="31">31</option>
+					
+						<option value="32">32</option>
+					
+						<option value="33">33</option>
+					
+						<option value="34">34</option>
+					
+						<option value="35">35</option>
+					
+						<option value="36">36</option>
+					
+						<option value="37">37</option>
+					
+						<option value="38">38</option>
+					
+						<option value="39">39</option>
+					
+						<option value="40">40</option>
+					
+						<option value="41">41</option>
+					
+						<option value="42">42</option>
+					
+						<option value="43">43</option>
+					
+						<option value="44">44</option>
+					
+						<option value="45">45</option>
+					
+						<option value="46">46</option>
+					
+						<option value="47">47</option>
+					
+						<option value="48">48</option>
+					
+						<option value="49">49</option>
+					
+						<option value="50">50</option>
+					
+						<option value="51">51</option>
+					
+						<option value="52">52</option>
+					
+						<option value="53">53</option>
+					
+						<option value="54">54</option>
+					
+						<option value="55">55</option>
+					
+						<option value="56">56</option>
+					
+						<option value="57">57</option>
+					
+						<option value="58">58</option>
+					
+						<option value="59">59</option>
+					
+						<option value="60">60</option>
+					
+						<option value="61">61</option>
+					
+						<option value="62">62</option>
+					
+						<option value="63">63</option>
+					
+						<option value="64">64</option>
+					
+						<option value="65">65</option>
+					
+						<option value="66">66</option>
+					
+						<option value="67">67</option>
+					
+						<option value="68">68</option>
+					
+						<option value="69">69</option>
+					
+						<option value="70">70</option>
+					
+						<option value="71">71</option>
+					
+						<option value="72">72</option>
+					
+						<option value="73">73</option>
+					
+						<option value="74">74</option>
+					
+						<option value="75">75</option>
+					
+						<option value="76">76</option>
+					
+						<option value="77">77</option>
+					
+						<option value="78">78</option>
+					
+						<option value="79">79</option>
+					
+						<option value="80">80</option>
+					
+						<option value="81">81</option>
+					
+						<option value="82">82</option>
+					
+						<option value="83">83</option>
+					
+						<option value="84">84</option>
+					
+						<option value="85">85</option>
+					
+						<option value="86">86</option>
+					
+						<option value="87">87</option>
+					
+						<option value="88">88</option>
+					
+						<option value="89">89</option>
+					
+						<option value="90">90</option>
+					
+						<option value="91">91</option>
+					
+						<option value="92">92</option>
+					
+						<option value="93">93</option>
+					
+						<option value="94">94</option>
+					
+						<option value="95">95</option>
+					
+						<option value="96">96</option>
+					
+						<option value="97">97</option>
+					
+						<option value="98">98</option>
+					
+						<option value="99">99</option>
+					
+						<option value="100">100</option>
+					
+						<option value="101">101</option>
+					
+						<option value="102">102</option>
+					
+						<option value="103">103</option>
+					
+						<option value="104">104</option>
+					
+						<option value="105">105</option>
+					
+						<option value="106">106</option>
+					
+						<option value="107">107</option>
+					
+						<option value="108">108</option>
+					
+						<option value="109">109</option>
+					
+						<option value="110">110</option>
+					
+						<option value="111">111</option>
+					
+						<option value="112">112</option>
+					
+						<option value="113">113</option>
+					
+						<option value="114">114</option>
+					
+						<option value="115">115</option>
+					
+						<option value="116">116</option>
+					
+						<option value="117">117</option>
+					
+						<option value="118">118</option>
+					
+						<option value="119">119</option>
+					
+						<option value="120">120</option>
+					
+						<option value="121">121</option>
+					
+						<option value="122">122</option>
+					
+						<option value="123">123</option>
+					
+						<option value="124">124</option>
+					
+						<option value="125">125</option>
+					
+						<option value="126">126</option>
+					
+						<option value="127">127</option>
+					
+						<option value="128">128</option>
+					
+						<option value="129">129</option>
+					
+						<option value="130">130</option>
+					
+						<option value="131">131</option>
+					
+						<option value="132">132</option>
+					
+						<option value="133">133</option>
+					
+						<option value="134">134</option>
+					
+						<option value="135">135</option>
+					
+						<option value="136">136</option>
+					
+						<option value="137">137</option>
+					
+						<option value="138">138</option>
+					
+						<option value="139">139</option>
+					
+						<option value="140">140</option>
+					
+						<option value="141">141</option>
+					
+						<option value="142">142</option>
+					
+						<option value="143">143</option>
+					
+						<option value="144">144</option>
+					
+						<option value="145">145</option>
+					
+						<option value="146">146</option>
+					
+						<option value="147">147</option>
+					
+						<option value="148">148</option>
+					
+						<option value="149">149</option>
+					
+						<option value="150">150</option>
+					
+						<option value="151">151</option>
+					
+						<option value="152">152</option>
+					
+						<option value="153">153</option>
+					
+						<option value="154">154</option>
+					
+						<option value="155">155</option>
+					
+						<option value="156">156</option>
+					
+						<option value="157">157</option>
+					
+						<option value="158">158</option>
+					
+						<option value="159">159</option>
+					
+						<option value="160">160</option>
+					
+						<option value="161">161</option>
+					
+						<option value="162">162</option>
+					
+						<option value="163">163</option>
+					
+						<option value="164">164</option>
+					
+						<option value="165">165</option>
+					
+						<option value="166">166</option>
+					
+						<option value="167">167</option>
+					
+						<option value="168">168</option>
+					
+						<option value="169">169</option>
+					
+						<option value="170">170</option>
+					
+						<option value="171">171</option>
+					
+						<option value="172">172</option>
+					
+						<option value="173">173</option>
+					
+						<option value="174">174</option>
+					
+						<option value="175">175</option>
+					
+						<option value="176">176</option>
+					
+						<option value="177">177</option>
+					
+						<option value="178">178</option>
+					
+						<option value="179">179</option>
+					
+						<option value="180">180</option>
+					
+						<option value="181">181</option>
+					
+						<option value="182">182</option>
+					
+						<option value="183">183</option>
+					
+						<option value="184">184</option>
+					
+						<option value="185">185</option>
+					
+						<option value="186">186</option>
+					
+						<option value="187">187</option>
+					
+						<option value="188">188</option>
+					
+						<option value="189">189</option>
+					
+						<option value="190">190</option>
+					
+						<option value="191">191</option>
+					
+						<option value="192">192</option>
+					
+						<option value="193">193</option>
+					
+						<option value="194">194</option>
+					
+						<option value="195">195</option>
+					
+						<option value="196">196</option>
+					
+						<option value="197">197</option>
+					
+						<option value="198">198</option>
+					
+						<option value="199">199</option>
+					
+						<option value="200">200</option>
+					
+						<option value="201">201</option>
+					
+						<option value="202">202</option>
+					
+						<option value="203">203</option>
+					
+						<option value="204">204</option>
+					
+						<option value="205">205</option>
+					
+						<option value="206">206</option>
+					
+						<option value="207">207</option>
+					
+						<option value="208">208</option>
+					
+						<option value="209">209</option>
+					
+						<option value="210">210</option>
+					
+						<option value="211">211</option>
+					
+						<option value="212">212</option>
+					
+						<option value="213">213</option>
+					
+						<option value="214">214</option>
+					
+						<option value="215">215</option>
+					
+						<option value="216">216</option>
+					
+						<option value="217">217</option>
+					
+						<option value="218">218</option>
+					
+						<option value="219">219</option>
+					
+						<option value="220">220</option>
+					
+						<option value="221">221</option>
+					
+						<option value="222">222</option>
+					
+						<option value="223">223</option>
+					
+						<option value="224">224</option>
+					
+						<option value="225">225</option>
+					
+						<option value="226">226</option>
+					
+						<option value="227">227</option>
+					
+						<option value="228">228</option>
+					
+						<option value="229">229</option>
+					
+						<option value="230">230</option>
+					
+						<option value="231">231</option>
+					
+						<option value="232">232</option>
+					
+						<option value="233">233</option>
+					
+						<option value="234">234</option>
+					
+						<option value="235">235</option>
+					
+						<option value="236">236</option>
+					
+						<option value="237">237</option>
+					
+						<option value="238">238</option>
+					
+						<option value="239">239</option>
+					
+						<option value="240">240</option>
+					
+						<option value="241">241</option>
+					
+						<option value="242">242</option>
+					
+						<option value="243">243</option>
+					
+						<option value="244">244</option>
+					
+						<option value="245">245</option>
+					
+						<option value="246">246</option>
+					
+						<option value="247">247</option>
+					
+						<option value="248">248</option>
+					
+						<option value="249">249</option>
+					
+						<option value="250">250</option>
+					
+						<option value="251">251</option>
+					
+						<option value="252">252</option>
+					
+						<option value="253">253</option>
+					
+						<option value="254">254</option>
+					
+						<option value="255">255</option>
+					
+						<option value="256">256</option>
+					
+						<option value="257">257</option>
+					
+						<option value="258">258</option>
+					
+						<option value="259">259</option>
+					
+						<option value="260">260</option>
+					
+						<option value="261">261</option>
+					
+						<option value="262">262</option>
+					
+						<option value="263">263</option>
+					
+						<option value="264">264</option>
+					
+						<option value="265">265</option>
+					
+						<option value="266">266</option>
+					
+						<option value="267">267</option>
+					
+						<option value="268">268</option>
+					
+						<option value="269">269</option>
+					
+						<option value="270">270</option>
+					
+						<option value="271">271</option>
+					
+						<option value="272">272</option>
+					
+						<option value="273">273</option>
+					
+						<option value="274">274</option>
+					
+						<option value="275">275</option>
+					
+						<option value="276">276</option>
+					
+						<option value="277">277</option>
+					
+						<option value="278">278</option>
+					
+						<option value="279">279</option>
+					
+						<option value="280">280</option>
+					
+						<option value="281">281</option>
+					
+						<option value="282">282</option>
+					
+						<option value="283">283</option>
+					
+						<option value="284">284</option>
+					
+						<option value="285">285</option>
+					
+						<option value="286">286</option>
+					
+						<option value="287">287</option>
+					
+						<option value="288">288</option>
+					
+						<option value="289">289</option>
+					
+						<option value="290">290</option>
+					
+						<option value="291">291</option>
+					
+						<option value="292">292</option>
+					
+						<option value="293">293</option>
+					
+						<option value="294">294</option>
+					
+						<option value="295">295</option>
+					
+						<option value="296">296</option>
+					
+						<option value="297">297</option>
+					
+						<option value="298">298</option>
+					
+						<option value="299">299</option>
+					
+						<option value="300">300</option>
+					
+						<option value="301">301</option>
+					
+						<option value="302">302</option>
+					
+						<option value="303">303</option>
+					
+						<option value="304">304</option>
+					
+						<option value="305">305</option>
+					
+						<option value="306">306</option>
+					
+						<option value="307">307</option>
+					
+						<option value="308">308</option>
+					
+						<option value="309">309</option>
+					
+						<option value="310">310</option>
+					
+						<option value="311">311</option>
+					
+						<option value="312">312</option>
+					
+						<option value="313">313</option>
+					
+						<option value="314">314</option>
+					
+						<option value="315">315</option>
+					
+						<option value="316">316</option>
+					
+						<option value="317">317</option>
+					
+						<option value="318">318</option>
+					
+						<option value="319">319</option>
+					
+						<option value="320">320</option>
+					
+						<option value="321">321</option>
+					
+						<option value="322">322</option>
+					
+						<option value="323">323</option>
+					
+						<option value="324">324</option>
+					
+						<option value="325">325</option>
+					
+						<option value="326">326</option>
+					
+						<option value="327">327</option>
+					
+						<option value="328">328</option>
+					
+						<option value="329">329</option>
+					
+						<option value="330">330</option>
+					
+						<option value="331">331</option>
+					
+						<option value="332">332</option>
+					
+						<option value="333">333</option>
+					
+						<option value="334">334</option>
+					
+						<option value="335">335</option>
+					
+						<option value="336">336</option>
+					
+						<option value="337">337</option>
+					
+						<option value="338">338</option>
+					
+						<option value="339">339</option>
+					
+						<option value="340">340</option>
+					
+						<option value="341">341</option>
+					
+						<option value="342">342</option>
+					
+						<option value="343">343</option>
+					
+						<option value="344">344</option>
+					
+						<option value="345">345</option>
+					
+						<option value="346">346</option>
+					
+						<option value="347">347</option>
+					
+						<option value="348">348</option>
+					
+						<option value="349">349</option>
+					
+						<option value="350">350</option>
+					
+						<option value="351">351</option>
+					
+						<option value="352">352</option>
+					
+						<option value="353">353</option>
+					
+						<option value="354">354</option>
+					
+						<option value="355">355</option>
+					
+						<option value="356">356</option>
+					
+						<option value="357">357</option>
+					
+						<option value="358">358</option>
+					
+						<option value="359">359</option>
+					
+						<option value="360">360</option>
+					
+						<option value="361">361</option>
+					
+						<option value="362">362</option>
+					
+						<option value="363">363</option>
+					
+						<option value="364">364</option>
+					
+						<option value="365">365</option>
+					
+						<option value="366">366</option>
+					
+						<option value="367">367</option>
+					
+						<option value="368">368</option>
+					
+						<option value="369">369</option>
+					
+						<option value="370">370</option>
+					
+						<option value="371">371</option>
+					
+						<option value="372">372</option>
+					
+						<option value="373">373</option>
+					
+						<option value="374">374</option>
+					
+						<option value="375">375</option>
+					
+						<option value="376">376</option>
+					
+						<option value="377">377</option>
+					
+						<option value="378">378</option>
+					
+						<option value="379">379</option>
+					
+						<option value="380">380</option>
+					
+						<option value="381">381</option>
+					
+						<option value="382">382</option>
+					
+						<option value="383">383</option>
+					
+						<option value="384">384</option>
+					
+						<option value="385">385</option>
+					
+						<option value="386">386</option>
+					
+						<option value="387">387</option>
+					
+						<option value="388">388</option>
+					
+						<option value="389">389</option>
+					
+						<option value="390">390</option>
+					
+						<option value="391">391</option>
+					
+						<option value="392">392</option>
+					
+						<option value="393">393</option>
+					
+						<option value="394">394</option>
+					
+						<option value="395">395</option>
+					
+						<option value="396">396</option>
+					
+						<option value="397">397</option>
+					
+						<option value="398">398</option>
+					
+						<option value="399">399</option>
+					
+						<option value="400">400</option>
+					
+						<option value="401">401</option>
+					
+						<option value="402">402</option>
+					
+						<option value="403">403</option>
+					
+						<option value="404">404</option>
+					
+						<option value="405">405</option>
+					
+						<option value="406">406</option>
+					
+						<option value="407">407</option>
+					
+						<option value="408">408</option>
+					
+						<option value="409">409</option>
+					
+						<option value="410">410</option>
+					
+						<option value="411">411</option>
+					
+						<option value="412">412</option>
+					
+						<option value="413">413</option>
+					
+						<option value="414">414</option>
+					
+						<option value="415">415</option>
+					
+						<option value="416">416</option>
+					
+						<option value="417">417</option>
+					
+						<option value="418">418</option>
+					
+						<option value="419">419</option>
+					
+						<option value="420">420</option>
+					
+						<option value="421">421</option>
+					
+						<option value="422">422</option>
+					
+						<option value="423">423</option>
+					
+						<option value="424">424</option>
+					
+						<option value="425">425</option>
+					
+						<option value="426">426</option>
+					
+						<option value="427">427</option>
+					
+						<option value="428">428</option>
+					
+						<option value="429">429</option>
+					
+						<option value="430">430</option>
+					
+						<option value="431">431</option>
+					
+						<option value="432">432</option>
+					
+						<option value="433">433</option>
+					
+						<option value="434">434</option>
+					
+						<option value="435">435</option>
+					
+						<option value="436">436</option>
+					
+						<option value="437">437</option>
+					
+						<option value="438">438</option>
+					
+						<option value="439">439</option>
+					
+						<option value="440">440</option>
+					
+						<option value="441">441</option>
+					
+						<option value="442">442</option>
+					
+						<option value="443">443</option>
+					
+						<option value="444">444</option>
+					
+						<option value="445">445</option>
+					
+						<option value="446">446</option>
+					
+						<option value="447">447</option>
+					
+						<option value="448">448</option>
+					
+						<option value="449">449</option>
+					
+						<option value="450">450</option>
+					
+						<option value="451">451</option>
+					
+						<option value="452">452</option>
+					
+						<option value="453">453</option>
+					
+						<option value="454">454</option>
+					
+						<option value="455">455</option>
+					
+						<option value="456">456</option>
+					
+						<option value="457">457</option>
+					
+						<option value="458">458</option>
+					
+						<option value="459">459</option>
+					
+						<option value="460">460</option>
+					
+						<option value="461">461</option>
+					
+						<option value="462">462</option>
+					
+						<option value="463">463</option>
+					
+						<option value="464">464</option>
+					
+						<option value="465">465</option>
+					
+						<option value="466">466</option>
+					
+						<option value="467">467</option>
+					
+						<option value="468">468</option>
+					
+						<option value="469">469</option>
+					
+						<option value="470">470</option>
+					
+						<option value="471">471</option>
+					
+						<option value="472">472</option>
+					
+						<option value="473">473</option>
+					
+						<option value="474">474</option>
+					
+						<option value="475">475</option>
+					
+						<option value="476">476</option>
+					
+						<option value="477">477</option>
+					
+						<option value="478">478</option>
+					
+						<option value="479">479</option>
+					
+						<option value="480">480</option>
+					
+						<option value="481">481</option>
+					
+						<option value="482">482</option>
+					
+						<option value="483">483</option>
+					
+						<option value="484">484</option>
+					
+						<option value="485">485</option>
+					
+						<option value="486">486</option>
+					
+						<option value="487">487</option>
+					
+						<option value="488">488</option>
+					
+						<option value="489">489</option>
+					
+						<option value="490">490</option>
+					
+						<option value="491">491</option>
+					
+						<option value="492">492</option>
+					
+						<option value="493">493</option>
+					
+						<option value="494">494</option>
+					
+						<option value="495">495</option>
+					
+						<option value="496">496</option>
+					
+						<option value="497">497</option>
+					
+						<option value="498">498</option>
+					
+						<option value="499">499</option>
+					
+						<option value="500">500</option>
+					
+						<option value="501">501</option>
+					
+						<option value="502">502</option>
+					
+						<option value="503">503</option>
+					
+						<option value="504">504</option>
+					
+						<option value="505">505</option>
+					
+						<option value="506">506</option>
+					
+						<option value="507">507</option>
+					
+						<option value="508">508</option>
+					
+						<option value="509">509</option>
+					
+						<option value="510">510</option>
+					
+						<option value="511">511</option>
+					
+						<option value="512">512</option>
+					
+						<option value="513">513</option>
+					
+						<option value="514">514</option>
+					
+						<option value="515">515</option>
+					
+						<option value="516">516</option>
+					
+						<option value="517">517</option>
+					
+						<option value="518">518</option>
+					
+						<option value="519">519</option>
+					
+						<option value="520">520</option>
+					
+						<option value="521">521</option>
+					
+						<option value="522">522</option>
+					
+						<option value="523">523</option>
+					
+						<option value="524">524</option>
+					
+						<option value="525">525</option>
+					
+						<option value="526">526</option>
+					
+						<option value="527">527</option>
+					
+						<option value="528">528</option>
+					
+						<option value="529">529</option>
+					
+						<option value="530">530</option>
+					
+						<option value="531">531</option>
+					
+						<option value="532">532</option>
+					
+						<option value="533">533</option>
+					
+						<option value="534">534</option>
+					
+						<option value="535">535</option>
+					
+						<option value="536">536</option>
+					
+						<option value="537">537</option>
+					
+						<option value="538">538</option>
+					
+						<option value="539">539</option>
+					
+						<option value="540">540</option>
+					
+						<option value="541">541</option>
+					
+						<option value="542">542</option>
+					
+						<option value="543">543</option>
+					
+						<option value="544">544</option>
+					
+						<option value="545">545</option>
+					
+						<option value="546">546</option>
+					
+						<option value="547">547</option>
+					
+						<option value="548">548</option>
+					
+					</select>
+
+					
+						<a href="/discussions/amazon/2/"
+						   class="btn btn-sm">Next</a>
+					
+				</span>
+				
+			</span>
+		</div>
+	</div>
+
+</div>
+</div>
+
+<!-- 
+<style>
+.footer-cert {background: url(https://www.examtopics.com/assets/images/footer-girl.webp);background-repeat: no-repeat;background-size: cover;padding: 120px 0 200px 0;margin-bottom: -1px;}.footer-cert__wrapper {display: flex;justify-content: flex-end;}.footer-cert__info {color: #fff;display: flex;flex-direction: column;row-gap: 12px;max-width: 550px;}.footer-cert__info h3 {font-size: 27px;font-weight: 700;color: #fff;margin-bottom: 0;}.footer-cert__info p {font-size: 18px;line-height: 26px;padding-bottom: 12px;margin-bottom: 0;}.footer-cert__info a, .footer-cert__info button {color: #fff;border-radius: 2px;font-size: 18px;font-weight: 700;background: #fda00a;height: 48px;width: 240px;display: flex;align-items: center;justify-content: center;}@media (max-width: 992px) {.footer-cert__wrapper {justify-content: flex-start;}}@media (max-width: 768px) {.footer-cert {padding: 80px 0;}.footer-cert__info {row-gap: 17px;}}@media (max-width: 460px) {.footer-cert {padding: 60px 0;}.footer-cert__info a, .footer-cert__info button {width: 100%;}}
+</style>
+<div class="footer-cert">
+  <div class="container">
+    <div class="footer-cert__wrapper">
+      <div class="footer-cert__info">
+        <h3>Get IT Certification</h3>
+        <p>
+          Unlock free, top-quality video courses on ExamTopics with a simple registration. Elevate
+          your learning journey with our expertly curated content. Register now to access a diverse
+          range of educational resources designed for your success. Start learning today with
+          ExamTopics!
+        </p>
+        <a href="https://courses.examtopics.com/" target="_blank">Start Learning for free</a>
+      </div>
+    </div>
+  </div>
+</div>
+ -->
+<!-- Footer Start -->
+<footer id="rs-footer" class="bg3 rs-footer" style="margin-top:0"><!-- <footer id="rs-footer" class="bg3 rs-footer"> -->
+<!-- 
+<div class="container d-print-none">
+	<div>
+		<div class="row footer-contact-desc">
+			<div class="col-md-6">
+				<div class="contact-inner">
+					<i class="fa fa-users"></i>
+					<h4 class="contact-title">Social Media</h4>
+					<p class="contact-desc">
+					
+					<a href="https://www.facebook.com/ExamTopicsOnline/" class="social-media-contact-link">Facebook</a>
+					
+					,
+					
+					
+					<a href="https://twitter.com/TopicsExam" class="social-media-contact-link">Twitter</a>
+					
+					<br>
+					
+					
+					<a href="https://www.youtube.com/channel/UC4CThW97vf8rHFYcvK2disg" class="social-media-contact-link">YouTube</a>
+					
+					,
+					
+					
+					<a href="https://www.reddit.com/r/ExamTopics/" class="social-media-contact-link">Reddit</a>
+					
+					<br>
+					
+					
+					<a href="https://www.pinterest.com/examtopics/" class="social-media-contact-link">Pinterest</a>
+					
+					
+					</p>
+				</div>
+			</div>
+			<div class="col-md-6">
+				<div class="contact-inner" id="contact-us">
+				<i class="fa fa-envelope"></i>
+				<h4 class="contact-title">Email Address</h4>
+				<p class="contact-desc">
+				<a href="mailto:team@examtopics.com">team@examtopics.com</a><br>
+				www.examtopics.com
+				</p>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+ -->
+<!-- Footer Top -->
+<div class="footer-top d-print-none" style="padding-top:20px;">
+	<div class="container">
+		<img src="/assets/images/et/ExamTopics-Logo-Small-White.png" alt="ExamTopics Certifications" style="margin-bottom: 20px;"><br>
+		<div class="row">
+			<!-- <div class="col-lg-3 col-md-12">
+				<div class="about-widget">
+				<img src="/assets/images/et/ExamTopics-Logo-Small-White.png" alt="ExamTopics Certifications">
+				<p>We are the biggest and most updated IT certification exam material website.</p>
+				<p class="margin-remove">Using our own resources, we strive to strengthen the IT professionals community for free.</p>
+				</div>
+			</div>
+			<!-- <div class="col-lg-3 col-md-12">
+				<h5 class="footer-title">RECENT ARTICLES</h5>
+				<div class="recent-post-widget">
+					
+					<div class="post-item">
+						<div class="post-date">
+						<span>13</span>
+						<span>June</span>
+						</div>
+						<div class="post-desc">
+						<h5 class="post-title"><a href="https://www.examtopics.com/news/new-version-gcp-professional-cloud-architect-certificate-helpful-information/">New Version GCP Professional Cloud Architect Certificate &amp; Helpful Information</a></h5>
+						<span class="post-category">IT Certifications</span>
+						</div>
+					</div>
+					
+					<div class="post-item">
+						<div class="post-date">
+						<span>20</span>
+						<span>September</span>
+						</div>
+						<div class="post-desc">
+						<h5 class="post-title"><a href="https://www.examtopics.com/news/the-5-most-in-demand-project-management-certifications-of-2019/">The 5 Most In-Demand Project Management Certifications of 2019</a></h5>
+						<span class="post-category">IT Certifications</span>
+						</div>
+					</div>
+					
+				</div>
+			</div> -->
+<style>
+.sitemap-widget{
+display: flex;
+flex-direction: column;
+}
+</style>
+			<div class="col-lg-3 col-md-12">
+				<h5 class="footer-title">Platform</h5>
+				<ul class="sitemap-widget">
+				<li class="active"><a href="/"><i class="fa fa-angle-right" aria-hidden="true"></i>Home</a></li>
+				<li><a href="/exams/"><i class="fa fa-angle-right" aria-hidden="true"></i>All Exams</a></li>
+				<li><a href="https://unlimited.examtopics.com/" target="_blank"><i class="fa fa-angle-right" aria-hidden="true"></i>Examtopics PRO</a></li>
+				<li><a href="https://courses.examtopics.com/"><i class="fa fa-angle-right" aria-hidden="true"></i>Training Courses</a></li>
+				</ul>
+			</div>
+			<div class="col-lg-3 col-md-12">
+				<h5 class="footer-title">Account</h5>
+				<ul class="sitemap-widget">
+				
+					<li><a href="/login/"><i class="fa fa-angle-right" aria-hidden="true"></i>Login</a></li>
+					<li><a href="/signup/"><i class="fa fa-angle-right" aria-hidden="true"></i>Sign up</a></li>
+				
+				<li>
+				<li><a href="/reset-password/"><i class="fa fa-angle-right" aria-hidden="true"></i>Reset Password</a></li>
+				</li>
+				</ul>
+			</div>
+			<div class="col-lg-3 col-md-12">
+				<h5 class="footer-title">Company</h5>
+				<ul class="sitemap-widget">
+				<li><a href="/cdn-cgi/l/email-protection#3b4f5e5a567b5e435a564f544b52584815585456"><i class="fa fa-angle-right" aria-hidden="true"></i>Contact Us</a>
+				<li><a href="/#about-us"><i class="fa fa-angle-right" aria-hidden="true"></i>About Us</a></li>
+				<li><a href="/terms/"><i class="fa fa-angle-right" aria-hidden="true"></i>Terms</a></li>
+				<li><a href="/terms/"><i class="fa fa-angle-right" aria-hidden="true"></i>Privacy Policy</a></li>
+				</ul>
+			</div>
+			<div class="col-lg-3 col-md-12">
+				<h5 class="footer-title">Resources</h5>
+				<ul class="sitemap-widget">
+				<li><a href="/discussions/"><i class="fa fa-angle-right" aria-hidden="true"></i>Forum</a>
+				<li><a href="/news/"><i class="fa fa-angle-right" aria-hidden="true"></i>News</a></li>
+				<li><a href="/dmca/"><i class="fa fa-angle-right" aria-hidden="true"></i>DMCA</a></li>
+				</ul>
+			</div>
+
+			<div class="col-lg-3 col-md-12">
+
+			</div>
+		</div>
+		<div class="footer-share">
+			<ul>
+			<li><a href="https://www.facebook.com/ExamTopicsOnline/"><i class="fa fa-facebook"></i></a></li>
+			<!--<li><a href="#"><i class="fa fa-google-plus"></i></a></li>-->
+			<li><a href="https://twitter.com/TopicsExam"><i class="fa fa-twitter"></i></a></li>
+			<li><a href="https://www.youtube.com/channel/UC4CThW97vf8rHFYcvK2disg"><i class="fa fa-youtube"></i></a></li>
+			<li><a href="https://www.reddit.com/r/ExamTopics/"><i class="fa fa-reddit"></i></a></li>
+			<li><a href="https://www.pinterest.com/examtopics/"><i class="fa fa-pinterest"></i></a></li>
+			</ul>
+		</div>
+	</div>
+</div>
+
+<!-- Footer Bottom -->
+<div class="footer-bottom d-print-none">
+	<div class="container">
+		<div class="copyright">
+		<p>&copy; 2024 ExamTopics<!-- . <a href="mailto:team@examtopics.com">team@examtopics.com</a> --></p>
+		<!-- <p>ExamTopics doesn't offer Real Microsoft Exam Questions. ExamTopics doesn't offer Real Amazon Exam Questions. ExamTopics Materials do not
+			contain actual questions and answers from Cisco's Certification Exams. </p>
+		<p>CFA Institute does not endorse, promote or warrant the accuracy or quality of ExamTopics. CFA® and Chartered Financial Analyst® are registered trademarks owned by CFA Institute.</p> -->
+		</div>
+	</div>
+</div>
+</footer>
+<!-- Footer End -->
+
+    <!-- start scrollUp  -->
+    <div id="scrollUp" class="d-print-none">
+        <i class="fa fa-angle-up"></i>
+    </div>
+
+    <!-- Search Modal Start -->
+    <div aria-hidden="true" class="modal fade search-modal" role="dialog" tabindex="-1">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true" class="fa fa-close"></span>
+        </button>
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+                <div class="search-block clearfix">
+				<form action="/search/" id="modal-keyword-search-form">
+				<div class="form-group">
+					<input id="modal-keyword-search" class="form-control" placeholder="Exam name or code..." type="text" name="query" autocomplete="off">
+				</div>
+				</form>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal fade" id="login-modal" tabindex="-1" role="dialog" aria-labelledby="loginModalLabel"
+     aria-hidden="true">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="loginModalLabel">Log in to ExamTopics</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                <div class="login-wrapper col-lg-10 offset-lg-1 col-md-12">
+    <h4 class="mb-30 text-left">Sign in:</h4><!-- l-f -->
+    
+        <form action="/login/" method="post">
+    
+    <div class="card-text mb-30">
+        
+        <div class="input-group input-group-lg mb-3">
+            <div class="input-group-prepend">
+                    <span class="input-group-text bg-theme-blue text-white"
+                          id="basic-addon1">
+                        <i class="fa fa-user" style="width: 20px; height: 20px"></i>
+                    </span>
+            </div>
+            <input type="text" name="email" class="form-control username-text" placeholder="Email or nickname" aria-label="Username" aria-describedby="basic-addon1" id="etemail">
+        </div>
+    </div>
+    <div class="card-text mb-30">
+        <div class="input-group input-group-lg mb-1">
+            <div class="input-group-prepend">
+                    <span class="input-group-text bg-theme-blue text-white"
+                          id="basic-addon2">
+                        <i class="fa fa-key" style="width: 20px; height: 20px"></i>
+                    </span>
+            </div>
+            <input type="password" name="password" class="form-control password-text" placeholder="Password" aria-label="Password" aria-describedby="basic-addon2" id="etpass">
+        </div>
+        <div class="mb-30 text-left"><a href="/reset-password/">Forgot my password</a></div>
+    </div>
+
+    <button class="btn btn-primary btn-lg login-button" type="submit" onclick="validateUserPass(event);">Log in</button>
+    <input type="hidden" name="csrfmiddlewaretoken" value="t2q2LbGKSZJJOIwfs2v5Zus1viaJQKnVnxNP1DMbjXPpxTVwd4BGO0t4BQMRvRCA">
+    </form>
+    <div class="login-footer mt-30">
+        <span>Don't have an account yet? just <a href="/signup/">sign-up</a>.</span>
+        <br />
+        <span>
+            <i class="fa fa-envelope-o"></i>
+            <a href="/resend-activation/">Resend activation email</a>
+        </span>
+    </div>
+</div> <!-- / Login wrapper -->
+
+<script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script type="application/javascript">
+    function validateUserPass(e) {
+        let username = $('.username-text').val().trim();
+        let password = $('.password-text').val().trim();
+        if ((!username) || (!password)) {
+            bootbox.alert("Username or password are missing");
+            e.preventDefault();
+        }
+    }
+//
+function getHTTPObject(){
+	if (window.ActiveXObject) 
+		return new ActiveXObject("Microsoft.XMLHTTP");
+	else if (window.XMLHttpRequest) 
+		return new XMLHttpRequest();
+	else 
+	{
+		//alert("Your browser does not support AJAX technology.");
+		return null;
+	}
+}
+//
+function examtopicsLogin(id,name,sess)
+{
+//	email=document.getElementById('etemail').value;
+//	password=document.getElementById('etpass').value;
+//	if (sess=='')
+//		sess=window.location;	
+	httpObject = getHTTPObject();
+	if (httpObject != null) 
+	{
+		httpObject.open('POST', 'https://certification.examtopics.com/login.php?id='+id+'&name='+name+'&sess='+sess, true);		
+		httpObject.send(null);
+	}
+	return true;
+}
+
+</script>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary mt-15" data-dismiss="modal">Close</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+        <!-- Popper JS -->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
+        <!-- modernizr js -->
+        <script src="/assets/js/modernizr-2.8.3.min.js"></script>
+        <!-- jquery latest version -->
+        <script src="/assets/js/jquery.min.js"></script>
+        <!-- bootstrap js -->
+        <script src="/assets/js/bootstrap.min.js"></script>
+        <!-- owl.carousel js
+        <script src="/assets/js/owl.carousel.min.js"></script>-->
+		<!-- slick.min js -->
+        <script src="/assets/js/slick.min.js"></script>
+        <!-- isotope.pkgd.min js -->
+        <script src="/assets/js/isotope.pkgd.min.js"></script>
+        <!-- imagesloaded.pkgd.min js -->
+        <script src="/assets/js/imagesloaded.pkgd.min.js"></script>
+        <!-- wow js -->
+        <script src="/assets/js/wow.min.js"></script>
+        <!-- counter top js -->
+        <script src="/assets/js/waypoints.min.js"></script>
+
+        <script src="/assets/js/jquery.counterup.min.js"></script>
+        <!-- magnific popup -->
+        <script src="/assets/js/jquery.magnific-popup.min.js"></script>
+        <!-- rsmenu js -->
+        <script src="/assets/js/rsmenu-main.js"></script>
+        <!-- plugins js -->
+        <script src="/assets/js/plugins.js"></script>
+        <!-- Switch js -->
+        <script src="/assets/js/color-style.js"></script>
+        <!-- main js -->
+        <script src="/assets/js/main.js"></script>
+
+        <script src="/assets/js/bootbox.min.js"></script>
+
+        <script src="/assets/js/bootstrap3-typeahead.min.js" async defer>
+        </script>
+
+        <script type="text/javascript">
+            // Activate tooltips
+            $(function () {
+                $('[data-toggle="tooltip"]').tooltip();
+            })
+
+            // CSS Loading
+            function loadStyleSheet(src) {
+                if (document.createStyleSheet){
+                    document.createStyleSheet(src);
+                }
+                else {
+                    $("head").append($("<link rel='stylesheet' href='"+src+"' type='text/css' media='screen' />"));
+                }
+            };
+
+            $(document).ready(function () {
+                // Login modal refer set:
+                var login_modal_form = $('.modal .login-wrapper form');
+                login_modal_form.attr('action', login_modal_form.attr('action')+'?next=/discussions/amazon/1/')
+
+                // Load stylesheets in a deferred way:
+                $('link[defhref]').each(function() {
+                    $(this).attr('href', $(this).attr('defhref'));
+                    //var src = $(this).attr('href');
+                    //loadStyleSheet(src);
+                });
+
+                // Load mobile images in a deferred way:
+                var isMobile = window.matchMedia("only screen and (max-width: 490px)").matches;
+                if (isMobile) {
+                    $('img[mobile-defsrc]').each(function () {
+                        $(this).attr('src', $(this).attr('mobile-defsrc')).removeAttr('defsrc');
+                    });
+                }
+
+                // Load images in a deferred way:
+                $('img[defsrc]').each(function() {
+                    $(this).attr('src',$(this).attr('defsrc'));
+                });
+
+
+                function delayedStart() {
+                    // Typeahead start
+
+                    // Register typeahead element:
+                    $('#header-keyword-search, #modal-keyword-search').typeahead({
+                        source: autoCompleteQuery,
+                        autoSelect: true,
+                        delay: 150,
+                        selectOnBlur: false,
+                        afterSelect: function(param) {$(this.$element).closest('form').submit()}
+                    });
+
+                    // Query ajax function:
+                    function autoCompleteQuery(query, callback) {
+                        return $.get("/ajax/autocomplete/suggestions/?query=" + query).done(callback);
+                    }
+                    // Typeahead end
+                }
+                setTimeout(delayedStart, 1500);
+
+                // Don't submit empty search query
+                $('#modal-keyword-search-form').submit(function() {
+                    if (!$('#modal-keyword-search').val()) {
+                        return false;
+                    }
+                });
+
+                // Auto focus on search box when search-modal is opened
+                $('.search-modal').on('shown.bs.modal', function (e) {
+                    $(this).find('input[type=text]').focus();
+                });
+
+
+            });
+
+			jQuery(document).bind("keyup keydown", function(e){
+				if (e.ctrlKey && e.keyCode == 80){
+					return false;
+				}
+			});
+
+        </script>
+
+        
+<!-- end-scripts -->
+
+
+    <script type="text/javascript">
+        $(document).ready(function () {
+            // On paginator combobox page select, change the page:
+            $('.discussion-list-page-select').change(function () {
+                new_page_number = $(this).val();
+                new_page_url = "/discussions/amazon/" + new_page_number;
+                window.location = new_page_url;
+            });
+
+            $('.new-discussion-button').click(function () {
+                bootbox.alert("Custom discussion creation is under maintenance.");
+            })
+
+        });
+    </script>
+
+
+        <input type="hidden" class="is-logged-in" value="0">
+
+
+
+
+
+<style>
+.bottomMarketing{position:fixed;right:-300px;top:250px;border-radius:10px;transform:translateY(-50%);background-color:#007bff;transition:right .5s ease-in-out;padding:16px 15px;color:#fff;display:flex;align-items:center;column-gap:10px}.bottomMarketing__wrap{display:flex;flex-direction:column;row-gap:4px}.bottomMarketing__wrap span{font-size:12px;line-height:16px;font-weight:500}.bottomMarketing__wrap h5{font-size:18px;line-height:25px;font-weight:600;margin:0;padding:0;color:#fff}.slide-in{right:25px}@media (max-width:600px){.bottomMarketing{display:none}}
+
+</style>
+<div class="bottomMarketing">
+<img
+  src="https://www.examtopics.com/assets/images/1m.webp"
+  width="40"
+  height="62"
+  alt="exam"
+/>
+<div class="bottomMarketing__wrap">
+  <span>Someone Bought Contributor Access for: </span>
+  <h5 class="bottomMarketing__exam">SY0-701</h5>
+  <div><span class="bottomMarketing__city">London</span><span>, 1 minute ago</span></div>
+</div>
+</div>
+<script type="text/javascript">
+const bottomMarketingExam=document.querySelector(".bottomMarketing__exam"),bottomMarketingCity=document.querySelector(".bottomMarketing__city"),cities=["Singapore","Sydney","Bengaluru","Seoul","London","Melbourne","Toronto","New York","Warsaw","Chennai","Riyadh","Madrid","Bangkok","Mumbai","Dallas","Chicago","Oslo","Sao Paulo","Milan","Hong Kong","Paris","Hyderabad","Frankfurt","Atlanta","Dublin","San Jose","Calgary","Amsterdam","Bucharest","Jakarta","Mexico City","Ashburn","Houston","Los Angeles","Dubai","Auckland","Bogota","Cape Town","Miami","Prague","Santiago","Seattle","Montreal","Vienna","Johannesburg","Kuala Lumpur","Brisbane","Budapest","Denver","Doha","Perth","Pune","Sofia","Abu Dhabi","Kyiv","Tokyo"],certifications=["SY0-701","AZ-104","AZ-900","200-301","SAA-C03","AZ-305","PL-300","350-401","CS0-003","SAP-C02","MD-102","MS-102","N10-008","AZ-204","SC-300","CLF-C02","AI-102","SC-200","CISSP","AI-900","DP-600","220-1102","AZ-500","PMP","AZ-700","220-1101","AIF-C01","DP-203","ITILFND V4","PCNSE","CAS-004","SC-100","PT0-002","MS-900","AZ-400","SCS-C02","PL-200","300-410","SC-900","2V0-21.23","DOP-C02","CAMS","N10-009","AZ-140","DEA-C01","CISM","AZ-800","CSA","DP-900","312-50v12","PL-600","DVA-C02","SC-400","PL-400","PL-900","MS-700","PCNSA","CISA","PK0-005","XK0-005","350-701","VMCE v12","DP-100","DP-300","AZ-801",];function updateRandomValues(){let $=Math.floor(Math.random()*cities.length),a=Math.floor(Math.random()*certifications.length);bottomMarketingExam&&(bottomMarketingExam.textContent=certifications[a]),bottomMarketingCity&&(bottomMarketingCity.textContent=cities[$])}function animateBlock(){let $=document.querySelector(".bottomMarketing");$&&(updateRandomValues(),$.classList.add("slide-in"),setTimeout(()=>{$.classList.remove("slide-in"),setTimeout(animateBlock,6e4)},7e3))}updateRandomValues(),setTimeout(animateBlock,1e4);
+
+</script>
+
+
+    </body>
+</html>
+
