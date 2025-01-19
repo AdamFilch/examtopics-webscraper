@@ -4,6 +4,7 @@ import { Autocomplete, Box, Button, ButtonBase, Chip, Container, Paper, Stack, T
 import PROVIDER_LIST from 'dumps/PROVIDER_LIST.json'
 import { useState } from "react"
 import fuzzysort from 'fuzzysort'
+import axios from "axios"
 
 
 export default function ScrapePage() {
@@ -17,12 +18,28 @@ export default function ScrapePage() {
     const providers = PROVIDER_LIST.map((pro) => pro.provider)
     const exams = PROVIDER_LIST.map((pro) => pro.exams).flat()
 
+    const handleScrape = async () => {
+        const scrapeDetails = {
+            exam_name: selectedExam.exam,
+            provider: selectedExam.provider,
+            scrape_method: 'method1',
+        };
+        console.log('test')
+
+        try {
+            const response = await axios.post('http://localhost:5000/scrape', scrapeDetails);
+            console.log('Script Output:', response.data.output);
+            if (response.data.error) {
+                console.error('Script Error:', response.data.error);
+            }
+        } catch (error) {
+            console.error('Request Failed:', error);
+        }
+    };
 
     function handleSearch(input: string, options) {
         const exam_fuzzy = fuzzysort.go(input, exams, { keys: ['exam_name', 'exam_code'], threshold: 0.5, limit: 15 }).map((fuzz) => fuzz.obj.exam_name)
-
         const providers_fuzzy = fuzzysort.go(input, providers, { threshold: 0.5, limit: 15 }).map((fuzz) => fuzz.target)
-
         return [...providers_fuzzy, ...exam_fuzzy].sort()
     }
 
@@ -46,8 +63,8 @@ export default function ScrapePage() {
                     </Typography>
 
                 </Box>
-                <Button size="large" disabled={selectedExam.exam == ''}>
-                    Scrape!
+                <Button size="large" disabled={selectedExam.exam == ''} onClick={handleScrape}>
+                    Scrape! teses
                 </Button>
             </Box>
 

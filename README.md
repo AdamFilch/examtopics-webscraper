@@ -59,4 +59,10 @@ in the form of
     }
 }
 ```
-Test command BRuh
+
+To run the python server, create first the python virtual environment, by `virtual venv` then install from requirements.txt `pip install -r 'requirements.txt'` then run `venv\Scripts\python server.py`
+
+
+To run the python scripts run `py main.py`, make sure you are in your virtual environment with  `
+
+If you added more python libraries be sure the libraries are added to requirements, `pip freeze > requirements.txt` this command automatically adds from your venv

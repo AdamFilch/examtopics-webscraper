@@ -6,7 +6,7 @@ from time import sleep
 from fuzzywuzzy import fuzz
 import random
 import os
-
+import sys
 
 WRITE_INTO_FILE = "EXAMPLE_QUESTION_DUMP.json"
 
@@ -21,6 +21,7 @@ def main(exam_name: str, provider: str, scrape_method: str):
     res = []
     proceed = True
     page_num = 1
+    scraped_question = 0
     
     if not os.path.exists('dumps/exam_papers/' + exam_name + '.json'):
         with open('dumps/exam_papers/' + exam_name + '.json', 'w'): pass
@@ -45,6 +46,7 @@ def main(exam_name: str, provider: str, scrape_method: str):
                     question_object['title'] = exam_link['title']
                     
                     res.append(question_object)
+                    scraped_question += 1
                     
                     with open('dumps/exam_papers/' + exam_name  +'.json', 'w', encoding='utf-8') as f:
                         json.dump(res, f, ensure_ascii=False, indent=4)
@@ -65,5 +67,9 @@ scrape_details = {
     "scrape_method": '',
 }
 
+if __name__ == '__main__':
+    # Read the JSON string passed from Flask
+    scrape_details = json.loads(sys.argv[1])
 
-main(**scrape_details)
+    # Call the main function with unpacked arguments    
+    main(**scrape_details)
