@@ -102,40 +102,40 @@ export default function ScrapePage() {
 
                         </Paper>
                     </Box>
-                    <Paper>
+                    <Paper sx={{
+                        overflow: 'scroll'
+                    }}>
                         {selectedExam.index && (
-                            <Box>
-                                {PROVIDER_LIST[selectedExam.index - 1].exams.map((exam, i) => (
-                                    <ButtonBase key={i} sx={{
-                                        display: 'flex',
-                                        alignItems: 'center',
-                                        justifyContent: 'start',
-                                        height: 45,
-                                        width: '100%',
-                                        gap: 2,
-                                        paddingX: 2,
-                                        '&:hover': {
-                                            backgroundColor: '#1976d2'
-                                        }
-                                    }} onClick={() => {
-                                        if (selectedExam.exam != exam.exam_name) {
-                                            setSelectedExam({ ...selectedExam, exam: exam.exam_name })
-                                        } else {
-                                            setSelectedExam({ ...selectedExam, exam: exam.exam_name })
-                                        }
-                                    }}>
+                            PROVIDER_LIST[selectedExam.index - 1].exams.map((exam, i) => (
+                                <ButtonBase key={i} sx={{
+                                    display: 'flex',
+                                    alignItems: 'center',
+                                    justifyContent: 'start',
+                                    height: 45,
+                                    width: '100%',
+                                    gap: 2,
+                                    paddingX: 2,
+                                    '&:hover': {
+                                        backgroundColor: '#1976d2'
+                                    }
+                                }} onClick={() => {
+                                    if (selectedExam.exam != exam.exam_name) {
+                                        setSelectedExam({ ...selectedExam, exam: exam.exam_name })
+                                    } else {
+                                        setSelectedExam({ ...selectedExam, exam: exam.exam_name })
+                                    }
+                                }}>
 
-                                        <Typography textOverflow={'ellipsis'}>{exam.exam_name}</Typography>
-                                        {exam.popular && (
-                                            <>
-                                                <Typography>&bull;</Typography>
-                                                <Chip label="Popular" color="info" />
-                                            </>
-                                        )}
-                                    </ButtonBase>
-                                ))}
+                                    <Typography textOverflow={'ellipsis'}>{exam.exam_name}</Typography>
+                                    {exam.popular && (
+                                        <>
+                                            <Typography>&bull;</Typography>
+                                            <Chip label="Popular" color="info" />
+                                        </>
+                                    )}
+                                </ButtonBase>
+                            ))
 
-                            </Box>
 
                         )}
                     </Paper>

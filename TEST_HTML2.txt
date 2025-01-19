@@ -30,8 +30,8 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 
         <!-- meta tag -->
         <meta charset="utf-8">
-        <title>Exam AWS Certified Developer Associate topic 1 question 34 discussion - ExamTopics</title>
-        <meta name="description" content="Amazon Discussion, Exam AWS Certified Developer Associate topic 1 question 34 discussion.">
+        <title>Exam AWS Certified Cloud Practitioner CLF-C02 topic 1 question 342 discussion - ExamTopics</title>
+        <meta name="description" content="Amazon Discussion, Exam AWS Certified Cloud Practitioner CLF-C02 topic 1 question 342 discussion.">
         <!-- responsive tag -->
         <meta http-equiv="x-ua-compatible" content="ie=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -225,7 +225,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 							<div id="info-details" class="widget-text">
 								<i class="glyph-icon flaticon-email"></i>
 								<div class="info-text">
-								<a href="/cdn-cgi/l/email-protection#fc88999d91bc99849d9188938c959f8fd29f9391"><span>Mail Us</span><span class="__cf_email__" data-cfemail="314554505c715449505c455e415852421f525e5c">[email&#160;protected]</span></a>
+								<a href="/cdn-cgi/l/email-protection#d3a7b6b2be93b6abb2bea7bca3bab0a0fdb0bcbe"><span>Mail Us</span><span class="__cf_email__" data-cfemail="3c48595d517c59445d5148534c555f4f125f5351">[email&#160;protected]</span></a>
 								</div>
 							</div>
 						</div>
@@ -401,7 +401,7 @@ width: fit-content
 					<!-- <li><a href="https://courses.examtopics.com/" onClick="return coursesClick();">Training Courses</a><span class="nav__new">NEW</span></li> -->
 					<!-- <li><a href="/news/">News</a></li> -->
 					<!-- <li><a href="/discussions/">Forum</a></li> -->
-					<li><a href="/cdn-cgi/l/email-protection#681c0d0905280d1009051c0718010b1b460b0705">Contact</a></li>
+					<li><a href="/cdn-cgi/l/email-protection#443021252904213c2529302b342d27376a272b29">Contact</a></li>
 					<!-- <li><a href="/#about-us">About</a></li> -->
 
 					
@@ -446,7 +446,7 @@ function coursesClick()
     
 <!-- discussion-page.html -->
 
-<!-- rrr [/discussions/amazon/view/79665-exam-aws-certified-developer-associate-topic-1-question-34/] -->
+<!-- rrr [/discussions/amazon/view/129781-exam-aws-certified-cloud-practitioner-clf-c02-topic-1/] -->
 
 <div class="sec-spacer pt-50">
 <div class="container">
@@ -483,12 +483,12 @@ Take advantage of PDF Files for 1000+ Exams along with community discussions and
 			  <img width="40" height="54" src="https://www.examtopics.com/assets/images/box.webp" alt="exam questions"/>
 
 			  <div class="contrib__ulimited-content">
-				<h4>Exam AWS Certified Developer Associate  All Questions</h4>
-				<h5>View all questions & answers for the AWS Certified Developer Associate exam</h5>
+				<h4>Exam AWS Certified Cloud Practitioner CLF-C02  All Questions</h4>
+				<h5>View all questions & answers for the AWS Certified Cloud Practitioner CLF-C02 exam</h5>
 			  </div>
 			</div>
 			<div class="contrib__ulimited-get">
-			  <a href="/exams/amazon/aws-certified-developer-associate/">Go to Exam</a>
+			  <a href="/exams/amazon/aws-certified-cloud-practitioner-clf-c02/">Go to Exam</a>
 			</div>
 
 		  </div>
@@ -502,7 +502,7 @@ Take advantage of PDF Files for 1000+ Exams along with community discussions and
 	<div class="row">
 		<div class="col-12">
 			<div class="discussion-list-header">
-				<h1><i class="fa fa-file-text-o mr-3"></i>Exam AWS Certified Developer Associate topic 1 question 34 discussion</h1>
+				<h1><i class="fa fa-file-text-o mr-3"></i>Exam AWS Certified Cloud Practitioner CLF-C02 topic 1 question 342 discussion</h1>
 			</div>
 		</div>
 	</div>
@@ -521,24 +521,24 @@ Take advantage of PDF Files for 1000+ Exams along with community discussions and
 							Exam question from
 						
 						Amazon's
-						<a href="/exams/amazon/aws-certified-developer-associate/" class="discussion-link">AWS Certified Developer Associate</a>
+						<a href="/exams/amazon/aws-certified-cloud-practitioner-clf-c02/" class="discussion-link">AWS Certified Cloud Practitioner CLF-C02</a>
 						<div>
-							Question #: 34<br/>
+							Question #: 342<br/>
 							Topic #: 1
 						</div>
-						<a href="/exams/amazon/aws-certified-developer-associate/" class="all-questions-link">[All AWS Certified Developer Associate Questions]</a>
+						<a href="/exams/amazon/aws-certified-cloud-practitioner-clf-c02/" class="all-questions-link">[All AWS Certified Cloud Practitioner CLF-C02 Questions]</a>
 					</div>
-					<div class="question-body mt-3 pt-3 border-top" data-id="807534">
+					<div class="question-body mt-3 pt-3 border-top" data-id="907329">
 						<p class="card-text">
 							
-								The developer is creating a web application that collects highly regulated and confidential user data through a POST request. The web application is served through Amazon CloudFront. User names and phone numbers must be encrypted at the edge and must remain encrypted throughout the entire application stack.<br>What is the MOST secure way to meet these requirements?<br>
+								A company wants a web application to interact with various AWS services.<br><br>Which AWS service or resource will meet this requirement?
 							
 						</p>
 						
 							
 								<div class="voted-answers-tally d-none">
 									
-										<script id="807534" type="application/json">[{"voted_answers": "D", "vote_count": 14, "is_most_voted": true}]</script>
+										<script id="907329" type="application/json">[{"voted_answers": "C", "vote_count": 14, "is_most_voted": true}, {"voted_answers": "D", "vote_count": 7, "is_most_voted": false}]</script>
 									
 								</div>
 							
@@ -551,7 +551,7 @@ Take advantage of PDF Files for 1000+ Exams along with community discussions and
 													A.
 												</span>
 											
-											Enforce Match Viewer with HTTPS Only on CloudFront.
+											AWS CloudShell
 										</li>
 									
 										<li class="multi-choice-item">
@@ -560,25 +560,25 @@ Take advantage of PDF Files for 1000+ Exams along with community discussions and
 													B.
 												</span>
 											
-											Use only the newest TLS security policy on CloudFront.
+											AWS Marketplace
 										</li>
 									
-										<li class="multi-choice-item">
+										<li class="multi-choice-item correct-hidden">
 											
 												<span class="multi-choice-letter" data-choice-letter="C">
 													C.
 												</span>
 											
-											Enforce a signed URL on CloudFront on the front end.
+											AWS Management Console
 										</li>
 									
-										<li class="multi-choice-item correct-hidden">
+										<li class="multi-choice-item">
 											
 												<span class="multi-choice-letter" data-choice-letter="D">
 													D.
 												</span>
 											
-											Use field-level encryption on CloudFront.
+											AWS CLI
 										</li>
 									
 								</ul>
@@ -590,7 +590,7 @@ Take advantage of PDF Files for 1000+ Exams along with community discussions and
 
 						<div class="card-text question-answer bg-light white-text">
 							<span class="correct-answer-box"><strong>Suggested Answer:</strong>
-								<span class="correct-answer">D</span>
+								<span class="correct-answer">C</span>
 								
 								<a href="#" class="vote-answer-button ml-1 d-print-none" data-toggle="tooltip" title="Vote an answer">🗳️</a>
 								
@@ -609,12 +609,12 @@ Take advantage of PDF Files for 1000+ Exams along with community discussions and
 					<div class="discussion-meta-data mt-3 pt-1 border-top">
 							by
 							
-							<a href="/user/LEHUY/" style="" class="title-username"><i class="fa fa-user-o"></i>
-								LEHUY
+							<a href="/user/Mike1987/" style="" class="title-username"><i class="fa fa-user-o"></i>
+								Mike1987
 							</a>
 							
 							at <i>
-							Sept. 3, 2022, 5:19 a.m.</i>
+							Dec. 29, 2023, 11:12 p.m.</i>
 
 							
 								<div class="disclaimer-box mt-2">
@@ -627,7 +627,7 @@ Take advantage of PDF Files for 1000+ Exams along with community discussions and
 							
 					</div>
 			</div>
-			<div class="discussion-page-comments-section" data-discussion-question-id="807534">
+			<div class="discussion-page-comments-section" data-discussion-question-id="907329">
 				<div class="mt-4 ml-2 font-"><h4 id="comment-section-title" class="mb-0">Comments</h4></div>
 				
 				<!-- discussion.html -->
@@ -639,10 +639,10 @@ Take advantage of PDF Files for 1000+ Exams along with community discussions and
 		<!-- New comment start -->
 		<div class="create-comment-base d-print-none">
 			<div class="new-comment-box mt-2"
-				data-discussion-id="79665"
+				data-discussion-id="129781"
 				data-linked-to="question"
 				data-linked-id=""
-				data-title="Exam AWS Certified Developer Associate topic 1 question 34 discussion">
+				data-title="Exam AWS Certified Cloud Practitioner CLF-C02 topic 1 question 342 discussion">
 				<form>
 				
 				<div class="choice-vote-box">
@@ -651,7 +651,7 @@ Take advantage of PDF Files for 1000+ Exams along with community discussions and
 					</span>
 					<br/>
 					<span class="voting-comment-help">
-						This is a voting comment (<a href="javascript:void(0)" class="voting-comment-questionmark">?</a>). <!-- , you can switch to a <a href="javascript:void(0)" class="switch-to-simple-comment-btn">simple comment</a>. --><!-- test1 -->It is better to Upvote an existing comment if you don't have anything to add.
+						This is a voting comment<span class='voting-comment-brackets'> (<a href="javascript:void(0)" class="voting-comment-questionmark">?</a>)</span>. <span style='display: none;' class='switch-to-simple-comment-wrap'>You can switch to a <a href="javascript:void(0)" class="switch-to-simple-comment-btn">simple comment</a>.</span> <!-- test1 -->It is better to Upvote an existing comment if you don't have anything to add.
 					</span>
 				</div>
 				<div class="non-voting-comment-box">
@@ -677,7 +677,7 @@ Take advantage of PDF Files for 1000+ Exams along with community discussions and
 				
 
 <!-- single_comment.html -->
-<div id="comment-1327278" class="media comment-container" data-comment-id="1327278">
+<div id="comment-1342293" class="media comment-container" data-comment-id="1342293">
 
 <a href="#" class="minimize-comment comment-toggle">
 	<i class="fa fa-minus-square-o mr-2 mt-1"></i>
@@ -688,15 +688,141 @@ Take advantage of PDF Files for 1000+ Exams along with community discussions and
 <div class="media-body">
 	<div class="comment-head">
 		<i class="fa fa-user mr-1 mt-1"></i>
-		<a href="/user/sumanshu/">
+		<a href="/user/its_tima/">
 			<h5 class="mt-0 mb-0 align-middle d-inline-block comment-username">
-				sumanshu
+				its_tima
 			</h5>
 		</a>
 		
 		
-		<span class="comment-date align-middle" title="Mon 16 Dec 2024 11:41">
-			2 weeks, 5 days ago
+		<span class="comment-date align-middle" title="Fri 17 Jan 2025 19:41">
+			1 day, 12 hours ago
+		</span>
+		
+	</div>
+	<div class="comment-body comment-toggled">
+		
+			<div class="comment-selected-answers badge badge-warning">Selected Answer: <span><strong>C</strong></span></div>
+		
+		<div class="comment-content">Difference between C. and D. CLI has a command-line interface, making is less user friendly. Question is asking about a web-based user interface which is simple to use.</div>
+		<div class="comment-control">
+			<span class="comment-control-buttons d-print-none">
+				<a href="#" class="comment-upvote requires-login" title="Upvote" ><i class="fa fa-thumbs-up"></i></a>
+				
+				<a href="#" class="ml-2 comment-reply-to requires-login" title="Reply"><i class="fa fa-reply"></i></a>
+				
+				<a href="#" class="ml-2 comment-flag-report requires-login" title="Report"><i class="fa fa-flag"></i></a>
+			</span>
+			<span class="ml-2 upvote-text">
+				upvoted <span class="upvote-count">1</span> times
+			</span>
+			
+			<span class="comment-control-error ml-2"></span>
+		</div>
+		<div class="new-comment-box-container mt-2">
+
+		</div>
+		<div class="comment-replies">
+			<!-- Nesting start -->
+			
+			<!-- Nesting end -->
+		</div>
+	</div>
+	<div class="comment-ellipsis comment-toggled">
+		...
+	</div>
+</div>
+</div>
+
+
+			
+				
+
+<!-- single_comment.html -->
+<div id="comment-1341996" class="media comment-container" data-comment-id="1341996">
+
+<a href="#" class="minimize-comment comment-toggle">
+	<i class="fa fa-minus-square-o mr-2 mt-1"></i>
+</a>
+<a href="#" class="maximize-comment comment-toggle">
+	<i class="fa fa-plus-square-o mr-2 mt-1"></i>
+</a>
+<div class="media-body">
+	<div class="comment-head">
+		<i class="fa fa-user mr-1 mt-1"></i>
+		<a href="/user/Nikmah/">
+			<h5 class="mt-0 mb-0 align-middle d-inline-block comment-username">
+				Nikmah
+			</h5>
+		</a>
+		
+		
+		<span class="comment-date align-middle" title="Fri 17 Jan 2025 05:26">
+			2 days, 2 hours ago
+		</span>
+		
+	</div>
+	<div class="comment-body comment-toggled">
+		
+			<div class="comment-selected-answers badge badge-warning">Selected Answer: <span><strong>C</strong></span></div>
+		
+		<div class="comment-content">What’s the AWS CLI?
+• A tool that enables you to interact with AWS services using commands in
+your command-line shell</div>
+		<div class="comment-control">
+			<span class="comment-control-buttons d-print-none">
+				<a href="#" class="comment-upvote requires-login" title="Upvote" ><i class="fa fa-thumbs-up"></i></a>
+				
+				<a href="#" class="ml-2 comment-reply-to requires-login" title="Reply"><i class="fa fa-reply"></i></a>
+				
+				<a href="#" class="ml-2 comment-flag-report requires-login" title="Report"><i class="fa fa-flag"></i></a>
+			</span>
+			<span class="ml-2 upvote-text">
+				upvoted <span class="upvote-count">1</span> times
+			</span>
+			
+			<span class="comment-control-error ml-2"></span>
+		</div>
+		<div class="new-comment-box-container mt-2">
+
+		</div>
+		<div class="comment-replies">
+			<!-- Nesting start -->
+			
+			<!-- Nesting end -->
+		</div>
+	</div>
+	<div class="comment-ellipsis comment-toggled">
+		...
+	</div>
+</div>
+</div>
+
+
+			
+				
+
+<!-- single_comment.html -->
+<div id="comment-1317057" class="media comment-container" data-comment-id="1317057">
+
+<a href="#" class="minimize-comment comment-toggle">
+	<i class="fa fa-minus-square-o mr-2 mt-1"></i>
+</a>
+<a href="#" class="maximize-comment comment-toggle">
+	<i class="fa fa-plus-square-o mr-2 mt-1"></i>
+</a>
+<div class="media-body">
+	<div class="comment-head">
+		<i class="fa fa-user mr-1 mt-1"></i>
+		<a href="/user/FMORADELL/">
+			<h5 class="mt-0 mb-0 align-middle d-inline-block comment-username">
+				FMORADELL
+			</h5>
+		</a>
+		
+		
+		<span class="comment-date align-middle" title="Sun 24 Nov 2024 14:34">
+			1 month, 3 weeks ago
 		</span>
 		
 	</div>
@@ -704,189 +830,7 @@ Take advantage of PDF Files for 1000+ Exams along with community discussions and
 		
 			<div class="comment-selected-answers badge badge-warning">Selected Answer: <span><strong>D</strong></span></div>
 		
-		<div class="comment-content">D) Correct -  Field-level encryption allows you to specify which parts of the data (fields) should be encrypted before it reaches the origin (backend). This ensures that the sensitive data is encrypted at the CloudFront edge and stays encrypted throughout the entire application stack</div>
-		<div class="comment-control">
-			<span class="comment-control-buttons d-print-none">
-				<a href="#" class="comment-upvote requires-login" title="Upvote" ><i class="fa fa-thumbs-up"></i></a>
-				
-				<a href="#" class="ml-2 comment-reply-to requires-login" title="Reply"><i class="fa fa-reply"></i></a>
-				
-				<a href="#" class="ml-2 comment-flag-report requires-login" title="Report"><i class="fa fa-flag"></i></a>
-			</span>
-			<span class="ml-2 upvote-text">
-				upvoted <span class="upvote-count">1</span> times
-			</span>
-			
-			<span class="comment-control-error ml-2"></span>
-		</div>
-		<div class="new-comment-box-container mt-2">
-
-		</div>
-		<div class="comment-replies">
-			<!-- Nesting start -->
-			
-				
-
-<!-- single_comment.html -->
-<div id="comment-1327279" class="media comment-container" data-comment-id="1327279">
-
-<a href="#" class="minimize-comment comment-toggle">
-	<i class="fa fa-minus-square-o mr-2 mt-1"></i>
-</a>
-<a href="#" class="maximize-comment comment-toggle">
-	<i class="fa fa-plus-square-o mr-2 mt-1"></i>
-</a>
-<div class="media-body">
-	<div class="comment-head">
-		<i class="fa fa-user mr-1 mt-1"></i>
-		<a href="/user/sumanshu/">
-			<h5 class="mt-0 mb-0 align-middle d-inline-block comment-username">
-				sumanshu
-			</h5>
-		</a>
-		
-		
-		<span class="comment-date align-middle" title="Mon 16 Dec 2024 11:42">
-			2 weeks, 5 days ago
-		</span>
-		
-	</div>
-	<div class="comment-body comment-toggled">
-		
-		<div class="comment-content">A) Eliminated - While enforcing HTTPS ensures that the data is transmitted securely over the network between the user and CloudFront, it does not meet the requirement of encrypting specific fields like user names and phone numbers at the edge</div>
-		<div class="comment-control">
-			<span class="comment-control-buttons d-print-none">
-				<a href="#" class="comment-upvote requires-login" title="Upvote" ><i class="fa fa-thumbs-up"></i></a>
-				
-				<a href="#" class="ml-2 comment-reply-to requires-login" title="Reply"><i class="fa fa-reply"></i></a>
-				
-				<a href="#" class="ml-2 comment-flag-report requires-login" title="Report"><i class="fa fa-flag"></i></a>
-			</span>
-			<span class="ml-2 upvote-text">
-				upvoted <span class="upvote-count">1</span> times
-			</span>
-			
-			<span class="comment-control-error ml-2"></span>
-		</div>
-		<div class="new-comment-box-container mt-2">
-
-		</div>
-		<div class="comment-replies">
-			<!-- Nesting start -->
-			
-				
-
-<!-- single_comment.html -->
-<div id="comment-1327280" class="media comment-container" data-comment-id="1327280">
-
-<a href="#" class="minimize-comment comment-toggle">
-	<i class="fa fa-minus-square-o mr-2 mt-1"></i>
-</a>
-<a href="#" class="maximize-comment comment-toggle">
-	<i class="fa fa-plus-square-o mr-2 mt-1"></i>
-</a>
-<div class="media-body">
-	<div class="comment-head">
-		<i class="fa fa-user mr-1 mt-1"></i>
-		<a href="/user/sumanshu/">
-			<h5 class="mt-0 mb-0 align-middle d-inline-block comment-username">
-				sumanshu
-			</h5>
-		</a>
-		
-		
-		<span class="comment-date align-middle" title="Mon 16 Dec 2024 11:42">
-			2 weeks, 5 days ago
-		</span>
-		
-	</div>
-	<div class="comment-body comment-toggled">
-		
-		<div class="comment-content">C) Eliminated - Signed URLs can restrict access to CloudFront resources but do not handle encryption of sensitive data.</div>
-		<div class="comment-control">
-			<span class="comment-control-buttons d-print-none">
-				<a href="#" class="comment-upvote requires-login" title="Upvote" ><i class="fa fa-thumbs-up"></i></a>
-				
-				<a href="#" class="ml-2 comment-reply-to requires-login" title="Reply"><i class="fa fa-reply"></i></a>
-				
-				<a href="#" class="ml-2 comment-flag-report requires-login" title="Report"><i class="fa fa-flag"></i></a>
-			</span>
-			<span class="ml-2 upvote-text">
-				upvoted <span class="upvote-count">1</span> times
-			</span>
-			
-			<span class="comment-control-error ml-2"></span>
-		</div>
-		<div class="new-comment-box-container mt-2">
-
-		</div>
-		<div class="comment-replies">
-			<!-- Nesting start -->
-			
-			<!-- Nesting end -->
-		</div>
-	</div>
-	<div class="comment-ellipsis comment-toggled">
-		...
-	</div>
-</div>
-</div>
-
-
-			
-			<!-- Nesting end -->
-		</div>
-	</div>
-	<div class="comment-ellipsis comment-toggled">
-		...
-	</div>
-</div>
-</div>
-
-
-			
-			<!-- Nesting end -->
-		</div>
-	</div>
-	<div class="comment-ellipsis comment-toggled">
-		...
-	</div>
-</div>
-</div>
-
-
-			
-				
-
-<!-- single_comment.html -->
-<div id="comment-1123063" class="media comment-container" data-comment-id="1123063">
-
-<a href="#" class="minimize-comment comment-toggle">
-	<i class="fa fa-minus-square-o mr-2 mt-1"></i>
-</a>
-<a href="#" class="maximize-comment comment-toggle">
-	<i class="fa fa-plus-square-o mr-2 mt-1"></i>
-</a>
-<div class="media-body">
-	<div class="comment-head">
-		<i class="fa fa-user mr-1 mt-1"></i>
-		<a href="/user/AsmaZoheb/">
-			<h5 class="mt-0 mb-0 align-middle d-inline-block comment-username">
-				AsmaZoheb
-			</h5>
-		</a>
-		
-		
-		<span class="comment-date align-middle" title="Mon 15 Jan 2024 05:52">
-			11 months, 3 weeks ago
-		</span>
-		
-	</div>
-	<div class="comment-body comment-toggled">
-		
-			<div class="comment-selected-answers badge badge-warning">Selected Answer: <span><strong>D</strong></span></div>
-		
-		<div class="comment-content">Field-level encryption</div>
+		<div class="comment-content">The AWS CLI allows a web application or script to issue commands and interact programmatically with AWS services. It can perform actions such as creating resources, updating configurations, or fetching data from services.</div>
 		<div class="comment-control">
 			<span class="comment-control-buttons d-print-none">
 				<a href="#" class="comment-upvote requires-login" title="Upvote" ><i class="fa fa-thumbs-up"></i></a>
@@ -921,7 +865,7 @@ Take advantage of PDF Files for 1000+ Exams along with community discussions and
 				
 
 <!-- single_comment.html -->
-<div id="comment-743357" class="media comment-container" data-comment-id="743357">
+<div id="comment-1269256" class="media comment-container" data-comment-id="1269256">
 
 <a href="#" class="minimize-comment comment-toggle">
 	<i class="fa fa-minus-square-o mr-2 mt-1"></i>
@@ -932,23 +876,23 @@ Take advantage of PDF Files for 1000+ Exams along with community discussions and
 <div class="media-body">
 	<div class="comment-head">
 		<i class="fa fa-user mr-1 mt-1"></i>
-		<a href="/user/fabriciollf/">
+		<a href="/user/seif1993/">
 			<h5 class="mt-0 mb-0 align-middle d-inline-block comment-username">
-				fabriciollf
+				seif1993
 			</h5>
 		</a>
 		
 		
-		<span class="comment-date align-middle" title="Mon 12 Dec 2022 22:48">
-			2 years ago
+		<span class="comment-date align-middle" title="Tue 20 Aug 2024 09:34">
+			5 months ago
 		</span>
 		
 	</div>
 	<div class="comment-body comment-toggled">
 		
-			<div class="comment-selected-answers badge badge-warning">Selected Answer: <span><strong>D</strong></span></div>
+			<div class="comment-selected-answers badge badge-warning">Selected Answer: <span><strong>C</strong></span></div>
 		
-		<div class="comment-content">D is the correct one</div>
+		<div class="comment-content">Management Console. The AWS Management Console provides a web-based user interface to access and manage AWS services, making it ideal for interacting with various AWS resources through a web application.</div>
 		<div class="comment-control">
 			<span class="comment-control-buttons d-print-none">
 				<a href="#" class="comment-upvote requires-login" title="Upvote" ><i class="fa fa-thumbs-up"></i></a>
@@ -983,7 +927,7 @@ Take advantage of PDF Files for 1000+ Exams along with community discussions and
 				
 
 <!-- single_comment.html -->
-<div id="comment-696059" class="media comment-container" data-comment-id="696059">
+<div id="comment-1240542" class="media comment-container" data-comment-id="1240542">
 
 <a href="#" class="minimize-comment comment-toggle">
 	<i class="fa fa-minus-square-o mr-2 mt-1"></i>
@@ -994,24 +938,25 @@ Take advantage of PDF Files for 1000+ Exams along with community discussions and
 <div class="media-body">
 	<div class="comment-head">
 		<i class="fa fa-user mr-1 mt-1"></i>
-		<a href="/user/cloud_collector/">
+		<a href="/user/trev/">
 			<h5 class="mt-0 mb-0 align-middle d-inline-block comment-username">
-				cloud_collector
+				trev
 			</h5>
 		</a>
 		
 		
-		<span class="comment-date align-middle" title="Sun 16 Oct 2022 09:28">
-			2 years, 2 months ago
+		<span class="comment-date align-middle" title="Tue 02 Jul 2024 07:36">
+			6 months, 3 weeks ago
 		</span>
 		
 	</div>
 	<div class="comment-body comment-toggled">
 		
-			<div class="comment-selected-answers badge badge-warning">Selected Answer: <span><strong>D</strong></span></div>
-		
-		<div class="comment-content">Field-level encryption allows you to enable your users to securely upload sensitive information to your web servers. The sensitive information provided by your users is encrypted at the edge, close to the user, and remains encrypted throughout your entire application stack.
-https://docs.aws.amazon.com/AmazonCloudFront/latest/DeveloperGuide/field-level-encryption.html</div>
+		<div class="comment-content">To ambiguous, as it can be read different ways which will be answered differently; 
+
+A company wants a web application to (be created that will) interact with various AWS services.
+A company wants a web application (that can) interact with various AWS services.
+A company wants a web application (that a user can use) to interact with various AWS services.</div>
 		<div class="comment-control">
 			<span class="comment-control-buttons d-print-none">
 				<a href="#" class="comment-upvote requires-login" title="Upvote" ><i class="fa fa-thumbs-up"></i></a>
@@ -1046,7 +991,7 @@ https://docs.aws.amazon.com/AmazonCloudFront/latest/DeveloperGuide/field-level-e
 				
 
 <!-- single_comment.html -->
-<div id="comment-658429" class="media comment-container" data-comment-id="658429">
+<div id="comment-1227439" class="media comment-container" data-comment-id="1227439">
 
 <a href="#" class="minimize-comment comment-toggle">
 	<i class="fa fa-minus-square-o mr-2 mt-1"></i>
@@ -1057,23 +1002,25 @@ https://docs.aws.amazon.com/AmazonCloudFront/latest/DeveloperGuide/field-level-e
 <div class="media-body">
 	<div class="comment-head">
 		<i class="fa fa-user mr-1 mt-1"></i>
-		<a href="/user/sidvic/">
+		<a href="/user/geocis/">
 			<h5 class="mt-0 mb-0 align-middle d-inline-block comment-username">
-				sidvic
+				geocis
 			</h5>
 		</a>
 		
 		
-		<span class="comment-date align-middle" title="Sat 03 Sep 2022 14:18">
-			2 years, 4 months ago
+		<span class="comment-date align-middle" title="Sun 09 Jun 2024 19:05">
+			7 months, 1 week ago
 		</span>
 		
 	</div>
 	<div class="comment-body comment-toggled">
 		
-			<div class="comment-selected-answers badge badge-warning">Selected Answer: <span><strong>D</strong></span></div>
+			<div class="comment-selected-answers badge badge-warning">Selected Answer: <span><strong>C</strong></span></div>
 		
-		<div class="comment-content">I vote for D.</div>
+		<div class="comment-content">C). AWS Management Console
+
+Using the Management Console will allow you to set up and manage your app&#x27;s integration with various AWS services.</div>
 		<div class="comment-control">
 			<span class="comment-control-buttons d-print-none">
 				<a href="#" class="comment-upvote requires-login" title="Upvote" ><i class="fa fa-thumbs-up"></i></a>
@@ -1083,7 +1030,7 @@ https://docs.aws.amazon.com/AmazonCloudFront/latest/DeveloperGuide/field-level-e
 				<a href="#" class="ml-2 comment-flag-report requires-login" title="Report"><i class="fa fa-flag"></i></a>
 			</span>
 			<span class="ml-2 upvote-text">
-				upvoted <span class="upvote-count">3</span> times
+				upvoted <span class="upvote-count">1</span> times
 			</span>
 			
 			<span class="comment-control-error ml-2"></span>
@@ -1108,7 +1055,7 @@ https://docs.aws.amazon.com/AmazonCloudFront/latest/DeveloperGuide/field-level-e
 				
 
 <!-- single_comment.html -->
-<div id="comment-658024" class="media comment-container" data-comment-id="658024">
+<div id="comment-1205235" class="media comment-container" data-comment-id="1205235">
 
 <a href="#" class="minimize-comment comment-toggle">
 	<i class="fa fa-minus-square-o mr-2 mt-1"></i>
@@ -1119,15 +1066,326 @@ https://docs.aws.amazon.com/AmazonCloudFront/latest/DeveloperGuide/field-level-e
 <div class="media-body">
 	<div class="comment-head">
 		<i class="fa fa-user mr-1 mt-1"></i>
-		<a href="/user/LEHUY/">
+		<a href="/user/chalaka/">
 			<h5 class="mt-0 mb-0 align-middle d-inline-block comment-username">
-				LEHUY
+				chalaka
 			</h5>
 		</a>
 		
 		
-		<span class="comment-date align-middle" title="Sat 03 Sep 2022 05:19">
-			2 years, 4 months ago
+		<span class="comment-date align-middle" title="Thu 02 May 2024 01:10">
+			8 months, 3 weeks ago
+		</span>
+		
+	</div>
+	<div class="comment-body comment-toggled">
+		
+			<div class="comment-selected-answers badge badge-warning">Selected Answer: <span><strong>C</strong></span></div>
+		
+		<div class="comment-content">C. AWS Management Console
+
+The AWS Management Console is a web-based interface that allows users to interact with various AWS services. It provides a user-friendly way to access and manage AWS resources without the need for any additional software installation. Users can perform tasks such as launching EC2 instances, creating S3 buckets, configuring IAM roles, and much more through the Management Console.</div>
+		<div class="comment-control">
+			<span class="comment-control-buttons d-print-none">
+				<a href="#" class="comment-upvote requires-login" title="Upvote" ><i class="fa fa-thumbs-up"></i></a>
+				
+				<a href="#" class="ml-2 comment-reply-to requires-login" title="Reply"><i class="fa fa-reply"></i></a>
+				
+				<a href="#" class="ml-2 comment-flag-report requires-login" title="Report"><i class="fa fa-flag"></i></a>
+			</span>
+			<span class="ml-2 upvote-text">
+				upvoted <span class="upvote-count">2</span> times
+			</span>
+			
+			<span class="comment-control-error ml-2"></span>
+		</div>
+		<div class="new-comment-box-container mt-2">
+
+		</div>
+		<div class="comment-replies">
+			<!-- Nesting start -->
+			
+			<!-- Nesting end -->
+		</div>
+	</div>
+	<div class="comment-ellipsis comment-toggled">
+		...
+	</div>
+</div>
+</div>
+
+
+			
+				
+
+<!-- single_comment.html -->
+<div id="comment-1194320" class="media comment-container" data-comment-id="1194320">
+
+<a href="#" class="minimize-comment comment-toggle">
+	<i class="fa fa-minus-square-o mr-2 mt-1"></i>
+</a>
+<a href="#" class="maximize-comment comment-toggle">
+	<i class="fa fa-plus-square-o mr-2 mt-1"></i>
+</a>
+<div class="media-body">
+	<div class="comment-head">
+		<i class="fa fa-user mr-1 mt-1"></i>
+		<a href="/user/ThiagoCruzRJ/">
+			<h5 class="mt-0 mb-0 align-middle d-inline-block comment-username">
+				ThiagoCruzRJ
+			</h5>
+		</a>
+		
+		
+		<span class="comment-date align-middle" title="Fri 12 Apr 2024 14:01">
+			9 months, 1 week ago
+		</span>
+		
+	</div>
+	<div class="comment-body comment-toggled">
+		
+			<div class="comment-selected-answers badge badge-warning">Selected Answer: <span><strong>C</strong></span></div>
+		
+		<div class="comment-content">AWS Management Console can access AWS CLI, so to access the CLI, we first need to access the Console.</div>
+		<div class="comment-control">
+			<span class="comment-control-buttons d-print-none">
+				<a href="#" class="comment-upvote requires-login" title="Upvote" ><i class="fa fa-thumbs-up"></i></a>
+				
+				<a href="#" class="ml-2 comment-reply-to requires-login" title="Reply"><i class="fa fa-reply"></i></a>
+				
+				<a href="#" class="ml-2 comment-flag-report requires-login" title="Report"><i class="fa fa-flag"></i></a>
+			</span>
+			<span class="ml-2 upvote-text">
+				upvoted <span class="upvote-count">1</span> times
+			</span>
+			
+			<span class="comment-control-error ml-2"></span>
+		</div>
+		<div class="new-comment-box-container mt-2">
+
+		</div>
+		<div class="comment-replies">
+			<!-- Nesting start -->
+			
+			<!-- Nesting end -->
+		</div>
+	</div>
+	<div class="comment-ellipsis comment-toggled">
+		...
+	</div>
+</div>
+</div>
+
+
+			
+				
+
+<!-- single_comment.html -->
+<div id="comment-1194187" class="media comment-container" data-comment-id="1194187">
+
+<a href="#" class="minimize-comment comment-toggle">
+	<i class="fa fa-minus-square-o mr-2 mt-1"></i>
+</a>
+<a href="#" class="maximize-comment comment-toggle">
+	<i class="fa fa-plus-square-o mr-2 mt-1"></i>
+</a>
+<div class="media-body">
+	<div class="comment-head">
+		<i class="fa fa-user mr-1 mt-1"></i>
+		<a href="/user/Eleftheriia/">
+			<h5 class="mt-0 mb-0 align-middle d-inline-block comment-username">
+				Eleftheriia
+			</h5>
+		</a>
+		
+		
+		<span class="comment-date align-middle" title="Fri 12 Apr 2024 08:17">
+			9 months, 1 week ago
+		</span>
+		
+	</div>
+	<div class="comment-body comment-toggled">
+		
+			<div class="comment-selected-answers badge badge-warning">Selected Answer: <span><strong>C</strong></span></div>
+		
+		<div class="comment-content">I think that the correct answer is C because AWS CLI is not a web application, and we do not use browser to access the AWS services</div>
+		<div class="comment-control">
+			<span class="comment-control-buttons d-print-none">
+				<a href="#" class="comment-upvote requires-login" title="Upvote" ><i class="fa fa-thumbs-up"></i></a>
+				
+				<a href="#" class="ml-2 comment-reply-to requires-login" title="Reply"><i class="fa fa-reply"></i></a>
+				
+				<a href="#" class="ml-2 comment-flag-report requires-login" title="Report"><i class="fa fa-flag"></i></a>
+			</span>
+			<span class="ml-2 upvote-text">
+				upvoted <span class="upvote-count">1</span> times
+			</span>
+			
+			<span class="comment-control-error ml-2"></span>
+		</div>
+		<div class="new-comment-box-container mt-2">
+
+		</div>
+		<div class="comment-replies">
+			<!-- Nesting start -->
+			
+			<!-- Nesting end -->
+		</div>
+	</div>
+	<div class="comment-ellipsis comment-toggled">
+		...
+	</div>
+</div>
+</div>
+
+
+			
+				
+
+<!-- single_comment.html -->
+<div id="comment-1179550" class="media comment-container" data-comment-id="1179550">
+
+<a href="#" class="minimize-comment comment-toggle">
+	<i class="fa fa-minus-square-o mr-2 mt-1"></i>
+</a>
+<a href="#" class="maximize-comment comment-toggle">
+	<i class="fa fa-plus-square-o mr-2 mt-1"></i>
+</a>
+<div class="media-body">
+	<div class="comment-head">
+		<i class="fa fa-user mr-1 mt-1"></i>
+		<a href="/user/jasonczx/">
+			<h5 class="mt-0 mb-0 align-middle d-inline-block comment-username">
+				jasonczx
+			</h5>
+		</a>
+		
+		
+		<span class="comment-date align-middle" title="Thu 21 Mar 2024 20:28">
+			10 months ago
+		</span>
+		
+	</div>
+	<div class="comment-body comment-toggled">
+		
+			<div class="comment-selected-answers badge badge-warning">Selected Answer: <span><strong>C</strong></span></div>
+		
+		<div class="comment-content">C is correct, D is not web application</div>
+		<div class="comment-control">
+			<span class="comment-control-buttons d-print-none">
+				<a href="#" class="comment-upvote requires-login" title="Upvote" ><i class="fa fa-thumbs-up"></i></a>
+				
+				<a href="#" class="ml-2 comment-reply-to requires-login" title="Reply"><i class="fa fa-reply"></i></a>
+				
+				<a href="#" class="ml-2 comment-flag-report requires-login" title="Report"><i class="fa fa-flag"></i></a>
+			</span>
+			<span class="ml-2 upvote-text">
+				upvoted <span class="upvote-count">1</span> times
+			</span>
+			
+			<span class="comment-control-error ml-2"></span>
+		</div>
+		<div class="new-comment-box-container mt-2">
+
+		</div>
+		<div class="comment-replies">
+			<!-- Nesting start -->
+			
+			<!-- Nesting end -->
+		</div>
+	</div>
+	<div class="comment-ellipsis comment-toggled">
+		...
+	</div>
+</div>
+</div>
+
+
+			
+				
+
+<!-- single_comment.html -->
+<div id="comment-1177803" class="media comment-container" data-comment-id="1177803">
+
+<a href="#" class="minimize-comment comment-toggle">
+	<i class="fa fa-minus-square-o mr-2 mt-1"></i>
+</a>
+<a href="#" class="maximize-comment comment-toggle">
+	<i class="fa fa-plus-square-o mr-2 mt-1"></i>
+</a>
+<div class="media-body">
+	<div class="comment-head">
+		<i class="fa fa-user mr-1 mt-1"></i>
+		<a href="/user/usmanbaigmughal/">
+			<h5 class="mt-0 mb-0 align-middle d-inline-block comment-username">
+				usmanbaigmughal
+			</h5>
+		</a>
+		
+		
+		<span class="comment-date align-middle" title="Wed 20 Mar 2024 00:04">
+			10 months ago
+		</span>
+		
+	</div>
+	<div class="comment-body comment-toggled">
+		
+		<div class="comment-content">We can use AWS cli in Web application to interact with other AWS services. here is the Chat GPT 4.0 Answer.
+In summary, while it&#x27;s technically feasible to use the AWS CLI from a web application, it&#x27;s not the best practice. You should prefer using AWS SDKs for application integration with AWS services.</div>
+		<div class="comment-control">
+			<span class="comment-control-buttons d-print-none">
+				<a href="#" class="comment-upvote requires-login" title="Upvote" ><i class="fa fa-thumbs-up"></i></a>
+				
+				<a href="#" class="ml-2 comment-reply-to requires-login" title="Reply"><i class="fa fa-reply"></i></a>
+				
+				<a href="#" class="ml-2 comment-flag-report requires-login" title="Report"><i class="fa fa-flag"></i></a>
+			</span>
+			<span class="ml-2 upvote-text">
+				upvoted <span class="upvote-count">1</span> times
+			</span>
+			
+			<span class="comment-control-error ml-2"></span>
+		</div>
+		<div class="new-comment-box-container mt-2">
+
+		</div>
+		<div class="comment-replies">
+			<!-- Nesting start -->
+			
+			<!-- Nesting end -->
+		</div>
+	</div>
+	<div class="comment-ellipsis comment-toggled">
+		...
+	</div>
+</div>
+</div>
+
+
+			
+				
+
+<!-- single_comment.html -->
+<div id="comment-1160994" class="media comment-container" data-comment-id="1160994">
+
+<a href="#" class="minimize-comment comment-toggle">
+	<i class="fa fa-minus-square-o mr-2 mt-1"></i>
+</a>
+<a href="#" class="maximize-comment comment-toggle">
+	<i class="fa fa-plus-square-o mr-2 mt-1"></i>
+</a>
+<div class="media-body">
+	<div class="comment-head">
+		<i class="fa fa-user mr-1 mt-1"></i>
+		<a href="/user/nomad421/">
+			<h5 class="mt-0 mb-0 align-middle d-inline-block comment-username">
+				nomad421
+			</h5>
+		</a>
+		
+		
+		<span class="comment-date align-middle" title="Tue 27 Feb 2024 22:06">
+			10 months, 3 weeks ago
 		</span>
 		
 	</div>
@@ -1135,7 +1393,70 @@ https://docs.aws.amazon.com/AmazonCloudFront/latest/DeveloperGuide/field-level-e
 		
 			<div class="comment-selected-answers badge badge-warning">Selected Answer: <span><strong>D</strong></span></div>
 		
-		<div class="comment-content">D - Use field-level encryption on CloudFront.</div>
+		<div class="comment-content">AWS CLI:
+Can be installed locally on computer, you can automate the actions that your services and applications perform through scripts. Scripts can be run on a schedule or triggered by another process.</div>
+		<div class="comment-control">
+			<span class="comment-control-buttons d-print-none">
+				<a href="#" class="comment-upvote requires-login" title="Upvote" ><i class="fa fa-thumbs-up"></i></a>
+				
+				<a href="#" class="ml-2 comment-reply-to requires-login" title="Reply"><i class="fa fa-reply"></i></a>
+				
+				<a href="#" class="ml-2 comment-flag-report requires-login" title="Report"><i class="fa fa-flag"></i></a>
+			</span>
+			<span class="ml-2 upvote-text">
+				upvoted <span class="upvote-count">2</span> times
+			</span>
+			
+			<span class="comment-control-error ml-2"></span>
+		</div>
+		<div class="new-comment-box-container mt-2">
+
+		</div>
+		<div class="comment-replies">
+			<!-- Nesting start -->
+			
+			<!-- Nesting end -->
+		</div>
+	</div>
+	<div class="comment-ellipsis comment-toggled">
+		...
+	</div>
+</div>
+</div>
+
+
+			
+				
+
+<!-- single_comment.html -->
+<div id="comment-1153014" class="media comment-container" data-comment-id="1153014">
+
+<a href="#" class="minimize-comment comment-toggle">
+	<i class="fa fa-minus-square-o mr-2 mt-1"></i>
+</a>
+<a href="#" class="maximize-comment comment-toggle">
+	<i class="fa fa-plus-square-o mr-2 mt-1"></i>
+</a>
+<div class="media-body">
+	<div class="comment-head">
+		<i class="fa fa-user mr-1 mt-1"></i>
+		<a href="/user/BigMF/">
+			<h5 class="mt-0 mb-0 align-middle d-inline-block comment-username">
+				BigMF
+			</h5>
+		</a>
+		
+		
+		<span class="comment-date align-middle" title="Sun 18 Feb 2024 04:12">
+			11 months ago
+		</span>
+		
+	</div>
+	<div class="comment-body comment-toggled">
+		
+			<div class="comment-selected-answers badge badge-warning">Selected Answer: <span><strong>D</strong></span></div>
+		
+		<div class="comment-content">The answer is D. They don&#x27;t want an application that views their AWS resources. They want to develop an application that interacts(uses) AWS resources.</div>
 		<div class="comment-control">
 			<span class="comment-control-buttons d-print-none">
 				<a href="#" class="comment-upvote requires-login" title="Upvote" ><i class="fa fa-thumbs-up"></i></a>
@@ -1165,6 +1486,259 @@ https://docs.aws.amazon.com/AmazonCloudFront/latest/DeveloperGuide/field-level-e
 </div>
 </div>
 
+
+			
+				
+
+<!-- single_comment.html -->
+<div id="comment-1150409" class="media comment-container" data-comment-id="1150409">
+
+<a href="#" class="minimize-comment comment-toggle">
+	<i class="fa fa-minus-square-o mr-2 mt-1"></i>
+</a>
+<a href="#" class="maximize-comment comment-toggle">
+	<i class="fa fa-plus-square-o mr-2 mt-1"></i>
+</a>
+<div class="media-body">
+	<div class="comment-head">
+		<i class="fa fa-user mr-1 mt-1"></i>
+		<a href="/user/bindu991/">
+			<h5 class="mt-0 mb-0 align-middle d-inline-block comment-username">
+				bindu991
+			</h5>
+		</a>
+		
+		
+		<span class="comment-date align-middle" title="Wed 14 Feb 2024 19:34">
+			11 months, 1 week ago
+		</span>
+		
+	</div>
+	<div class="comment-body comment-toggled">
+		
+			<div class="comment-selected-answers badge badge-warning">Selected Answer: <span><strong>C</strong></span></div>
+		
+		<div class="comment-content">C is answer</div>
+		<div class="comment-control">
+			<span class="comment-control-buttons d-print-none">
+				<a href="#" class="comment-upvote requires-login" title="Upvote" ><i class="fa fa-thumbs-up"></i></a>
+				
+				<a href="#" class="ml-2 comment-reply-to requires-login" title="Reply"><i class="fa fa-reply"></i></a>
+				
+				<a href="#" class="ml-2 comment-flag-report requires-login" title="Report"><i class="fa fa-flag"></i></a>
+			</span>
+			<span class="ml-2 upvote-text">
+				upvoted <span class="upvote-count">1</span> times
+			</span>
+			
+			<span class="comment-control-error ml-2"></span>
+		</div>
+		<div class="new-comment-box-container mt-2">
+
+		</div>
+		<div class="comment-replies">
+			<!-- Nesting start -->
+			
+			<!-- Nesting end -->
+		</div>
+	</div>
+	<div class="comment-ellipsis comment-toggled">
+		...
+	</div>
+</div>
+</div>
+
+
+			
+				
+
+<!-- single_comment.html -->
+<div id="comment-1142051" class="media comment-container" data-comment-id="1142051">
+
+<a href="#" class="minimize-comment comment-toggle">
+	<i class="fa fa-minus-square-o mr-2 mt-1"></i>
+</a>
+<a href="#" class="maximize-comment comment-toggle">
+	<i class="fa fa-plus-square-o mr-2 mt-1"></i>
+</a>
+<div class="media-body">
+	<div class="comment-head">
+		<i class="fa fa-user mr-1 mt-1"></i>
+		<a href="/user/stoy123/">
+			<h5 class="mt-0 mb-0 align-middle d-inline-block comment-username">
+				stoy123
+			</h5>
+		</a>
+		
+		
+		<span class="comment-date align-middle" title="Tue 06 Feb 2024 11:58">
+			11 months, 2 weeks ago
+		</span>
+		
+	</div>
+	<div class="comment-body comment-toggled">
+		
+		<div class="comment-content">the question is badly defined</div>
+		<div class="comment-control">
+			<span class="comment-control-buttons d-print-none">
+				<a href="#" class="comment-upvote requires-login" title="Upvote" ><i class="fa fa-thumbs-up"></i></a>
+				
+				<a href="#" class="ml-2 comment-reply-to requires-login" title="Reply"><i class="fa fa-reply"></i></a>
+				
+				<a href="#" class="ml-2 comment-flag-report requires-login" title="Report"><i class="fa fa-flag"></i></a>
+			</span>
+			<span class="ml-2 upvote-text">
+				upvoted <span class="upvote-count">2</span> times
+			</span>
+			
+			<span class="comment-control-error ml-2"></span>
+		</div>
+		<div class="new-comment-box-container mt-2">
+
+		</div>
+		<div class="comment-replies">
+			<!-- Nesting start -->
+			
+			<!-- Nesting end -->
+		</div>
+	</div>
+	<div class="comment-ellipsis comment-toggled">
+		...
+	</div>
+</div>
+</div>
+
+
+			
+				
+
+<!-- single_comment.html -->
+<div id="comment-1122286" class="media comment-container" data-comment-id="1122286">
+
+<a href="#" class="minimize-comment comment-toggle">
+	<i class="fa fa-minus-square-o mr-2 mt-1"></i>
+</a>
+<a href="#" class="maximize-comment comment-toggle">
+	<i class="fa fa-plus-square-o mr-2 mt-1"></i>
+</a>
+<div class="media-body">
+	<div class="comment-head">
+		<i class="fa fa-user mr-1 mt-1"></i>
+		<a href="/user/BShelat/">
+			<h5 class="mt-0 mb-0 align-middle d-inline-block comment-username">
+				BShelat
+			</h5>
+		</a>
+		
+		
+		<span class="comment-date align-middle" title="Sun 14 Jan 2024 06:31">
+			1 year ago
+		</span>
+		
+	</div>
+	<div class="comment-body comment-toggled">
+		
+			<div class="comment-selected-answers badge badge-warning">Selected Answer: <span><strong>C</strong></span></div>
+		
+		<div class="comment-content">https://docs.aws.amazon.com/awsconsolehelpdocs/latest/gsg/learn-whats-new.html</div>
+		<div class="comment-control">
+			<span class="comment-control-buttons d-print-none">
+				<a href="#" class="comment-upvote requires-login" title="Upvote" ><i class="fa fa-thumbs-up"></i></a>
+				
+				<a href="#" class="ml-2 comment-reply-to requires-login" title="Reply"><i class="fa fa-reply"></i></a>
+				
+				<a href="#" class="ml-2 comment-flag-report requires-login" title="Report"><i class="fa fa-flag"></i></a>
+			</span>
+			<span class="ml-2 upvote-text">
+				upvoted <span class="upvote-count">2</span> times
+			</span>
+			
+			<span class="comment-control-error ml-2"></span>
+		</div>
+		<div class="new-comment-box-container mt-2">
+
+		</div>
+		<div class="comment-replies">
+			<!-- Nesting start -->
+			
+			<!-- Nesting end -->
+		</div>
+	</div>
+	<div class="comment-ellipsis comment-toggled">
+		...
+	</div>
+</div>
+</div>
+
+
+			
+				
+
+<!-- single_comment.html -->
+<div id="comment-1119220" class="media comment-container" data-comment-id="1119220">
+
+<a href="#" class="minimize-comment comment-toggle">
+	<i class="fa fa-minus-square-o mr-2 mt-1"></i>
+</a>
+<a href="#" class="maximize-comment comment-toggle">
+	<i class="fa fa-plus-square-o mr-2 mt-1"></i>
+</a>
+<div class="media-body">
+	<div class="comment-head">
+		<i class="fa fa-user mr-1 mt-1"></i>
+		<a href="/user/petercorn/">
+			<h5 class="mt-0 mb-0 align-middle d-inline-block comment-username">
+				petercorn
+			</h5>
+		</a>
+		
+		
+		<span class="comment-date align-middle" title="Thu 11 Jan 2024 02:11">
+			1 year ago
+		</span>
+		
+	</div>
+	<div class="comment-body comment-toggled">
+		
+			<div class="comment-selected-answers badge badge-warning">Selected Answer: <span><strong>C</strong></span></div>
+		
+		<div class="comment-content">The Management Console provides a number of organized and human-friendly ways to review, monitor, and interact with resources that you have created
+https://aws.amazon.com/console/features/</div>
+		<div class="comment-control">
+			<span class="comment-control-buttons d-print-none">
+				<a href="#" class="comment-upvote requires-login" title="Upvote" ><i class="fa fa-thumbs-up"></i></a>
+				
+				<a href="#" class="ml-2 comment-reply-to requires-login" title="Reply"><i class="fa fa-reply"></i></a>
+				
+				<a href="#" class="ml-2 comment-flag-report requires-login" title="Report"><i class="fa fa-flag"></i></a>
+			</span>
+			<span class="ml-2 upvote-text">
+				upvoted <span class="upvote-count">1</span> times
+			</span>
+			
+			<span class="comment-control-error ml-2"></span>
+		</div>
+		<div class="new-comment-box-container mt-2">
+
+		</div>
+		<div class="comment-replies">
+			<!-- Nesting start -->
+			
+			<!-- Nesting end -->
+		</div>
+	</div>
+	<div class="comment-ellipsis comment-toggled">
+		...
+	</div>
+</div>
+</div>
+
+
+    <div class="load-more-section d-print-none mb-1"
+         data-after-comment="1119220"
+         data-discussion-id="129781">
+        <a href="javascript:void(0)" class="load-full-discussion-button ml-3">Load full discussion...</a>
+    </div>
 
 			
 		
@@ -1187,6 +1761,13 @@ function eventFire(el, etype){
     evObj.initEvent(etype, true, false);
     el.dispatchEvent(evObj);
   }
+	const checkboxes = document.querySelectorAll('.vote-checkboxes input')
+	if(checkboxes.length < 1){
+		const switchToSimpleCommentWrap = document.querySelectorAll('.switch-to-simple-comment-wrap')
+		const votingCommentBrackets = document.querySelectorAll('.voting-comment-brackets')
+		switchToSimpleCommentWrap.forEach((item)=> item.style.display = 'inline-block')
+		votingCommentBrackets.forEach((item)=> item.style.display = 'none')
+	}
   console.log(etype);
 }
 function doVotingClick() {
@@ -1347,7 +1928,7 @@ flex-direction: column;
 			<div class="col-lg-3 col-md-12">
 				<h5 class="footer-title">Company</h5>
 				<ul class="sitemap-widget">
-				<li><a href="/cdn-cgi/l/email-protection#641001050924011c0509100b140d07174a070b09"><i class="fa fa-angle-right" aria-hidden="true"></i>Contact Us</a>
+				<li><a href="/cdn-cgi/l/email-protection#2d59484c406d48554c4059425d444e5e034e4240"><i class="fa fa-angle-right" aria-hidden="true"></i>Contact Us</a>
 				<li><a href="/#about-us"><i class="fa fa-angle-right" aria-hidden="true"></i>About Us</a></li>
 				<li><a href="/terms/"><i class="fa fa-angle-right" aria-hidden="true"></i>Terms</a></li>
 				<li><a href="/terms/"><i class="fa fa-angle-right" aria-hidden="true"></i>Privacy Policy</a></li>
@@ -1458,7 +2039,7 @@ flex-direction: column;
     </div>
 
     <button class="btn btn-primary btn-lg login-button" type="submit" onclick="validateUserPass(event);">Log in</button>
-    <input type="hidden" name="csrfmiddlewaretoken" value="cRotOVqCeBRonKWh3hM7aIEwgM3bXHnJiIPu0qjNFDrkJuzMfKJB4LFdbogsR358">
+    <input type="hidden" name="csrfmiddlewaretoken" value="k1WVz1NcqbvUdkZLQe7eOjo26oMAmq3bLPizAusZVPUcWDpBzJW6crQkE1GI3PiQ">
     </form>
     <div class="login-footer mt-30">
         <span>Don't have an account yet? just <a href="/signup/">sign-up</a>.</span>
@@ -1575,7 +2156,7 @@ function examtopicsLogin(id,name,sess)
             $(document).ready(function () {
                 // Login modal refer set:
                 var login_modal_form = $('.modal .login-wrapper form');
-                login_modal_form.attr('action', login_modal_form.attr('action')+'?next=/discussions/amazon/view/79665-exam-aws-certified-developer-associate-topic-1-question-34/')
+                login_modal_form.attr('action', login_modal_form.attr('action')+'?next=/discussions/amazon/view/129781-exam-aws-certified-cloud-practitioner-clf-c02-topic-1/')
 
                 // Load stylesheets in a deferred way:
                 $('link[defhref]').each(function() {
@@ -1673,9 +2254,9 @@ function examtopicsLogin(id,name,sess)
                 </div><!-- Modal footer --><div class="modal-footer"><button type="button" class="btn btn-default" id="modal-btn-yes">Yes</button><button type="button" class="btn btn-primary" id="modal-btn-no">No</button></div></div></div></div><!-- End report comment modal --><!-- Login Required Comment Modal --><div class="modal" id="login-required-comment-modal" tabindex="-1" role="dialog" aria-hidden="true"><div class="modal-sm modal-dialog modal-dialog-centered"><div class="modal-content"><!-- Modal Header --><div class="modal-header"><h4 class="modal-title">Commenting</h4><button type="button" class="close" data-dismiss="modal">&times;</button></div><!-- Modal body --><div class="modal-body">
                     In order to participate in the comments you need to be logged-in. <br />
                     You can <a href="/signup/">sign-up</a> or
-                    <a href="/login/?next=/discussions/amazon/view/79665-exam-aws-certified-developer-associate-topic-1-question-34/">login</a>
+                    <a href="/login/?next=/discussions/amazon/view/129781-exam-aws-certified-cloud-practitioner-clf-c02-topic-1/">login</a>
                     (it's free).
-                </div><!-- Modal footer --><div class="modal-footer"><button type="button" class="btn btn-primary" id="modal-btn-no-2" data-dismiss="modal">Ok</button></div></div></div></div><!-- End Login Required comment modal --><input type="hidden" value="cRotOVqCeBRonKWh3hM7aIEwgM3bXHnJiIPu0qjNFDrkJuzMfKJB4LFdbogsR358" class="csrf-value"><!-- Moderate actions: --><script type="text/javascript">
+                </div><!-- Modal footer --><div class="modal-footer"><button type="button" class="btn btn-primary" id="modal-btn-no-2" data-dismiss="modal">Ok</button></div></div></div></div><!-- End Login Required comment modal --><input type="hidden" value="k1WVz1NcqbvUdkZLQe7eOjo26oMAmq3bLPizAusZVPUcWDpBzJW6crQkE1GI3PiQ" class="csrf-value"><!-- Moderate actions: --><script type="text/javascript">
 
         // Approve:
         $("body").on("click", ".approve-comment-button", function (e) {

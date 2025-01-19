@@ -37,4 +37,3 @@ def GetDiscussionLinks(page: int, provider: str):
         print(f"URL Error: {e.reason}")
         
         
-GetDiscussionLinks(1, 'amazon')

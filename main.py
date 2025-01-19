@@ -1,51 +1,37 @@
 import json
+from script.create_discussion_links_list import GetDiscussionLinks
 from script.scraper import Scraper
 from script.extract import ExtractDataFromHTML
 from time import sleep
+from fuzzywuzzy import fuzz
+import random
 
 WRITE_INTO_FILE = "EXAMPLE_QUESTION_DUMP.json"
 
 def delay(exp = 0): 
     sleep(5 + exp)
- ##bhhbj
 
 def main():
     res = []
     
-    
-    proceed = True
-    count = 1 # Keep track how many rounds of prints
-    exp_backoff = 0 
-    
-    while proceed:
-        # scraped_html = Scraper() # Do not run yet dont get banned dumbass
-        with open('TEST_HTML2.txt', 'r', encoding="cp850") as file:
-            scraped_html = file.read()
-        question_object = ExtractDataFromHTML(html=scraped_html)
-        
-        
-        # If question Object is a valid object APPEND to res
-        res.append(question_object)
-        
-        # Else add another 30 seconds to exponential backoff to increase delay hopefully to not get banned
-        print('Round Count :' + str(count)) 
-        delay()
-        
-        # But there would be a situation where the object is not valid not because an error page is encountered but just a random page that isnt a question page
-        
-        
-        count += 1    
-        if count == 5:
-            proceed = False
-    
-    try: 
-        # Save the HTML content to a text file
-        with open("dumps/" + WRITE_INTO_FILE, 'w',  encoding='utf-8') as f:  # Use 'w' to overwrite the file, and specify encoding
-             json.dump(res, f, ensure_ascii=False, indent=4)
+    exam_links_list = GetDiscussionLinks(1, 'amazon')
+    sleep(random.uniform(3,5))
+    for exam_link in exam_links_list:
+        fuzz_ratio = fuzz.partial_ratio(exam_link['title'], 'AWS Certified Cloud Practitioner (CLF-C02)')
+        if (fuzz_ratio > 94): 
+            try: 
+                scraped_html = Scraper(exam_link)
+                
+                question_object = ExtractDataFromHTML(scraped_html)
+                
+                question_object['link'] = exam_link['link']
+                question_object['title'] = exam_link['title']
+                res.append(question_object)
+                
+                with open('dumps/exam_papers/' + WRITE_INTO_FILE, 'w', encoding='utf-8') as f:
+                    json.dump(res, f, ensure_ascii=False, indent=4)
 
-        print("HTML content SUCCESSFULLY written to " + WRITE_INTO_FILE)
-    except Exception as e: 
-        print(e)
-    
-    
+            except Exception as e:
+                print(f"URL Error: {e.reason}")
+            sleep(random.uniform(4,10))
 main()

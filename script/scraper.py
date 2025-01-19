@@ -1,8 +1,9 @@
 import urllib.request
 
 
-def Scraper(): 
-    url = "https://www.examtopics.com/discussions/amazon/view/79665-exam-aws-certified-developer-associate-topic-1-question-34/"
+def Scraper(exam_link): 
+    url = "https://www.examtopics.com" + exam_link['link']
+    print(url)
 
     # Set a custom User-Agent to mimic a browser
     headers = {
@@ -14,14 +15,8 @@ def Scraper():
     try:
         res = urllib.request.urlopen(req).read()
         html_content = res.decode('utf-8')  # Decode the content to make it human-readable
-        
-        # Save the HTML content to a text file
-        with open('TEST_HTML2.txt', 'w', encoding='utf-8') as f:  # Use 'w' to overwrite the file, and specify encoding
-            f.write(html_content)
-
-        print("HTML content successfully written to TEST_HTML.txt")
-        
-        # return html_content
+    
+        return html_content
     except urllib.error.HTTPError as e:
         print(f"HTTP Error: {e.code}")
     except urllib.error.URLError as e:
