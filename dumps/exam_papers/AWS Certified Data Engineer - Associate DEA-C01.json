@@ -1,0 +1,37 @@
+[
+    {
+        "questionNo": "127",
+        "topic": "1",
+        "question": "A data engineer maintains a materialized view that is based on an Amazon Redshift database. The view has a column named load_date that stores the date when each row was loaded.The data engineer needs to reclaim database storage space by deleting all the rows from the materialized view.Which command will reclaim the MOST database storage space?",
+        "choices": [
+            "DELETE FROM materialized_view_name where 1=1",
+            "TRUNCATE materialized_view_name",
+            "VACUUM table_name where load_date<=current_datematerializedview",
+            "DELETE FROM materialized_view_name where load_date<=current_date"
+        ],
+        "answer": [
+            "B"
+        ],
+        "comments": [],
+        "link": "/discussions/amazon/view/150336-exam-aws-certified-data-engineer-associate-dea-c01-topic-1/",
+        "title": "Exam AWS Certified Data Engineer - Associate DEA-C01 topic 1 question 127 discussion"
+    },
+    {
+        "questionNo": "176",
+        "topic": "1",
+        "question": "A company uses Amazon S3 to store data and Amazon QuickSight to create visualizations,The company has an S3 bucket in an AWS account named Hub-Account. The S3 bucket is encrypted by an AWS Key Management Service (AWS KMS) key. The company's QuickSight instance is in a separate account named BI-Account.The company updates the S3 bucket policy to grant access to the QuickSight service role. The company wants to enable cross-account access to allow QuickSight to interact with the S3 bucket.Which combination of steps will meet this requirement? (Choose two.)",
+        "choices": [
+            "Use the existing AWS KMS key to encrypt connections from QuickSight to the S3 bucket.",
+            "Add the S3 bucket as a resource that the QuickSight service role can access.",
+            "Use AWS Resource Access Manager (AWS RAM) to share the S3 bucket with the BI-Account account.",
+            "Add an IAM policy to the QuickSight service role to give QuickSight access to the KMS key that encrypts the S3 bucket.",
+            "Add the KMS key as a resource that the QuickSight service role can access."
+        ],
+        "answer": [
+            "E"
+        ],
+        "comments": [],
+        "link": "/discussions/amazon/view/150344-exam-aws-certified-data-engineer-associate-dea-c01-topic-1/",
+        "title": "Exam AWS Certified Data Engineer - Associate DEA-C01 topic 1 question 176 discussion"
+    }
+]

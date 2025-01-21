@@ -12,6 +12,7 @@ export default function ScrapePage() {
     const [selectedExam, setSelectedExam] = useState({
         provider: '',
         exam: '',
+        exam_code: '',
         index: null
     })
 
@@ -22,9 +23,9 @@ export default function ScrapePage() {
         const scrapeDetails = {
             exam_name: selectedExam.exam,
             provider: selectedExam.provider,
+            exam_code: selectedExam.exam_code,
             scrape_method: 'method1',
         };
-        console.log('test')
 
         try {
             const response = await axios.post('http://localhost:5000/scrape', scrapeDetails);
@@ -42,6 +43,7 @@ export default function ScrapePage() {
         const providers_fuzzy = fuzzysort.go(input, providers, { threshold: 0.5, limit: 15 }).map((fuzz) => fuzz.target)
         return [...providers_fuzzy, ...exam_fuzzy].sort()
     }
+    console.log('SearchingALgo', selectedExam)
 
     return (
         <Box maxWidth={'1600px'} justifySelf={'center'} marginY={5}>
@@ -79,11 +81,16 @@ export default function ScrapePage() {
                         onChange={(e, v) => {
                             if (providers.includes(v)) {
                                 const filteredObj = PROVIDER_LIST.filter((fil) => fil.provider == v)
-                                setSelectedExam({ exam: '', provider: filteredObj[0].provider, index: filteredObj[0].index })
+                                setSelectedExam({ exam: '', exam_code: '', provider: filteredObj[0].provider, index: filteredObj[0].index })
                             } else {
                                 const filteredObj = PROVIDER_LIST.filter((fil) => fil.exams.some((ex) => ex.exam_name == v || ex.exam_code == v))
 
-                                setSelectedExam({ exam: v, provider: filteredObj[0].provider, index: filteredObj[0].index })
+                                const thisExam = filteredObj[0].exams.filter((ex) =>
+                                    ex.exam_name == v || ex.exam_code == v
+                                )
+
+
+                                setSelectedExam({ exam: v, exam_code: thisExam[0].exam_code, provider: filteredObj[0].provider, index: filteredObj[0].index })
                             }
 
                         }}
@@ -105,9 +112,9 @@ export default function ScrapePage() {
                                 {PROVIDER_LIST.map((pro, i) => (
                                     <Chip key={i} label={pro.provider} color={selectedExam.provider == pro.provider ? 'primary' : 'default'} onClick={() => {
                                         if (selectedExam.provider != pro.provider) {
-                                            setSelectedExam({ exam: '', provider: pro.provider, index: pro.index })
+                                            setSelectedExam({ exam: '', exam_code: '', provider: pro.provider, index: pro.index })
                                         } else {
-                                            setSelectedExam({ exam: '', provider: '', index: null })
+                                            setSelectedExam({ exam: '', exam_code: '', provider: '', index: null })
                                         }
                                     }}
 
@@ -136,11 +143,14 @@ export default function ScrapePage() {
                                         backgroundColor: '#1976d2'
                                     }
                                 }} onClick={() => {
-                                    if (selectedExam.exam != exam.exam_name) {
-                                        setSelectedExam({ ...selectedExam, exam: exam.exam_name })
-                                    } else {
-                                        setSelectedExam({ ...selectedExam, exam: exam.exam_name })
-                                    }
+
+
+                                    const thisExam = PROVIDER_LIST[selectedExam.index - 1].exams.filter((ex) =>
+                                        ex.exam_name == exam.exam_name || ex.exam_code == exam.exam_name
+                                    )
+                                    setSelectedExam({ ...selectedExam, exam_code: thisExam[0].exam_code, exam: exam.exam_name })
+
+
                                 }}>
 
                                     <Typography textOverflow={'ellipsis'}>{exam.exam_name}</Typography>

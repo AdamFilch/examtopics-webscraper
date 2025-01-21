@@ -2,6 +2,8 @@ from flask import Flask, jsonify, request
 import subprocess
 import json
 from flask_cors import CORS
+import sys
+import os
 
 app = Flask(__name__)
 CORS(app)
@@ -15,9 +17,9 @@ def run_script():
         scrape_details = {
             "exam_name": data.get('exam_name'),
             "provider": data.get('provider'),
+            "exam_code": data.get('exam_code'),
             "scrape_method": data.get('scrape_method', '')  # Default to empty if not provided
         }
-        
 
         # Pass scrape_details to the Python script as a JSON string
         result = subprocess.run(

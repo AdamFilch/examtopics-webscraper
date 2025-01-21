@@ -3,17 +3,17 @@ from script.create_discussion_links_list import GetDiscussionLinks
 from script.scraper import Scraper
 from script.extract import ExtractDataFromHTML
 from time import sleep
-from fuzzywuzzy import fuzz
 import random
 import os
 import sys
+from difflib import SequenceMatcher
 
 WRITE_INTO_FILE = "EXAMPLE_QUESTION_DUMP.json"
 
 def delay(exp = 0): 
     sleep(5 + exp)
 
-def main(exam_name: str, provider: str, scrape_method: str):
+def main(exam_name: str, exam_code: str, provider: str, scrape_method: str):
     
     if provider == '':
         return
@@ -27,7 +27,10 @@ def main(exam_name: str, provider: str, scrape_method: str):
         with open('dumps/exam_papers/' + exam_name + '.json', 'w'): pass
     else:
         with open('dumps/exam_papers/' + exam_name + '.json', 'r') as file:
-            res = json.load(file)
+            try:
+                res = json.load(file)
+            except json.JSONDecodeError:
+                res = [] 
     
     print(res)
     
@@ -35,8 +38,10 @@ def main(exam_name: str, provider: str, scrape_method: str):
         exam_links_list = GetDiscussionLinks(page_num, provider)
         sleep(random.uniform(3,5))
         for exam_link in exam_links_list:
-            fuzz_ratio = fuzz.partial_ratio(exam_link['title'], exam_name)
-            if (fuzz_ratio > 94): 
+            fuzz_ratio_name = SequenceMatcher(None, exam_link['title'], exam_name).ratio()*100
+            fuzz_ratio_code = SequenceMatcher(None, exam_link['title'], exam_code).ratio()*100
+            print(f"Exam Link: {exam_link['title']}, ExamTitle: {exam_code}, Similarity: {fuzz_ratio_name}")
+            if (fuzz_ratio_code > 70): 
                 try: 
                     scraped_html = Scraper(exam_link)
                     
@@ -61,15 +66,13 @@ def main(exam_name: str, provider: str, scrape_method: str):
             
             
             
-scrape_details = {
-    "exam_name": 'AWS Certified Cloud Practitioner CLF-C02',
-    "provider": 'Amazon',
-    "scrape_method": '',
-}
+scrape_details = {"exam_name": 'AWS Certified Data Engineer - Associate DEA-C01', "exam_code": 'AWS Certified Data Engineer - Associate DEA-C01', "provider": 'Amazon', "scrape_method": "16"}
 
 if __name__ == '__main__':
     # Read the JSON string passed from Flask
-    scrape_details = json.loads(sys.argv[1])
+    # scrape_details = json.loads(sys.argv[1])
+    
+    print(scrape_details)
 
     # Call the main function with unpacked arguments    
     main(**scrape_details)

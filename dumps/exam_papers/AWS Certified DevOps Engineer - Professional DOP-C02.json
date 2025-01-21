@@ -1,0 +1,224 @@
+[
+    {
+        "questionNo": "320",
+        "topic": "1",
+        "question": "A company has multiple AWS accounts in an organization in AWS Organizations that has all features enabled. The companyÃƒÂ¢Ã¢â€šÂ¬Ã¢â€žÂ¢s DevOps administrator needs to improve security across all the company's AWS accounts. The administrator needs to identify the top users and roles in use across all accounts.Which solution will meet these requirements with the MOST operational efficiency?",
+        "choices": [
+            "Create a new organization trail in AWS CloudTrail. Configure the trail to send log events to Amazon CloudWatch Logs. Create a CloudWatch Contributor Insights rule for the userIdentity.arn log field. View the results in CloudWatch Contributor Insights.",
+            "Create an unused access analysis for the organization by using AWS Identity and Access Management Access Analyzer. Review the analyzer results and determine if each finding has the intended level of permissions required for the workload.",
+            "Create a new organization trail in AWS CloudTrail. Create a table in Amazon Athena that uses partition projection. Load the Athena table with CloudTrail data. Query the Athena table to find the top users and roles.",
+            "Generate a Service access report for each account by using Organizations. From the results, pull the last accessed date and last accessed by account fields to find the top users and roles."
+        ],
+        "answer": [
+            "A"
+        ],
+        "comments": [],
+        "link": "/discussions/amazon/view/151748-exam-aws-certified-devops-engineer-professional-dop-c02/",
+        "title": "Exam AWS Certified DevOps Engineer - Professional DOP-C02 topic 1 question 320 discussion"
+    },
+    {
+        "questionNo": "260",
+        "topic": "1",
+        "question": "A company is developing a web application's infrastructure using AWS CloudFormation. The database engineering team maintains the database resources in a CloudFormation template, and the software development team maintains the web application resources in a separate CloudFormation template. As the scope of the application grows, the software development team needs to use resources maintained by the database engineering team. However, both teams have their own review and lifecycle management processes that they want to keep. Both teams also require resource-level change-set reviews. The software development team would like to deploy changes to this template using their CI/CD pipeline.Which solution will meet these requirements?",
+        "choices": [
+            "Create a stack export from the database CloudFormation template and import those references into the web application CloudFormation template.",
+            "Create a CloudFormation nested stack to make cross-stack resource references and parameters available in both stacks.",
+            "Create a CloudFormation stack set to make cross-stack resource references and parameters available in both stacks.",
+            "Create input parameters in the web application CloudFormation template and pass resource names and IDs from the database stack."
+        ],
+        "answer": [
+            "A"
+        ],
+        "comments": [],
+        "link": "/discussions/amazon/view/143377-exam-aws-certified-devops-engineer-professional-dop-c02/",
+        "title": "Exam AWS Certified DevOps Engineer - Professional DOP-C02 topic 1 question 260 discussion"
+    },
+    {
+        "questionNo": "352",
+        "topic": "1",
+        "question": "A company has deployed a landing zone that has a well-defined AWS Organizations structure and an SCP. The company's development team can create their AWS resources only by using AWS CloudFormation and the AWS Cloud Development Kit (AWS CDK).A DevOps engineer notices that Amazon Simple Queue Service (Amazon SQS) queues that are deployed in different CloudFormation stacks have different configurations. The DevOps engineer also notices that the application cost allocation tag is not always set.The DevOps engineer needs a solution that will enforce tagging and promote the reuse of code. The DevOps engineer needs to avoid different configurations for the deployed SQS queues.What should the DevOps engineer do to meet these requirements?",
+        "choices": [
+            "Create an Organizations tag policy to enforce the cost allocation tag in CloudFormation stacks. Instruct the development team to use CloudFormation to define SQS queues. Instruct the development team to deploy the SQS queues by using CloudFormation StackSets.",
+            "Update the SCP to enforce the cost allocation tag in CloudFormation stacks. Instruct the development team to use CloudFormation modules to define SQS queues. Instruct the development team to deploy the SQS queues by using CloudFormation stacks.",
+            "Use AWS CDK tagging to enforce the cost allocation tag in CloudFormation StackSets. Instruct the development team to use the AWS CDK to define SQS queues. Instruct the development team to deploy the SQS queues by using CDK stacks.",
+            "Use AWS CDK tagging to enforce the cost allocation tag in CloudFormation stacks. Instruct the development team to use the AWS CDK to define SQS queues. Instruct the development team to deploy the SQS queues by using CDK feature flags."
+        ],
+        "answer": [
+            "C"
+        ],
+        "comments": [],
+        "link": "/discussions/amazon/view/151630-exam-aws-certified-devops-engineer-professional-dop-c02/",
+        "title": "Exam AWS Certified DevOps Engineer - Professional DOP-C02 topic 1 question 352 discussion"
+    },
+    {
+        "questionNo": "337",
+        "topic": "1",
+        "question": "A company runs an application that stores artifacts in an Amazon S3 bucket. The application has a large user base. The application writes a high volume of objects to the S3 bucket. The company has enabled event notifications for the S3 bucket.When the application writes an object to the S3 bucket, several processing tasks need to be performed simultaneously. The company's DevOps team needs to create an AWS Step Functions workflow to orchestrate the processing tasks.Which combination of steps should the DevOps team take to meet these requirements with the LEAST operational overhead? (Choose two.)",
+        "choices": [
+            "Create a Standard workflow that contains a parallel state that defines the processing tasks. Create an Asynchronous Express workflow that contains a parallel state that defines the processing tasks.",
+            "Create a Synchronous Express workflow that contains a map state that defines the processing tasks.",
+            "Create an Amazon EventBridge rule to match when a new S3 object is created. Configure the EventBridge rule to invoke an AWS Lambda function. Configure the Lambda function to start the processing workflow.",
+            "Create an Amazon EventBridge rule to match when a new S3 object is created. Configure the EventBridge rule to start the processing workflow."
+        ],
+        "answer": [
+            "AD"
+        ],
+        "comments": [],
+        "link": "/discussions/amazon/view/151613-exam-aws-certified-devops-engineer-professional-dop-c02/",
+        "title": "Exam AWS Certified DevOps Engineer - Professional DOP-C02 topic 1 question 337 discussion"
+    },
+    {
+        "questionNo": "54",
+        "topic": "1",
+        "question": "A development team uses AWS CodeCommit for version control for applications. The development team uses AWS CodePipeline, AWS CodeBuild. and AWS CodeDeploy for CI/CD infrastructure. In CodeCommit, the development team recently merged pull requests that did not pass long-running tests in the code base. The development team needed to perform rollbacks to branches in the codebase, resulting in lost time and wasted effort.A DevOps engineer must automate testing of pull requests in CodeCommit to ensure that reviewers more easily see the results of automated tests as part of the pull request review.What should the DevOps engineer do to meet this requirement?",
+        "choices": [
+            "Create an Amazon EventBridge rule that reacts to the pullRequestStatusChanged event. Create an AWS Lambda function that invokes a CodePipeline pipeline with a CodeBuild action that runs the tests for the application. Program the Lambda function to post the CodeBuild badge as a comment on the pull request so that developers will see the badge in their code review.",
+            "Create an Amazon EventBridge rule that reacts to the pullRequestCreated event. Create an AWS Lambda function that invokes a CodePipeline pipeline with a CodeBuild action that runs the tests for the application. Program the Lambda function to post the CodeBuild test results as a comment on the pull request when the test results are complete.",
+            "Create an Amazon EventBridge rule that reacts to pullRequestCreated and pullRequestSourceBranchUpdated events. Create an AWS Lambda function that invokes a CodePipeline pipeline with a CodeBuild action that runs the tests for the application. Program the Lambda function to post the CodeBuild badge as a comment on the pull request so that developers will see the badge in their code review.",
+            "Create an Amazon EventBridge rule that reacts to the pullRequestStatusChanged event. Create an AWS Lambda function that invokes a CodePipeline pipeline with a CodeBuild action that runs the tests for the application. Program the Lambda function to post the CodeBuild test results as a comment on the pull request when the test results are complete."
+        ],
+        "answer": [
+            "C"
+        ],
+        "comments": [],
+        "link": "/discussions/amazon/view/105492-exam-aws-certified-devops-engineer-professional-dop-c02/",
+        "title": "Exam AWS Certified DevOps Engineer - Professional DOP-C02 topic 1 question 54 discussion"
+    },
+    {
+        "questionNo": "311",
+        "topic": "1",
+        "question": "A company uses an AWS Cloud Development Kit (AWS CDK) application for its infrastructure. The AWS CDK application creates AWS Lambda functions and the IAM roles that are attached to the functions. The company also uses AWS Organizations. The company's developers can assume the AWS CDK application deployment role.The company's security team discovered that the developers and the role used to deploy the AWS CDK application have more permissions than necessary. The security team also discovered that the roles attached to the Lambda functions that the CDK application creates have more permissions than necessary. The developers must not have the ability to grant additional permissions.Which solution will meet these requirements with the LEAST operational overhead?",
+        "choices": [
+            "Create an SCP that denies the iam:CreateRole action and the iam:UpdateRole action for the developer role and the AWS CDK application deployment role. Centrally create new IAM roles to attach to the Lambda functions for the developers to use to provision Lambda functions.",
+            "Create an IAM permission boundary policy. Define the maximum actions that the AWS CDK application requires in the policy. Update the account's AWS CDK bootstrapping to use the permission boundary. Update the configuration in the AWS CDK application for the default permissions boundary to use the policy.",
+            "Create an IAM permission boundary policy. Define the maximum actions that the AWS CDK application requires in the policy. Instruct the developers to use the permission boundary policy name when they create a role in the AWS CDK application code.",
+            "Create an SCP that denies the iam:CreateRole action and the iam:UpdateRole action for the developer role. Give the AWS CDK deployment role access to create roles associated with Lambda functions. Run AWS Identity and Access Management Access Analyzer to verify that the Lambda functions role does not have permissions."
+        ],
+        "answer": [
+            "B"
+        ],
+        "comments": [],
+        "link": "/discussions/amazon/view/152094-exam-aws-certified-devops-engineer-professional-dop-c02/",
+        "title": "Exam AWS Certified DevOps Engineer - Professional DOP-C02 topic 1 question 311 discussion"
+    },
+    {
+        "questionNo": "305",
+        "topic": "1",
+        "question": "A company has several AWS accounts. An Amazon Connect instance runs in each account. The company uses an Amazon EventBridge default event bus in each account for event handling.A DevOps team needs to receive all the Amazon Connect events in a single DevOps account.Which solution meets these requirements?",
+        "choices": [
+            "Update the resource-based policy of the default event bus in each account to allow the DevOps account to replay events. Configure an EventBridge rule in the DevOps account that matches Amazon Connect events and has a target of the default event bus in the other accounts.",
+            "Update the resource-based policy of the default event bus in each account to allow the DevOps account to receive events. Configure an EventBridge rule in the DevOps account that matches Amazon Connect events and has a target of the default event bus in the other accounts.",
+            "Update the resource-based policy of the default event bus in the DevOps account. Update the policy to allow events to be received from the accounts. Configure an EventBridge rule in each account that matches Amazon Connect events and has a target of the DevOps account's default event bus.",
+            "Update the resource-based policy of the default event bus in the DevOps account. Update the policy to allow events to be replayed by the accounts. Configure an EventBridge rule in each account that matches Amazon Connect events and has a target of the DevOps account's default event bus."
+        ],
+        "answer": [
+            "C"
+        ],
+        "comments": [],
+        "link": "/discussions/amazon/view/151704-exam-aws-certified-devops-engineer-professional-dop-c02/",
+        "title": "Exam AWS Certified DevOps Engineer - Professional DOP-C02 topic 1 question 305 discussion"
+    },
+    {
+        "questionNo": "303",
+        "topic": "1",
+        "question": "A company recently configured AWS Control Tower in its organization in AWS Organizations. The company enrolled all existing AWS accounts in AWS Control Tower. The company wants to ensure that all new AWS accounts are automatically enrolled in AWS Control Tower.The company has an existing AWS Step Functions workflow that creates new AWS accounts and performs any actions required as part of account creation. The Step Functions workflow is defined in the same AWS account as AWS Control Tower.Which combination of steps should the company add to the Step Functions workflow to meet these requirements? (Choose two.)",
+        "choices": [
+            "Create an Amazon EventBridge event that has an aws.controltower source and a CreateManagedAccount detail-type. Add the details of the new AWS account to the detail field of the event.",
+            "Create an Amazon EventBridge event that has an aws.controltower source and a SetupLandingZone detail-type. Add the details of the new AWS account to the detail field of the event.",
+            "Create an AWSControlTowerExecution role in the new AWS account. Configure the role to allow the AWS Control Tower administrator account to assume the role.",
+            "Call the AWS Service Catalog ProvisionProduct API operation with the details of the new AWS account.",
+            "Call the Organizations EnableAWSServiceAccess API operation with the controltower.amazonaws.com service name and the details of the new AWS account."
+        ],
+        "answer": [
+            "CD"
+        ],
+        "comments": [],
+        "link": "/discussions/amazon/view/151518-exam-aws-certified-devops-engineer-professional-dop-c02/",
+        "title": "Exam AWS Certified DevOps Engineer - Professional DOP-C02 topic 1 question 303 discussion"
+    },
+    {
+        "questionNo": "320",
+        "topic": "1",
+        "question": "A company has multiple AWS accounts in an organization in AWS Organizations that has all features enabled. The companyÃ¢â‚¬â„¢s DevOps administrator needs to improve security across all the company's AWS accounts. The administrator needs to identify the top users and roles in use across all accounts.Which solution will meet these requirements with the MOST operational efficiency?",
+        "choices": [
+            "Create a new organization trail in AWS CloudTrail. Configure the trail to send log events to Amazon CloudWatch Logs. Create a CloudWatch Contributor Insights rule for the userIdentity.arn log field. View the results in CloudWatch Contributor Insights.",
+            "Create an unused access analysis for the organization by using AWS Identity and Access Management Access Analyzer. Review the analyzer results and determine if each finding has the intended level of permissions required for the workload.",
+            "Create a new organization trail in AWS CloudTrail. Create a table in Amazon Athena that uses partition projection. Load the Athena table with CloudTrail data. Query the Athena table to find the top users and roles.",
+            "Generate a Service access report for each account by using Organizations. From the results, pull the last accessed date and last accessed by account fields to find the top users and roles."
+        ],
+        "answer": [
+            "A"
+        ],
+        "comments": [],
+        "link": "/discussions/amazon/view/151748-exam-aws-certified-devops-engineer-professional-dop-c02/",
+        "title": "Exam AWS Certified DevOps Engineer - Professional DOP-C02 topic 1 question 320 discussion"
+    },
+    {
+        "questionNo": "260",
+        "topic": "1",
+        "question": "A company is developing a web application's infrastructure using AWS CloudFormation. The database engineering team maintains the database resources in a CloudFormation template, and the software development team maintains the web application resources in a separate CloudFormation template. As the scope of the application grows, the software development team needs to use resources maintained by the database engineering team. However, both teams have their own review and lifecycle management processes that they want to keep. Both teams also require resource-level change-set reviews. The software development team would like to deploy changes to this template using their CI/CD pipeline.Which solution will meet these requirements?",
+        "choices": [
+            "Create a stack export from the database CloudFormation template and import those references into the web application CloudFormation template.",
+            "Create a CloudFormation nested stack to make cross-stack resource references and parameters available in both stacks.",
+            "Create a CloudFormation stack set to make cross-stack resource references and parameters available in both stacks.",
+            "Create input parameters in the web application CloudFormation template and pass resource names and IDs from the database stack."
+        ],
+        "answer": [
+            "A"
+        ],
+        "comments": [],
+        "link": "/discussions/amazon/view/143377-exam-aws-certified-devops-engineer-professional-dop-c02/",
+        "title": "Exam AWS Certified DevOps Engineer - Professional DOP-C02 topic 1 question 260 discussion"
+    },
+    {
+        "questionNo": "320",
+        "topic": "1",
+        "question": "A company has multiple AWS accounts in an organization in AWS Organizations that has all features enabled. The companyâ€™s DevOps administrator needs to improve security across all the company's AWS accounts. The administrator needs to identify the top users and roles in use across all accounts.Which solution will meet these requirements with the MOST operational efficiency?",
+        "choices": [
+            "Create a new organization trail in AWS CloudTrail. Configure the trail to send log events to Amazon CloudWatch Logs. Create a CloudWatch Contributor Insights rule for the userIdentity.arn log field. View the results in CloudWatch Contributor Insights.",
+            "Create an unused access analysis for the organization by using AWS Identity and Access Management Access Analyzer. Review the analyzer results and determine if each finding has the intended level of permissions required for the workload.",
+            "Create a new organization trail in AWS CloudTrail. Create a table in Amazon Athena that uses partition projection. Load the Athena table with CloudTrail data. Query the Athena table to find the top users and roles.",
+            "Generate a Service access report for each account by using Organizations. From the results, pull the last accessed date and last accessed by account fields to find the top users and roles."
+        ],
+        "answer": [
+            "A"
+        ],
+        "comments": [],
+        "link": "/discussions/amazon/view/151748-exam-aws-certified-devops-engineer-professional-dop-c02/",
+        "title": "Exam AWS Certified DevOps Engineer - Professional DOP-C02 topic 1 question 320 discussion"
+    },
+    {
+        "questionNo": "260",
+        "topic": "1",
+        "question": "A company is developing a web application's infrastructure using AWS CloudFormation. The database engineering team maintains the database resources in a CloudFormation template, and the software development team maintains the web application resources in a separate CloudFormation template. As the scope of the application grows, the software development team needs to use resources maintained by the database engineering team. However, both teams have their own review and lifecycle management processes that they want to keep. Both teams also require resource-level change-set reviews. The software development team would like to deploy changes to this template using their CI/CD pipeline.Which solution will meet these requirements?",
+        "choices": [
+            "Create a stack export from the database CloudFormation template and import those references into the web application CloudFormation template.",
+            "Create a CloudFormation nested stack to make cross-stack resource references and parameters available in both stacks.",
+            "Create a CloudFormation stack set to make cross-stack resource references and parameters available in both stacks.",
+            "Create input parameters in the web application CloudFormation template and pass resource names and IDs from the database stack."
+        ],
+        "answer": [
+            "A"
+        ],
+        "comments": [],
+        "link": "/discussions/amazon/view/143377-exam-aws-certified-devops-engineer-professional-dop-c02/",
+        "title": "Exam AWS Certified DevOps Engineer - Professional DOP-C02 topic 1 question 260 discussion"
+    },
+    {
+        "questionNo": "320",
+        "topic": "1",
+        "question": "A company has multiple AWS accounts in an organization in AWS Organizations that has all features enabled. The company’s DevOps administrator needs to improve security across all the company's AWS accounts. The administrator needs to identify the top users and roles in use across all accounts.Which solution will meet these requirements with the MOST operational efficiency?",
+        "choices": [
+            "Create a new organization trail in AWS CloudTrail. Configure the trail to send log events to Amazon CloudWatch Logs. Create a CloudWatch Contributor Insights rule for the userIdentity.arn log field. View the results in CloudWatch Contributor Insights.",
+            "Create an unused access analysis for the organization by using AWS Identity and Access Management Access Analyzer. Review the analyzer results and determine if each finding has the intended level of permissions required for the workload.",
+            "Create a new organization trail in AWS CloudTrail. Create a table in Amazon Athena that uses partition projection. Load the Athena table with CloudTrail data. Query the Athena table to find the top users and roles.",
+            "Generate a Service access report for each account by using Organizations. From the results, pull the last accessed date and last accessed by account fields to find the top users and roles."
+        ],
+        "answer": [
+            "A"
+        ],
+        "comments": [],
+        "link": "/discussions/amazon/view/151748-exam-aws-certified-devops-engineer-professional-dop-c02/",
+        "title": "Exam AWS Certified DevOps Engineer - Professional DOP-C02 topic 1 question 320 discussion"
+    }
+]
