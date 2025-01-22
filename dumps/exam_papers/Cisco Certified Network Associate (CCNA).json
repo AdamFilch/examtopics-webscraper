@@ -1,0 +1,533 @@
+[
+    {
+        "questionNo": "919",
+        "topic": "1",
+        "question": "Refer to the exhibit. A network engineer executes the show ip route command on router D. What is the next hop to network 192.168.1.0/24 and why?",
+        "choices": [
+            "The next hop is 10.0.2.1 because it uses distance vector routing.",
+            "The next hop is 10.0.0.1 because it has a higher metric.",
+            "The next hop is 10.0.2.1 because it is a link-state routing protocol.",
+            "The next hop is 10.0.0.1 because it has a better administrative distance."
+        ],
+        "answer": [
+            "D"
+        ],
+        "comments": [],
+        "link": "/discussions/cisco/view/101633-exam-200-301-topic-1-question-919-discussion/",
+        "title": "Exam 200-301 topic 1 question 919 discussion"
+    },
+    {
+        "questionNo": "1214",
+        "topic": "1",
+        "question": "Which AP mode is used for capturing wireless traffic and forwarding that traffic to a PC that is running a packet analyzer?",
+        "choices": [
+            "bridge",
+            "monitor",
+            "rouge detector",
+            "sniffer"
+        ],
+        "answer": [
+            "D"
+        ],
+        "comments": [],
+        "link": "/discussions/cisco/view/123886-exam-200-301-topic-1-question-1214-discussion/",
+        "title": "Exam 200-301 topic 1 question 1214 discussion"
+    },
+    {
+        "questionNo": "919",
+        "topic": "1",
+        "question": "Refer to the exhibit. A network engineer executes the show ip route command on router D. What is the next hop to network 192.168.1.0/24 and why?",
+        "choices": [
+            "The next hop is 10.0.2.1 because it uses distance vector routing.",
+            "The next hop is 10.0.0.1 because it has a higher metric.",
+            "The next hop is 10.0.2.1 because it is a link-state routing protocol.",
+            "The next hop is 10.0.0.1 because it has a better administrative distance."
+        ],
+        "answer": [
+            "D"
+        ],
+        "comments": [],
+        "link": "/discussions/cisco/view/101633-exam-200-301-topic-1-question-919-discussion/",
+        "title": "Exam 200-301 topic 1 question 919 discussion"
+    },
+    {
+        "questionNo": "1214",
+        "topic": "1",
+        "question": "Which AP mode is used for capturing wireless traffic and forwarding that traffic to a PC that is running a packet analyzer?",
+        "choices": [
+            "bridge",
+            "monitor",
+            "rouge detector",
+            "sniffer"
+        ],
+        "answer": [
+            "D"
+        ],
+        "comments": [],
+        "link": "/discussions/cisco/view/123886-exam-200-301-topic-1-question-1214-discussion/",
+        "title": "Exam 200-301 topic 1 question 1214 discussion"
+    },
+    {
+        "questionNo": "3",
+        "topic": "1",
+        "question": "DRAG DROP -Drag and drop the descriptions of file-transfer protocols from the left onto the correct protocols on the right.Select and Place:",
+        "choices": [],
+        "answer": [],
+        "comments": [],
+        "link": "/discussions/cisco/view/41313-exam-200-301-topic-1-question-3-discussion/",
+        "title": "Exam 200-301 topic 1 question 3 discussion"
+    },
+    {
+        "questionNo": "482",
+        "topic": "1",
+        "question": "Refer to the exhibit. A static route must be configured on R14 to forward traffic for the 172.21.34.0/25 network that resides on R86. Which command must be used to fulfill the request?",
+        "choices": [
+            "ip route 172.21.34.0 255.255.255.192 10.73.65.65",
+            "ip route 172.21.34.0 255.255.255.128 10.73.65.66",
+            "ip route 172.21.34.0 255.255.255.0 10.73.65.65",
+            "ip route 172.21.34.0 255.255.128.0 10.73.65.64"
+        ],
+        "answer": [
+            "B"
+        ],
+        "comments": [],
+        "link": "/discussions/cisco/view/116572-exam-200-301-topic-1-question-482-discussion/",
+        "title": "Exam 200-301 topic 1 question 482 discussion"
+    },
+    {
+        "questionNo": "1350",
+        "topic": "1",
+        "question": "SIMULATION -Guidelines -This is a lab item in which tasks will be performed on virtual devices.•\tRefer to the Tasks tab to view the tasks for this lab item.•\tRefer to the Topology tab to access the device console(s) and perform the tasks.•\tConsole access is available for all required devices by clicking the device icon or using the tab(s) above the console window.•\tAll necessary preconfigurations have been applied.•\tDo not change the enable password or hostname for any device.•\tSave your configurations to NVRAM before moving to the next item.•\tClick Next at the bottom of the screen to submit this lab and move to the next question.•\tWhen Next is clicked, the lab doses and cannot be reopened.Topology -Tasks -SW-3 and SW-4 are preconfigured with all necessary commands. All physical cabling is in place and verified. All connectivity must be operational.1. Configure both SW-1 and SW-2 switch ports e0/0 and e0/1 for 802.1q trunking with only VLANS 1, 12, and 22 permitted.2. Configure SW-1 port e0/2 for 802.1q trunking and include only VLANS 12 and 22.3. Configure both SW-1 and SW-2 switch ports e0/0 and e0/1 for link aggregation using the industry standard protocol. All ports must be configured so that they immediately negotiate the link.",
+        "choices": [],
+        "answer": [],
+        "comments": [],
+        "link": "/discussions/cisco/view/145345-exam-200-301-topic-1-question-1350-discussion/",
+        "title": "Exam 200-301 topic 1 question 1350 discussion"
+    },
+    {
+        "questionNo": "900",
+        "topic": "1",
+        "question": "DRAG DROP -Refer to the exhibit. Drag and drop the subnet masks from the left onto the corresponding subnets on the right. Not all subnet masks are used.",
+        "choices": [],
+        "answer": [],
+        "comments": [],
+        "link": "/discussions/cisco/view/99578-exam-200-301-topic-1-question-900-discussion/",
+        "title": "Exam 200-301 topic 1 question 900 discussion"
+    },
+    {
+        "questionNo": "891",
+        "topic": "1",
+        "question": "Refer to the exhibit. A network engineer started to configure two directly-connected routers as shown. Which command sequence must the engineer configure on R2 so that the two routers become OSPF neighbors?",
+        "choices": [
+            "interface GigabitEthernet0/1ip ospf 1 area 1",
+            "router ospf 1network 192.168.12.1 0.0.0.0 area 1",
+            "interface GigabitEthernet0/1ip ospf 1 area 0",
+            "router ospf 1network 192.168.12.0 0.0.0.127 area 0"
+        ],
+        "answer": [
+            "A"
+        ],
+        "comments": [],
+        "link": "/discussions/cisco/view/99000-exam-200-301-topic-1-question-891-discussion/",
+        "title": "Exam 200-301 topic 1 question 891 discussion"
+    },
+    {
+        "questionNo": "883",
+        "topic": "1",
+        "question": "Which step immediately follows receipt of the EAP success message when session resumption is disabled for an EAP-TLS connection?",
+        "choices": [
+            "PMKID caching",
+            "four-way handshake",
+            "802.1X authentication",
+            "EAPOL-key frame"
+        ],
+        "answer": [
+            "D"
+        ],
+        "comments": [],
+        "link": "/discussions/cisco/view/99196-exam-200-301-topic-1-question-883-discussion/",
+        "title": "Exam 200-301 topic 1 question 883 discussion"
+    },
+    {
+        "questionNo": "894",
+        "topic": "1",
+        "question": "Refer to the exhibit. Which next-hop IP address has the least desirable metric when sourced from R1?",
+        "choices": [
+            "10.10.10.4",
+            "10.10.10.5",
+            "10.10.10.3",
+            "10.10.10.2"
+        ],
+        "answer": [
+            "C"
+        ],
+        "comments": [],
+        "link": "/discussions/cisco/view/99194-exam-200-301-topic-1-question-894-discussion/",
+        "title": "Exam 200-301 topic 1 question 894 discussion"
+    },
+    {
+        "questionNo": "867",
+        "topic": "1",
+        "question": "Refer to the exhibit. Wireless LAN access must be set up to force all clients from the NA WLAN to authenticate against the local database. The WLAN is configured for local EAP authentication. The time that users access the network must not be limited. Which action completes this configuration?",
+        "choices": [
+            "Check the Guest User Role check box.",
+            "Uncheck the Guest User check box.",
+            "Set the Lifetime (seconds) value to 0.",
+            "Clear the Lifetime (seconds) value."
+        ],
+        "answer": [
+            "B"
+        ],
+        "comments": [],
+        "link": "/discussions/cisco/view/99205-exam-200-301-topic-1-question-867-discussion/",
+        "title": "Exam 200-301 topic 1 question 867 discussion"
+    },
+    {
+        "questionNo": "1029",
+        "topic": "1",
+        "question": "Which interface type enables an application running on a client to send data over an IP network to a server?",
+        "choices": [
+            "northbound interface",
+            "application programming interface",
+            "southbound interface",
+            "Representational State Transfer application programming interface"
+        ],
+        "answer": [
+            "B"
+        ],
+        "comments": [],
+        "link": "/discussions/cisco/view/101701-exam-200-301-topic-1-question-1029-discussion/",
+        "title": "Exam 200-301 topic 1 question 1029 discussion"
+    },
+    {
+        "questionNo": "866",
+        "topic": "1",
+        "question": "What is an advantage of using auto mode versus static mode for power allocation when an access point is connected to a PoE switch port?",
+        "choices": [
+            "Power policing is enabled at the same time.",
+            "The default level is used for the access point.",
+            "All four pairs of the cable are used.",
+            "It detects the device is a powered device."
+        ],
+        "answer": [
+            "B"
+        ],
+        "comments": [],
+        "link": "/discussions/cisco/view/102551-exam-200-301-topic-1-question-866-discussion/",
+        "title": "Exam 200-301 topic 1 question 866 discussion"
+    },
+    {
+        "questionNo": "1009",
+        "topic": "1",
+        "question": "Which two northbound APIs are found in a software-defined network? (Choose two.)",
+        "choices": [
+            "REST",
+            "OpenFlow",
+            "SOAP",
+            "NETCONF",
+            "OpFlex"
+        ],
+        "answer": [
+            "AC"
+        ],
+        "comments": [],
+        "link": "/discussions/cisco/view/100133-exam-200-301-topic-1-question-1009-discussion/",
+        "title": "Exam 200-301 topic 1 question 1009 discussion"
+    },
+    {
+        "questionNo": "991",
+        "topic": "1",
+        "question": "Which two VPN technologies are recommended by Cisco for multiple branch offices and large-scale deployments? (Choose two.)",
+        "choices": [
+            "GETVPN",
+            "DMVPN",
+            "site-to-site VPN",
+            "clientless VPN",
+            "IPsec remote access"
+        ],
+        "answer": [
+            "AB"
+        ],
+        "comments": [],
+        "link": "/discussions/cisco/view/100306-exam-200-301-topic-1-question-991-discussion/",
+        "title": "Exam 200-301 topic 1 question 991 discussion"
+    },
+    {
+        "questionNo": "990",
+        "topic": "1",
+        "question": "An engineer must configure R1 for a new user account. The account must meet these requirements:•\tIt must be configured in the local database.•\tThe username is engineer2.•\tIt must use the strongest password configurable.Which command must the engineer configure on the router?",
+        "choices": [
+            "R1(config)# username engineer2 privilege 1 password 7 test2021",
+            "R1(config)# username engineer2 secret 4 $1$b1Ju$kZbBS1Pyh4QzwXyZ",
+            "R1(config)# username engineer2 algorithm-type scrypt secret test2021",
+            "R1(config)# username engineer2 secret 5 password $1$b1Ju$kZbBS1Pyh4QzwXyZ"
+        ],
+        "answer": [
+            "C"
+        ],
+        "comments": [],
+        "link": "/discussions/cisco/view/100305-exam-200-301-topic-1-question-990-discussion/",
+        "title": "Exam 200-301 topic 1 question 990 discussion"
+    },
+    {
+        "questionNo": "1136",
+        "topic": "1",
+        "question": "Refer to the exhibit. Which switch becomes the root bridge?",
+        "choices": [
+            "SW4 -Bridge Priority - 8192 -mac-address 05:4a:f7:06:33:22",
+            "SW2 -Bridge Priority - 8192 -mac-address 05:52:bd:0c:be:69",
+            "SW3 -Bridge Priority - 61440 -mac-address 06:15:2e:7f:20:58",
+            "SW4 -Bridge Priority - 61440 -mac-address 0a:e5:03:a6:6e:37"
+        ],
+        "answer": [
+            "A"
+        ],
+        "comments": [],
+        "link": "/discussions/cisco/view/121064-exam-200-301-topic-1-question-1136-discussion/",
+        "title": "Exam 200-301 topic 1 question 1136 discussion"
+    },
+    {
+        "questionNo": "128",
+        "topic": "1",
+        "question": "Which PoE mode enables powered-devices detection and guarantees power when the device detected?",
+        "choices": [
+            "auto",
+            "static",
+            "dynamic",
+            "active"
+        ],
+        "answer": [
+            "B"
+        ],
+        "comments": [],
+        "link": "/discussions/cisco/view/80293-exam-200-301-topic-1-question-128-discussion/",
+        "title": "Exam 200-301 topic 1 question 128 discussion"
+    },
+    {
+        "questionNo": "1250",
+        "topic": "1",
+        "question": "Company has decided to require multifactor authentication for all systems. Which set of parameters meets the requirement?",
+        "choices": [
+            "personal 10-digit PIN and RSA certificate",
+            "complex password and personal 10-digit PIN",
+            "password of 8 to 15 characters and personal 12-digit PIN",
+            "fingerprint scanning and facial recognition"
+        ],
+        "answer": [
+            "A"
+        ],
+        "comments": [],
+        "link": "/discussions/cisco/view/133862-exam-200-301-topic-1-question-1250-discussion/",
+        "title": "Exam 200-301 topic 1 question 1250 discussion"
+    },
+    {
+        "questionNo": "848",
+        "topic": "1",
+        "question": "Which port state processes BPDUs, but does not forward packets or update the address database in Rapid PVST+?",
+        "choices": [
+            "blocking",
+            "learning",
+            "listening",
+            "disabled"
+        ],
+        "answer": [
+            "A"
+        ],
+        "comments": [],
+        "link": "/discussions/cisco/view/101091-exam-200-301-topic-1-question-848-discussion/",
+        "title": "Exam 200-301 topic 1 question 848 discussion"
+    },
+    {
+        "questionNo": "949",
+        "topic": "1",
+        "question": "Which IP header field is changed by a Cisco device when QoS marking is enabled?",
+        "choices": [
+            "ECN",
+            "Header Checksum",
+            "Type of Service",
+            "DSCP"
+        ],
+        "answer": [
+            "C"
+        ],
+        "comments": [],
+        "link": "/discussions/cisco/view/99744-exam-200-301-topic-1-question-949-discussion/",
+        "title": "Exam 200-301 topic 1 question 949 discussion"
+    },
+    {
+        "questionNo": "462",
+        "topic": "1",
+        "question": "Refer to the exhibit. An engineer is updating the R1 configuration to connect a new server to the management network. The PCs on the management network must be blocked from pinging the default gateway of the new server. Which command must be configured on R1 to complete the task?",
+        "choices": [
+            "R1(config)#ip route 172.16.2.0.255.255.255.0 192.168.1.15",
+            "R1(config)#ip route 172.16.2.2 255.255.255.248 gi0/1",
+            "R1(config)#ip route 172.16.2.2 255.255.255.255 gi0/0",
+            "R1(config)#ip route 172.16.2.0 255.255.255.0 192.168.1.5"
+        ],
+        "answer": [
+            "C"
+        ],
+        "comments": [],
+        "link": "/discussions/cisco/view/86487-exam-200-301-topic-1-question-462-discussion/",
+        "title": "Exam 200-301 topic 1 question 462 discussion"
+    },
+    {
+        "questionNo": "461",
+        "topic": "1",
+        "question": "OSPF must be configured between routers R1 and R2. Which OSPF configuration must be applied to router R1 to avoid a DR'BDR election?",
+        "choices": [
+            "router ospf 1 network 192.168.1.1 0.0.0.0 area 0 interface e1/1 ip address 192.168.1.1 255.255.255.252 ip ospf cost 0",
+            "router ospf 1 network 192.168.1.1 0.0.0.0 area 0 hello interval 15 interface e1/1 ip address 192.168.1.1 255.255.255.252",
+            "router ospf 1 network 192.168.1.1 0.0.0.0 area 0 interface e1/1 ip address 192.168.1.1 255.255.255.252 ip ospf network broadcast",
+            "router ospf 1 network 192.168.1.1 0.0.0.0 area 0 interface e1/1 ip address 192.168.1.1 255.255.255.252 ip ospf network point-to-point"
+        ],
+        "answer": [
+            "D"
+        ],
+        "comments": [],
+        "link": "/discussions/cisco/view/84236-exam-200-301-topic-1-question-461-discussion/",
+        "title": "Exam 200-301 topic 1 question 461 discussion"
+    },
+    {
+        "questionNo": "441",
+        "topic": "1",
+        "question": "What is a benefit of VRRP?",
+        "choices": [
+            "It provides the default gateway redundancy on a LAN using two or more routers.",
+            "It provides traffic load balancing to destinations that are more than two hops from the source.",
+            "It prevents loops in a Layer 2 LAN by forwarding all traffic to a root bridge, which then makes the final forwarding decision.",
+            "It allows neighbors to share routing table information between each other."
+        ],
+        "answer": [
+            "A"
+        ],
+        "comments": [],
+        "link": "/discussions/cisco/view/75405-exam-200-301-topic-1-question-441-discussion/",
+        "title": "Exam 200-301 topic 1 question 441 discussion"
+    },
+    {
+        "questionNo": "174",
+        "topic": "1",
+        "question": "Which WAN topology provides a combination of simplicity quality, and availability?",
+        "choices": [
+            "partial mesh",
+            "full mesh",
+            "point-to-point",
+            "hub-and-spoke"
+        ],
+        "answer": [
+            "C"
+        ],
+        "comments": [],
+        "link": "/discussions/cisco/view/82855-exam-200-301-topic-1-question-174-discussion/",
+        "title": "Exam 200-301 topic 1 question 174 discussion"
+    },
+    {
+        "questionNo": "1377",
+        "topic": "1",
+        "question": "SIMULATION -Guidelines -This is a lab item in which tasks will be performed on virtual devices.•\tRefer to the Tasks tab to view the tasks for this lab item.•\tRefer to the Topology tab to access the device console(s) and perform the tasks.•\tConsole access is available for all required devices by clicking the device icon or using the tab(s) above the console window.•\tAll necessary preconfigurations have been applied.•\tDo not change the enable password or hostname for any device.•\tSave your configurations to NVRAM before moving to the next item.•\tClick Next at the bottom of the screen to submit this lab and move to the next question.•\tWhen Next is clicked, the lab doses and cannot be reopened.Topology -Tasks -Refer to the topology. All physical cabling is in place. Routers 2 and 3 are inaccessible. Configure OSPF routing for the network and ensure R1 has joined Area 0 without using network statements.Task 1 -•\tConfigure OSPF on R1 with a process ID and router- ID only as follows: o\tuse process ID 33 o\tuse EO/1 IP as the router IDTask 2 -•\tConfigure R1 to establish neighbor adjacencies with R2 and R3. The network statement under the OSPF process must not be used.•\tConfigure R1 to always become the DR for Area 0",
+        "choices": [],
+        "answer": [],
+        "comments": [],
+        "link": "/discussions/cisco/view/147991-exam-200-301-topic-1-question-1377-discussion/",
+        "title": "Exam 200-301 topic 1 question 1377 discussion"
+    },
+    {
+        "questionNo": "171",
+        "topic": "1",
+        "question": "What is the path for traffic sent from one user workstation to another workstation on a separate switch in a three-tier architecture model?",
+        "choices": [
+            "access ג€\" core ג€\" access",
+            "access ג€\" distribution ג€\" distribution ג€\" access",
+            "access ג€\" core ג€\" distribution ג€\" access",
+            "access ג€\" distribution ג€\" core ג€\" distribution ג€\" access"
+        ],
+        "answer": [
+            "D"
+        ],
+        "comments": [],
+        "link": "/discussions/cisco/view/81610-exam-200-301-topic-1-question-171-discussion/",
+        "title": "Exam 200-301 topic 1 question 171 discussion"
+    },
+    {
+        "questionNo": "601",
+        "topic": "1",
+        "question": "Refer to the exhibit. Users on existing VLAN 100 can reach sites on the Internet. Which action must the administrator take to establish connectivity to the Internet for users in VLAN 200?",
+        "choices": [
+            "Define a NAT pool on the router.",
+            "Configure the ip nat outside command on another interface for VLAN 200",
+            "Configure static NAT translations for VLAN 200.",
+            "Update the NAT_INSIDE_RANGES ACL."
+        ],
+        "answer": [
+            "D"
+        ],
+        "comments": [],
+        "link": "/discussions/cisco/view/86603-exam-200-301-topic-1-question-601-discussion/",
+        "title": "Exam 200-301 topic 1 question 601 discussion"
+    },
+    {
+        "questionNo": "600",
+        "topic": "1",
+        "question": "Which QoS tool can you use to optimize voice traffic on a network that is primarily intended for data traffic?",
+        "choices": [
+            "WRED",
+            "FIFO",
+            "PQ",
+            "WFQ"
+        ],
+        "answer": [
+            "C"
+        ],
+        "comments": [],
+        "link": "/discussions/cisco/view/93750-exam-200-301-topic-1-question-600-discussion/",
+        "title": "Exam 200-301 topic 1 question 600 discussion"
+    },
+    {
+        "questionNo": "1182",
+        "topic": "1",
+        "question": "SIMULATION -Guidelines -This is a lab item in which tasks will be performed on virtual devices• Refer to the Tasks tab to view the tasks for this lab item.• Refer to the Topology tab to access the device console(s) and perform the tasks• Console access is available for all required devices by clicking the device icon or using the tab(s) above the console window• All necessary preconfigurations have been applied• Do not change the enable password or hostname for any device• Save your configurations to NVRAM before moving to the next item• Click Next at the bottom of the screen to submit this lab and move to the next question• When Next is clicked the lab closes and cannot be reopenedTopology -Tasks -All physical cabling is in place. A company plans to deploy 16 new sites. The sites will utilize both IPv4 and IPv6 networks.1. Subnet 172.16.0.0/16 to meet the subnet requirements and maximize the number of hosts•\tUsing the second subnet\t- Assign the first usable IP address to e0/0 on Sw101\t- Assign the last usable IP address to e0/0 on Sw1022. Subnet 2001:DB8::/50 to meet the subnet requirements and maximize the number of hosts•\tUsing the second subnet\t- Assign an IPv6 GUA using a unique 64-Bit interface identifier on e0/0 on Sw101\t- Assign an IPv6 GUA using a unique 64-Bit interface identifier on e0/0 on Sw102",
+        "choices": [],
+        "answer": [],
+        "comments": [],
+        "link": "/discussions/cisco/view/124476-exam-200-301-topic-1-question-1182-discussion/",
+        "title": "Exam 200-301 topic 1 question 1182 discussion"
+    },
+    {
+        "questionNo": "801",
+        "topic": "1",
+        "question": "DRAG DROP -Drag and drop the virtualization concepts from the left onto the matching statements on the right.",
+        "choices": [],
+        "answer": [],
+        "comments": [],
+        "link": "/discussions/cisco/view/99392-exam-200-301-topic-1-question-801-discussion/",
+        "title": "Exam 200-301 topic 1 question 801 discussion"
+    },
+    {
+        "questionNo": "651",
+        "topic": "1",
+        "question": "DRAG DROP -An engineer is configuring an encrypted password for the enable command on a router where the local user database has already been configured. Drag and drop the configuration commands from the left into the correct sequence on the right. Not all commands are used.Select and Place:",
+        "choices": [],
+        "answer": [],
+        "comments": [],
+        "link": "/discussions/cisco/view/60927-exam-200-301-topic-1-question-651-discussion/",
+        "title": "Exam 200-301 topic 1 question 651 discussion"
+    },
+    {
+        "questionNo": "16",
+        "topic": "1",
+        "question": "Refer to the exhibit. Which statement explains the configuration error message that is received?",
+        "choices": [
+            "It belongs to a private IP address range.",
+            "The router does not support /28 mask.",
+            "It is a network IP address.",
+            "It is a broadcast IP address."
+        ],
+        "answer": [
+            "D"
+        ],
+        "comments": [],
+        "link": "/discussions/cisco/view/41191-exam-200-301-topic-1-question-16-discussion/",
+        "title": "Exam 200-301 topic 1 question 16 discussion"
+    }
+]

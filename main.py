@@ -7,6 +7,7 @@ import random
 import os
 import sys
 from difflib import SequenceMatcher
+from fuzzywuzzy import fuzz
 
 WRITE_INTO_FILE = "EXAMPLE_QUESTION_DUMP.json"
 
@@ -38,10 +39,13 @@ def main(exam_name: str, exam_code: str, provider: str, scrape_method: str):
         exam_links_list = GetDiscussionLinks(page_num, provider)
         sleep(random.uniform(3,5))
         for exam_link in exam_links_list:
-            fuzz_ratio_name = SequenceMatcher(None, exam_link['title'], exam_name).ratio()*100
-            fuzz_ratio_code = SequenceMatcher(None, exam_link['title'], exam_code).ratio()*100
-            print(f"Exam Link: {exam_link['title']}, ExamTitle: {exam_code}, Similarity: {fuzz_ratio_name}")
-            if (fuzz_ratio_code > 70): 
+            # fuzz_ratio_name = SequenceMatcher(None, exam_link['title'], exam_name).ratio()*100
+            # fuzz_ratio_code = SequenceMatcher(None, exam_link['title'], exam_code).ratio()*100
+            
+            fuzz_ratio_name = fuzz.partial_ratio(exam_link['title'], exam_name)
+            fuzz_ratio_code = fuzz.partial_ratio(exam_link['title'], exam_code)
+            print(f"Exam Link: {exam_link['title']}, exam_code: {fuzz_ratio_code}, Similarity: {fuzz_ratio_name}")
+            if (fuzz_ratio_code > 94 or fuzz_ratio_code > 94): 
                 try: 
                     scraped_html = Scraper(exam_link)
                     
@@ -66,7 +70,12 @@ def main(exam_name: str, exam_code: str, provider: str, scrape_method: str):
             
             
             
-scrape_details = {"exam_name": 'AWS Certified Data Engineer - Associate DEA-C01', "exam_code": 'AWS Certified Data Engineer - Associate DEA-C01', "provider": 'Amazon', "scrape_method": "16"}
+scrape_details = {
+    "exam_name": "Cisco Certified Network Associate (CCNA)",
+    "exam_code": "200-301",
+    "provider": "Cisco",
+    "scrape_method": ''
+}
 
 if __name__ == '__main__':
     # Read the JSON string passed from Flask
