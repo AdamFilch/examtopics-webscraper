@@ -1,0 +1,1551 @@
+[
+    {
+        "questionNo": "34",
+        "topic": "1",
+        "question": "The grain size has an important influence on the high temperature ductility and on the reheat cracking susceptibility. A ________ grain size results in _______ ductile heat affected zones, making the material more susceptible to reheat cracking.",
+        "choices": [
+            "Large, More",
+            "Small, Less",
+            "Large, Less",
+            "Small, More"
+        ],
+        "answer": [
+            "C"
+        ],
+        "comments": [],
+        "link": "/discussions/api/view/123479-exam-api-571-topic-1-question-34-discussion/",
+        "title": "Exam API-571 topic 1 question 34 discussion"
+    },
+    {
+        "questionNo": "163",
+        "topic": "1",
+        "question": "With decarburization, the decarburized layer will be free of carbide phases. Carbon steel will be ______.",
+        "choices": [
+            "Annealed",
+            "Quenched",
+            "Pure iron",
+            "None of the above"
+        ],
+        "answer": [
+            "C"
+        ],
+        "comments": [],
+        "link": "/discussions/api/view/123230-exam-api-571-topic-1-question-163-discussion/",
+        "title": "Exam API-571 topic 1 question 163 discussion"
+    },
+    {
+        "questionNo": "203",
+        "topic": "1",
+        "question": "___________ is when oxygen reacts with carbon steel and other alloys at high temperatures converting the metal to oxide scale.",
+        "choices": [
+            "High temperature corrosion",
+            "Oxidation",
+            "Dealloying",
+            "Thermal fatigue"
+        ],
+        "answer": [
+            "A"
+        ],
+        "comments": [],
+        "link": "/discussions/api/view/123251-exam-api-571-topic-1-question-203-discussion/",
+        "title": "Exam API-571 topic 1 question 203 discussion"
+    },
+    {
+        "questionNo": "202",
+        "topic": "1",
+        "question": "Dissimilar weld metal cracking occurs because the coefficients of thermal expansion between ferritic steels and 300 Series stainless steels differ by ________ or more.",
+        "choices": [
+            "10%",
+            "15%",
+            "20%",
+            "30%"
+        ],
+        "answer": [
+            "D"
+        ],
+        "comments": [],
+        "link": "/discussions/api/view/123250-exam-api-571-topic-1-question-202-discussion/",
+        "title": "Exam API-571 topic 1 question 202 discussion"
+    },
+    {
+        "questionNo": "201",
+        "topic": "1",
+        "question": "Carbonate cracking typically propagates _________ to the weld; the pattern of cracking observed on the surface is sometimes described as ________.",
+        "choices": [
+            "Transverse, Eyebrow",
+            "Parallel, Spider web",
+            "Diagonal, Half moon",
+            "Perpendicular, Stair step"
+        ],
+        "answer": [
+            "B"
+        ],
+        "comments": [],
+        "link": "/discussions/api/view/123249-exam-api-571-topic-1-question-201-discussion/",
+        "title": "Exam API-571 topic 1 question 201 discussion"
+    },
+    {
+        "questionNo": "196",
+        "topic": "1",
+        "question": "Oxidation of carbon steel begins to become significant above _________.",
+        "choices": [
+            "800º F",
+            "900º F",
+            "1000º F",
+            "1100º F"
+        ],
+        "answer": [
+            "C"
+        ],
+        "comments": [],
+        "link": "/discussions/api/view/123245-exam-api-571-topic-1-question-196-discussion/",
+        "title": "Exam API-571 topic 1 question 196 discussion"
+    },
+    {
+        "questionNo": "191",
+        "topic": "1",
+        "question": "Vessels constructed after December, 1987 are subject to the requirements of ________ of ASME Section VIII, Division 1.",
+        "choices": [
+            "UW-26",
+            "UG-31",
+            "UB-54",
+            "UCS-66"
+        ],
+        "answer": [
+            "D"
+        ],
+        "comments": [],
+        "link": "/discussions/api/view/123243-exam-api-571-topic-1-question-191-discussion/",
+        "title": "Exam API-571 topic 1 question 191 discussion"
+    },
+    {
+        "questionNo": "190",
+        "topic": "1",
+        "question": "Corrosion from oxygen tends to be __________ type damage and can show up anywhere even if only very small amounts break through the scavenging system.",
+        "choices": [
+            "General",
+            "Localized",
+            "Pitting",
+            "Cracking"
+        ],
+        "answer": [
+            "C"
+        ],
+        "comments": [],
+        "link": "/discussions/api/view/123242-exam-api-571-topic-1-question-190-discussion/",
+        "title": "Exam API-571 topic 1 question 190 discussion"
+    },
+    {
+        "questionNo": "188",
+        "topic": "1",
+        "question": "For a specific material, HTHA is dependent on temperature, hydrogen partial pressure, time and _________.",
+        "choices": [
+            "Stress",
+            "Pressure",
+            "Velocity",
+            "Alloy composition"
+        ],
+        "answer": [
+            "A"
+        ],
+        "comments": [],
+        "link": "/discussions/api/view/123241-exam-api-571-topic-1-question-188-discussion/",
+        "title": "Exam API-571 topic 1 question 188 discussion"
+    },
+    {
+        "questionNo": "187",
+        "topic": "1",
+        "question": "Refractory anchors must be resistant to __________ in high temperature services.",
+        "choices": [
+            "Thermal fatigue",
+            "Thermal cracking",
+            "Stress cracking",
+            "Oxidation"
+        ],
+        "answer": [
+            "D"
+        ],
+        "comments": [],
+        "link": "/discussions/api/view/123240-exam-api-571-topic-1-question-187-discussion/",
+        "title": "Exam API-571 topic 1 question 187 discussion"
+    },
+    {
+        "questionNo": "186",
+        "topic": "1",
+        "question": "A quick test for embrittlement from _________ is a bend test or crush test. Unaffected material will be crushed in a ductile fashion while embrittled components will crack with no signs of ductility.",
+        "choices": [
+            "Titanium Hydriding",
+            "Temper embrittlement",
+            "Caustic embrittlement",
+            "None of the above."
+        ],
+        "answer": [
+            "A"
+        ],
+        "comments": [],
+        "link": "/discussions/api/view/123238-exam-api-571-topic-1-question-186-discussion/",
+        "title": "Exam API-571 topic 1 question 186 discussion"
+    },
+    {
+        "questionNo": "174",
+        "topic": "1",
+        "question": "High strength, low allow steels such as A193-B7 bolts and compressor parts are susceptible to hydrogen stress cracking. A193-B7M bolts are susceptible if __________.",
+        "choices": [
+            "Exposed",
+            "Overtorqued",
+            "Double nutted",
+            "None of the above"
+        ],
+        "answer": [
+            "B"
+        ],
+        "comments": [],
+        "link": "/discussions/api/view/123236-exam-api-571-topic-1-question-174-discussion/",
+        "title": "Exam API-571 topic 1 question 174 discussion"
+    },
+    {
+        "questionNo": "172",
+        "topic": "1",
+        "question": "_________ significantly increases the probability and severity of blistering, HIC and SOHIC.",
+        "choices": [
+            "Hydrogen",
+            "Oxygen",
+            "Cyanide",
+            "Caustic"
+        ],
+        "answer": [
+            "C"
+        ],
+        "comments": [],
+        "link": "/discussions/api/view/123233-exam-api-571-topic-1-question-172-discussion/",
+        "title": "Exam API-571 topic 1 question 172 discussion"
+    },
+    {
+        "questionNo": "169",
+        "topic": "1",
+        "question": "Stainless steels with sigma can normally withstand normal operating stresses but upon cooling to temperatures below _______ may show a complete lack of fracture toughness as measured by a Charpy impact test.",
+        "choices": [
+            "800º F",
+            "600º F",
+            "500º F",
+            "400º F"
+        ],
+        "answer": [
+            "C"
+        ],
+        "comments": [],
+        "link": "/discussions/api/view/123232-exam-api-571-topic-1-question-169-discussion/",
+        "title": "Exam API-571 topic 1 question 169 discussion"
+    },
+    {
+        "questionNo": "168",
+        "topic": "1",
+        "question": "The best method to inspect for SCC is ____.",
+        "choices": [
+            "WFMT",
+            "UT Shear wave",
+            "AET",
+            "All of the above"
+        ],
+        "answer": [
+            "A"
+        ],
+        "comments": [],
+        "link": "/discussions/api/view/123231-exam-api-571-topic-1-question-168-discussion/",
+        "title": "Exam API-571 topic 1 question 168 discussion"
+    },
+    {
+        "questionNo": "158",
+        "topic": "1",
+        "question": "Which of the following materials are generally not suitable for HF service?",
+        "choices": [
+            "300 Series SS",
+            "Carbon steel",
+            "400 Series SS",
+            "Both A and C"
+        ],
+        "answer": [
+            "D"
+        ],
+        "comments": [],
+        "link": "/discussions/api/view/123226-exam-api-571-topic-1-question-158-discussion/",
+        "title": "Exam API-571 topic 1 question 158 discussion"
+    },
+    {
+        "questionNo": "154",
+        "topic": "1",
+        "question": "Nitriding begins above ________ and becomes severe above _______.",
+        "choices": [
+            "500º F, 800º F",
+            "600º F, 900º F",
+            "800º F, 1000º F",
+            "700º F, 1100º F"
+        ],
+        "answer": [
+            "B"
+        ],
+        "comments": [],
+        "link": "/discussions/api/view/123224-exam-api-571-topic-1-question-154-discussion/",
+        "title": "Exam API-571 topic 1 question 154 discussion"
+    },
+    {
+        "questionNo": "153",
+        "topic": "1",
+        "question": "Naphthenic acid corrosion is most severe in _________ flow; in areas of high velocity or turbulence and in distillation towers where hot vapors condense to form liquid phase droplets.",
+        "choices": [
+            "Single phase",
+            "Two phase",
+            "Three phase",
+            "Negative phase"
+        ],
+        "answer": [
+            "B"
+        ],
+        "comments": [],
+        "link": "/discussions/api/view/123223-exam-api-571-topic-1-question-153-discussion/",
+        "title": "Exam API-571 topic 1 question 153 discussion"
+    },
+    {
+        "questionNo": "150",
+        "topic": "1",
+        "question": "Corrosion protection in the boiler is accomplished by laying down and continuously maintaining a layer of _____.",
+        "choices": [
+            "Manganese",
+            "Magnetite",
+            "Carbon monoxide",
+            "Carbonate"
+        ],
+        "answer": [
+            "B"
+        ],
+        "comments": [],
+        "link": "/discussions/api/view/123221-exam-api-571-topic-1-question-150-discussion/",
+        "title": "Exam API-571 topic 1 question 150 discussion"
+    },
+    {
+        "questionNo": "149",
+        "topic": "1",
+        "question": "________ and _______ damage develop without applied or residual stress so that PWHT will not prevent them from occurring.",
+        "choices": [
+            "SOHIC, Blistering",
+            "SCC, SOHIC",
+            "HIC, SCC",
+            "Blistering, HIC"
+        ],
+        "answer": [
+            "D"
+        ],
+        "comments": [],
+        "link": "/discussions/api/view/123220-exam-api-571-topic-1-question-149-discussion/",
+        "title": "Exam API-571 topic 1 question 149 discussion"
+    },
+    {
+        "questionNo": "147",
+        "topic": "1",
+        "question": "Ammonium chloride corrosion is the general or localized corrosion, often pitting, normally occurring under ammonium chloride or amine salt deposits. All commonly used materials are susceptible to ammonium chloride corrosion. A small amount of _________ can lead to very aggressive corrosion.",
+        "choices": [
+            "Ammonium chloride",
+            "Amine",
+            "Water",
+            "Salt"
+        ],
+        "answer": [
+            "C"
+        ],
+        "comments": [],
+        "link": "/discussions/api/view/123219-exam-api-571-topic-1-question-147-discussion/",
+        "title": "Exam API-571 topic 1 question 147 discussion"
+    },
+    {
+        "questionNo": "143",
+        "topic": "1",
+        "question": "Cooling water corrosion is a concern with water-cooled __________ and cooling towers in all applications across all industries.",
+        "choices": [
+            "Pumps",
+            "Vessels",
+            "Piping",
+            "Exchangers"
+        ],
+        "answer": [
+            "D"
+        ],
+        "comments": [],
+        "link": "/discussions/api/view/123215-exam-api-571-topic-1-question-143-discussion/",
+        "title": "Exam API-571 topic 1 question 143 discussion"
+    },
+    {
+        "questionNo": "142",
+        "topic": "1",
+        "question": "Temper embrittlement can be identified by a(n) shift in the ductile-to-brittle transition temperature measured in a Charpy impact test.",
+        "choices": [
+            "Upward",
+            "Downward",
+            "Abrupt",
+            "None of the above"
+        ],
+        "answer": [
+            "A"
+        ],
+        "comments": [],
+        "link": "/discussions/api/view/123214-exam-api-571-topic-1-question-142-discussion/",
+        "title": "Exam API-571 topic 1 question 142 discussion"
+    },
+    {
+        "questionNo": "139",
+        "topic": "1",
+        "question": "Short term overheating is a permanent deformation occurring at relatively _________ stress levels as a result of localized overheating. This usually results in bulging and failure by stress rupture.",
+        "choices": [
+            "Low",
+            "High",
+            "Even",
+            "None of the above"
+        ],
+        "answer": [
+            "A"
+        ],
+        "comments": [],
+        "link": "/discussions/api/view/123213-exam-api-571-topic-1-question-139-discussion/",
+        "title": "Exam API-571 topic 1 question 139 discussion"
+    },
+    {
+        "questionNo": "138",
+        "topic": "1",
+        "question": "Heat treatment can have a significant effect on the toughness and hence fatigue resistance of a metal. In general, ________ grained microstructures tend to perform better than _________ grained.",
+        "choices": [
+            "Fine, Course",
+            "Austenitic, martensitic",
+            "Course, Fine",
+            "Martensitic, austenitic"
+        ],
+        "answer": [
+            "A"
+        ],
+        "comments": [],
+        "link": "/discussions/api/view/123212-exam-api-571-topic-1-question-138-discussion/",
+        "title": "Exam API-571 topic 1 question 138 discussion"
+    },
+    {
+        "questionNo": "137",
+        "topic": "1",
+        "question": "For carbon steel, common velocity limits are generally limited to _________ fps for rich amine and _______ fps for lean amine.",
+        "choices": [
+            "8-10, 30",
+            "6-9, 15",
+            "4-8, 10",
+            "3-6, 20"
+        ],
+        "answer": [
+            "D"
+        ],
+        "comments": [],
+        "link": "/discussions/api/view/123210-exam-api-571-topic-1-question-137-discussion/",
+        "title": "Exam API-571 topic 1 question 137 discussion"
+    },
+    {
+        "questionNo": "136",
+        "topic": "1",
+        "question": "If weld repairs are required, the effects of temper embrittlement can be temporarily reversed (de-embrittled) by heating at ______ for 2 hours per inch of thickness and rapidly cooling to room temperature.",
+        "choices": [
+            "1000º F",
+            "1150º F",
+            "1200º F",
+            "1250º F"
+        ],
+        "answer": [
+            "B"
+        ],
+        "comments": [],
+        "link": "/discussions/api/view/123209-exam-api-571-topic-1-question-136-discussion/",
+        "title": "Exam API-571 topic 1 question 136 discussion"
+    },
+    {
+        "questionNo": "131",
+        "topic": "1",
+        "question": "Ammonium chloride salts may be whitish, greenish or _________.",
+        "choices": [
+            "Reddish",
+            "Brownish",
+            "Yellowish",
+            "Bluish"
+        ],
+        "answer": [
+            "B"
+        ],
+        "comments": [],
+        "link": "/discussions/api/view/123208-exam-api-571-topic-1-question-131-discussion/",
+        "title": "Exam API-571 topic 1 question 131 discussion"
+    },
+    {
+        "questionNo": "110",
+        "topic": "1",
+        "question": "Graphitization can be prevented by using chromium containing low alloys steels for long-term exposure above ________.",
+        "choices": [
+            "650º F",
+            "700º F",
+            "750º F",
+            "800º F"
+        ],
+        "answer": [
+            "D"
+        ],
+        "comments": [],
+        "link": "/discussions/api/view/123205-exam-api-571-topic-1-question-110-discussion/",
+        "title": "Exam API-571 topic 1 question 110 discussion"
+    },
+    {
+        "questionNo": "106",
+        "topic": "1",
+        "question": "Dew point corrosion can occur if the metal temperature is below the dew point. The dew point of sulfuric acid is __________.",
+        "choices": [
+            "280º F",
+            "220º F",
+            "310º F",
+            "190º F"
+        ],
+        "answer": [
+            "A"
+        ],
+        "comments": [],
+        "link": "/discussions/api/view/123203-exam-api-571-topic-1-question-106-discussion/",
+        "title": "Exam API-571 topic 1 question 106 discussion"
+    },
+    {
+        "questionNo": "99",
+        "topic": "1",
+        "question": "Susceptibility to temper embrittlement is largely determined by the presence of the alloying elements manganese and _______.",
+        "choices": [
+            "Chromium",
+            "Moly",
+            "Silicon",
+            "None of the above"
+        ],
+        "answer": [
+            "C"
+        ],
+        "comments": [],
+        "link": "/discussions/api/view/123202-exam-api-571-topic-1-question-99-discussion/",
+        "title": "Exam API-571 topic 1 question 99 discussion"
+    },
+    {
+        "questionNo": "96",
+        "topic": "1",
+        "question": "The extent and depth of decarburization is a function of temperature and ______.",
+        "choices": [
+            "Pressure",
+            "Material properties",
+            "Exposure time",
+            "Velocity"
+        ],
+        "answer": [
+            "C"
+        ],
+        "comments": [],
+        "link": "/discussions/api/view/123201-exam-api-571-topic-1-question-96-discussion/",
+        "title": "Exam API-571 topic 1 question 96 discussion"
+    },
+    {
+        "questionNo": "83",
+        "topic": "1",
+        "question": "With CO² corrosion, increasing temperatures _________ corrosion rates up to the point where CO² is vaporized.",
+        "choices": [
+            "Decrease",
+            "Increase",
+            "Eliminate",
+            "None of the above"
+        ],
+        "answer": [
+            "B"
+        ],
+        "comments": [],
+        "link": "/discussions/api/view/123199-exam-api-571-topic-1-question-83-discussion/",
+        "title": "Exam API-571 topic 1 question 83 discussion"
+    },
+    {
+        "questionNo": "122",
+        "topic": "1",
+        "question": "Stainless steels have higher coefficients of thermal expansion than carbon steel or low alloy steel or nickel based alloys and are more likely to see _________.",
+        "choices": [
+            "Higher temperatures",
+            "Higher stresses",
+            "Higher pressure",
+            "None of the above"
+        ],
+        "answer": [
+            "B"
+        ],
+        "comments": [],
+        "link": "/discussions/api/view/120029-exam-api-571-topic-1-question-122-discussion/",
+        "title": "Exam API-571 topic 1 question 122 discussion"
+    },
+    {
+        "questionNo": "121",
+        "topic": "1",
+        "question": "The major factors affecting high temperature sulfidation are the temperature, the presence of hydrogen, the concentration of H²S and the __________.",
+        "choices": [
+            "Alloy content",
+            "Velocity",
+            "Pressure",
+            "Water content"
+        ],
+        "answer": [
+            "A"
+        ],
+        "comments": [],
+        "link": "/discussions/api/view/120028-exam-api-571-topic-1-question-121-discussion/",
+        "title": "Exam API-571 topic 1 question 121 discussion"
+    },
+    {
+        "questionNo": "116",
+        "topic": "1",
+        "question": "Thermal fatigue cracks usually initiate on the _________ of the component. They are generally wide and filled with oxides due to the elevated temperatures.",
+        "choices": [
+            "Surface",
+            "ID",
+            "Welds",
+            "None of the above"
+        ],
+        "answer": [
+            "A"
+        ],
+        "comments": [],
+        "link": "/discussions/api/view/120027-exam-api-571-topic-1-question-116-discussion/",
+        "title": "Exam API-571 topic 1 question 116 discussion"
+    },
+    {
+        "questionNo": "113",
+        "topic": "1",
+        "question": "Amine corrosion depends on the design, operating practices, the type of amine, amine concentration, temperature and _________.",
+        "choices": [
+            "Pressure",
+            "Velocity",
+            "Stress",
+            "None of the above"
+        ],
+        "answer": [
+            "B"
+        ],
+        "comments": [],
+        "link": "/discussions/api/view/120026-exam-api-571-topic-1-question-113-discussion/",
+        "title": "Exam API-571 topic 1 question 113 discussion"
+    },
+    {
+        "questionNo": "112",
+        "topic": "1",
+        "question": "Carbon steel and low alloy steels are subject to excessive hydrochloric acid corrosion when exposed to any concentration of HCl acid that produces a pH below______.",
+        "choices": [
+            "6.0",
+            "5.5",
+            "5.0",
+            "4.5"
+        ],
+        "answer": [
+            "D"
+        ],
+        "comments": [],
+        "link": "/discussions/api/view/120025-exam-api-571-topic-1-question-112-discussion/",
+        "title": "Exam API-571 topic 1 question 112 discussion"
+    },
+    {
+        "questionNo": "103",
+        "topic": "1",
+        "question": "The accepted way to test for temper embrittlement is ________.",
+        "choices": [
+            "Impact testing",
+            "Metallographic",
+            "RT",
+            "UT Shear wave"
+        ],
+        "answer": [
+            "A"
+        ],
+        "comments": [],
+        "link": "/discussions/api/view/120024-exam-api-571-topic-1-question-103-discussion/",
+        "title": "Exam API-571 topic 1 question 103 discussion"
+    },
+    {
+        "questionNo": "101",
+        "topic": "1",
+        "question": "Alloys with nickel content above _________ are highly resistant to Cl SCC. The greatest susceptibility is 8% to 12% nickel.",
+        "choices": [
+            "15%",
+            "20%",
+            "30%",
+            "35%"
+        ],
+        "answer": [
+            "D"
+        ],
+        "comments": [],
+        "link": "/discussions/api/view/120023-exam-api-571-topic-1-question-101-discussion/",
+        "title": "Exam API-571 topic 1 question 101 discussion"
+    },
+    {
+        "questionNo": "98",
+        "topic": "1",
+        "question": "Conditions favoring carburization include a high gas phase carbon activity and _______ oxygen potential.",
+        "choices": [
+            "Low",
+            "High",
+            "Negative",
+            "Positive"
+        ],
+        "answer": [
+            "A"
+        ],
+        "comments": [],
+        "link": "/discussions/api/view/120021-exam-api-571-topic-1-question-98-discussion/",
+        "title": "Exam API-571 topic 1 question 98 discussion"
+    },
+    {
+        "questionNo": "95",
+        "topic": "1",
+        "question": "Damage from sigma phase appears in the form of ________.",
+        "choices": [
+            "Corrosion",
+            "Hardness",
+            "Cracking",
+            "Ductility"
+        ],
+        "answer": [
+            "C"
+        ],
+        "comments": [],
+        "link": "/discussions/api/view/120020-exam-api-571-topic-1-question-95-discussion/",
+        "title": "Exam API-571 topic 1 question 95 discussion"
+    },
+    {
+        "questionNo": "93",
+        "topic": "1",
+        "question": "Spheroidization and graphitization are competing mechanisms that occur at overlapping temperature ranges. Spheroidization tends to occur preferentially above _______ while graphitization predominates below this temperature.",
+        "choices": [
+            "1000º F",
+            "1025º F",
+            "1050º F",
+            "1100º F"
+        ],
+        "answer": [
+            "B"
+        ],
+        "comments": [],
+        "link": "/discussions/api/view/120018-exam-api-571-topic-1-question-93-discussion/",
+        "title": "Exam API-571 topic 1 question 93 discussion"
+    },
+    {
+        "questionNo": "91",
+        "topic": "1",
+        "question": "Cracking can occur at low caustic levels if a concentrating mechanism is present. In such cases, caustic concentrations of ________ ppm are sufficient to cause cracking.",
+        "choices": [
+            "50-100",
+            "100-150",
+            "150-200",
+            "200-250"
+        ],
+        "answer": [
+            "A"
+        ],
+        "comments": [],
+        "link": "/discussions/api/view/120016-exam-api-571-topic-1-question-91-discussion/",
+        "title": "Exam API-571 topic 1 question 91 discussion"
+    },
+    {
+        "questionNo": "90",
+        "topic": "1",
+        "question": "HCL acid corrosion is found in several units, especially _______ and ________, units, hydroprocessing units and catalytic reformer units.",
+        "choices": [
+            "Amine, crude",
+            "Crude, Alkylation",
+            "Vacuum, Amine",
+            "Crude, Vacuum"
+        ],
+        "answer": [
+            "D"
+        ],
+        "comments": [],
+        "link": "/discussions/api/view/120015-exam-api-571-topic-1-question-90-discussion/",
+        "title": "Exam API-571 topic 1 question 90 discussion"
+    },
+    {
+        "questionNo": "88",
+        "topic": "1",
+        "question": "Which of these materials are susceptible to brittle fracture?",
+        "choices": [
+            "Carbon steels",
+            "Low alloy steels",
+            "400 Series SS",
+            "All of the above"
+        ],
+        "answer": [
+            "D"
+        ],
+        "comments": [],
+        "link": "/discussions/api/view/120014-exam-api-571-topic-1-question-88-discussion/",
+        "title": "Exam API-571 topic 1 question 88 discussion"
+    },
+    {
+        "questionNo": "89",
+        "topic": "1",
+        "question": "____________ is a form of environmental cracking that can initiate on the surface of high strength low alloy steels and carbon steels with highly localized zones of high hardness in the weld metal and HAZ as a result of exposure to aqueous HF acid service.",
+        "choices": [
+            "Sulfide stress cracking",
+            "Hydrogen stress cracking",
+            "Caustic stress cracking",
+            "Hydrogen induced cracking"
+        ],
+        "answer": [
+            "B"
+        ],
+        "comments": [],
+        "link": "/discussions/api/view/120013-exam-api-571-topic-1-question-89-discussion/",
+        "title": "Exam API-571 topic 1 question 89 discussion"
+    },
+    {
+        "questionNo": "87",
+        "topic": "1",
+        "question": "Sulfuric acid promotes general and localized corrosion of carbon steel. Carbon steel heat affected zones may experience severe corrosion. Acid concentration, temperature, alloy content and ____________ are critical factors affecting sulfuric acid corrosion.",
+        "choices": [
+            "Pressure",
+            "Stress",
+            "Velocity",
+            "Ductility"
+        ],
+        "answer": [
+            "C"
+        ],
+        "comments": [],
+        "link": "/discussions/api/view/120009-exam-api-571-topic-1-question-87-discussion/",
+        "title": "Exam API-571 topic 1 question 87 discussion"
+    },
+    {
+        "questionNo": "86",
+        "topic": "1",
+        "question": "All ________ based materials and low alloy materials, 300 Series SS and 400 Series SS are susceptible to Sulfidation.",
+        "choices": [
+            "Carbon",
+            "Steel",
+            "Chromium",
+            "Iron"
+        ],
+        "answer": [
+            "D"
+        ],
+        "comments": [],
+        "link": "/discussions/api/view/120008-exam-api-571-topic-1-question-86-discussion/",
+        "title": "Exam API-571 topic 1 question 86 discussion"
+    },
+    {
+        "questionNo": "85",
+        "topic": "1",
+        "question": "Where is PASCC normally located?",
+        "choices": [
+            "Adjacent to welds",
+            "On impellers",
+            "At stress risers",
+            "At flanges"
+        ],
+        "answer": [
+            "A"
+        ],
+        "comments": [],
+        "link": "/discussions/api/view/120007-exam-api-571-topic-1-question-85-discussion/",
+        "title": "Exam API-571 topic 1 question 85 discussion"
+    },
+    {
+        "questionNo": "84",
+        "topic": "1",
+        "question": "Units where graphitization may be suspected are the FCCU and the _____ unit.",
+        "choices": [
+            "Hydrotreater",
+            "Coker",
+            "Alky",
+            "None of the above"
+        ],
+        "answer": [
+            "B"
+        ],
+        "comments": [],
+        "link": "/discussions/api/view/120006-exam-api-571-topic-1-question-84-discussion/",
+        "title": "Exam API-571 topic 1 question 84 discussion"
+    },
+    {
+        "questionNo": "82",
+        "topic": "1",
+        "question": "General or localized corrosion of carbon steels and other metals caused by dissolved salts, gases, organic compounds or microbiological activity is called _______.",
+        "choices": [
+            "Cooling water corrosion",
+            "Oxidation",
+            "MIC",
+            "None of the above"
+        ],
+        "answer": [
+            "A"
+        ],
+        "comments": [],
+        "link": "/discussions/api/view/120004-exam-api-571-topic-1-question-82-discussion/",
+        "title": "Exam API-571 topic 1 question 82 discussion"
+    },
+    {
+        "questionNo": "81",
+        "topic": "1",
+        "question": "Caustic embrittlement cracking can be effectively prevented by means of PWHT at a temperature of _______.",
+        "choices": [
+            "1100º F",
+            "1150º F",
+            "1200º F",
+            "1250º F"
+        ],
+        "answer": [
+            "B"
+        ],
+        "comments": [],
+        "link": "/discussions/api/view/120003-exam-api-571-topic-1-question-81-discussion/",
+        "title": "Exam API-571 topic 1 question 81 discussion"
+    },
+    {
+        "questionNo": "74",
+        "topic": "1",
+        "question": "When connected to a more anodic material, titanium may suffer severe __________.",
+        "choices": [
+            "Corrosion",
+            "Hydriding",
+            "Stress",
+            "Notch toughness"
+        ],
+        "answer": [
+            "B"
+        ],
+        "comments": [],
+        "link": "/discussions/api/view/119914-exam-api-571-topic-1-question-74-discussion/",
+        "title": "Exam API-571 topic 1 question 74 discussion"
+    },
+    {
+        "questionNo": "73",
+        "topic": "1",
+        "question": "Hydrochloric acid corrosion is a general and localized corrosion and is very aggressive to most common materials of construction. Damage in refineries is often associated with dew point corrosion in which vapors containing _______ and hydrogen chloride condense from the overhead stream of a distillation, fractionation, or stripping tower.",
+        "choices": [
+            "O²",
+            "O",
+            "H²O",
+            "CO²"
+        ],
+        "answer": [
+            "C"
+        ],
+        "comments": [],
+        "link": "/discussions/api/view/119913-exam-api-571-topic-1-question-73-discussion/",
+        "title": "Exam API-571 topic 1 question 73 discussion"
+    },
+    {
+        "questionNo": "71",
+        "topic": "1",
+        "question": "Which of the following alkanolamine systems is the most aggressive in causing amine corrosion?",
+        "choices": [
+            "Monoethanolamine (MEA)",
+            "Diglycolamine (DGA)",
+            "Diethanolamine (DEA)",
+            "Methyldiethanolamine (MDEA)"
+        ],
+        "answer": [
+            "A"
+        ],
+        "comments": [],
+        "link": "/discussions/api/view/119912-exam-api-571-topic-1-question-71-discussion/",
+        "title": "Exam API-571 topic 1 question 71 discussion"
+    },
+    {
+        "questionNo": "69",
+        "topic": "1",
+        "question": "Titanium should not be used in known hydriding services such as _____ or ______.",
+        "choices": [
+            "Caustic, amine",
+            "Amine, sour water",
+            "Sour water, Alkylation",
+            "All of the above"
+        ],
+        "answer": [
+            "B"
+        ],
+        "comments": [],
+        "link": "/discussions/api/view/119911-exam-api-571-topic-1-question-69-discussion/",
+        "title": "Exam API-571 topic 1 question 69 discussion"
+    },
+    {
+        "questionNo": "64",
+        "topic": "1",
+        "question": "Which of the following materials is susceptible to CO² corrosion?",
+        "choices": [
+            "Carbon steel",
+            "Stainless steel",
+            "Duplex stainless steel",
+            "Both B and C"
+        ],
+        "answer": [
+            "A"
+        ],
+        "comments": [],
+        "link": "/discussions/api/view/119909-exam-api-571-topic-1-question-64-discussion/",
+        "title": "Exam API-571 topic 1 question 64 discussion"
+    },
+    {
+        "questionNo": "62",
+        "topic": "1",
+        "question": "Stress ruptures are characterized by _________ failures and are usually accompanied by thinning at the fracture surface.",
+        "choices": [
+            "Rapid",
+            "Fish-mouth",
+            "Tensile",
+            "None of the above"
+        ],
+        "answer": [
+            "B"
+        ],
+        "comments": [],
+        "link": "/discussions/api/view/119908-exam-api-571-topic-1-question-62-discussion/",
+        "title": "Exam API-571 topic 1 question 62 discussion"
+    },
+    {
+        "questionNo": "60",
+        "topic": "1",
+        "question": "High temperature hydrogen attack results from exposure to hydrogen at elevated temperatures and pressures. The hydrogen reacts with __________ in steel to produce _________, which cannot diffuse through the steel. The loss of carbides causes an overall loss in strength.",
+        "choices": [
+            "Carbides, oxygen",
+            "Alloys, hydrogen dioxide",
+            "Carbides, methane",
+            "Hydrogen dioxide, H²S"
+        ],
+        "answer": [
+            "C"
+        ],
+        "comments": [],
+        "link": "/discussions/api/view/119907-exam-api-571-topic-1-question-60-discussion/",
+        "title": "Exam API-571 topic 1 question 60 discussion"
+    },
+    {
+        "questionNo": "58",
+        "topic": "1",
+        "question": "Which of the following materials is not susceptible to high temperature hydrogen attack?",
+        "choices": [
+            "300 Series SS",
+            "5 Cr-1Mo",
+            "9Cr-1Mo",
+            "All of the above"
+        ],
+        "answer": [
+            "D"
+        ],
+        "comments": [],
+        "link": "/discussions/api/view/119906-exam-api-571-topic-1-question-58-discussion/",
+        "title": "Exam API-571 topic 1 question 58 discussion"
+    },
+    {
+        "questionNo": "56",
+        "topic": "1",
+        "question": "Amine stress corrosion cracking is most often associated with lean amine services. The pure alkanolamine does not cause cracking. Cracking in rich amine services are most often associated with _______ problems.",
+        "choices": [
+            "H²S",
+            "Stress",
+            "Wet H²S",
+            "Temperature"
+        ],
+        "answer": [
+            "C"
+        ],
+        "comments": [],
+        "link": "/discussions/api/view/119905-exam-api-571-topic-1-question-56-discussion/",
+        "title": "Exam API-571 topic 1 question 56 discussion"
+    },
+    {
+        "questionNo": "53",
+        "topic": "1",
+        "question": "In design and fabrication, it is advisable to avoid sharp changes in cross section, such as short radius fillets or undercut that can give rise to _________.Long-seam welds are particularly susceptible to reheat cracking due to mismatch caused by fit up problems.",
+        "choices": [
+            "Stress concentrations",
+            "Cracking",
+            "Circumferential stress",
+            "All of the above"
+        ],
+        "answer": [
+            "A"
+        ],
+        "comments": [],
+        "link": "/discussions/api/view/119903-exam-api-571-topic-1-question-53-discussion/",
+        "title": "Exam API-571 topic 1 question 53 discussion"
+    },
+    {
+        "questionNo": "52",
+        "topic": "1",
+        "question": "Different organisms thrive on different nutrients including inorganic substances (Sulfur, H²S), and organic substances (Hydrocarbons, Organic acids). In addition, all organisms require a source of carbon, nitrogen and _______ for growth.",
+        "choices": [
+            "Oxygen",
+            "Water",
+            "Manganese",
+            "Phosphorous"
+        ],
+        "answer": [
+            "D"
+        ],
+        "comments": [],
+        "link": "/discussions/api/view/119902-exam-api-571-topic-1-question-52-discussion/",
+        "title": "Exam API-571 topic 1 question 52 discussion"
+    },
+    {
+        "questionNo": "50",
+        "topic": "1",
+        "question": "Hardness levels above ________ are highly susceptible to hydrogen stress cracking (HF). Time-to-failure decreases as the hardness increases.",
+        "choices": [
+            "225 BHN",
+            "237 BHN",
+            "241 BHN",
+            "247 BHN"
+        ],
+        "answer": [
+            "B"
+        ],
+        "comments": [],
+        "link": "/discussions/api/view/119899-exam-api-571-topic-1-question-50-discussion/",
+        "title": "Exam API-571 topic 1 question 50 discussion"
+    },
+    {
+        "questionNo": "49",
+        "topic": "1",
+        "question": "Cavitation is best prevented by avoiding conditions that allow the absolute pressure to fall below the ___________ of the liquid or by changing the material properties.",
+        "choices": [
+            "Minimum pressure",
+            "Pressure/vapor ratio",
+            "Maximum pressure",
+            "Vapor pressure"
+        ],
+        "answer": [
+            "D"
+        ],
+        "comments": [],
+        "link": "/discussions/api/view/119898-exam-api-571-topic-1-question-49-discussion/",
+        "title": "Exam API-571 topic 1 question 49 discussion"
+    },
+    {
+        "questionNo": "48",
+        "topic": "1",
+        "question": "The amplitude and frequency of vibration as well as the _________ of the components are critical factors in vibration-induced fatigue.",
+        "choices": [
+            "Velocity",
+            "Temperature",
+            "Fatigue resistance",
+            "Material properties"
+        ],
+        "answer": [
+            "C"
+        ],
+        "comments": [],
+        "link": "/discussions/api/view/119897-exam-api-571-topic-1-question-48-discussion/",
+        "title": "Exam API-571 topic 1 question 48 discussion"
+    },
+    {
+        "questionNo": "46",
+        "topic": "1",
+        "question": "Since all fuels contain some amount of sulfur, sulfuric and sulfurous acid __________ can occur if the metal temperature is below this temperature.",
+        "choices": [
+            "Corrosion",
+            "Pitting",
+            "Dew point corrosion",
+            "All of the above"
+        ],
+        "answer": [
+            "C"
+        ],
+        "comments": [],
+        "link": "/discussions/api/view/119896-exam-api-571-topic-1-question-46-discussion/",
+        "title": "Exam API-571 topic 1 question 46 discussion"
+    },
+    {
+        "questionNo": "45",
+        "topic": "1",
+        "question": "Hydrogen blisters may form as surface bulges on the ID, the OD on within the wall thickness of a pipe or pressure vessel. Blistering occurs from hydrogen generated by ______, not hydrogen gas from the process stream.",
+        "choices": [
+            "H²S",
+            "Corrosion",
+            "Hydriding",
+            "Sulfur"
+        ],
+        "answer": [
+            "B"
+        ],
+        "comments": [],
+        "link": "/discussions/api/view/119895-exam-api-571-topic-1-question-45-discussion/",
+        "title": "Exam API-571 topic 1 question 45 discussion"
+    },
+    {
+        "questionNo": "44",
+        "topic": "1",
+        "question": "At elevated temperature, the carbide phases in certain carbon steels are unstable and may decompose into _______. This decomposition is known as graphitization.",
+        "choices": [
+            "Silicon",
+            "Graphite nodules",
+            "Carbon dust",
+            "Graphite dust"
+        ],
+        "answer": [
+            "B"
+        ],
+        "comments": [],
+        "link": "/discussions/api/view/119894-exam-api-571-topic-1-question-44-discussion/",
+        "title": "Exam API-571 topic 1 question 44 discussion"
+    },
+    {
+        "questionNo": "43",
+        "topic": "1",
+        "question": "_________ is most likely found in hard weld and heat-affected zones and in high strength components.",
+        "choices": [
+            "HIC",
+            "SSC",
+            "SOHIC",
+            "Blistering"
+        ],
+        "answer": [
+            "B"
+        ],
+        "comments": [],
+        "link": "/discussions/api/view/119893-exam-api-571-topic-1-question-43-discussion/",
+        "title": "Exam API-571 topic 1 question 43 discussion"
+    },
+    {
+        "questionNo": "41",
+        "topic": "1",
+        "question": "Which API RP recommends programs to monitor small-bore piping, flange faces, blistering and HIC/SOHIC in HF alky units?",
+        "choices": [
+            "574",
+            "751",
+            "571",
+            "980"
+        ],
+        "answer": [
+            "B"
+        ],
+        "comments": [],
+        "link": "/discussions/api/view/119892-exam-api-571-topic-1-question-41-discussion/",
+        "title": "Exam API-571 topic 1 question 41 discussion"
+    },
+    {
+        "questionNo": "40",
+        "topic": "1",
+        "question": "In order for PASCC to occur the material must be ______.",
+        "choices": [
+            "PWHT",
+            "Non-PWHT",
+            "Sensitized",
+            "Austenitic"
+        ],
+        "answer": [
+            "C"
+        ],
+        "comments": [],
+        "link": "/discussions/api/view/119890-exam-api-571-topic-1-question-40-discussion/",
+        "title": "Exam API-571 topic 1 question 40 discussion"
+    },
+    {
+        "questionNo": "38",
+        "topic": "1",
+        "question": "Weld heat affected zone graphitization is most frequently found in the heat affected zone adjacent to welds in a narrow band, corresponding to the low temperature edge of the heat affected zone. In multi-pass welded butt joints, these zones overlap each other covering the entire cross section. Because of its appearance, this type of graphitization is called________.",
+        "choices": [
+            "Half-moon",
+            "Eyebrow",
+            "Radii",
+            "None of the above"
+        ],
+        "answer": [
+            "B"
+        ],
+        "comments": [],
+        "link": "/discussions/api/view/119889-exam-api-571-topic-1-question-38-discussion/",
+        "title": "Exam API-571 topic 1 question 38 discussion"
+    },
+    {
+        "questionNo": "36",
+        "topic": "1",
+        "question": "Amine stress corrosion cracking is a term applied to the cracking of steels under the combined actions of ________ and __________ in aqueous alkanolamine systems used to remove/absorb H²S and/or CO² and their mixtures from various gas and liquid hydrocarbon streams.",
+        "choices": [
+            "Temperature, pressure",
+            "Pressure, stress",
+            "Temperature, corrosion",
+            "Tensile stress, corrosion"
+        ],
+        "answer": [
+            "D"
+        ],
+        "comments": [],
+        "link": "/discussions/api/view/119888-exam-api-571-topic-1-question-36-discussion/",
+        "title": "Exam API-571 topic 1 question 36 discussion"
+    },
+    {
+        "questionNo": "35",
+        "topic": "1",
+        "question": "Equipment that is temper embrittled may be susceptible to _______ during start-up and shutdown.",
+        "choices": [
+            "Creep",
+            "Thermal fatigue",
+            "Brittle fracture",
+            "Stress fatigue"
+        ],
+        "answer": [
+            "C"
+        ],
+        "comments": [],
+        "link": "/discussions/api/view/119887-exam-api-571-topic-1-question-35-discussion/",
+        "title": "Exam API-571 topic 1 question 35 discussion"
+    },
+    {
+        "questionNo": "32",
+        "topic": "1",
+        "question": "Nitriding is usually confined to the surface of most components and will have a dull, ______ appearance. In more advanced stages, the material will exhibit very hard surface hardness.",
+        "choices": [
+            "Gray",
+            "Black",
+            "Brown",
+            "White"
+        ],
+        "answer": [
+            "A"
+        ],
+        "comments": [],
+        "link": "/discussions/api/view/119886-exam-api-571-topic-1-question-32-discussion/",
+        "title": "Exam API-571 topic 1 question 32 discussion"
+    },
+    {
+        "questionNo": "27",
+        "topic": "1",
+        "question": "__________ is usually found in aqueous environments or services where water is sometimes or always present, especially where stagnant or low-flow conditions allow the growth of microorganisms.",
+        "choices": [
+            "MIC",
+            "HIC",
+            "SOHIC",
+            "None of the above"
+        ],
+        "answer": [
+            "A"
+        ],
+        "comments": [],
+        "link": "/discussions/api/view/119806-exam-api-571-topic-1-question-27-discussion/",
+        "title": "Exam API-571 topic 1 question 27 discussion"
+    },
+    {
+        "questionNo": "25",
+        "topic": "1",
+        "question": "Nickel based alloys usually contain ________ nickel.",
+        "choices": [
+            "≥30%",
+            "≥20%",
+            "≥10%",
+            "≥12%"
+        ],
+        "answer": [
+            "A"
+        ],
+        "comments": [],
+        "link": "/discussions/api/view/119805-exam-api-571-topic-1-question-25-discussion/",
+        "title": "Exam API-571 topic 1 question 25 discussion"
+    },
+    {
+        "questionNo": "20",
+        "topic": "1",
+        "question": "Liquid metal embrittlement can occur if 300 Series SS comes in contact with molten _______.",
+        "choices": [
+            "Copper",
+            "Mercury",
+            "Zinc",
+            "Lead"
+        ],
+        "answer": [
+            "C"
+        ],
+        "comments": [],
+        "link": "/discussions/api/view/119803-exam-api-571-topic-1-question-20-discussion/",
+        "title": "Exam API-571 topic 1 question 20 discussion"
+    },
+    {
+        "questionNo": "11",
+        "topic": "1",
+        "question": "________ has been a major problem on coke drum shells.",
+        "choices": [
+            "Thermal fatigue",
+            "Stress cracking",
+            "Erosion",
+            "Temper embrittlement"
+        ],
+        "answer": [
+            "A"
+        ],
+        "comments": [],
+        "link": "/discussions/api/view/119802-exam-api-571-topic-1-question-11-discussion/",
+        "title": "Exam API-571 topic 1 question 11 discussion"
+    },
+    {
+        "questionNo": "10",
+        "topic": "1",
+        "question": "For 5Cr-0.5Mo, what is the threshold temperature for creep?",
+        "choices": [
+            "500º F",
+            "800º F",
+            "600º F",
+            "700º F"
+        ],
+        "answer": [
+            "B"
+        ],
+        "comments": [],
+        "link": "/discussions/api/view/119801-exam-api-571-topic-1-question-10-discussion/",
+        "title": "Exam API-571 topic 1 question 10 discussion"
+    },
+    {
+        "questionNo": "9",
+        "topic": "1",
+        "question": "Which of the following can be affected by 885º F Embrittlement?",
+        "choices": [
+            "410 SS",
+            "430 SS",
+            "308 SS",
+            "Alloy 2205",
+            "A, B and D"
+        ],
+        "answer": [
+            "E"
+        ],
+        "comments": [],
+        "link": "/discussions/api/view/119800-exam-api-571-topic-1-question-9-discussion/",
+        "title": "Exam API-571 topic 1 question 9 discussion"
+    },
+    {
+        "questionNo": "8",
+        "topic": "1",
+        "question": "Low alloy steels contain a maximum of _______ chrome.",
+        "choices": [
+            "5%",
+            "6%",
+            "7.5%",
+            "9%"
+        ],
+        "answer": [
+            "D"
+        ],
+        "comments": [],
+        "link": "/discussions/api/view/119799-exam-api-571-topic-1-question-8-discussion/",
+        "title": "Exam API-571 topic 1 question 8 discussion"
+    },
+    {
+        "questionNo": "7",
+        "topic": "1",
+        "question": "What structure is 409 stainless steel?",
+        "choices": [
+            "Martensitic",
+            "Austenitic",
+            "Duplex",
+            "Ferritic"
+        ],
+        "answer": [
+            "D"
+        ],
+        "comments": [],
+        "link": "/discussions/api/view/119798-exam-api-571-topic-1-question-7-discussion/",
+        "title": "Exam API-571 topic 1 question 7 discussion"
+    },
+    {
+        "questionNo": "6",
+        "topic": "1",
+        "question": "The sudden rapid fracture under stress (residual or applied) where the material exhibits little or no evidence of ductility or plastic deformation is called _________.",
+        "choices": [
+            "885º F Embrittlement",
+            "Temper Embrittlement",
+            "Stress Corrosion Cracking",
+            "Brittle Fracture"
+        ],
+        "answer": [
+            "D"
+        ],
+        "comments": [],
+        "link": "/discussions/api/view/119797-exam-api-571-topic-1-question-6-discussion/",
+        "title": "Exam API-571 topic 1 question 6 discussion"
+    },
+    {
+        "questionNo": "5",
+        "topic": "1",
+        "question": "What structure is 410 stainless steel?",
+        "choices": [
+            "Martensitic",
+            "Austenitic",
+            "Duplex",
+            "Ferritic"
+        ],
+        "answer": [
+            "A"
+        ],
+        "comments": [],
+        "link": "/discussions/api/view/119796-exam-api-571-topic-1-question-5-discussion/",
+        "title": "Exam API-571 topic 1 question 5 discussion"
+    },
+    {
+        "questionNo": "4",
+        "topic": "1",
+        "question": "General or localized corrosion of carbon steels and other metals caused by dissolved salts, gases, organic compounds or microbiological activities is called ________.",
+        "choices": [
+            "Flue Gas Corrosion",
+            "Atmospheric Corrosion",
+            "Cooling Water Corrosion",
+            "None of the Above",
+            "All of the Above"
+        ],
+        "answer": [
+            "C"
+        ],
+        "comments": [],
+        "link": "/discussions/api/view/119795-exam-api-571-topic-1-question-4-discussion/",
+        "title": "Exam API-571 topic 1 question 4 discussion"
+    },
+    {
+        "questionNo": "3",
+        "topic": "1",
+        "question": "_________ is the result of cyclic stress caused by variations in temperature.",
+        "choices": [
+            "Creep",
+            "Thermal Fatigue",
+            "Cyclic Cracking",
+            "Stress Corrosion Cracking"
+        ],
+        "answer": [
+            "B"
+        ],
+        "comments": [],
+        "link": "/discussions/api/view/119794-exam-api-571-topic-1-question-3-discussion/",
+        "title": "Exam API-571 topic 1 question 3 discussion"
+    },
+    {
+        "questionNo": "2",
+        "topic": "1",
+        "question": "What structure is 304 stainless steel?",
+        "choices": [
+            "Martensitic",
+            "Austenitic",
+            "Duplex",
+            "Ferritic"
+        ],
+        "answer": [
+            "B"
+        ],
+        "comments": [],
+        "link": "/discussions/api/view/119793-exam-api-571-topic-1-question-2-discussion/",
+        "title": "Exam API-571 topic 1 question 2 discussion"
+    },
+    {
+        "questionNo": "1",
+        "topic": "1",
+        "question": "__________ is a change in the microstructure of certain carbon steels and 0.5 Mo steels after long term operation in the 800º F to 1100º F range.",
+        "choices": [
+            "Graphitization",
+            "Softening",
+            "Temper Embrittlement",
+            "Creep"
+        ],
+        "answer": [
+            "A"
+        ],
+        "comments": [],
+        "link": "/discussions/api/view/119792-exam-api-571-topic-1-question-1-discussion/",
+        "title": "Exam API-571 topic 1 question 1 discussion"
+    }
+]

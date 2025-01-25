@@ -16,6 +16,9 @@ export default function ScrapePage() {
         index: null
     })
 
+    const [thisString, setThisString] = useState('')
+
+
     const providers = PROVIDER_LIST.map((pro) => pro.provider)
     const exams = PROVIDER_LIST.map((pro) => pro.exams).flat()
 
@@ -43,11 +46,14 @@ export default function ScrapePage() {
         const providers_fuzzy = fuzzysort.go(input, providers, { threshold: 0.5, limit: 15 }).map((fuzz) => fuzz.target)
         return [...providers_fuzzy, ...exam_fuzzy].sort()
     }
-    console.log('SearchingALgo', selectedExam)
 
     return (
         <Box maxWidth={'1600px'} justifySelf={'center'} marginY={5}>
-
+            <Button onClick={() => {
+                setThisString('LICK')
+            }}>
+                PRESS ME
+            </Button>
             <Box justifySelf={'center'} display={'flex'} marginBottom={3}>
                 <Chip sx={{
                     alignSelf: 'center',

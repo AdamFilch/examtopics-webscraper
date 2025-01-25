@@ -70,12 +70,7 @@ def main(exam_name: str, exam_code: str, provider: str, scrape_method: str):
             
             
             
-scrape_details = {
-    "exam_name": "Cisco Certified Network Associate (CCNA)",
-    "exam_code": "200-301",
-    "provider": "Cisco",
-    "scrape_method": ''
-}
+scrape_details = {"exam_name": "Corrosion and Materials", "provider": "API", "exam_code": "API-571", "scrape_method": "method1"}
 
 if __name__ == '__main__':
     # Read the JSON string passed from Flask
