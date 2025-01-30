@@ -15,8 +15,12 @@ export default function ScrapePage() {
         exam_code: '',
         index: null
     })
+    const [selectedProvider, setSelectedProvider] = useState('')
+    const [selectedExamName, setSelectedExamName] = useState('')
+    const [selectedExamCode, setSelectedExamCode] = useState('')
+    const [sselectedExamIndex, setsselectedExamIndex] = useState('')
+    
 
-    const [thisString, setThisString] = useState('')
 
 
     const providers = PROVIDER_LIST.map((pro) => pro.provider)
@@ -49,11 +53,6 @@ export default function ScrapePage() {
 
     return (
         <Box maxWidth={'1600px'} justifySelf={'center'} marginY={5}>
-            <Button onClick={() => {
-                setThisString('LICK')
-            }}>
-                PRESS ME
-            </Button>
             <Box justifySelf={'center'} display={'flex'} marginBottom={3}>
                 <Chip sx={{
                     alignSelf: 'center',
@@ -72,7 +71,7 @@ export default function ScrapePage() {
 
                 </Box>
                 <Button size="large" disabled={selectedExam.exam == ''} onClick={handleScrape}>
-                    Scrape! teses
+                    Scrape!
                 </Button>
             </Box>
 
@@ -116,7 +115,11 @@ export default function ScrapePage() {
                         }}>
                             <Box display={'flex'} flexWrap={"wrap"} gap={1} justifyContent={'space-around'}>
                                 {PROVIDER_LIST.map((pro, i) => (
-                                    <Chip key={i} label={pro.provider} color={selectedExam.provider == pro.provider ? 'primary' : 'default'} onClick={() => {
+                                    <Chip key={i} label={pro.provider} 
+                                    color={selectedExam.provider == pro.provider ? 'primary' : 'default'} onClick={() => {
+                                        console.log(
+                                            pro
+                                        )
                                         if (selectedExam.provider != pro.provider) {
                                             setSelectedExam({ exam: '', exam_code: '', provider: pro.provider, index: pro.index })
                                         } else {
