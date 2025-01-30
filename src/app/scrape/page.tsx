@@ -13,19 +13,44 @@ export default function ScrapePage() {
         index: null
     })
 
+    const [thisString, setThisString] = useState('')
 
 
     const providers = PROVIDER_LIST.map((pro) => pro.provider)
+    const exams = PROVIDER_LIST.map((pro) => pro.exams).flat()
 
-    function handleSearch() {
+    const handleScrape = async () => {
+        const scrapeDetails = {
+            exam_name: selectedExam.exam,
+            provider: selectedExam.provider,
+            exam_code: selectedExam.exam_code,
+            scrape_method: 'method1',
+        };
 
+        try {
+            const response = await axios.post('http://localhost:5000/scrape', scrapeDetails);
+            console.log('Script Output:', response.data.output);
+            if (response.data.error) {
+                console.error('Script Error:', response.data.error);
+            }
+        } catch (error) {
+            console.error('Request Failed:', error);
+        }
+    };
+
+    function handleSearch(input: string, options) {
+        const exam_fuzzy = fuzzysort.go(input, exams, { keys: ['exam_name', 'exam_code'], threshold: 0.5, limit: 15 }).map((fuzz) => fuzz.obj.exam_name)
+        const providers_fuzzy = fuzzysort.go(input, providers, { threshold: 0.5, limit: 15 }).map((fuzz) => fuzz.target)
+        return [...providers_fuzzy, ...exam_fuzzy].sort()
     }
-
-
 
     return (
         <Box maxWidth={'1600px'} justifySelf={'center'} marginY={5}>
-
+            <Button onClick={() => {
+                setThisString('LICK')
+            }}>
+                PRESS ME
+            </Button>
             <Box justifySelf={'center'} display={'flex'} marginBottom={3}>
                 <Chip sx={{
                     alignSelf: 'center',

@@ -21,7 +21,7 @@ export default function LandingPage() {
                 <Card elevation={3} sx={{
                     justifyItems: 'center',
                 }}>
-                    <CardActionArea 
+                    <CardActionArea
                         LinkComponent={Link}
                         href="/scrape"
                     >
@@ -47,23 +47,34 @@ export default function LandingPage() {
                         </CardContent>
                     </CardActionArea>
                 </Card>
+
                 <Card elevation={3} sx={{
                     justifyItems: 'center',
 
                 }}>
-                    <CardActionArea>
+                    <CardActionArea
+                        LinkComponent={Link}
+                        href="/exam"
+                    >
                         <CardMedia
                             component='img'
                             height={'300px'}
                             image=""
-                            alt="Exam Folders?"
+                            alt="Ready to start exam?"
+                            sx={{
+                                objectPosition: 'left top'
+                            }}
                         />
                         <CardContent>
-                    <Typography>
-                        View Exam Repository
+                            <Typography fontSize={'25px'} gutterBottom fontWeight={600}>
+                                View the Repository
 
-                    </Typography>
-                    </CardContent>
+                            </Typography>
+                            <Typography fontSize={'17px'} sx={{
+                            }}>
+                                Scrape Exam Topics to find sample questions for your Examination
+                            </Typography>
+                        </CardContent>
                     </CardActionArea>
                 </Card>
                 <Card elevation={3} sx={{
@@ -78,11 +89,11 @@ export default function LandingPage() {
                             alt="Simulate?"
                         />
                         <CardContent>
-                    <Typography>
+                            <Typography>
 
-                        Simulate Exam
-                    </Typography>
-                    </CardContent>
+                                Simulate Exam
+                            </Typography>
+                        </CardContent>
                     </CardActionArea>
                 </Card>
             </Box>

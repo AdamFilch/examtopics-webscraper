@@ -20,6 +20,8 @@ def run_script():
             "exam_code": data.get('exam_code'),
             "scrape_method": data.get('scrape_method', '')  # Default to empty if not provided
         }
+        
+        print(scrape_details)
 
         # Pass scrape_details to the Python script as a JSON string
         result = subprocess.run(
