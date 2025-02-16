@@ -15,16 +15,12 @@ export default function ScrapePage() {
         exam_code: '',
         index: null
     })
-    const [selectedProvider, setSelectedProvider] = useState('')
-    const [selectedExamName, setSelectedExamName] = useState('')
-    const [selectedExamCode, setSelectedExamCode] = useState('')
-    const [sselectedExamIndex, setsselectedExamIndex] = useState('')
-    
-
-
 
     const providers = PROVIDER_LIST.map((pro) => pro.provider)
+
     const exams = PROVIDER_LIST.map((pro) => pro.exams).flat()
+
+    console.log(exams)
 
     const handleScrape = async () => {
         const scrapeDetails = {
@@ -173,7 +169,7 @@ export default function ScrapePage() {
                             ))
 
 
-                        )}
+                        )} 
                     </Paper>
                 </Box>
             </Stack>
