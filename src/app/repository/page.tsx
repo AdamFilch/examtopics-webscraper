@@ -1,6 +1,7 @@
 'use client'
-
-import { Box, Button, Card, TextField, ToggleButton, ToggleButtonGroup, Typography } from "@mui/material";
+import SearchIcon from '@mui/icons-material/Search';
+import CloseIcon from '@mui/icons-material/Close';
+import { Box, Button, ButtonBase, Card, CardActionArea, Divider, IconButton, Stack, TextField, ToggleButton, ToggleButtonGroup, Typography } from "@mui/material";
 import AWS_CERTIFIED_CLOUD_QUESTIONS from 'dumps/exam_papers/AWS Certified Cloud Practitioner CLF-C02.json'
 import EXAMPLE_QUESTION_DUMP from 'dumps/exam_papers/EXAMPLE_QUESTION_DUMP.json'
 import { useEffect, useState } from 'react'
@@ -34,6 +35,8 @@ export default function RepositoryPage() {
     const [examPapers, setExamPapers] = useState<Record<string, ExamPaperJSON[]>>({});
 
 
+
+
     console.log('examPopers', examPapers)
     useEffect(() => {
         async function fetchExams() {
@@ -48,7 +51,7 @@ export default function RepositoryPage() {
                     const jsonPromises = data.files.map((file: string) =>
                         fetch(`dumps/exam_papers/${file}`).then(res => res.json()).then((res) => {
 
-                            setExamPapers((prev) =>  {
+                            setExamPapers((prev) => {
                                 const updatedList = {
                                     ...prev,
                                     [file]: res
@@ -65,14 +68,65 @@ export default function RepositoryPage() {
 
         fetchExams();
     }, []);
-    return (
-        <Box>
 
-            <Typography>Below showcases all of the exams that you have scraped</Typography>
+
+
+    return (
+        <Box padding={2}>
 
             <Box>
+                <Typography fontSize={'20px'}>Exam Logs</Typography>
+                <Typography>Below showcases all of the exams that you have scraped</Typography>
+                <TextField fullWidth size="small" slotProps={{
+                    input: {
+                        startAdornment: (<IconButton><SearchIcon /></IconButton>),
+                        endAdornment: (<IconButton><CloseIcon /></IconButton>)
 
+                    }
+                }} />
             </Box>
+
+            <Stack marginTop={2}>
+                <Box display={'flex'} gap={3} sx={{
+                    border: '1px solid gray',
+                    padding: 1,
+                }}>
+
+                    <Box width={'100%'} maxWidth={'120px'} textAlign={'end'}>
+                        <Typography>Total Questions</Typography>
+                    </Box>
+                    <Divider orientation="vertical" flexItem />
+                    <Box width={'100%'} maxWidth={'200px'}>
+                        <Typography>Last Modified</Typography>
+                    </Box>
+                    <Divider orientation="vertical" flexItem />
+                    <Box>
+                        <Typography>Exam Paper Code</Typography>
+                    </Box>
+                </Box>
+                {Object.entries(examPapers).map((exam, index) => (
+                    <Box display={'flex'} gap={3} key={exam[0]} paddingX={1} paddingY={0.5} sx={{
+                        backgroundColor: index % 2 == 0 ? 'lightgray' : 'white'
+                    }}>
+
+                        <Box width={'100%'} maxWidth={'120px'} textAlign={'end'}>
+                            <Typography>{exam[1].length}</Typography>
+                        </Box>
+                        <Divider />
+                        <Box width={'100%'} maxWidth={'200px'}>
+                            <Typography>
+
+                                ---- ---- ----
+                            </Typography>
+                        </Box>
+                        <Divider />
+
+                        <Box>
+                            <Typography>{exam[0].replace('.json', '')}</Typography>
+                        </Box>
+                    </Box>
+                ))}
+            </Stack>
         </Box>
     )
 }
