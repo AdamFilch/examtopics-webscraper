@@ -1,5 +1,6 @@
 'use client'
 import SearchIcon from '@mui/icons-material/Search';
+import RefreshIcon from '@mui/icons-material/Refresh';
 import CloseIcon from '@mui/icons-material/Close';
 import { Box, Button, ButtonBase, Card, CardActionArea, Divider, IconButton, Stack, TextField, ToggleButton, ToggleButtonGroup, Typography } from "@mui/material";
 import AWS_CERTIFIED_CLOUD_QUESTIONS from 'dumps/exam_papers/AWS Certified Cloud Practitioner CLF-C02.json'
@@ -72,21 +73,27 @@ export default function RepositoryPage() {
 
 
     return (
-        <Box padding={2}>
+        <Box>
 
-            <Box>
+            <Box padding={2}>
                 <Typography fontSize={'20px'}>Exam Logs</Typography>
-                <Typography>Below showcases all of the exams that you have scraped</Typography>
-                <TextField fullWidth size="small" slotProps={{
-                    input: {
-                        startAdornment: (<IconButton><SearchIcon /></IconButton>),
-                        endAdornment: (<IconButton><CloseIcon /></IconButton>)
+                <Typography marginBottom={2}>Below showcases all of the exams that you have scraped. Use the search bar to quickly get your Exam!</Typography>
+                <Box display={'flex'} gap={2}>
 
-                    }
-                }} />
+                    <TextField fullWidth size="small" slotProps={{
+                        input: {
+                            startAdornment: (<IconButton><SearchIcon /></IconButton>),
+                            endAdornment: (<IconButton><CloseIcon /></IconButton>)
+
+                        }
+                    }} />
+                    <Button variant='contained'>
+                        <RefreshIcon />
+                    </Button>
+                </Box>
             </Box>
 
-            <Stack marginTop={2}>
+            <Stack>
                 <Box display={'flex'} gap={3} sx={{
                     border: '1px solid gray',
                     padding: 1,
@@ -105,16 +112,28 @@ export default function RepositoryPage() {
                     </Box>
                 </Box>
                 {Object.entries(examPapers).map((exam, index) => (
-                    <Box display={'flex'} gap={3} key={exam[0]} paddingX={1} paddingY={0.5} sx={{
-                        backgroundColor: index % 2 == 0 ? 'lightgray' : 'white'
-                    }}>
+
+                    <ButtonBase key={index} sx={{
+                        display: 'flex',
+                        gap: 3,
+                        paddingX: 1,
+                        paddingY: 0.5,
+                        backgroundColor: index % 2 == 0 ? 'lightgray' : 'white',
+                        justifyContent: 'start',
+                        '&:hover': {
+                            backgroundColor: '#1976d2'
+                        }
+                    }}
+
+                    >
+
 
                         <Box width={'100%'} maxWidth={'120px'} textAlign={'end'}>
                             <Typography>{exam[1].length}</Typography>
                         </Box>
                         <Divider />
                         <Box width={'100%'} maxWidth={'200px'}>
-                            <Typography>
+                            <Typography textAlign={'start'}>
 
                                 ---- ---- ----
                             </Typography>
@@ -124,7 +143,7 @@ export default function RepositoryPage() {
                         <Box>
                             <Typography>{exam[0].replace('.json', '')}</Typography>
                         </Box>
-                    </Box>
+                    </ButtonBase>
                 ))}
             </Stack>
         </Box>
