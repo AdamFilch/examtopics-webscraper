@@ -7,6 +7,7 @@ import AWS_CERTIFIED_CLOUD_QUESTIONS from 'dumps/exam_papers/AWS Certified Cloud
 import EXAMPLE_QUESTION_DUMP from 'dumps/exam_papers/EXAMPLE_QUESTION_DUMP.json'
 import { useEffect, useState } from 'react'
 import { ExamPaperJSON } from "../../types/exam";
+import Link from 'next/link';
 
 
 export function test() {
@@ -123,7 +124,8 @@ export default function RepositoryPage() {
                         '&:hover': {
                             backgroundColor: '#1976d2'
                         }
-                    }}
+                    }} LinkComponent={Link}
+                    href={`/repository/${exam[0]}`}
 
                     >
 
