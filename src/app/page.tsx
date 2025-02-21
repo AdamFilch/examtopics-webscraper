@@ -54,7 +54,7 @@ export default function LandingPage() {
                 }}>
                     <CardActionArea
                         LinkComponent={Link}
-                        href="/exam"
+                        href="/repository"
                     >
                         <CardMedia
                             component='img'
@@ -81,7 +81,10 @@ export default function LandingPage() {
                     justifyItems: 'center',
 
                 }}>
-                    <CardActionArea>
+                    <CardActionArea
+                    LinkComponent={Link}
+                    href="/exam"
+                    >
                         <CardMedia
                             component='img'
                             height={'300px'}
