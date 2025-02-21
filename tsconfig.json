@@ -24,7 +24,7 @@
     ],
     "paths": {
       "dumps/*": [
-        "./dumps/*"
+        "./public/dumps/*"
       ],
       "public/*": [
         "./public/*"

@@ -16,11 +16,11 @@ export default function ScrapePage() {
         index: null
     })
 
-    const [thisString, setThisString] = useState('')
-
-
     const providers = PROVIDER_LIST.map((pro) => pro.provider)
+
     const exams = PROVIDER_LIST.map((pro) => pro.exams).flat()
+
+    console.log(exams)
 
     const handleScrape = async () => {
         const scrapeDetails = {
@@ -49,11 +49,6 @@ export default function ScrapePage() {
 
     return (
         <Box maxWidth={'1600px'} justifySelf={'center'} marginY={5}>
-            <Button onClick={() => {
-                setThisString('LICK')
-            }}>
-                PRESS ME
-            </Button>
             <Box justifySelf={'center'} display={'flex'} marginBottom={3}>
                 <Chip sx={{
                     alignSelf: 'center',
@@ -71,8 +66,8 @@ export default function ScrapePage() {
                     </Typography>
 
                 </Box>
-                <Button size="large" disabled={selectedExam.exam == ''}>
-                    Scrape!
+                <Button size="large" disabled={selectedExam.exam == ''} onClick={handleScrape}>
+                    Scrape! teses
                 </Button>
             </Box>
 
@@ -91,16 +86,19 @@ export default function ScrapePage() {
 
 
                 <Box display={'grid'} gridTemplateColumns={'1.2fr 2fr'} gap={3}>
-                    <Paper>
-                        <Box display={'flex'} flexWrap={"wrap"} gap={1} justifyContent={'space-around'} margin={2}>
-                            {PROVIDER_LIST.map((pro, i) => (
-                                <Chip key={i} label={pro.provider} color={selectedExam.provider == pro.provider ? 'primary' : 'default'} onClick={() => {
-                                    if (selectedExam.provider != pro.provider) {
-                                        setSelectedExam({ exam: '', provider: pro.provider, index: pro.index })
-                                    } else {
-                                        setSelectedExam({ exam: '', provider: '', index: null })
-                                    }
-                                }}
+                    <Box>
+                        <Paper sx={{
+                            padding: 2
+                        }}>
+                            <Box display={'flex'} flexWrap={"wrap"} gap={1} justifyContent={'space-around'}>
+                                {PROVIDER_LIST.map((pro, i) => (
+                                    <Chip key={i} label={pro.provider} color={selectedExam.provider == pro.provider ? 'primary' : 'default'} onClick={() => {
+                                        if (selectedExam.provider != pro.provider) {
+                                            setSelectedExam({ exam: '', exam_code: '', provider: pro.provider, index: pro.index })
+                                        } else {
+                                            setSelectedExam({ exam: '', exam_code: '', provider: '', index: null })
+                                        }
+                                    }}
 
                                 />
                             ))}
@@ -145,8 +143,6 @@ export default function ScrapePage() {
                             </Box>
 
                         )}
-
-
                     </Paper>
                 </Box>
             </Stack>
