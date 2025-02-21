@@ -1,19 +1,21 @@
 'use client'
 
-import { Autocomplete, Box, Button, ButtonBase, Chip, Container, Paper, Stack, TextField, Typography } from "@mui/material"
-import PROVIDER_LIST from 'dumps/PROVIDER_LIST.json'
-import { useState } from "react"
-import axios from "axios"
-import fuzzysort from "fuzzysort"
+import axios from 'axios';
+import PROVIDER_LIST from 'dumps/PROVIDER_LIST.json';
+import fuzzysort from 'fuzzysort';
+import { useState } from 'react';
 
-
+import {
+    Autocomplete, Box, Button, ButtonBase, Chip, Container, Paper, Stack, TextField, Typography
+} from '@mui/material';
 
 export default function ScrapePage() {
 
     const [selectedExam, setSelectedExam] = useState({
         provider: '',
         exam: '',
-        index: null
+        index: null,
+        exam_code: ''
     })
 
     const providers = PROVIDER_LIST.map((pro) => pro.provider)
@@ -100,50 +102,51 @@ export default function ScrapePage() {
                                         }
                                     }}
 
-                                />
-                            ))}
-
-                        </Box>
-
- 
-                    </Paper>
-                    <Paper>
-                        {selectedExam.index && (
-                            <Box>
-                               {PROVIDER_LIST[selectedExam.index - 1].exams.map((exam, i) => (
-                                    <ButtonBase key={i} sx={{
-                                        display: 'flex',
-                                        alignItems: 'center',
-                                        justifyContent: 'start',
-                                        height: 45,
-                                        width: '100%',
-                                        gap: 2,
-                                        paddingX: 2,
-                                        '&:hover': {
-                                            backgroundColor: '#1976d2'
-                                        }
-                                    }} onClick={() => {
-                                        if (selectedExam.exam != exam.exam_name) {
-                                            setSelectedExam({ ...selectedExam, exam: exam.exam_name })
-                                        } else {
-                                            setSelectedExam({ ...selectedExam, exam: exam.exam_name })
-                                        }
-                                    }}>
-
-                                        <Typography textOverflow={'ellipsis'}>{exam.exam_name}</Typography>
-                                        {exam.popular && (
-                                            <>
-                                            <Typography>&bull;</Typography>
-                                            <Chip label="Popular" color="info" />
-                                            </>
-                                        )}
-                                    </ButtonBase>
+                                    />
                                 ))}
 
                             </Box>
 
-                        )}
-                    </Paper>
+
+                        </Paper>
+                        <Paper>
+                            {selectedExam.index && (
+                                <Box>
+                                    {PROVIDER_LIST[selectedExam.index - 1].exams.map((exam, i) => (
+                                        <ButtonBase key={i} sx={{
+                                            display: 'flex',
+                                            alignItems: 'center',
+                                            justifyContent: 'start',
+                                            height: 45,
+                                            width: '100%',
+                                            gap: 2,
+                                            paddingX: 2,
+                                            '&:hover': {
+                                                backgroundColor: '#1976d2'
+                                            }
+                                        }} onClick={() => {
+                                            if (selectedExam.exam != exam.exam_name) {
+                                                setSelectedExam({ ...selectedExam, exam: exam.exam_name })
+                                            } else {
+                                                setSelectedExam({ ...selectedExam, exam: exam.exam_name })
+                                            }
+                                        }}>
+
+                                            <Typography textOverflow={'ellipsis'}>{exam.exam_name}</Typography>
+                                            {exam.popular && (
+                                                <>
+                                                    <Typography>&bull;</Typography>
+                                                    <Chip label="Popular" color="info" />
+                                                </>
+                                            )}
+                                        </ButtonBase>
+                                    ))}
+
+                                </Box>
+
+                            )}
+                        </Paper>
+                    </Box>
                 </Box>
             </Stack>
         </Box>
