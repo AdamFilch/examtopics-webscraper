@@ -3,6 +3,9 @@
 import { Autocomplete, Box, Button, ButtonBase, Chip, Container, Paper, Stack, TextField, Typography } from "@mui/material"
 import PROVIDER_LIST from 'dumps/PROVIDER_LIST.json'
 import { useState } from "react"
+import axios from "axios"
+import fuzzysort from "fuzzysort"
+
 
 
 export default function ScrapePage() {
@@ -104,12 +107,12 @@ export default function ScrapePage() {
 
                         </Box>
 
-
+ 
                     </Paper>
                     <Paper>
                         {selectedExam.index && (
                             <Box>
-                                {PROVIDER_LIST[selectedExam.index - 1].exams.map((exam, i) => (
+                               {PROVIDER_LIST[selectedExam.index - 1].exams.map((exam, i) => (
                                     <ButtonBase key={i} sx={{
                                         display: 'flex',
                                         alignItems: 'center',
@@ -151,3 +154,7 @@ export default function ScrapePage() {
     )
 }
 
+
+// export default function p() {
+//     return(<></>
+//     )}
