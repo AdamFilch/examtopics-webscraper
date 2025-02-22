@@ -39,8 +39,7 @@ export default function test() {
         setQuestionNumber((previous) => previous - 1 > 0 ? previous - 1 : previous)
     }
 
-    console.log(AWS_CERTIFIED_CLOUD_QUESTIONS.length)
-
+    const [selectedExamName, setSelectedExamName] = useState('')
 
     //actual HTML components
     return <Box>
@@ -57,14 +56,13 @@ export default function test() {
                     width: 300,
                     margin: 2
                 }}
+                onChange={(event: any, newValue: string | null) => {
+                    setSelectedExamName(newValue);
+                }}
                 renderInput={(params) => <TextField {...params} label="Search for an Exam / Exam Code / Provider " />}
             />
-        </Box>
 
-        {/* Exam Name Selection */}
-
-        <Box justifySelf={'center'}>
-            <Typography> {AWS_CERTIFIED_CLOUD_QUESTIONS[questionNumber].title} </Typography>
+            <div><Typography>Selected Exam: {selectedExamName}</Typography></div>
         </Box>
 
         {/* Next and back button */}
@@ -91,8 +89,6 @@ export default function test() {
                     fontSize: 18
                 }}>{AWS_CERTIFIED_CLOUD_QUESTIONS[questionNumber].question}</Typography>
             </Box>
-
-
         </Box>
 
         {/* This is for answers */}
@@ -109,6 +105,7 @@ export default function test() {
                 </RadioGroup>
             </Box>
         </Paper>
+
     </Box>
 
 
