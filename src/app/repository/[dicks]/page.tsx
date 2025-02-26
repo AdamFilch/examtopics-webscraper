@@ -5,11 +5,19 @@ import { useParams } from "next/navigation";
 import { useEffect, useState } from "react";
 
 export default function ExamDetailPage() {
-    const { examcode } = useParams()
-    const decodedId = decodeURIComponent(examcode.toString())
-    const [currExamPaper, setCurrExamPaper] = useState(null)
 
-    console.log('examTopoicsWEb', currExamPaper)
+
+
+    const { dicks } = useParams() // This gets whatever is in [dicks]
+
+
+
+    
+
+    const decodedId = decodeURIComponent(dicks.toString())
+    const [currExamPaper, setCurrExamPaper] = useState(null)
+    const [selectedMenu, setSelectedMenu] = useState<'papers' | 'questions'>('questions')
+
     useEffect(() => {
         async function fetchExam() {
             try {
