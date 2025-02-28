@@ -2,11 +2,16 @@
 
 import { Box, List, ListItem, ListItemButton } from '@mui/material'
 import React, { useState } from 'react'
-import AWS_CERTIFIED_CLOUD_QUESTIONS from 'dumps/exam_papers/AWS Certified Cloud Practitioner CLF-C02.json'
 
-export default function PreviewPage() {
+export default function PreviewPage({ 
+    examPaper 
+}: { 
+    examPaper: any,
+ }) {
     const [thisQuestion, setThisQuestion] = useState(null)
-
+    
+    console.log(examPaper)
+    
     return (
         <Box
             sx={{
@@ -47,8 +52,8 @@ export default function PreviewPage() {
                         listStyleType: 'none',
                     }}
                 >
-                    {AWS_CERTIFIED_CLOUD_QUESTIONS.map((pro) => (
-                        <ListItem key={pro.title} disablePadding>
+                    {examPaper.map((pro, idx) => (
+                        <ListItem key={idx} disablePadding>
                             <ListItemButton
                                 onClick={() => {
                                     setThisQuestion(pro)
@@ -134,8 +139,8 @@ export default function PreviewPage() {
                 >
                     The Choices are:
                     <List>
-                        {thisQuestion?.choices.map((pro) => (
-                            <ListItem key={pro.choices} disablePadding>
+                        {thisQuestion?.choices.map((pro, idx) => (
+                            <ListItem key={idx} disablePadding>
                                 <ListItemButton
                                     sx={{
                                         backgroundColor: '#f0f4c3',
