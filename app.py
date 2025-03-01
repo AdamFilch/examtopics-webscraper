@@ -25,7 +25,7 @@ def run_script():
 
         # Pass scrape_details to the Python script as a JSON string
         result = subprocess.run(
-            ['python', 'main.py', json.dumps(scrape_details)],
+            [sys.executable, 'main.py', json.dumps(scrape_details)],
             capture_output=True,
             text=True
         )

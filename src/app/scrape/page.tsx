@@ -33,7 +33,14 @@ export default function ScrapePage() {
         };
 
         try {
-            const response = await axios.post('http://localhost:5000/scrape', scrapeDetails);
+            const response = await fetch('http://localhost:5000/scrape', {
+                method: "POST",
+                headers: {
+                    "Content-Type": "application/json"
+                },
+                body: JSON.stringify(scrapeDetails)
+            }).then((res) => res.json())
+
             console.log('Script Output:', response.data.output);
             if (response.data.error) {
                 console.error('Script Error:', response.data.error);
@@ -69,7 +76,7 @@ export default function ScrapePage() {
 
                 </Box>
                 <Button size="large" disabled={selectedExam.exam == ''} onClick={handleScrape}>
-                    Scrape! teses
+                    Scrape!
                 </Button>
             </Box>
 
@@ -88,7 +95,6 @@ export default function ScrapePage() {
 
 
                 <Box display={'grid'} gridTemplateColumns={'1.2fr 2fr'} gap={3}>
-                    <Box>
                         <Paper sx={{
                             padding: 2
                         }}>
@@ -146,7 +152,6 @@ export default function ScrapePage() {
 
                             )}
                         </Paper>
-                    </Box>
                 </Box>
             </Stack>
         </Box>

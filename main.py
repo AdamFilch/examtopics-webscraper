@@ -8,6 +8,8 @@ import os
 import sys
 from difflib import SequenceMatcher
 from fuzzywuzzy import fuzz
+import sys
+
 
 WRITE_INTO_FILE = "EXAMPLE_QUESTION_DUMP.json"
 
@@ -70,13 +72,14 @@ def main(exam_name: str, exam_code: str, provider: str, scrape_method: str):
             
             
             
-scrape_details = {"exam_name": "Corrosion and Materials", "provider": "API", "exam_code": "API-571", "scrape_method": "method1"}
+scrape_details = {"exam_name": "AWS Certified Solutions Architect - Professional", "provider": "Amazon", "exam_code": "API-571", "scrape_method": "method1"}
 
 if __name__ == '__main__':
     # Read the JSON string passed from Flask
     # scrape_details = json.loads(sys.argv[1])
+    print(sys.executable)
     
     print(scrape_details)
 
     # Call the main function with unpacked arguments    
-    main(**scrape_details)
+    # main(**scrape_details)
