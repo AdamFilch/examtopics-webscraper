@@ -1,28 +1,26 @@
 'use client'
 
-import axios from 'axios';
-import PROVIDER_LIST from 'dumps/PROVIDER_LIST.json';
-import fuzzysort from 'fuzzysort';
-import { useState } from 'react';
+import { Autocomplete, Box, Button, ButtonBase, Chip, Container, Paper, Stack, TextField, Typography } from "@mui/material"
+import PROVIDER_LIST from 'dumps/PROVIDER_LIST.json'
+import { useState } from "react"
+import fuzzysort from 'fuzzysort'
+import axios from "axios"
 
-import {
-    Autocomplete, Box, Button, ButtonBase, Chip, Container, Paper, Stack, TextField, Typography
-} from '@mui/material';
 
 export default function ScrapePage() {
 
     const [selectedExam, setSelectedExam] = useState({
         provider: '',
         exam: '',
-        index: null,
-        exam_code: ''
+        exam_code: '',
+        index: null
     })
 
+    const [thisString, setThisString] = useState('')
+
+
     const providers = PROVIDER_LIST.map((pro) => pro.provider)
-
     const exams = PROVIDER_LIST.map((pro) => pro.exams).flat()
-
-    console.log(exams)
 
     const handleScrape = async () => {
         const scrapeDetails = {
@@ -33,14 +31,7 @@ export default function ScrapePage() {
         };
 
         try {
-            const response = await fetch('http://localhost:5000/scrape', {
-                method: "POST",
-                headers: {
-                    "Content-Type": "application/json"
-                },
-                body: JSON.stringify(scrapeDetails)
-            }).then((res) => res.json())
-
+            const response = await axios.post('http://localhost:5000/scrape', scrapeDetails);
             console.log('Script Output:', response.data.output);
             if (response.data.error) {
                 console.error('Script Error:', response.data.error);
@@ -53,7 +44,7 @@ export default function ScrapePage() {
     function handleSearch(input: string, options) {
         const exam_fuzzy = fuzzysort.go(input, exams, { keys: ['exam_name', 'exam_code'], threshold: 0.5, limit: 15 }).map((fuzz) => fuzz.obj.exam_name)
         const providers_fuzzy = fuzzysort.go(input, providers, { threshold: 0.5, limit: 15 }).map((fuzz) => fuzz.target)
-        return [...providers_fuzzy, ...exam_fuzzy].sort()
+        return [... new Set([...providers_fuzzy, ...exam_fuzzy].sort())]
     }
 
     return (
@@ -76,7 +67,7 @@ export default function ScrapePage() {
 
                 </Box>
                 <Button size="large" disabled={selectedExam.exam == ''} onClick={handleScrape}>
-                    Scrape!
+                    Scrape! teses
                 </Button>
             </Box>
 
@@ -88,13 +79,34 @@ export default function ScrapePage() {
                             width: '1200px',
                             justifySelf: 'center'
                         }}
+                        onChange={(e, v) => {
+
+                            if (typeof v !== null && providers.includes(v)) {
+                                const filteredObj = PROVIDER_LIST.filter((fil) => fil.provider == v)
+                                setSelectedExam({ exam: '', exam_code: '', provider: filteredObj[0].provider, index: filteredObj[0].index })
+                            } else {
+                                const filteredObj = PROVIDER_LIST.filter((fil) => fil.exams.some((ex) => ex.exam_name == v || ex.exam_code == v))
+                                
+                                const thisExam = filteredObj[0]?.exams.filter((ex) =>
+                                    ex.exam_name == v || ex.exam_code == v
+                                ) || []
+
+
+                                setSelectedExam({ exam: v, exam_code: thisExam[0]?.exam_code, provider: filteredObj[0]?.provider, index: filteredObj[0]?.index })
+                            }
+
+                        }}
                         options={providers}
+                        filterOptions={(filtered, state) => {
+                            return handleSearch(state.inputValue, filtered)
+                        }}
                         renderInput={(params) => <TextField {...params} label="Search for an Exam / Exam Code / Provider " />}
                     />
                 </Box>
 
 
                 <Box display={'grid'} gridTemplateColumns={'1.2fr 2fr'} gap={3}>
+                    <Box>
                         <Paper sx={{
                             padding: 2
                         }}>
@@ -115,50 +127,49 @@ export default function ScrapePage() {
 
 
                         </Paper>
-                        <Paper>
-                            {selectedExam.index && (
-                                <Box>
-                                    {PROVIDER_LIST[selectedExam.index - 1].exams.map((exam, i) => (
-                                        <ButtonBase key={i} sx={{
-                                            display: 'flex',
-                                            alignItems: 'center',
-                                            justifyContent: 'start',
-                                            height: 45,
-                                            width: '100%',
-                                            gap: 2,
-                                            paddingX: 2,
-                                            '&:hover': {
-                                                backgroundColor: '#1976d2'
-                                            }
-                                        }} onClick={() => {
-                                            if (selectedExam.exam != exam.exam_name) {
-                                                setSelectedExam({ ...selectedExam, exam: exam.exam_name })
-                                            } else {
-                                                setSelectedExam({ ...selectedExam, exam: exam.exam_name })
-                                            }
-                                        }}>
+                    </Box>
+                    <Paper sx={{
+                        overflow: 'scroll'
+                    }}>
+                        {selectedExam.index && (
+                            PROVIDER_LIST[selectedExam.index - 1].exams.map((exam, i) => (
+                                <ButtonBase key={i} sx={{
+                                    display: 'flex',
+                                    alignItems: 'center',
+                                    justifyContent: 'start',
+                                    height: 45,
+                                    width: '100%',
+                                    gap: 2,
+                                    paddingX: 2,
+                                    '&:hover': {
+                                        backgroundColor: '#1976d2'
+                                    }
+                                }} onClick={() => {
 
-                                            <Typography textOverflow={'ellipsis'}>{exam.exam_name}</Typography>
-                                            {exam.popular && (
-                                                <>
-                                                    <Typography>&bull;</Typography>
-                                                    <Chip label="Popular" color="info" />
-                                                </>
-                                            )}
-                                        </ButtonBase>
-                                    ))}
 
-                                </Box>
+                                    const thisExam = PROVIDER_LIST[selectedExam.index - 1].exams.filter((ex) =>
+                                        ex.exam_name == exam.exam_name || ex.exam_code == exam.exam_name
+                                    )
+                                    setSelectedExam({ ...selectedExam, exam_code: thisExam[0].exam_code, exam: exam.exam_name })
 
-                            )}
-                        </Paper>
+
+                                }}>
+
+                                    <Typography textOverflow={'ellipsis'}>{exam.exam_name}</Typography>
+                                    {exam.popular && (
+                                        <>
+                                            <Typography>&bull;</Typography>
+                                            <Chip label="Popular" color="info" />
+                                        </>
+                                    )}
+                                </ButtonBase>
+                            ))
+
+
+                        )}
+                    </Paper>
                 </Box>
             </Stack>
         </Box>
     )
 }
-
-
-// export default function p() {
-//     return(<></>
-//     )}
