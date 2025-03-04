@@ -18,6 +18,8 @@ def delay(exp = 0):
 
 def main(exam_name: str, exam_code: str, provider: str, scrape_method: str):
     
+    print('TEST BABY')
+    
     if provider == '':
         return
     
@@ -25,17 +27,20 @@ def main(exam_name: str, exam_code: str, provider: str, scrape_method: str):
     proceed = True
     page_num = 1
     scraped_question = 0
+    directory = 'public/dumps/exam_papers/'
+    os.makedirs(directory, exist_ok=True)
     
-    if not os.path.exists('dumps/exam_papers/' + exam_name + '.json'):
-        with open('dumps/exam_papers/' + exam_name + '.json', 'w'): pass
+    if not os.path.exists(directory + exam_name + '.json'):
+        with open(directory + exam_name + '.json', 'w'): pass
     else:
-        with open('dumps/exam_papers/' + exam_name + '.json', 'r') as file:
+        with open(directory + exam_name + '.json', 'r') as file:
             try:
                 res = json.load(file)
             except json.JSONDecodeError:
                 res = [] 
     
-    print(res)
+    # print(res)
+    
     
     while proceed:
         exam_links_list = GetDiscussionLinks(page_num, provider)
@@ -71,15 +76,19 @@ def main(exam_name: str, exam_code: str, provider: str, scrape_method: str):
             proceed = False
             
             
-            
-scrape_details = {"exam_name": "AWS Certified Solutions Architect - Professional", "provider": "Amazon", "exam_code": "API-571", "scrape_method": "method1"}
+# Manual Scraping            
+scrape_details = {
+    "exam_name": "AWS Certified Solutions Architect - Professional", 
+    "provider": "Amazon", 
+    "exam_code": "API-571", 
+    "scrape_method": "method1"
+    }
 
 if __name__ == '__main__':
     # Read the JSON string passed from Flask
-    # scrape_details = json.loads(sys.argv[1])
-    print(sys.executable)
+    scrape_details = json.loads(sys.argv[1])
+    # print(sys.executable)
     
-    print(scrape_details)
 
     # Call the main function with unpacked arguments    
-    # main(**scrape_details)
+    main(**scrape_details)

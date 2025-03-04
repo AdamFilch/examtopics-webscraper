@@ -67,7 +67,7 @@ export default function ScrapePage() {
 
                 </Box>
                 <Button size="large" disabled={selectedExam.exam == ''} onClick={handleScrape}>
-                    Scrape! teses
+                    Scrape!
                 </Button>
             </Box>
 

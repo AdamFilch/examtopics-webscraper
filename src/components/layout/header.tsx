@@ -22,9 +22,6 @@ export default function Header() {
                     }}>
                     <Typography color={'white'} >Examtopics Webscrapper</Typography>
                 </Button>
-                <Box  alignContent={'center'}>
-                    <Typography >by 3 idiots</Typography>
-                </Box>
             </Box>
 
             <Box gap={2} display={'flex'} color={'white'} >

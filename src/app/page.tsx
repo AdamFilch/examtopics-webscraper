@@ -6,17 +6,19 @@ export default function LandingPage() {
     return (
 
         <Container sx={{
-            display: 'grid'
+            display: 'flex',
+            alignContent: 'center',
+            margin: 'auto',
+            alignItems: 'center',
+            flexGrow:1
         }}>
-            <Box>
-                <Typography>Examtopics</Typography>
-                <Typography>Webscraper</Typography>
-            </Box>
+
 
             <Box sx={{
+                alignSelf: 'center',
                 display: 'grid',
                 gridTemplateColumns: '1fr 1fr 1fr',
-                gap: 10
+                gap: 3
             }}>
                 <Card elevation={3} sx={{
                     justifyItems: 'center',
@@ -59,7 +61,7 @@ export default function LandingPage() {
                         <CardMedia
                             component='img'
                             height={'300px'}
-                            image=""
+                            image="landing/exam_repository_image.png"
                             alt="Ready to start exam?"
                             sx={{
                                 objectPosition: 'left top'
