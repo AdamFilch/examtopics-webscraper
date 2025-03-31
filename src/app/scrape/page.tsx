@@ -44,7 +44,7 @@ export default function ScrapePage() {
     function handleSearch(input: string, options) {
         const exam_fuzzy = fuzzysort.go(input, exams, { keys: ['exam_name', 'exam_code'], threshold: 0.5, limit: 15 }).map((fuzz) => fuzz.obj.exam_name)
         const providers_fuzzy = fuzzysort.go(input, providers, { threshold: 0.5, limit: 15 }).map((fuzz) => fuzz.target)
-        return [... new Set([...providers_fuzzy, ...exam_fuzzy].sort())]
+        return [...(new Set([...providers_fuzzy, ...exam_fuzzy].sort()))]
     }
 
     return (

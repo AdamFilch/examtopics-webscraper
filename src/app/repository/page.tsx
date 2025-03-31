@@ -10,36 +10,11 @@ import { ExamPaperJSON } from "../../types/exam";
 import Link from 'next/link';
 
 
-export function test() {
-
-
-
-    console.log(AWS_CERTIFIED_CLOUD_QUESTIONS)
-    const amount = AWS_CERTIFIED_CLOUD_QUESTIONS.length
-    const exampl_question_dump = EXAMPLE_QUESTION_DUMP.length
-    return <Box sx={{
-        display: 'flex',
-        justifyContent: 'center'
-    }}>
-
-        <Box>
-            <Typography> There are {amount} exam questions </Typography>
-            <Typography> There are {exampl_question_dump} exam questions </Typography>
-        </Box>
-
-
-    </Box>
-}
-
 
 export default function RepositoryPage() {
 
     const [examPapers, setExamPapers] = useState<Record<string, ExamPaperJSON[]>>({});
 
-
-
-
-    console.log('examPopers', examPapers)
     useEffect(() => {
         async function fetchExams() {
             try {
