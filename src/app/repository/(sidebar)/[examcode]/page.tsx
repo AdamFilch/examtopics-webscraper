@@ -42,36 +42,28 @@ export default function ExamDetailPage() {
 
     return (
         <Box>
-            <Box display="grid" gridTemplateColumns={{ xs: '1fr 3fr', md: '1fr 5fr' }}>
+            <Box sx={{
+                display: 'flex',
+                alignSelf: 'flex-end',
+                justifyContent: 'space-between',
+                marginRight: 3,
+                padding: 2
+            }}>
 
-                <Box sx={{
-                    height: '80px'
-                }}>
+                <Typography fontSize={'28px'} fontStyle={'oblique'} fontWeight={'700'}>{decodedId}</Typography>
 
+                <Box display={'flex'} gap={3}>
+                    <Button size="large" variant="outlined">
+                        Create a Test
+                    </Button>
+                    <Button color="error" size="large" variant="contained">
+                        Delete
+                    </Button>
                 </Box>
-                <Box sx={{
-                    display: 'flex',
-                    alignSelf: 'flex-end',
-                    justifyContent: 'space-between',
-                    marginRight: 3,
-                    paddingBottom: 2
-                }}>
-
-                    <Typography fontSize={'28px'} fontStyle={'oblique'} fontWeight={'700'}>{decodedId}</Typography>
-
-                    <Box display={'flex'} gap={3}>
-                        <Button size="large" variant="outlined">
-                            Create a Test
-                        </Button>
-                        <Button color="error" size="large" variant="contained">
-                            Delete
-                        </Button>
-                    </Box>
-                </Box>
-
-
-
             </Box>
+
+
+
 
             <PreviewPage examPaper={currExamPaper} />
 
