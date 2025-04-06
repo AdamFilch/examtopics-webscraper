@@ -1,5 +1,5 @@
 'use client'
-import { Autocomplete, Box, Button, Card, CardActionArea, CardContent, Dialog, DialogActions, DialogContent, DialogTitle, FormControl, FormControlLabel, FormLabel, Radio, RadioGroup, Step, StepContent, StepLabel, Stepper, TextField, Typography } from "@mui/material";
+import { Autocomplete, Box, Button, Card, CardActionArea, CardContent, Dialog, DialogActions, DialogContent, DialogTitle, FormControl, FormControlLabel, FormLabel, MobileStepper, Radio, RadioGroup, Step, StepContent, StepLabel, Stepper, TextField, Typography } from "@mui/material";
 import AddIcon from '@mui/icons-material/Add';
 import { useEffect, useState } from "react";
 import { ExamPaperJSON } from "../../../../types/exam";
@@ -62,7 +62,6 @@ export default function PapersPage() {
         {
             label: 'Set test settings',
             content: (
-                <Box>
 
                     <Box>
                         <FormControl>
@@ -81,8 +80,6 @@ export default function PapersPage() {
                             </RadioGroup>
                         </FormControl>
                     </Box>
-                    <Button>Save Test</Button>
-                </Box>
             )
         }
     ]
@@ -138,36 +135,47 @@ export default function PapersPage() {
                     </Typography>
                 </DialogTitle>
                 <DialogContent>
-                    <Stepper activeStep={activeStep} orientation="vertical">
-                        {createPapersSteps.map((st) => (
-                            <Step>
-                                <StepLabel>
-                                    {st.label}
-                                </StepLabel>
-                                <StepContent>
-                                    {st.content}
-                                </StepContent>
-                            </Step>
-                        ))}
-                    </Stepper>
+                    <Typography>{createPapersSteps[activeStep].label}</Typography>
+                    <Box>
+                        {createPapersSteps[activeStep].content}
+                    </Box>
 
                 </DialogContent>
                 <DialogActions>
-                    <Button>
-                        Back
-                    </Button>
-                    {activeStep == createPapersSteps.length - 1 ? (
-                        <Button>
-                            Save
-                        </Button>
-                    ) : (
-                        <Button onClick={() => {
-                            setActiveStep((prev) => prev + 1)
-                        }}>
-                            Next
-                        </Button>
 
-                    )}
+                    <MobileStepper 
+                    variant="text"
+                    steps={createPapersSteps.length}
+                    activeStep={activeStep}
+                    position="static"
+                    backButton={
+                        <Button onClick={() => {
+                            if (activeStep > 0) {
+                                setActiveStep((prev) => prev -1)
+                            }
+                        }}>
+                            Back
+                        </Button>
+                    }
+                    nextButton={
+                        activeStep == createPapersSteps.length - 1 ? (
+                            <Button>
+                                Save
+                            </Button>
+                        ) : (
+                            <Button onClick={() => {
+                                if (activeStep < createPapersSteps.length-1) {
+
+                                    setActiveStep((prev) => prev + 1)
+                                }
+                            }}>
+                                Next
+                            </Button>
+    
+                        )
+
+                    }
+                    />
                 </DialogActions>
             </Dialog>
         </Box>
