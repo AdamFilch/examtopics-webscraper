@@ -140,9 +140,6 @@ export default function PapersPage() {
                         {createPapersSteps[activeStep].content}
                     </Box>
 
-                </DialogContent>
-                <DialogActions>
-
                     <MobileStepper 
                     variant="text"
                     steps={createPapersSteps.length}
@@ -176,7 +173,7 @@ export default function PapersPage() {
 
                     }
                     />
-                </DialogActions>
+                </DialogContent>
             </Dialog>
         </Box>
     )
